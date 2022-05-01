@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.parks-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/mutusadonha-lion.jpg);
+  background-position: center;
+  background-size: cover;
+  left: 7%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+.parks-navbar {
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.parks-logo {
+  width: 5rem;
+  cursor: pointer;
+}
+
+.parks-social-media a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.parks-social-media {
+  transform: rotate(90deg) translate(-100%);
+  transform-origin: left;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+
+.parks-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 9%;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.parks-row {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 8%;
+}
+
+.parks-row span {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.parks-row span .fas {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.parks-content span {
+  font-size: 22px;
+}
+
+.parks-content h1 {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.parks-row span.active {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.parks-row span.active i {
+  width: 30px;
+  margin-left: -10px;
+  margin-left: 10px;
+}
+
+.parks-info {
+  position: relative;
+}
+
+.parks-info::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+}

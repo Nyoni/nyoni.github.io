@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+
+:root {
+  --main-color: #d3ad7f;
+  --yellow: #e9ea0c;
+  --bg: #013220;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+}
+
+.fixed-card-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fixed-card {
+  background: #fff;
+  width: 200px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.fixed-card:hover {
+  background-color: var(--bg);
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+.fixed-card h2 {
+  padding: 10px;
+}
+
+.fixed-card h5 {
+  padding: 10px;
+}
+
+.fixed-card p {
+  padding: 10px;
+}
+
+.fixed-card-image {
+  background-color: aqua;
+  height: 180px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.fixed-car1 {
+  background-image: url("../images/chalets.jpg");
+}
+
+.fixed-car2 {
+  background-image: url("../images/lodges-3008x2000.jpg");
+}
+
+.fixed-car3 {
+  background-image: url("../images/CAMP-SITE-1.png");
+}
+
+.fixed-car4 {
+  background-image: url("../images/chalets.jpg");
+}

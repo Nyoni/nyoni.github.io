@@ -1,0 +1,75 @@
+:root {
+  --main-color: #d3ad7f;
+  --yellow: #e9ea0c;
+  --green: #013220;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --text-color: #373833;
+  --bg1: #e8eae3;
+  --bg2: #e6e2dd;
+}
+
+.featured-section {
+  margin-top: 150px;
+}
+
+.featured-box {
+  padding: 40px 50px 30px;
+  box-shadow: 2px 2px 90px rgba(218, 218, 218, 0.45);
+  margin-bottom: 30px;
+  border-radius: 3px;
+  text-align: center;
+  background: var(--bg2);
+}
+
+.featured-box i {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  color: var(--text-color);
+  background: var(--bg);
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.featured-box span {
+  display: inline-block;
+  margin: 10px 0 15px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.featured-box .read-more {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.featured-box p {
+  font-size: 14px;
+}
+
+.featured-box,
+.featured-box i,
+.featured-box p,
+.featured-box span {
+  transition: 0.5s;
+}
+
+.featured-box:hover {
+  background: var(--bg);
+}
+
+.featured-box:hover i {
+  background: white;
+  color: var(--bg);
+}
+
+.featured-box:hover p,
+.featured-box:hover h3,
+.featured-box:hover h3 a,
+.featured-box:hover span {
+  color: white;
+}
