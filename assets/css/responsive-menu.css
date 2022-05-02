@@ -20,13 +20,14 @@
   }
 
 .logo > img {
-    height: 6rem;
+    height: 5rem;
   }
 
 header {
     position: fixed;
     top: 0; left: 0; right: 0;
-    background: var(--green);
+    /*background: var(--green);*/
+    height: 80px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 20px 7%;
     display: flex;
@@ -93,6 +94,7 @@ header .responsive-navbar ul li:hover > ul {
   }
   
   .bar {
+    top: 35px;
     width: 1.9rem;
     height: 2.5px;
     border-radius: 2px;
@@ -119,6 +121,19 @@ header .responsive-navbar ul li:hover > ul {
     transform: translateY(9px);
   }
 
+  .nav-container.active .bar {
+    transform: rotate(360deg);
+    background-color: transparent;
+  }
+
+  .nav-container.active .bar:before {
+    transform: translateY(0) rotate(45deg);
+  }
+  
+  .nav-container.active .bar:after {
+    transform: translateY(0) rotate(-45deg);
+  }
+
   #menu-bar {
     display: none;
   }
@@ -138,8 +153,9 @@ header .responsive-navbar ul li:hover > ul {
     header .responsive-navbar {
         position: absolute;
         top: 100%; left: 0; right: 0;
-        background: var(--green);
+        /*background: var(--green);*/
         border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
     }
 
     header .responsive-navbar ul li {
