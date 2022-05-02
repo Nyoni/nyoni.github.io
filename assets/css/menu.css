@@ -28,9 +28,7 @@ body {
   transform-style: preserve-3d;
 }
 
-.nav-container .logo > img {
-  height: 6rem;
-}
+
 
 .navbar-3D {
   position: fixed;
@@ -90,6 +88,8 @@ body {
   transform: translateY(9px);
 }
 
+
+
 .main-nav {
   position: relative;
   width: 100%;
@@ -116,7 +116,7 @@ header {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(11, 18, 26, 0.8);
+  background-color: rgba(4, 5, 6, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
