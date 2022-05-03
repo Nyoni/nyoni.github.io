@@ -5,7 +5,7 @@
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --text-color: #373833;
   --bg1: #e8eae3;
-  --bg2: #e6e2dd;
+  --bg2: #f5f5f5;
 }
 
 * {
@@ -26,9 +26,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-
-}
 
 h1,
 h2,
@@ -73,9 +70,6 @@ li {
   margin: 0;
 }
 
-section {
-  padding: 2rem 7%;
-}
 
 .section-title {
   text-align: center;
@@ -83,45 +77,146 @@ section {
   color: var(--text-color);
 }
 
-.about {
-  margin-top: 150px;
-  background: var(--bg2);
-  display: flex;
-  justify-content: center;
+/*Underline*/
+
+.underline-small {
+
+  width: 20%;
+  height: 5px;
+  background-color: var(--green);
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
-.about .row {
+
+/*Welcome Section*/
+
+.welcome-sec {
+  padding: 80px;
+}
+
+.welcome-container {
+  position: relative;
   display: flex;
+  justify-content: center;
   align-items: center;
-  background: var(--bg2);
+  flex-direction: column;
+}
+
+.welcome-content {
+  position: relative;
+  /*width: 1150px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-content .welcome-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.welcome-content .welcome-image img {
+  z-index: 111;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome-content .welcome-text-box {
+  z-index: 222;
+  margin-left: 50px;
+  width: 500px;
+}
+
+.welcome-content .welcome-text-box h3 {
+  font-size: 2em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.welcome-content .welcome-text-box h1 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+
+.welcome-text-box > .btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #e9ea0c;
+  border: none;
+  border-radius: 25px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*End Welcome Section*/
+
+/*Explore More*/
+
+.explore-more-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.about .row .image {
-  flex: 1 1 45rem;
+.explore-more-textbox {
+ margin-left: 120px;
+ width: 500px;
 }
 
-.about .row .image img {
-  width: 100%;
-}
-.about .row .content {
-  flex: 1 1 45rem;
-  padding: 2rem;
-}
-
-.about .row .content h3 {
-  font-size: 3rem;
-  color: var(--text-color);
-  text-align: center;
+.explore-more-textbox .underline-small {
+  width: 20%;
+  height: 5px;
+  background-color: var(--green);
+  display: inline-block;
 }
 
-.about .row .content p {
-  font-size: 1.6rem;
-  color: var(--text-color);
-  padding: 1rem 0;
-  line-height: 1.8;
-  text-align: center;
+.explore-more-textbox h1 {
+  font-size: 1.5em;
 }
+
+.explore-more-card {
+  background: var(--bg1);
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+}
+
+.explore-more-image {
+  background-color: #000;
+  height: 350px;
+  background-size: cover;
+}
+
+.explore-card-1 {
+  background-image: url(../images/CAMP-SITE-1.png);
+
+}
+
+.explore-card-2 {
+  background-image: url(../images/nyanga2.jpg);
+  
+}
+
+.explore-card-3 {
+  background-image: url(../images/Bungee-Jump-at-Victoria-Falls.jpg);
+  
+}
+
+
+
+/*End Explore More*/
+
 
 /** Map section **/
 
