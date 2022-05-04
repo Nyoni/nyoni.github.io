@@ -105,7 +105,6 @@ li {
 
 .welcome-content {
   position: relative;
-  /*width: 1150px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,6 +161,10 @@ li {
 
 /*Explore More*/
 
+.explore-more-sec {
+  padding-bottom: 80px;
+}
+
 .explore-more-container {
   display: flex;
   justify-content: center;
@@ -186,6 +189,7 @@ li {
 }
 
 .explore-more-card {
+  position: relative;
   background: var(--bg1);
   width: 300px;
   height: 350px;
@@ -195,6 +199,7 @@ li {
 .explore-more-image {
   background-color: #000;
   height: 350px;
+  width: 100%;
   background-size: cover;
 }
 
@@ -213,7 +218,42 @@ li {
   
 }
 
+.explore-image-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.explore-image-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.explore-image-description {
+  font-size: 17px;
+  width: 80%;
+  text-transform: lowercase;
+  margin-top: 1.75em;
+
+}
+
+
+.explore-image-overlay .underline-small {
+  width: 50%;
+  margin-top: 10px;
+  height: 1px;
+  background-color: var(--bg2);
+  display: inline-block;
+}
 
 /*End Explore More*/
 
@@ -221,8 +261,7 @@ li {
 /** Map section **/
 
 .map-locations {
-  margin-top: 150px;
-  background: var(--bg2);
+  background: #fff;
 }
 
 .map-left,
@@ -236,10 +275,14 @@ li {
   background-size: cover;
   background-position: center;
   justify-content: center;
+  margin-left: 120px;
+  margin-right: 50px;
 }
 
 .map-right {
   align-items: center;
+  margin-left: 100px;
+  margin-right: 120px;
   position: relative;
   color: #eee;
 }
@@ -260,8 +303,8 @@ li {
 .text-over-image > div,
 .text-over-image > h4 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.7);
-  color: #373833;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+  color: #fff;
   bottom: 20px;
   left: 4px;
   right: 4px;
@@ -274,6 +317,7 @@ li {
 
 .text-over-image:hover > h4,
 .text-over-image > input:checked + h4 + div {
+
   bottom: 4px;
   opacity: 1;
 }
@@ -293,17 +337,16 @@ li {
 }
 
 .nat-parks,
-.rec-parks,
-.botan-gardens {
-  height: 170px;
-  width: 500px;
+.rec-parks {
+  height: 220px;
+  width: 350px;
   background-size: cover;
   background-position: center;
 }
 
 .nat-parks,
 .rec-parks {
-  margin-bottom: 1.2rem;
+  margin: 1.2rem;
 }
 
 .nat-parks {
@@ -314,9 +357,6 @@ li {
   background-image: url(../images/Kazuma-hyena.png);
 }
 
-.botan-gardens {
-  background-image: url(../images/Kazuma-hyena.png);
-}
 
 /** End Map Section**/
 
