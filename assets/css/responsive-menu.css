@@ -28,7 +28,7 @@ header {
     top: 0; left: 0; right: 0;
     /*background: var(--green);*/
     height: 80px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(1, 50, 32, 0.1);
     padding: 20px 7%;
     display: flex;
     align-items: center;
@@ -86,8 +86,7 @@ header .responsive-navbar ul li:hover > ul {
 .hamburger-menu {
     height: 4rem;
     width: 3rem;
-    cursor: pointer;
-  
+    cursor: pointer; 
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -142,8 +141,6 @@ header .responsive-navbar ul li:hover > ul {
 @media(max-width:991px) {
     header {
         padding: 20px;
-    
-
     }
 
     #menu-bar {
