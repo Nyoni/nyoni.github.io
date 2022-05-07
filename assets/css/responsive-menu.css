@@ -21,6 +21,7 @@
 
 .logo > img {
     height: 5rem;
+    cursor: pointer;
   }
 
 header {

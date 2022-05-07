@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyanga National Park</title>
+    <link rel="stylesheet" href="./assets/css/parks.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body onload="slider()">
+    <div class="park-banner">
+        <div class="park-slider">
+            <img src="./assets/images/banner-img/nyanga/nyanga-1.jpg" id="slideImage">
+        </div>
+    </div>
+
+    <div class="park-overlay">
+        <div class="park-navbar">
+            <div class="park-logo">
+                <img src="./assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" >
+            </div>
+        </div>
+        <div class="park-content">
+            <h1>Nyanga</h1>
+            <h3>Lorem, ipsum dolor sit amet </h3>
+
+            <div>
+                <button type="button" class="btn-2">HOME</button>
+                <button type="button">Nyanga Nat. Park</button>
+            </div> 
+        </div>      
+    </div>
+
+
+
+    <script>
+        var slideImage = document.getElementById("slideImage");
+
+        var images = new Array (
+            "./assets/images/banner-img/nyanga/nyanga-1.jpg",
+            "./assets/images/banner-img/nyanga/nyanga-2.jpg",
+            "./assets/images/banner-img/nyanga/nyanga-3.jpg",
+            "./assets/images/banner-img/nyanga/nyanga-4.jpg"
+        );
+
+        var len = images.length;
+        var i = 0;
+
+        function slider() {
+            if(i > len-1) {
+                i = 0;
+            }
+
+            slideImage.src = images[i];
+            i++;
+            setTimeout('slider()', 5000);
+        }
+    </script>
+
+
+</body>
+</html>
