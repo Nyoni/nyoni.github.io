@@ -47,6 +47,16 @@ header .responsive-navbar ul li {
     float: left;
 }
 
+.responsive-navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: var(--green);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
 header .responsive-navbar ul li a {
     text-decoration: none;
     font-size: 18px;
