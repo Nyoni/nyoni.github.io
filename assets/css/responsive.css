@@ -1,3 +1,98 @@
+/*Header Responsive*/
+
+@media(max-width:991px) {
+    header {
+        padding: 20px;
+    }
+
+    #menu-bar {
+        display: initial;
+    }
+
+    header .responsive-navbar {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        /*background: var(--green);*/
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    header .responsive-navbar ul li {
+        width: 100%;
+    }
+
+    header .responsive-navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .responsive-navbar ul li ul li {
+        background: #e9ea0c;
+        left: 20px;
+    }
+
+    header .responsive-navbar ul li ul li a{
+        left: 20px;
+    }
+
+    
+
+
+    header .responsive-navbar ul li ul li ul {
+        width: 100%;
+        left: 40px;
+    }
+}
+
+
+/*Statistics*/
+@media screen and (min-width: 760px) {
+    .stats-card {
+      max-width: 90rem;
+      display: flex;
+      align-items: center;
+      padding: 10rem;
+    }
+  
+    .stats-info-left {
+      flex: 1;
+      padding-right: 3.5rem;
+    }
+  
+    .stats-info-right {
+      flex: 1;
+      margin-top: 0;
+    }
+  
+    .stat-number {
+      font-size: 4rem;
+    }
+  
+    .stat-name {
+      font-size: 1.4rem;
+    }
+  }
+  
+  /*.stats-card::before {
+    content: "";
+    width: 90%;
+    height: 110%;
+    background-color: rgba(230, 226, 221, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }*/
+  
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 1400px) {
     
     

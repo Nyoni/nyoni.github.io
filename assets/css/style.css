@@ -75,7 +75,7 @@ li {
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ li {
 
 
 
-::-webkit-scrollbar:hover {
+::-webkit-scrollbar {
   width: 0.8em;
   height: 2em;
 }
@@ -120,11 +120,189 @@ li {
 
 /*End Scrollbar*/
 
+/*Home Banner*/
+.home-banner {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../images/Buffalo-Reflection-1.jpg") no-repeat top center /
+    cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  max-width: 50rem;
+  text-align: center;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.7rem;
+}
+
+.inner > .btn {
+  margin-top: 5rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #e9ea0c;
+  border: none;
+  border-radius: 25px;
+  color: #373833;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*End Home Banner*/
+
+/*Header*/
+.logo > img {
+  height: 5rem;
+  cursor: pointer;
+}
+
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  /*background: var(--green);*/
+  height: 80px;
+  box-shadow: 0 5px 10px rgba(1, 50, 32, 0.1);
+  padding: 20px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+header .responsive-navbar ul{
+  list-style: none;
+
+}
+
+header .responsive-navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.responsive-navbar ul li::after {
+content: '';
+height: 3px;
+width: 0;
+background: var(--green);
+position: absolute;
+left: 0;
+bottom: -10px;
+}
+
+header .responsive-navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+  color: var(--bg1);
+  display: block;
+}
+
+header .responsive-navbar ul li a:hover {
+  background: var(--green);
+  color: var(--bg2);
+}
+
+header .responsive-navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: var(--green);
+  display: none;
+}
+
+header .responsive-navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .responsive-navbar ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+
+header .responsive-navbar ul li:focus-within > ul, 
+header .responsive-navbar ul li:hover > ul {
+  display: initial;
+}
+
+
+.hamburger-menu {
+  height: 4rem;
+  width: 3rem;
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bar {
+  top: 35px;
+  width: 1.9rem;
+  height: 2.5px;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: 0.5s;
+  position: relative;
+}
+
+.bar:before,
+.bar:after {
+content: "";
+position: absolute;
+width: inherit;
+height: inherit;
+background-color: #fff;
+transition: 0.5s;
+}
+
+.bar:before {
+  transform: translateY(-9px);
+}
+
+.bar:after {
+  transform: translateY(9px);
+}
+
+.nav-container.active .bar {
+  transform: rotate(360deg);
+  background-color: transparent;
+}
+
+.nav-container.active .bar:before {
+  transform: translateY(0) rotate(45deg);
+}
+
+.nav-container.active .bar:after {
+  transform: translateY(0) rotate(-45deg);
+}
+
+#menu-bar {
+  display: none;
+}
+/*End Haeder*/
+
 
 /*Welcome Section*/
 
 .welcome-sec {
   padding: 80px;
+  background: var(--green);
+  color: var(--bg1);
 }
 
 .welcome-container {
@@ -164,6 +342,15 @@ li {
   width: 500px;
 }
 
+.welcome-text-box .underline-small {
+
+  width: 20%;
+  height: 5px;
+  background-color: var(--bg1);
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .welcome-content .welcome-text-box h3 {
   font-size: 2em;
   margin-bottom: 50px;
@@ -192,6 +379,18 @@ li {
 /*End Welcome Section*/
 
 /*Our Parks Section*/
+
+.our-parks-sec {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.our-parks-sec .explore-more-textbox {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 
 .wgh-container {
@@ -443,6 +642,13 @@ input.wgh-slider-target {
   margin-bottom: 80px;
 }
 
+.explore-more-sec .explore-more-textbox {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .explore-more-container {
   display: flex;
   justify-content: center;
@@ -534,144 +740,169 @@ input.wgh-slider-target {
 
 /*End Explore More*/
 
-
-/** Map section **/
-
-.map-locations {
-  background: #fff;
+/*News Update*/
+.featured-section {
+  margin-top: 20px;
 }
 
-.map-left,
-.map-right {
-  height: 50vh;
-  width: 100%;
+.featured-box {
+  padding: 40px 50px 30px;
+  box-shadow: 2px 2px 90px rgba(218, 218, 218, 0.45);
+  margin-bottom: 30px;
+  border-radius: 3px;
+  text-align: center;
+  background: var(--green);
 }
 
-.map-left {
-  background: url(/assets/images/map.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  justify-content: center;
-  margin-left: 120px;
-  margin-right: 50px;
-}
-
-.map-right {
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 120px;
-  position: relative;
-  color: #eee;
-}
-
-.text-over-image {
-  width: 300px;
-  height: 150px;
+.featured-box i {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 30px;
   display: inline-block;
-  margin: 4px;
-  position: relative;
-  cursor: pointer;
+  text-align: center;
+  line-height: 80px;
+  color: var(--bg1);
+  background: var(--green);
+  font-size: 40px;
+  border-radius: 50%;
 }
 
-.text-over-image > input {
-  display: none;
-}
-
-.text-over-image > div,
-.text-over-image > h4 {
-  position: absolute;
-  /*background-color: rgba(255, 255, 255, 0.7);*/
+.featured-box span {
+  display: inline-block;
+  margin: 10px 0 15px;
   color: #fff;
-  bottom: 20px;
-  left: 4px;
-  right: 4px;
-  border-radius: 2px;
-  padding: 8px;
-  overflow: hidden;
-  opacity: 0;
-  transition: 0.3s;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.featured-box .read-more {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
 }
 
-.text-over-image:hover > h4,
-.text-over-image > input:checked + h4 + div {
-
-  bottom: 4px;
-  opacity: 1;
+.featured-box p {
+  font-size: 14px;
 }
 
-.text-over-image > input:checked + h4 {
-  bottom: -20px;
-  opacity: 0;
+.featured-box,
+.featured-box i,
+.featured-box p,
+.featured-box span {
+  transition: 0.5s;
+  color: #e6e2dd;
 }
 
-.text-over-image > h4 {
-  margin: 0;
-  font-size: 16px;
+.featured-box:hover {
+  background: var(--green);
 }
 
-.text-over-image > div {
-  font-size: 12px;
+.featured-box:hover i {
+  background: white;
+  color: var(--green);
 }
 
-.nat-parks,
-.rec-parks {
-  height: 220px;
-  width: 350px;
-  background-size: cover;
-  background-position: center;
-}
-
-.nat-parks,
-.rec-parks {
-  margin: 1.2rem;
-}
-
-.nat-parks {
-  background-image: url(../images/Kazuma-hyena.png);
-}
-
-.rec-parks {
-  background-image: url(../images/Kazuma-hyena.png);
+.featured-box:hover p,
+.featured-box:hover h3,
+.featured-box:hover h3 a,
+.featured-box:hover span {
+  color: white;
 }
 
 
-/** End Map Section**/
+/*End News Update*/
+
+
+
 
 /*Statistics Section*/
 
-.statistics-section {
-  margin-left: 100px;
-  margin-right: 100px;
+.statistics {
   margin-top: 150px;
-  background: var(--bg2);
-  margin-bottom: 150px;
-}
-
-.stats-row {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
-}
-
-.stats-col {
-  flex-basis: 50%;
-  height: 400px;
-}
-
-.stats-container {
-  height: 433px;
-  width: 500px;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  color: var(--text-color);
-  padding: 60px;
-  font-weight: 600;
 }
 
-.stats {
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0px 0px 50px rgb(239 239 239 / 57%);
+.stats-card {
+  background-image: linear-gradient(to right, #e8eae3 40%, #e6e2dd);
+  color: var(--text-color);
+  font-family: "Open Sans", sans-serif;
+  padding: 2rem;
+  position: relative;
+  box-shadow: rgba(230, 226, 221, 0.3);
+}
+
+.stats-info-heading {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.stats-info-description {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+
+.stats-info-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #373833;
+  background-color: #e9ea0c;
+  padding: 1.5rem;
+  transition: all 0.5s;
+}
+
+.stats-info-button:hover {
+  box-shadow: 0 0 1.5rem rgba(230, 226, 221, 0.3);
+}
+
+.stats-info-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.stats-info-right::before,
+.stats-info-right::after {
+  content: "";
+  background-color: rgba(29, 29, 28, 0.3);
+  position: absolute;
+  top: 50%;
+}
+
+.stats-info-right::before {
+  width: 100%;
+  height: 1px;
+  transform: translateY(-50%);
+}
+
+.stats-info-right::after {
+  width: 1px;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.stat-group {
+  padding: 2.5rem;
+}
+
+.stat-number {
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+}
+
+.stat-name {
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 /*Footer Section*/
