@@ -78,7 +78,6 @@ li {
 }
 
 /*Underline*/
-
 .underline-small {
 
   width: 20%;
@@ -87,6 +86,29 @@ li {
   display: inline-block;
   margin-bottom: 20px;
 }
+/*End Underline*/
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 0.8em;
+  height: 2em;
+}
+
+::-webkit-scrollbar-track {
+  background: #e8eae3;
+  border-radius: 100vw;
+  margin-block: 0.1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 100vw;
+  border: .05em solid #e8eae3;
+
+}
+
+/*End Scrollbar*/
 
 
 /*Welcome Section*/
