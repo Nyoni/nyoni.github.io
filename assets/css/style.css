@@ -157,9 +157,6 @@ li {
 /*End Underline*/
 
 /*Scrollbar*/
-
-
-
 ::-webkit-scrollbar {
   width: 0.8em;
   height: 2em;
@@ -179,7 +176,7 @@ li {
 }
 
 /*** 02. hero section ***/
-.hero-section{
+.home-hero-section{
   position: relative;
   height: 100vh;
   background: url(../images/Buffalo-Reflection-1.jpg);
@@ -191,18 +188,44 @@ li {
   text-align: center;
 }
 
+.conservation-hero-section{
+  position: relative;
+  height: 100vh;
+  background: url(../images/hwange1.jpeg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero-section{
+  position: relative;
+  height: 100vh;
+  background: url(../images/site1.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+
 .hero-section:before{
   opacity: 0.35;
   background: linear-gradient(90deg, #013220,#013220 );
 }
 
 .hero-inner{
-  padding: 80px 0;
+
   max-width: 500px;
   position: relative;
 }
 
-.hero-inner:before{
+/*.hero-inner:before{
   position: absolute;
   content:'';
   height: 300px;
@@ -213,7 +236,7 @@ li {
   -webkit-animation: down-up 7s infinite cubic-bezier(0.54, 0.085, 0.5, 0.92);
   animation: down-up 7s infinite cubic-bezier(0.54, 0.085, 0.5, 0.92);
   background: var(--green);
-}
+}*/
 
 .hero-inner h1{
   color: #ffffff;
@@ -298,8 +321,6 @@ li {
   margin-bottom: 10px;
 }
 
-
-
 .welcome-text-box > .btn {
   margin-top: 1rem;
   padding: 0.6rem 1.8rem;
@@ -312,7 +333,6 @@ li {
   text-decoration: none;
 }
 
-
 /**04-Our Parks Section**/
 
 .our-parks-sec {
@@ -321,9 +341,6 @@ li {
 }
 
 .our-parks-sec .explore-more-textbox {
-
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -1002,6 +1019,11 @@ hr {
 /*{
     End of Footer Section*/
 
+
+
+
+
+
 /*KEYFRAMES*/
 @keyframes hamburger_puls {
   0% {
@@ -1023,29 +1045,5 @@ hr {
   100% {
     width: 0;
     left: 100%;
-  }
-}
-
-@media screen and (min-width: 760px) {
-  .map-left,
-  .map-right {
-    height: 100vh;
-  }
-
-  .map-left {
-    background: url(/assets/images/map.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-  }
-
-  .map-right {
-    align-items: center;
-  }
-
-  .map-right img {
-    height: 180px;
-    width: 100%;
-    object-fit: cover;
   }
 }

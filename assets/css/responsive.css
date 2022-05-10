@@ -1,48 +1,4 @@
-/*Header Responsive*/
 
-@media(max-width:991px) {
-    header {
-        padding: 20px;
-    }
-
-    #menu-bar {
-        display: initial;
-    }
-
-    header .responsive-navbar {
-        position: absolute;
-        top: 100%; left: 0; right: 0;
-        /*background: var(--green);*/
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        display: none;
-    }
-
-    header .responsive-navbar ul li {
-        width: 100%;
-    }
-
-    header .responsive-navbar ul li ul {
-        position: relative;
-        width: 100%;
-    }
-
-    header .responsive-navbar ul li ul li {
-        background: #e9ea0c;
-        left: 20px;
-    }
-
-    header .responsive-navbar ul li ul li a{
-        left: 20px;
-    }
-
-    
-
-
-    header .responsive-navbar ul li ul li ul {
-        width: 100%;
-        left: 40px;
-    }
-}
 
 
 /*Statistics*/
@@ -103,11 +59,11 @@
     .top-inner {
         padding: 10px 0;
     }
-    .hero-section {
+    /*.hero-section {
         height: 630px;
         margin-top: 80px;
         padding-top: 25px;
-    }
+    }*/
     .page-banner {
         margin-top: 80px;
     }
