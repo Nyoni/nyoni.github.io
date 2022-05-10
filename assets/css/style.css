@@ -1,3 +1,38 @@
+/*[Table of contents]
+
+1. Global Styles
+    - h1-h6 font sizes
+    - Greys
+    - Dark Theme
+2. Page Loader
+3. Header Menu
+4. Mobile Menu
+5. Header & Breadcrumbs
+6. Content Elements
+    - Latest Offers
+    - Special Offers
+    - Isotope
+    - Team
+    - Testimonials
+    - Brand Section
+    - Car Body Types
+    - Image Points
+    - Carousel
+    - News
+    - Calculator
+7. Blog
+    - Blog
+    - Post
+    - Comments
+8. Footer
+
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
 :root {
   --main-color: #d3ad7f;
   --yellow: #e9ea0c;
@@ -165,7 +200,7 @@ li {
 }
 /*End Home Banner*/
 
-/*Header*/
+/*Header
 .logo > img {
   height: 5rem;
   cursor: pointer;
@@ -174,7 +209,7 @@ li {
 header {
   position: fixed;
   top: 0; left: 0; right: 0;
-  /*background: var(--green);*/
+  background: var(--green);
   height: 80px;
   box-shadow: 0 5px 10px rgba(1, 50, 32, 0.1);
   padding: 20px 7%;
@@ -294,7 +329,7 @@ transition: 0.5s;
 #menu-bar {
   display: none;
 }
-/*End Haeder*/
+*/
 
 
 /*Welcome Section*/
