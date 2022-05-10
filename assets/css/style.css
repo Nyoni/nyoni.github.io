@@ -41,6 +41,7 @@
   --text-color: #444;
   --bg1: #f4f4f4;
   --bg2: #f5f5f5;
+/*  --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
 }
 
 * {
@@ -120,6 +121,30 @@ li {
   color: var(--text-color);
 }
 
+/*Input buttons*/
+
+.overlay,
+.relative {
+    position: relative;
+}
+
+.overlay:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    background: var(--green);
+}
+
+.overlay * {
+    z-index: 2;
+    position: relative;
+}
+
+
 /*Underline*/
 .underline-small {
 
@@ -153,186 +178,62 @@ li {
 
 }
 
-/*End Scrollbar*/
-
-/*Home Banner*/
-.home-banner {
-  min-height: 100vh;
-  width: 100%;
-  background: url("../images/Buffalo-Reflection-1.jpg") no-repeat top center /
-    cover;
+/*** 02. hero section ***/
+.hero-section{
   position: relative;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));
-  display: flex;
+  height: 100vh;
+  background: url(../images/Buffalo-Reflection-1.jpg);
+  background-size: cover;
+  background-position: center;
   justify-content: center;
+  display: flex;
   align-items: center;
-}
-
-.inner {
-  max-width: 50rem;
   text-align: center;
-  color: #fff;
-  padding: 0 2rem;
 }
 
-.title {
-  font-size: 2.7rem;
+.hero-section:before{
+  opacity: 0.35;
+  background: linear-gradient(90deg, #013220,#013220 );
 }
 
-.inner > .btn {
-  margin-top: 5rem;
-  padding: 0.6rem 1.8rem;
-  background-color: #e9ea0c;
-  border: none;
-  border-radius: 25px;
-  color: #373833;
-  text-transform: uppercase;
-  cursor: pointer;
-  text-decoration: none;
-}
-/*End Home Banner*/
-
-/*Header
-.logo > img {
-  height: 5rem;
-  cursor: pointer;
-}
-
-header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  background: var(--green);
-  height: 80px;
-  box-shadow: 0 5px 10px rgba(1, 50, 32, 0.1);
-  padding: 20px 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
-}
-
-header .responsive-navbar ul{
-  list-style: none;
-
-}
-
-header .responsive-navbar ul li {
+.hero-inner{
+  padding: 80px 0;
+  max-width: 500px;
   position: relative;
-  float: left;
 }
 
-.responsive-navbar ul li::after {
-content: '';
-height: 3px;
-width: 0;
-background: var(--green);
-position: absolute;
-left: 0;
-bottom: -10px;
-}
-
-header .responsive-navbar ul li a {
-  text-decoration: none;
-  font-size: 18px;
-  padding: 20px;
-  color: var(--bg1);
-  display: block;
-}
-
-header .responsive-navbar ul li a:hover {
-  background: var(--green);
-  color: var(--bg2);
-}
-
-header .responsive-navbar ul li ul {
+.hero-inner:before{
   position: absolute;
-  left: 0;
-  width: 200px;
+  content:'';
+  height: 300px;
+  width: 300px;
+  left: -120px;
+  top: -50px;
+  border-radius: 50%;
+  -webkit-animation: down-up 7s infinite cubic-bezier(0.54, 0.085, 0.5, 0.92);
+  animation: down-up 7s infinite cubic-bezier(0.54, 0.085, 0.5, 0.92);
   background: var(--green);
-  display: none;
 }
 
-header .responsive-navbar ul li ul li {
-  width: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+.hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
-header .responsive-navbar ul li ul li ul {
-  left: 200px;
-  top: 0;
+.hero-inner h3 {
+  color: white;
+  margin-bottom: 40px;
 }
 
-header .responsive-navbar ul li:focus-within > ul, 
-header .responsive-navbar ul li:hover > ul {
-  display: initial;
+.hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
 }
 
-
-.hamburger-menu {
-  height: 4rem;
-  width: 3rem;
-  cursor: pointer; 
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.bar {
-  top: 35px;
-  width: 1.9rem;
-  height: 2.5px;
-  border-radius: 2px;
-  background-color: #fff;
-  transition: 0.5s;
-  position: relative;
-}
-
-.bar:before,
-.bar:after {
-content: "";
-position: absolute;
-width: inherit;
-height: inherit;
-background-color: #fff;
-transition: 0.5s;
-}
-
-.bar:before {
-  transform: translateY(-9px);
-}
-
-.bar:after {
-  transform: translateY(9px);
-}
-
-.nav-container.active .bar {
-  transform: rotate(360deg);
-  background-color: transparent;
-}
-
-.nav-container.active .bar:before {
-  transform: translateY(0) rotate(45deg);
-}
-
-.nav-container.active .bar:after {
-  transform: translateY(0) rotate(-45deg);
-}
-
-#menu-bar {
-  display: none;
-}
-*/
-
-
-/*Welcome Section*/
+/**03-Welcome Section**/
 
 .welcome-sec {
   padding: 80px;
@@ -411,9 +312,8 @@ transition: 0.5s;
   text-decoration: none;
 }
 
-/*End Welcome Section*/
 
-/*Our Parks Section*/
+/**04-Our Parks Section**/
 
 .our-parks-sec {
   margin-top: 20px;
@@ -667,11 +567,7 @@ input.wgh-slider-target {
 }
 
 
-
-
-/*End Our Parks Section*/
-
-/*Explore More*/
+/**05-Explore More**/
 
 .explore-more-sec {
   margin-bottom: 80px;
@@ -775,7 +671,7 @@ input.wgh-slider-target {
 
 /*End Explore More*/
 
-/*News Update*/
+/**06-News Update**/
 .featured-section {
   margin-top: 20px;
 }
@@ -843,13 +739,7 @@ input.wgh-slider-target {
   color: white;
 }
 
-
-/*End News Update*/
-
-
-
-
-/*Statistics Section*/
+/**06-Statistics Section**/
 
 .statistics {
   margin-top: 150px;
@@ -940,7 +830,7 @@ input.wgh-slider-target {
   font-size: 12px;
 }
 
-/*Footer Section*/
+/**07-Footer Section*/
 footer {
   margin-top: 150px;
   width: 100%;
