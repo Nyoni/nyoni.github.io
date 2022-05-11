@@ -190,8 +190,8 @@ img {
     transition: all 500ms ease;
 }
 
-.fixed-header .main-menu .navigation li a{
-    padding: 25px 20px;
+.main-header .main-menu .navigation li a{
+    padding: 10px 5px;
 }
 
 .main-menu .navigation li:hover > a,
