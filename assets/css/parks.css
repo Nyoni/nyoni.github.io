@@ -72,7 +72,9 @@ li {
   margin: 0;
 }
 
-
+section {
+  padding: 3rem 7%;
+}
 
 /*Header Section*/
 .park-header {
@@ -133,7 +135,6 @@ li {
   align-items: center;    
   margin-left: 80px;
 
-
 }
 
 .park-logo > img {
@@ -190,9 +191,9 @@ button:hover {
 /*End of Header Section*/
 
 .park-accomodation-sec {
-  background-color: #edf2f0;
+  background: var(--bg1);
   height: 100vh;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 
 }
 
@@ -215,17 +216,19 @@ button:hover {
 }
 
 .slide-image {
-  margin-top: 70px;
   height: 24vw;
+
 }
 
 .slide-image img {
   width: 24vw;
+  height: 100%;
    cursor: pointer;
+   object-fit: cover;
 }
 .slide-content {
   width: 25vw;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: 20px;
   color: var(--text-color); 
   height: 100px;
@@ -251,7 +254,7 @@ button:hover {
   font-size: 1.0vw; 
   line-height: 1.8vw; 
   opacity: 0.8; 
-  padding-bottom: 4vw;
+  padding-bottom: 2vw;
 }
 
 .slide-more {
@@ -339,57 +342,147 @@ div.overlay-blue:hover {
 /*End Park Overview Section*/
 
 /*Park Activities*/
-.activities-container {
-	display: block;
-	max-width: 800px;
-	margin: 0 auto;
-	text-align: center;
+.cardwrapper {
+  margin-top: 50px;
+  background: var(--bg1);
+  width: 100%;
 }
 
-.small {
-	width: 180px;
-	height: auto;
-	position: relative;
-	margin: 3px;
-	border-radius: 5px;
+.cardwrapper .carousel {
+  margin-top: 50px;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 60px;
 }
 
-.small:hover {
-	-webkit-transform: scale(1.03, 1.03);
-	transform: scale(1.03, 1.03);
+.slidecard-container {
+  height: 300px;
+  text-align: center;
 }
 
-.lightbox {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.7);
+.slidecard-container h5 {
+  padding: 10px 15px;
 }
 
-a div {
-	position: relative;
-	margin: auto auto;
-	text-align: center;
+.slidecard-container p {
+  padding: 10px 15px;
+  letter-spacing: 2px;
+  color: var(--text-color);
 }
 
-.lightbox:target {
-	display: -webkit-box;
-	display: flex;
+.carousel .slidecard {
+  height: 200px;
+  margin-bottom: 20px;
 }
 
-.activities-container  a {
-	text-decoration: none;
+.carousel .slidecard2 {
+  height: 300px;
+  border-radius: 0px;
+  margin-bottom: 20px;
 }
 
-.activities-container  p {
-	font-size: 20px;
-	color: white;
-	font-family: 'Poiret One';
+#c1 {
+  background: url(../images/mountainhike.jpg)  no-repeat center center/cover;
 }
+
+#c2 {
+  background: url(../images/game-drive-3008x2000.jpg) no-repeat center
+    center/cover;
+}
+
+#c3 {
+  background: url(../images/mountainhike.jpg)  no-repeat center center/cover;
+}
+
+#c4 {
+  background: url(../images/game-drive-3008x2000.jpg) no-repeat center
+    center/cover;
+}
+
+#c5 {
+  background: url(../images/mountainhike.jpg) no-repeat center center/cover;
+}
+
+#c6 {
+  background:url(../images/game-drive-3008x2000.jpg) no-repeat center center/cover;
+}
+
+/*Second Slideshow*/
+
+#c21 {
+  background: url(../images/package.jpg) no-repeat center center/cover;
+}
+
+#c22 {
+  background: url(../images/package2.jpg) no-repeat center center/cover;
+}
+
+#c23 {
+  background: url(../images/package3.jpg) no-repeat center center/cover;
+}
+
+#c24 {
+  background: url(../images/package4.jpeg) no-repeat center center/cover;
+}
+
+#c25 {
+  background: url(../images/package5.png) no-repeat center center/cover;
+}
+
+#c26 {
+  background: url(../images/package6.jpg) no-repeat center center/cover;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  /*background-color: #fff !important;*/
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #013220 !important;
+  transition: all 0.2s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background-color: #e9ea0c !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.owl-prev {
+  left: 40px;
+}
+
+.owl-next {
+  right: 25px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: #fff;
+  transition: all 1s;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: #e9ea0c;
+}
+
 
 /*End Park Activities*/
 
