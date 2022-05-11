@@ -744,7 +744,7 @@ input.wgh-slider-target {
 /**06-News Update**/
 .featured-section {
   /*margin-top: 20px;*/
-  background: ;
+  background: var(--bg1);
 }
 
 .featured-box {

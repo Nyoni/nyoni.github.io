@@ -447,13 +447,13 @@ div.overlay-blue:hover {
   cursor: pointer;
   outline: none;
   margin: 0 5px;
-  border: 2px solid #013220 !important;
+  border: 2px solid var(--green) !important;
   transition: all 0.2s ease;
 }
 
 .owl-dot:hover,
 .owl-dot.active {
-  background-color: #e9ea0c !important;
+  background-color: var(--green) !important;
 }
 
 .owl-prev,
@@ -487,79 +487,65 @@ div.overlay-blue:hover {
 /*End Park Activities*/
 
 /*Park Gallery*/
-
-
-
-
-.gallery {
-  position: relative;
-  margin-left: 100px;
-}
-.gallery:hover .thumb {
-  opacity: .7;
-}
-.thumb {
-  height: 100px;
-  width: 12.5%;
-  background: no-repeat center center;
-  background-size: cover;
-  transition: opacity 600ms;  
-}
-.gallery .thumb:hover {
-  opacity: 1; /* overrides blur, so active img is not blurred */
-}
-.thumb:before, .thumb:after { 
-  opacity: 0; 
-  width: 45%;
-}
-.thumb:last-of-type:before, .thumb:last-of-type:after { opacity: 1; }
-.thumb:hover:before, .thumb:hover:after { 
-  z-index: 100; /* so this image stays on top */
-  opacity: 1;
-  transition: opacity 2000ms;
-}
-/* this is the full-size image  */
-.thumb:before { 
-  content: '';
-  position: absolute;
-  top: 0; left: 12.5%;
-  height: 100%;
-  padding-left: 20px; /* creates gap */
-  background: inherit;
-  background-position: 20px center; /* moves the image slightly right so there's a gap between thumbnails and full-size */
-}
-/* this is the caption */
-.thumb:after {
-  content: attr(data-caption);
-  position: absolute;
-  bottom: 0;
-  left: 15%;
-  height: 1em;
-  padding-bottom: .5em;
-  text-align: center;
-  font-size: 1.4rem;
-  font-style: italic;
-  color: #fff;
+.park-gallery-container {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+  padding-top: 40px;
+	text-align: center;
 }
 
+.small {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin: 3px;
+	object-fit: cover;
 
-/*
-* CSS below just sets src of each image
-* could also be applied inline with HTML if needed to be dynamic
-*/
-.thumb.nyanga-1 {
-  background-image: url(../images/banner-img/nyanga/nyanga-1.jpg);
-}
-.thumb.nyanga-2 {
-  background-image: url(../images/banner-img/nyanga/nyanga-2.jpg);
-}
-.thumb.nyanga-3 {
-  background-image: url(../images/banner-img/nyanga/nyanga-4.jpg);
 }
 
+.small:hover {
+	-webkit-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+}
 
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
 
+.lightbox img {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
 
+a div {
+	position: relative;
+	margin: auto auto;
+	text-align: center;
+}
+
+.lightbox:target {
+	display: -webkit-box;
+	display: flex;
+}
+
+.park-gallery-container a {
+	text-decoration: none;
+}
+
+.park-gallery-container p {
+	font-size: 20px;
+	color: var(--bg1);
+  font-weight: 500;
+}
 
 /*End Park Gallery*/
 
@@ -567,7 +553,7 @@ div.overlay-blue:hover {
 
 
 
-/*Responsive Grids
+/*Responsive Grids*/
 
 .rt-container {
 	margin: 0 auto;
