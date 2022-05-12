@@ -10,35 +10,105 @@
   <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
 
 
-    <link rel="stylesheet" href="./assets/css/parks.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="./assets/css/fontawesome-v5.9.0.min.css">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="./assets/css/flaticon.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+        <!--Menu CSS-->
+        <link rel="stylesheet" href="./assets/css/menu.css">
+
+        <!--Slick-->
+        <link rel="stylesheet" href="./assets/css/slick.css">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="./assets/css/flaticon.css">
+        <!--Animate-->
+        <link rel="stylesheet" href="./assets/css/animate.css">
+        <!--Leaflet-->
+        <link rel="stylesheet" href="./assets/css/leaflet.css">
+        <!--Spacing-->
+        <link rel="stylesheet" href="./assets/css/spacing.min.css">
+        <!--Style-->
+
+        <!--==Custom CSS==-->
+        <!--Main CSS File-->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!--Park CSS-->
+        <link rel="stylesheet" href="./assets/css/parks.css">
+        <!--Responsive CSS-->
+        <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body onload="slider()">
 
     <div class="page-wrapper">
-        <header class="park-header">
-            <div class="park-banner">
-                <div class="park-slider">
-                    <img src="./assets/images/banner-img/nyanga/nyanga-1.jpg" id="slideImage">
-                </div>
-            </div>
-        
-            <div class="park-overlay">
-                <div class="park-navbar">
-                    <div class="park-logo">
-                        <img src="./assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" >
+        <header>
+            <!--Header-Upper-->
+            <div class="header-upper">
+                <div class="container clearfix">                
+                    <div class="header-inner d-lg-flex align-items-center">
+                        <div class="logo-outer d-flex align-items-center">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="./assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" alt="logo" title="">
+                                </a>
+                            </div>
+                        </div>
+            
+                        <div class="nav-outer clearfix ml-lg-auto">
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header clearfix">
+                                <!--Toggle Button -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+            
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                    <!--About Us-->
+                                        <li><a href="index.html">About Us</a></li>
+                                        <!--Visit Us-->
+                                        <li class="dropdown"><a href="#">Visit Us</a>
+                                            <ul>
+                                                <li class="dropdown"><a href="services.html" >Premium</a>
+                                                    <ul>
+                                                        <li><a href="nyanga.html">Nyanga</a></li>
+                                                        <li><a href="#">Hwange</a></li>
+                                                    </ul>
+                                                </li>
+                                                                    
+                                                <li><a href="service-details.html">Hidden Gems</a></li>
+                                            </ul>
+                                        </li>
+            
+                                        <!--Investments-->
+                                        <li><a href="investments.html">Investments</a></li>
+                                        
+                                        <!--Conservation-->                                                    
+                                        <li class="dropdown"><a href="#">Conservation</a>
+                                            <ul>
+                                                <li><a href="conservation.html">Efforts</a></li>
+                                                <li><a href="portfolio.html">Publications</a></li>
+                                            </ul>
+                                        </li>
+                                                        
+                                        <!--Media Room-->
+                                        <li><a href="media-room.html">Media Room</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!--End of Main MENU-->
+                        </div>
+                                    
                     </div>
                 </div>
-                <div class="park-content">
-                    <h1>Nyanga</h1>
-                    <h3>Lorem, ipsum dolor sit amet </h3>
-        
-                    <div>
-                        <button type="button" >Home</button>
-                        <button type="button" class="btn-2">Nyanga Nat. Park</button>
-                    </div> 
-                </div>      
             </div>
+                            <!--End of Header-Upper-->
         </header>
     
     
@@ -358,11 +428,32 @@
       gtag('config', 'UA-76614800-1');
     </script>
 
-    <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/TweenMax.min.js"></script>
-    <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="./assets/js/park-slider.js"></script>
-    <script src="./assets/js/cardslideshow.js"></script>
+            <!--JS Files-->
+
+
+            <script src="./assets/js/jquery-slim.min.js"></script>
+            <script src="./assets/js/jquery-3.6.0.min.js"></script>
+            <script src="./assets/js/bootstrap.min.js"></script>
+            <script src="./assets/js/slick.min.js"></script>
+            <script src="./assets/js/wow.min.js"></script>
+            <script src="./assets/js/popper.min.js"></script>
+            <script src="./assets/js/scrollreveal.min.js"></script>
+            <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+            <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
+            <script src="./assets/js/charming.min.js"></script>
+            <script src="./assets/js/TweenMax.min.js"></script>
+            <script src="./assets/js/demo.js"></script>
+            <script src="./assets/js/leaflet.min.js"></script>
+            <script src="./assets/js/appear.js"></script> 
+    
+            <!--Custom JS-->
+            <script src="./assets/js/index.js"></script>
+            <script src="./assets/js/menu.js"></script>
+            <script src="./assets/js/search-form.js"></script>
+            <script src="./assets/js/slider.js"></script>
+            <script src="./assets/js/horizontal-slider.js"></script>
+            <script src="./assets/js/park-slider.js"></script>
+            <script src="./assets/js/cardslideshow.js"></script>
 
 
 
