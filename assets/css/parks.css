@@ -124,7 +124,7 @@ section {
 .park-overlay {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(1, 50, 32, 0.6), rgba(1, 50, 32, 0.6));
+  background: linear-gradient(rgba(0, 5, 3, 0.481), rgba(0, 6, 4, 0.6));
   position: absolute;
   top: 0;
 }
@@ -217,6 +217,7 @@ button:hover {
 
 .slide-image {
   height: 24vw;
+  width: 24vw;
 
 }
 
@@ -287,7 +288,7 @@ div.overlay-blue {
 }
 
 div.overlay-blue:hover {
-  background-color: rgba(1, 50, 32, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .arrows{
@@ -435,7 +436,9 @@ div.overlay-blue:hover {
 }
 
 .owl-dots {
+  justify-content: center;
   text-align: center;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -480,7 +483,7 @@ div.overlay-blue:hover {
 
 .fa-chevron-left:hover,
 .fa-chevron-right:hover {
-  color: #e9ea0c;
+  color: var(--green);
 }
 
 
@@ -616,4 +619,158 @@ a div {
 	}
 	
 
+}
+
+
+
+
+
+/*slider-one*/ 
+
+.site-slider{
+  position: relative;
+}
+
+.position-top{
+  position: absolute;
+  top: 45%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+  background-color: var(--primary-color);
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  color: white;
+  margin: 0 1rem;
+  opacity: 0;
+  transition:opacity 1s ease;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+  opacity: 1;
+}
+
+.right-0{
+  right:0;
+}
+.slider-hero-inner{
+  position: relative;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+.nyanga-1{
+  height: 100vh;
+  background: url(../images/banner-img/nyanga/nyanga-1.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-2{
+  height: 100vh;
+  background: url(../images/banner-img/nyanga/nyanga-2.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-3{
+  height: 100vh;
+  background: url(../images/banner-img/nyanga/nyanga-3.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-4{
+  height: 100vh;
+  background: url(../images/banner-img/nyanga/nyanga-4.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.slider-hero-inner h1{
+  color: var(--bg1);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: var(--gugi);
+}
+
+.slider-hero-inner p {
+  color: var(--bg1);
+  margin-bottom: 40px;
+}
+
+
+
+.theme-btn,
+a.theme-btn{
+    color: var(--primary-color, #03062e);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 180px;
+    transition: 0.5s;
+    padding: 18px 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    background:white;
+}
+
+.theme-btn:hover{
+    background: var(--primary-color, #03062e);
+    color: white;
+}
+/*slick dots*/
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+.slick-dots li{
+    margin: 0 0.6rem;
+
+}
+
+.slick-dots button{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active button{
+    transform: scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.205);
 }

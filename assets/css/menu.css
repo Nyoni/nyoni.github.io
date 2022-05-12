@@ -102,8 +102,9 @@ img {
     display: inline-block;
 }
 
-.logo > img {
+.header-inner img {
     height: 5rem;
+    width: 5rem;
     cursor: pointer;
   }
 
@@ -228,7 +229,7 @@ img {
     z-index: 100;
     display: none;
     background: var(--green);
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 0 0;
     box-shadow: inset 0 0 0 10px var(--green), 0 5px 15px -5px rgba(1,50,32,.2);
 }
 
