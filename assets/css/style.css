@@ -102,6 +102,7 @@ font-family: 'Parisienne', cursive;
   --yellow: #e9ea0c;
   --green: #013220;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --white: #ffffff;
   --text-color: #444;
   --bg1: #e8eae3;
   --bg2: #f5f5f5;
@@ -277,23 +278,23 @@ span.parisienne {
   text-align: center;
 }
 
-.hero-section:before{
+.home-hero-section:before{
   opacity: 0.35;
   background: rgba(0, 0, 0, 0.45);
 }
 
-.hero-inner{
+.home-hero-inner{
   max-width: 500px;
   position: relative;
 }
 
-.hero-inner h1{
+.home-hero-inner h1{
   color: #ffffff;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
 
-.hero-inner h5 {
+.home-hero-inner h5 {
   color: white;
   margin-bottom: 40px;
   font-size: 24px;
@@ -301,7 +302,7 @@ span.parisienne {
   letter-spacing: 5px;
 }
 
-.hero-inner .sub-title {
+.home-hero-inner .sub-title {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -343,8 +344,307 @@ span.parisienne {
   z-index: 222;
   margin-left: 50px;
   width: 500px;
-  color: var(--text-color);
+  color: var(--white);
 }
+
+.home-welcome-content .home-welcome-textbox h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 50px;
+  color: var(--white);
+}
+
+.home-welcome-content .home-welcome-textbox p {
+  font-weight: 100;
+}
+
+.home-welcome-textbox > .btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.8rem;
+  background-color: #e9ea0c;
+  border: none;
+  border-radius: 25px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*** iii. our park section ***/
+
+.home-parks-section {
+  background: var(--bg2);
+}
+
+.home-parks-slider {
+  position: relative;
+  width: 950px;
+
+}
+
+.home-parks-slider .parks-slider-item{
+  height: 270px;
+  width: 350px;
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  cursor: pointer;
+} 
+
+.parks-slider-item div {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  padding: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding-top: 100%;
+  transition: opacity 0.5s;
+}
+
+.parks-slider-item .slider-image-overlay a {
+  color: #fff;
+}
+
+.parks-slider-item .slider-image-overlay {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-top: 130%;
+  position: absolute;
+  opacity: 0;
+
+}
+
+.slider-image-overlay > * {
+  transform: translateY(40px);
+  transition: transform 0.5s;
+}
+
+.slider-image-overlay:hover {
+  opacity: 1;
+}
+
+.slider-image-overlay:hover > * {
+  transform: translateY(0);
+}
+
+.site-btn.btn-span{
+  padding: 0.8rem 1.9rem;
+  border-radius: 4rem;
+  border: 1px solid var(--border, #2b303218);
+  background-color: white;
+  color: var(--green);
+
+}
+
+.slider-two .slick-track .parks-slider-item:hover span{
+ background-color: var(--green); 
+}
+
+.home-parks-slider.slider-btn .prev,
+ .home-parks-slider .slider-btn .next{
+    color: var(--green);
+    margin: 0 1rem;
+    opacity: 1;
+    transition:opacity 1s ease;
+}
+
+.home-parks-slider:hover .slider-btn .prev,
+.home-parks-slider:hover .slider-btn .next {
+    opacity: 1;
+}
+
+.position-top {
+  position: absolute;
+  top: 50%;
+}
+
+.right-0 {
+  right:-40px;
+}
+
+.left-0 {
+  left: -40px;
+}
+/***end our park section***/
+
+
+/*** iv. explore more section ***/
+.explore-more-section {
+
+  background: var(--bg1);
+}
+
+.explore-more-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.explore-more-textbox {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.explore-more-textbox {
+ width: 500px;
+}
+
+.explore-more-textbox .underline-small {
+  width: 20%;
+  height: 5px;
+  background-color: var(--green);
+  display: inline-block;
+}
+
+.explore-more-textbox h1 {
+  font-size: 1.5em;
+}
+
+.explore-more-textbox h3 {
+
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.explore-more-card {
+  position: relative;
+  background: var(--bg1);
+  width: 270px;
+  height: 270px;
+  margin: 10px;
+}
+
+.explore-more-card:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.explore-more-image {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.explore-image-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-image-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.explore-image-description {
+  font-size: 17px;
+  width: 80%;
+  text-transform: lowercase;
+  margin-top: 1.75em;
+
+}
+
+.explore-image-overlay .underline-small {
+  width: 50%;
+  margin-top: 10px;
+  height: 1px;
+  background-color: var(--bg2);
+  display: inline-block;
+}
+/***end explore more section ***/
+
+
+
+/*** v. news update section ***/
+.featured-section {
+  background: var(--bg2);
+}
+
+.featured-box {
+  padding: 20px 25px 15px;
+  box-shadow: 2px 2px 90px rgba(1, 50, 32, 0.45);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  text-align: center;
+  background: var(--green);
+}
+
+.featured-box i {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  color: var(--bg1);
+  background: var(--green);
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.featured-box span {
+  display: inline-block;
+  margin: 10px 0 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.featured-box .read-more {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.featured-box p {
+  font-size: 14px;
+}
+
+.featured-box,
+.featured-box i,
+.featured-box p,
+.featured-box span {
+  transition: 0.5s;
+  color: #e6e2dd;
+}
+
+.featured-box:hover {
+  background: var(--green);
+}
+
+.featured-box:hover i {
+  background: white;
+  color: var(--green);
+}
+
+.featured-box:hover p,
+.featured-box:hover h3,
+.featured-box:hover h3 a,
+.featured-box:hover span {
+  color: white;
+}
+
+/***end news update section***/
+
 
 
 
@@ -715,315 +1015,18 @@ span.parisienne {
   text-align: center;
 }
 
-.homewelcome-content .home-welcome-textbox h1 {
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 30pxpx;
-}
 
-.home-welcome-text-box > .btn {
-  margin-top: 1rem;
-  padding: 0.6rem 1.8rem;
-  background-color: #e9ea0c;
-  border: none;
-  border-radius: 25px;
-  color: var(--text-color);
-  text-transform: uppercase;
-  cursor: pointer;
-  text-decoration: none;
-}
 
 /**04-Our Parks Section**/
 
-.our-parks-sec {
-  background: var(--bg2);
-}
-
-.site-slider-two{
-  position: relative;
-  width: 950px;
-
-}
-
-.site-slider-two .parks-slider-item{
-  height: 270px;
-  width: 350px;
-  margin: 5px;
-  position: relative;
-  overflow: hidden;
-  background-position: center;
-  background-size: cover;
-  object-fit: cover;
-  cursor: pointer;
-}  
-.parks-slider-item div {
-  position: absolute;
-  width: 100%;
-  color: #fff;
-  padding: 8px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.45);
-  padding-top: 100%;
-  transition: opacity 0.5s;
-}
-
-.parks-slider-item .slider-image-overlay a {
-  color: #fff;
-}
-
-.parks-slider-item .slider-image-overlay {
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  padding-top: 130%;
-  position: absolute;
-  opacity: 0;
-
-}
-
-.slider-image-overlay > * {
-  transform: translateY(40px);
-  transition: transform 0.5s;
-}
-
-.slider-image-overlay:hover {
-  opacity: 1;
-}
-
-.slider-image-overlay:hover > * {
-  transform: translateY(0);
-}
-
-
-
-.site-btn.btn-span{
-  padding: 0.8rem 1.9rem;
-  border-radius: 4rem;
-  border: 1px solid var(--border, #2b303218);
-  background-color: white;
-  color: var(--light-gray, #2b3032a1);
-
-}
-
-.slider-two .slick-track .parks-slider-item:hover span{
- background-color: var(--green); 
-}
-
-.site-slider-two .slider-btn .prev,
-.site-slider-two .slider-btn .next{
-    color: var(--green);
-    margin: 0 1rem;
-    opacity: 1;
-    transition:opacity 1s ease;
-}
-
-.site-slider-two:hover .slider-btn .prev,
-.site-slider-two:hover .slider-btn .next {
-    opacity: 1;
-}
-
-.position-top {
-  position: absolute;
-  top: 50%;
-}
-
-.right-0 {
-  right:-40px;
-}
-
-.left-0 {
-  left: -40px;
-}
 
 
 
 
-/**05-Explore More**/
 
-.explore-more-sec {
-  /*margin-bottom: 80px;*/
-  background: var(--bg1);
-}
-
-.explore-more-textbox {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.explore-more-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.explore-more-textbox {
- width: 500px;
-}
-
-.explore-more-textbox .underline-small {
-  width: 20%;
-  height: 5px;
-  background-color: var(--green);
-  display: inline-block;
-}
-
-.explore-more-textbox h1 {
-  font-size: 1.5em;
-}
-
-.explore-more-textbox h3 {
-
-  font-size: 0.9em;
-  font-style: italic;
-  font-weight: 100;
-}
-
-
-.explore-more-card {
-  position: relative;
-  background: var(--bg1);
-  width: 270px;
-  height: 270px;
-  margin: 10px;
-}
-
-.explore-more-card:hover {
-  transform: scale(1.05, 1.05);
-}
-
-.explore-more-image {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.explore-card-1 {
-  background-image: url(../images/CAMP-SITE-1.png);
-
-}
-
-.explore-card-2 {
-  background-image: url(../images/nyanga2.jpg);
-  
-}
-
-.explore-card-3 {
-  background-image: url(../images/Bungee-Jump-at-Victoria-Falls.jpg);
-  
-}
-
-.explore-image-overlay {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.explore-image-title {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-
-}
-
-.explore-image-description {
-  font-size: 17px;
-  width: 80%;
-  text-transform: lowercase;
-  margin-top: 1.75em;
-
-}
-
-.explore-image-overlay .underline-small {
-  width: 50%;
-  margin-top: 10px;
-  height: 1px;
-  background-color: var(--bg2);
-  display: inline-block;
-}
-
-/*End Explore More*/
 
 /**06-News Update**/
-.featured-section {
-  /*margin-top: 20px;*/
-  background: var(--bg2);
-}
 
-.featured-box {
-  padding: 20px 25px 15px;
-  box-shadow: 2px 2px 90px rgba(1, 50, 32, 0.45);
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 3px;
-  text-align: center;
-  background: var(--green);
-}
-
-.featured-box i {
-  height: 80px;
-  width: 80px;
-  margin-bottom: 30px;
-  display: inline-block;
-  text-align: center;
-  line-height: 80px;
-  color: var(--bg1);
-  background: var(--green);
-  font-size: 40px;
-  border-radius: 50%;
-}
-
-.featured-box span {
-  display: inline-block;
-  margin: 10px 0 15px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-.featured-box .read-more {
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.featured-box p {
-  font-size: 14px;
-}
-
-.featured-box,
-.featured-box i,
-.featured-box p,
-.featured-box span {
-  transition: 0.5s;
-  color: #e6e2dd;
-}
-
-.featured-box:hover {
-  background: var(--green);
-}
-
-.featured-box:hover i {
-  background: white;
-  color: var(--green);
-}
-
-.featured-box:hover p,
-.featured-box:hover h3,
-.featured-box:hover h3 a,
-.featured-box:hover span {
-  color: white;
-}
 
 /**06-Statistics Section**/
 
