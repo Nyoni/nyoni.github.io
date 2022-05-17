@@ -1,5 +1,106 @@
 
+/* Mobile Menu */
+@media only screen and (max-width: 1400px) {
+    .fixed-header {
+        top: -46px;
+    }
+    .main-menu .navigation li a {
+        padding: 25px 20px;
+    }
+    
+}
 
+@media only screen and (max-width: 1199px) {
+    .main-menu .navigation li a {
+        padding: 25px 15px;
+    }
+    .fixed-header .main-menu .navigation li a {
+        padding: 25px 15px;
+    }
+    .main-menu .navigation > li:last-child {
+        margin-right: 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 991px) {
+    .header-top {
+        display: none;
+    }
+    .fixed-header {
+        top: 0;
+    }
+    .main-menu .navigation li:before {
+        content: none;
+    }
+    .main-header .header-upper .container-fluid {
+        padding: 0;
+    }
+    .main-header .logo-outer {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        top: 0;
+        -webkit-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .fixed-header .logo-outer {
+        top: 10px;
+    }
+    .main-menu {
+        width: 100%;
+    }
+    .main-menu .navbar-header {
+        display: block;
+    }
+    .main-menu .navigation {
+        overflow: auto;
+        margin: 25px 0;
+        max-height: 310px;
+    }
+    .main-menu .navigation li {
+        float: none;
+        padding: 0 20px;
+        border-top: 1px solid var(--yellow);
+    }
+    .main-menu .navigation li:last-child {
+        border-bottom: 1px solid var(--yellow);
+    }
+    .main-menu .navigation li.dropdown .dropdown-btn {
+        color: var(--yellow);
+        display: block;
+    }
+    .main-menu .navigation li a,
+    .fixed-header .main-menu .navigation li a {
+        padding: 8px 10px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .main-menu .navigation li a:after {
+        display: none;
+    }
+    .main-menu .navigation li ul {
+        position: relative;
+        display: none;
+        width: 100%;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: transparent;
+    }
+    .main-menu .navigation li ul:after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    .main-menu .navigation li ul li {
+        padding: 0 20px;
+        border-bottom: none;
+    }
+    .main-menu .navigation li ul li ul {
+        left: auto;
+    }
+}
 
 /*Statistics*/
 @media screen and (min-width: 760px) {

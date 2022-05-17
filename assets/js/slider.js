@@ -15,8 +15,8 @@ $(".slider-two")
 .not(".slick-initialized")
 .slick({   
 
-    prevArrow:".site-slider-two .slider-btn .prev",
-    nextArrow:".site-slider-two .slider-btn .next",
+    prevArrow:".home-parks-slider .slider-btn .prev",
+    nextArrow:".home-parks-slider .slider-btn .next",
     slidesToShow:5,
     slidesToScroll:1,
     autoplaySpeed:3000, 
