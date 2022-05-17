@@ -345,13 +345,12 @@ div.overlay-blue:hover {
 
 /*Park Activities*/
 
-.park-activities-sec {
-  /*margin-top: 150px;*/
-  background: var(--bg1);
+.park-activities-section {
+  background: var(--bg2);
 }
 .cardwrapper {
   margin-top: 50px;
-  background: var(--bg1);
+  background: var(--bg2);
   width: 100%;
 }
 
@@ -361,6 +360,7 @@ div.overlay-blue:hover {
   max-width: 1000px;
   margin: auto;
   padding: 0 60px;
+  color: var(--green);
 }
 
 .slidecard-container {
