@@ -1,79 +1,8 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Nanum+Myeongjo:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Parisienne&display=swap');
-
-
-font-family: 'Great Vibes', cursive;
-font-family: 'Lato', sans-serif;
-font-family: 'Nanum Myeongjo', serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Parisienne', cursive; 
-
-
-}
-
-
-
-*/
-
-@font-face {
-  font-family: 'Great Vibes', cursive;
-  src: local('./fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'parisienneregular';
-  src: url('./webfonts/parisienne/parisienne-regular-webfont.woff') format('woff2'),
-       url('./webfonts/parisienne/parisienne-regular-webfont.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'nanummyeongjoregular';
-  src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
-       url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'latoblack';
-  src: url('./webfonts/lato/lato-black-webfont.woff2') format('woff2'),
-       url('./webfonts/lato/lato-black-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'latobold';
-  src: url('lato-bold-webfont.woff2') format('woff2'),
-       url('lato-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'latoregular';
-  src: url('./webfonts/lato/lato-regular-webfont.woff2') format('woff2'),
-       url('./webfonts/lato/lato-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
 /*[Table of contents]
 rgb(247, 250, 252);
 
 1. Global Styles
+    -font-family
     - h1-h6 font sizes
     - Greys
     - Dark Theme
@@ -98,8 +27,75 @@ rgb(247, 250, 252);
     - Post
     - Comments
 8. Footer
+*/
 
----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Nanum+Myeongjo:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Parisienne&display=swap');
+
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Parisienne', cursive; 
+
+
+}
+
+
+
+*/
+
+/*font family*/
+
+@font-face {
+  font-family: 'Great Vibes', cursive;
+  src: local('./fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'parisienneregular';
+  src: url('./webfonts/parisienne/parisienne-regular-webfont.woff') format('woff2'),
+       url('./webfonts/parisienne/parisienne-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nanummyeongjoregular';
+  src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
+       url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latoblack';
+  src: url('./webfonts/lato/lato-black-webfont.woff2') format('woff2'),
+       url('./webfonts/lato/lato-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latobold';
+  src: url('lato-bold-webfont.woff2') format('woff2'),
+       url('lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('./webfonts/lato/lato-regular-webfont.woff2') format('woff2'),
+       url('./webfonts/lato/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*End font family*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
 
 :root {
   --main-color: #d3ad7f;
@@ -117,10 +113,8 @@ rgb(247, 250, 252);
  --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
 }
 
-
-
 * {
-  font-family: 'nanummyeongjoregular';
+  font-family: 'latoregular';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -131,13 +125,11 @@ rgb(247, 250, 252);
   transition: 0.2s linear;
 }
 
-
 html {
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
-
 
 h1,
 h2,
@@ -193,9 +185,8 @@ li {
   color: var(--text-color);
 }
 
-
 section {
-  padding: 3rem 7%;
+  padding: 3rem 5%;
 }
 
 .heading {
@@ -218,9 +209,7 @@ span.parisienne {
   font-family: 'parisienneregular';
 }
 
-
 /*Input buttons*/
-
 .overlay,
 .relative {
     position: relative;
@@ -242,10 +231,8 @@ span.parisienne {
     position: relative;
 }
 
-
 /*Underline*/
 .underline-small {
-
   width: 20%;
   height: 5px;
   background-color: var(--green);
@@ -270,14 +257,18 @@ span.parisienne {
   background: var(--green);
   border-radius: 100vw;
   border: .05em solid #e8eae3;
-
 }
 
-/*** 02. hero section ***/
+/************************** HOME PAGE******************************************************/
+/**************************index.html******************************************************/
+
+
+/*** i. hero section ***/
+
 .home-hero-section{
   position: relative;
   height: 100vh;
-  background: url(../images/Buffalo-Reflection-1.jpg);
+  background: url(../images/Buffalo-Reflection-1.jpg); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -286,10 +277,92 @@ span.parisienne {
   text-align: center;
 }
 
+.hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+
+/*** ii. home welcome section ***/
+
+.home-welcome-section {
+  background: var(--green);
+  color: var(--text-color);
+}
+
+.home-welcome-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-welcome-content .home-welcome-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.home-welcome-content .home-welcome-image img {
+  z-index: 111;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-welcome-content .home-welcome-textbox {
+  z-index: 222;
+  margin-left: 50px;
+  width: 500px;
+  color: var(--text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .conservation-hero-section{
   position: relative;
   height: 100vh;
-  background: url(../images/r10_376_4022_2643_w1200_h678_fmax.jpg);
+  background: url(../images/r10_376_4022_2643_w1200_h678_fmax.jpg); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -334,41 +407,10 @@ span.parisienne {
 }
 
 
-.hero-section:before{
-  opacity: 0.35;
-  background: rgba(0, 0, 0, 0.45);
-}
 
-.hero-inner{
-  max-width: 500px;
-  position: relative;
-}
-
-.hero-inner h1{
-  color: #ffffff;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-}
-
-.hero-inner h3 {
-  color: white;
-  margin-bottom: 40px;
-}
-
-.hero-inner .sub-title {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  color: var(--green);
-}
 
 /**03-Welcome Section**/
 
-.welcome-sec {
-  /*padding: 80px;*/
-  background: var(--green);
-  color: var(--bg1);
-}
 
 .park-welcome-sec {
   /*padding: 80px;*/
@@ -421,20 +463,6 @@ span.parisienne {
 
 /*End About*/
 
-.welcome-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.welcome-content {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 /*About Us*/
 
@@ -640,12 +668,7 @@ span.parisienne {
   align-items: center;
 }
 
-.welcome-content .welcome-image {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  overflow: hidden;
-}
+
 
 .park-welcome-content .welcome-image {
   position: relative;
@@ -654,14 +677,7 @@ span.parisienne {
   overflow: hidden;
 }
 
-.welcome-content .welcome-image img {
-  z-index: 111;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 .park-welcome-content .welcome-image img {
   z-index: 111;
@@ -672,12 +688,7 @@ span.parisienne {
   object-fit: cover;
 }
 
-.welcome-content .welcome-text-box {
-  z-index: 222;
-  margin-left: 50px;
-  width: 500px;
-  color: var(--text-color);
-}
+
 
 /*parks.html*/
 .park-welcome-content .park-welcome-text-box {
@@ -704,13 +715,13 @@ span.parisienne {
   text-align: center;
 }
 
-.welcome-content .welcome-text-box h1 {
+.homewelcome-content .home-welcome-textbox h1 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 30pxpx;
 }
 
-.welcome-text-box > .btn {
+.home-welcome-text-box > .btn {
   margin-top: 1rem;
   padding: 0.6rem 1.8rem;
   background-color: #e9ea0c;
