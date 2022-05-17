@@ -11,7 +11,7 @@
 
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'nanummyeongjoregular';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -191,9 +191,8 @@ button:hover {
 /*End of Header Section*/
 
 .park-accomodation-sec {
-  background: var(--bg1);
+  background: var(--bg2);
   height: 100vh;
-  margin-bottom: 50px;
 
 }
 
@@ -206,12 +205,13 @@ button:hover {
   justify-content: flex-start;
 }
 
+
 .slider-wrapper div {
   position: relative;
 }
 
 .slider-wrapper {
-  margin-top: 5vw;  
+  margin-top: 5vw; 
   margin-left: 11vw;
 }
 
@@ -227,6 +227,7 @@ button:hover {
    cursor: pointer;
    object-fit: cover;
 }
+
 .slide-content {
   width: 25vw;
   margin-top: 20px;
@@ -268,7 +269,7 @@ button:hover {
 .slide-bullet {
   width: 0.5vw; 
   height: 0.5vw; 
-  background-color: #0b8bcc; 
+  background-color: var(--green); 
   border-radius: 200%; 
   position: relative; 
   margin-left: 1.2vw;
@@ -343,6 +344,11 @@ div.overlay-blue:hover {
 /*End Park Overview Section*/
 
 /*Park Activities*/
+
+.park-activities-sec {
+  /*margin-top: 150px;*/
+  background: var(--bg1);
+}
 .cardwrapper {
   margin-top: 50px;
   background: var(--bg1);
@@ -490,6 +496,10 @@ div.overlay-blue:hover {
 /*End Park Activities*/
 
 /*Park Gallery*/
+
+.park-gallery-sec {
+  background: var(--bg2);
+}
 .park-gallery-container {
 	display: block;
 	max-width: 800px;
@@ -658,11 +668,10 @@ a div {
 .slider-hero-inner{
   position: relative;
   height: 100vh;
-  margin-bottom: 100px;
 }
 .nyanga-1{
   height: 100vh;
-  background: url(../images/banner-img/nyanga/nyanga-1.jpg);
+  background: url(../images/Nick-Dyer-31-1024x681.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -674,7 +683,7 @@ a div {
 
 .nyanga-2{
   height: 100vh;
-  background: url(../images/banner-img/nyanga/nyanga-2.jpg);
+  background: url(../images/Nick-Dyer-64-1024x6811.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -686,7 +695,7 @@ a div {
 
 .nyanga-3{
   height: 100vh;
-  background: url(../images/banner-img/nyanga/nyanga-3.jpg);
+  background: url(../images/Nick-Dyer-99-1024x683.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -698,7 +707,7 @@ a div {
 
 .nyanga-4{
   height: 100vh;
-  background: url(../images/banner-img/nyanga/nyanga-4.jpg);
+  background: url(../images/Buffalo-Reflection-1.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -723,22 +732,23 @@ a div {
 
 .theme-btn,
 a.theme-btn{
-    color: var(--primary-color, #03062e);
+    color: var(--green);
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     min-width: 180px;
     transition: 0.5s;
     padding: 18px 40px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
+    border: 1px solid var(--green);
     display: inline-block;
     text-transform: uppercase;
-    background:white;
+    background: transparent;
 }
 
 .theme-btn:hover{
-    background: var(--primary-color, #03062e);
+    background: var(--green);
     color: white;
 }
 /*slick dots*/

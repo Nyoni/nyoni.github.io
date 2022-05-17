@@ -1,4 +1,77 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Nanum+Myeongjo:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Parisienne&display=swap');
+
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Parisienne', cursive; 
+
+
+}
+
+
+
+*/
+
+@font-face {
+  font-family: 'Great Vibes', cursive;
+  src: local('./fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'parisienneregular';
+  src: url('./webfonts/parisienne/parisienne-regular-webfont.woff') format('woff2'),
+       url('./webfonts/parisienne/parisienne-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nanummyeongjoregular';
+  src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
+       url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'latoblack';
+  src: url('./webfonts/lato/lato-black-webfont.woff2') format('woff2'),
+       url('./webfonts/lato/lato-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'latobold';
+  src: url('lato-bold-webfont.woff2') format('woff2'),
+       url('lato-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'latoregular';
+  src: url('./webfonts/lato/lato-regular-webfont.woff2') format('woff2'),
+       url('./webfonts/lato/lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /*[Table of contents]
+rgb(247, 250, 252);
 
 1. Global Styles
     - h1-h6 font sizes
@@ -28,24 +101,26 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
-
-
-
-
 :root {
   --main-color: #d3ad7f;
   --yellow: #e9ea0c;
   --green: #013220;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --text-color: #444;
-  --bg1: #f4f4f4;
+  --bg1: #e8eae3;
   --bg2: #f5f5f5;
-/*  --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
+/*   --great-vibes: 'Great Vibes', cursive;
+  --open-sans: 'Open Sans', sans-serif;
+  --nanum: 'Nanum Myeongjo', serif;
+  --parisienne: 'Parisienne', cursive; 
+  --lato: 'Lato', sans-serif;
+ --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
 }
 
+
+
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'nanummyeongjoregular';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -56,9 +131,6 @@
   transition: 0.2s linear;
 }
 
-body {
-  background: var(--bg1);
-}
 
 html {
   overflow-x: hidden;
@@ -130,6 +202,20 @@ section {
   text-align: center;
   color: var(--text-color);
   padding: 0.5rem;
+  word-spacing: 20px;
+}
+
+h5.heading-two {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+  color: var(--text-color);
+  padding: 0.5rem;
+  font-family: 'parisienneregular';
+}
+
+span.parisienne {
+  font-family: 'parisienneregular';
 }
 
 
@@ -203,7 +289,7 @@ section {
 .conservation-hero-section{
   position: relative;
   height: 100vh;
-  background: url(../images/hwange1.jpeg);
+  background: url(../images/r10_376_4022_2643_w1200_h678_fmax.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -223,6 +309,30 @@ section {
   align-items: center;
   text-align: center;
 }
+
+.investments-hero-section{
+  position: relative;
+  height: 100vh;
+  background: url(../images/hwange1.jpeg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.media-hero-section{
+  position: relative;
+  height: 100vh;
+  background: url(../images/gonarezhou-walking-safaris.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 
 .hero-section:before{
   opacity: 0.35;
@@ -265,6 +375,51 @@ section {
   background: var(--bg1);
   color: var(--text-color);
 }
+ /*About*/
+.about-content-sec {
+  background: var(--bg2);
+}
+
+
+.aboutUs-container .col-md-4 {
+  height: 400px;
+}
+
+.aboutUs-item {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+  margin-top: 20px;
+  background-color: var(--bg1);
+  padding: 50px 10px;
+}
+
+.aboutUs-item i {
+  font-size: 43px;
+  margin: 0;
+}
+
+.aboutUs-item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+
+.aboutUs-item p {
+  margin-top: 20px;
+  top: 0;
+}
+
+
+
+
+
+
+
+/*End About*/
 
 .welcome-container {
   position: relative;
@@ -281,7 +436,61 @@ section {
   align-items: center;
 }
 
+/*About Us*/
+
+.about-us-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-us-textbox {
+  z-index: 222;
+  width: 500px;
+  color: var(--text-color);
+
+}
+
+.about-us-content .about-us-image {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.about-us-content .about-us-image img {
+  z-index: 111;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-us-content .about-us-textbox {
+  z-index: 222;
+
+  width: 500px;
+  color: var(--text-color);
+}
+
+.content-left {
+  margin-right: 50px;
+}
+
+.content-right {
+  margin-left: 50px;
+}
+
+.top-10 {
+  margin-top: 50px;
+}
+/*End About*/
+
 .park-welcome-content {
+  margin-top: 40px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -324,7 +533,7 @@ section {
   z-index: 222;
   margin-left: 50px;
   width: 500px;
-  color: var(--bg1);
+  color: var(--text-color);
 }
 
 /*parks.html*/
@@ -335,10 +544,10 @@ section {
   text-align: left;
   width: 500px;
   color: var(--text-color);
+  opacity: 0.9;
 }
 
 .welcome-text-box .underline-small {
-
   width: 20%;
   height: 5px;
   background-color: var(--bg1);
@@ -372,27 +581,68 @@ section {
 
 /**04-Our Parks Section**/
 
+.our-parks-sec {
+  background: var(--bg2);
+}
+
 .site-slider-two{
   position: relative;
-  width: 940px;
+  width: 950px;
 
 }
 
-.site-slider-two .products{
+.site-slider-two .parks-slider-item{
   height: 270px;
-  width: 300px;
+  width: 350px;
+  margin: 5px;
   position: relative;
   overflow: hidden;
-
-}  
-
-.site-slider-two .products img{
-  width: 100%;
-  height: 100%;
+  background-position: center;
+  background-size: cover;
   object-fit: cover;
-  margin: auto;
-  border: 1px solid var(--bg2);
+  cursor: pointer;
+}  
+.parks-slider-item div {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  padding: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding-top: 100%;
+  transition: opacity 0.5s;
 }
+
+.parks-slider-item .slider-image-overlay a {
+  color: #fff;
+}
+
+.parks-slider-item .slider-image-overlay {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-top: 130%;
+  position: absolute;
+  opacity: 0;
+
+}
+
+.slider-image-overlay > * {
+  transform: translateY(40px);
+  transition: transform 0.5s;
+}
+
+.slider-image-overlay:hover {
+  opacity: 1;
+}
+
+.slider-image-overlay:hover > * {
+  transform: translateY(0);
+}
+
+
 
 .site-btn.btn-span{
   padding: 0.8rem 1.9rem;
@@ -403,7 +653,7 @@ section {
 
 }
 
-.slider-two .slick-track .products:hover span{
+.slider-two .slick-track .parks-slider-item:hover span{
  background-color: var(--green); 
 }
 
@@ -416,16 +666,16 @@ section {
 }
 
 .site-slider-two:hover .slider-btn .prev,
-.site-slider-two:hover .slider-btn .next{
+.site-slider-two:hover .slider-btn .next {
     opacity: 1;
 }
 
-.position-top{
+.position-top {
   position: absolute;
   top: 50%;
 }
 
-.right-0{
+.right-0 {
   right:-40px;
 }
 
@@ -440,7 +690,7 @@ section {
 
 .explore-more-sec {
   /*margin-bottom: 80px;*/
-  background: #ffffff;
+  background: var(--bg1);
 }
 
 .explore-more-textbox {
@@ -483,13 +733,17 @@ section {
   position: relative;
   background: var(--bg1);
   width: 270px;
-  height: 250px;
+  height: 270px;
   margin: 10px;
 }
 
+.explore-more-card:hover {
+  transform: scale(1.05, 1.05);
+}
+
 .explore-more-image {
-  background-color: #000;
-  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
   width: 100%;
   background-size: cover;
 }
@@ -550,7 +804,7 @@ section {
 /**06-News Update**/
 .featured-section {
   /*margin-top: 20px;*/
-  background: var(--bg1);
+  background: var(--bg2);
 }
 
 .featured-box {
@@ -846,6 +1100,14 @@ hr {
   margin: 10px 50px;
 }
 
+section hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid var(--text-color);
+  margin: 10px 50px;
+
+}
+
 .copyright {
   text-align: center;
 }
@@ -875,6 +1137,23 @@ hr {
 .second {
   margin-top: 100px;
 }
+
+
+
+
+/*About Us page CSS*/
+.about-content-row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.about-content-column {
+  float: left;
+  width: 33.3%;
+}
+
 
 /*{
     End of Footer Section*/
