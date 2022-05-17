@@ -42,6 +42,28 @@
   }*/
 
   /*About Us Content*/
+/*Contact Section*/
+  @media (max-width: 991px) {
+    .contact {
+      padding: 50px;
+    }
+  
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-container .contactInfo {
+      margin-bottom: 40px;
+    }
+  
+    .contact-container .contactInfo,
+    .contactForm {
+      width: 100%;
+    }
+  }
+
+
+
 
   @media screen and (mac-width: 600px) {
       .about-content-column {
