@@ -136,6 +136,7 @@ html {
   overflow-x: hidden;
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 h1,
@@ -210,6 +211,13 @@ h5.heading-two {
   color: var(--text-color);
   padding: 0.5rem;
   font-family: 'parisienneregular';
+}
+
+a:hover,
+a:focus,
+a:visited {
+  outline: none;
+  text-decoration: none;
 }
 
 span.parisienne {
@@ -299,7 +307,7 @@ transition: all 500ms ease;
 
 .header-top,
 .header-upper{
-background: var(--green);
+background: transparent;
 top: 0;
 }
 
@@ -347,7 +355,7 @@ position: relative;
 position: absolute;
 right: 10px;
 top: 0;
-width: 50px;
+width: 200px;
 height: 43px;
 text-align: center;
 line-height: 43px;
@@ -358,7 +366,7 @@ display: none;
 .main-menu .navigation li a{
 position: relative;
 display: block;
-color: var(--bg1);
+color: var(--white);
 font-weight: 700;
 opacity: 1;
 font-size: 14px;
@@ -402,7 +410,7 @@ transform: scale(1);
 position: absolute;
 left: 0;
 top: 100%;
-min-width: 200px;
+min-width: 215px;
 z-index: 100;
 display: none;
 background: var(--green);
@@ -412,8 +420,8 @@ box-shadow: inset 0 0 0 10px var(--green), 0 5px 15px -5px rgba(1,50,32,.2);
 
 .main-menu .navigation li ul li {
 width: 100%;
-padding: 7px 20px;
-border-bottom: 1px solid var(--yellow);
+padding: 5px 4px;
+/*border-bottom: 0.5px solid var(--yellow);*/
 }
 
 .main-menu .navigation li ul li:last-child {
@@ -421,9 +429,10 @@ border-bottom: none;
 }
 
 .main-menu .navigation li ul li a,
-.fixed-header .main-menu .navigation li ul li a {
-padding: 8px 5px;
-line-height: 24px;
+.main-header .main-menu .navigation li ul li a {
+padding: 5px 3px;
+line-height: 20px;
+font-weight: 100;
 }
 
 .main-menu .navigation li ul li ul{
@@ -443,7 +452,7 @@ transition: 0.5s;
 background: transparent;
 }
 
-.fixed-header .main-menu .navbar-header .navbar-toggle{
+.main-header .main-menu .navbar-header .navbar-toggle{
 margin: 15px 0;
 }
 
@@ -999,6 +1008,77 @@ background: var(--bg1);
 
 
 
+/***iii. park gallery***/
+
+.park-gallery-sec {
+  background: var(--bg2);
+}
+.park-gallery-container {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+  padding-top: 40px;
+	text-align: center;
+}
+
+.small {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin: 3px;
+	object-fit: cover;
+
+}
+
+.small:hover {
+	-webkit-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox img {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
+
+a div {
+	position: relative;
+	margin: auto auto;
+	text-align: center;
+}
+
+.lightbox:target {
+	display: -webkit-box;
+	display: flex;
+}
+
+.park-gallery-container a {
+	text-decoration: none;
+}
+
+.park-gallery-container p {
+	font-size: 20px;
+	color: var(--bg1);
+  font-weight: 500;
+}
+
+/*End Park Gallery*/
+
+
+
+
+
 
 
 /************************** END PARKS PAGES******************************************************/
@@ -1059,6 +1139,22 @@ background: var(--bg1);
   align-items: center;
   text-align: center;
 }
+
+.park-hero-section{
+  position: relative;
+  height: 80vh;
+  background: url(../images/gonarezhou-walking-safaris.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #e8eae3;
+  background-color: #fff;
+}
+
+
 
 
 

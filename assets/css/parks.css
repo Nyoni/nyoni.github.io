@@ -360,7 +360,7 @@ div.overlay-blue:hover {
   max-width: 1000px;
   margin: auto;
   padding: 0 60px;
-  color: var(--green);
+  color: var(transparent);
 }
 
 .slidecard-container {

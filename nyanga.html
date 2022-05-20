@@ -4,525 +4,511 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nyanga National Park</title>
+    <title>Media Room</title>
 
-  <!--Owl Carousel-->
-  <link rel="stylesheet" href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/css/fontawesome-v5.9.0.min.css">
+    <!--Flaticon-->
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="./assets/css/fontawesome-v5.9.0.min.css">
-        <!--Flaticon-->
-        <link rel="stylesheet" href="./assets/css/flaticon.css">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!--Normalise-->
+    <link rel="stylesheet" href="./assets/css/normalise.css">
+    <!--Menu CSS-->
+    <link rel="stylesheet" href="./assets/css/menu.css">
 
-        <!--Menu CSS-->
-        <link rel="stylesheet" href="./assets/css/menu.css">
+    <!--Slick-->
+    <link rel="stylesheet" href="./assets/css/slick.css">
+    <!--Flaticon-->
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <!--Animate-->
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <!--Leaflet-->
+    <link rel="stylesheet" href="./assets/css/leaflet.css">
+    <!--Spacing-->
+    <link rel="stylesheet" href="./assets/css/spacing.min.css">
+    <!--Style-->
 
-        <!--Slick-->
-        <link rel="stylesheet" href="./assets/css/slick.css">
-        <!--Flaticon-->
-        <link rel="stylesheet" href="./assets/css/flaticon.css">
-        <!--Animate-->
-        <link rel="stylesheet" href="./assets/css/animate.css">
-        <!--Leaflet-->
-        <link rel="stylesheet" href="./assets/css/leaflet.css">
-        <!--Spacing-->
-        <link rel="stylesheet" href="./assets/css/spacing.min.css">
-        <!--Style-->
+    <!--==Custom CSS==-->
+    <!--Main CSS File-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
-        <!--==Custom CSS==-->
-        <!--Main CSS File-->
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <!--Park CSS-->
-        <link rel="stylesheet" href="./assets/css/parks.css">
-        <!--Responsive CSS-->
-        <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/tab.css">
+    <link rel="stylesheet" href="./assets/css/vertical-tabs.css">
 </head>
-<body onload="slider()">
+<body>
 
-    <div class="page-wrapper">
-        <header>
-            <!--Header-Upper-->
-            <div class="header-upper">
-                <div class="container clearfix">                
-                    <div class="header-inner d-lg-flex align-items-center">
-                        <div class="logo-outer d-flex align-items-center">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="./assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" alt="logo" title="">
-                                </a>
-                            </div>
+       
+  <header class="main-header">
+    <!--Header-Upper-->
+    <div class="header-upper">
+        <div class="container clearfix">
+            
+            <div class="header-inner d-lg-flex align-items-center">
+                <div class="logo-outer d-flex align-items-center">
+                    <div class="logo">
+                        <a href="index.html">
+                        <img src="./assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" alt="logo" title="">
+                    </a>
+                    </div>
+                </div>
+
+                <div class="nav-outer clearfix ml-lg-auto">
+                    <!-- Main Menu -->
+                    <nav class="main-menu navbar-expand-lg">
+                        <div class="navbar-header clearfix">
+                            <!--Toggle Button -->
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
                         </div>
-            
-                        <div class="nav-outer clearfix ml-lg-auto">
-                            <!-- Main Menu -->
-                            <nav class="main-menu navbar-expand-lg">
-                                <div class="navbar-header clearfix">
-                                <!--Toggle Button -->
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-            
-                                <div class="navbar-collapse collapse clearfix">
-                                    <ul class="navigation clearfix">
-                                    <!--About Us-->
-                                        <li><a href="index.html">About Us</a></li>
-                                        <!--Visit Us-->
-                                        <li class="dropdown"><a href="#">Visit Us</a>
+
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <!--Home-->
+                                <li><a href="#">Home</a></li>
+                                <!--About Us-->
+                                <li><a href="about-us.html">About Us</a></li>
+                                <!--Conservation-->
+                                
+                                <li class="dropdown"><a href="conservation.html">Conservation</a>
+                                    <ul>
+                                        <li><a href="#">Park Protection</a>
                                             <ul>
-                                                <li class="dropdown"><a href="services.html" >Premium</a>
-                                                    <ul>
-                                                        <li><a href="nyanga.html">Nyanga</a></li>
-                                                        <li><a href="#">Hwange</a></li>
-                                                    </ul>
-                                                </li>
-                                                                    
-                                                <li><a href="service-details.html">Hidden Gems</a></li>
-                                            </ul>
-                                        </li>
-            
-                                        <!--Investments-->
-                                        <li><a href="investments.html">Investments</a></li>
-                                        
-                                        <!--Conservation-->                                                    
-                                        <li class="dropdown"><a href="#">Conservation</a>
-                                            <ul>
-                                                <li><a href="conservation.html">Efforts</a></li>
-                                                <li><a href="portfolio.html">Publications</a></li>
-                                            </ul>
-                                        </li>
-                                                        
-                                        <!--Media Room-->
-                                        <li><a href="media-room.html">Media Room</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                            <!--End of Main MENU-->
-                        </div>
+                                                <li><a href="#">Law Enforcement</a></li>
+                                                <li><a href="#">Range Management</a></li>
+                                                <li><a href="#">Fire Management </a></li>
+                                                <li><a href="#">Visitor Protection</a></li>
                                     
-                    </div>
-                </div>
-            </div>
-                            <!--End of Header-Upper-->
-        </header>
+                                            </ul>
+                                        </li>
+                                       
+                                        <li class="dropdown"><a href="#">Conservation Research</a>
+                                            <ul>
+                                                <li><a href="#">Research Policy</a></li>
+                                                <li><a href="#">Research Permits</a></li>
+                                                <li><a href="#">Research Project</a></li>
+                                                <li><a href="#">Research Monitoring</a></li>
+                                                <li><a href="#">Research Programs</a></li>
+                                                <li><a href="#">Management Plans</a></li>
+                                                <li><a href="#">Research Forms</a></li>
+                                                <li><a href="#">Research Forms</a></li>
+                                            </ul>
+                                        
+                                        </li>
+                                        <li><a href="#">Community Conservation</a></li>
+                                        <li><a href="#">Conservation Education</a></li>
+                                        <li><a href="#">Species Conservation</a></li>
+                                        <li class="dropdown"><a href="#">Licensing</a>
+                                            <ul>
+                                                <li><a href="#">Hunting</a></li>
+                                                <li><a href="#">Permits</a></li>
+                                            
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
 
-             <!--First Slider-->
-             <div class="container-fluid p-0"> 
-                <div class="site-slider">
-                    <div class="slider-one slider-hero-inner">
-    
-                        <div class="nyanga-1">
-                          
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.5s">EXPLORE</a>
-                            
-                        </div> 
-                        <div class="nyanga-1">
-                           
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div> 
-                        <div class="nyanga-1 ">
-                        
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div>
-                        <div class="nyanga-1">
-            
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div>
-                        <div class="nyanga-1">
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div>
-                        <div class="nyanga-1">
-                           
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div>
-    
-                        <div class="nyanga-1">
-                           
-                            <h1 class="wow fadeInUp" data-wow-duration="1s">Lorem ipsum dolor sit amet</h1>
-                            <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">Consectetur adipisicing </p>
-                            <a href="#" class="theme-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">EXPLORE</a>
-                        </div>
-    
-                    </div> 
-                    <div class="slider-btn">
-                        <span class="prev position-top">
-                            <i class="fas fa-chevron-left"></i>
-                        </span>
-                        <span class="next position-top right-0">
-                            <i class="fas fa-chevron-right"></i>
-                        </span>   
-                    </div>
-                </div>
-            </div>
-            <!--End of First Slider-->
-    
-    
-        <!--Parks Overview Section-->
-        <section class=" park-welcome-section" id="park-welcome">
-            <h2 class="heading">Park Overview</h2>
-            <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <hr>
-            <div>
-                <div class="park-welcome-content">
-                    <div class="park-welcome-textbox">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia enim excepturi qui quis sapiente vel iusto voluptatem repellendus! Quam voluptatem modi cum sapiente, obcaecati cupiditate minima necessitatibus adipisci velit esse.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ad tempore aut at, dolore numquam. Neque maiores, in quia, incidunt nisi voluptatum dolor commodi laborum, deserunt eaque voluptate inventore facere.
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto fuga sunt id fugiat ratione error, aspernatur expedita nobis ipsum commodi suscipit quisquam possimus saepe. Ducimus, dolore! Sequi accusamus magni dolorem?
-                        </p>
-                    </div>
-                    <div class="park-welcome-image">                    
-                        <img src="./assets/images/map.png" alt="park-welcome-image">
-                    </div> 
-    
-                </div>
-            </div>
-        </section>
-    
-        <!--Park Accomodation Section-->
-    
-        <section class="park-accomodation-section">
-            <h2 class="heading">Accomodation</h2>
-            <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <hr>
-            <div class="slider">
-                <div class="slider-wrapper flex">
-                    <div class="slide flex">
-                        <div class="slide-image slider-link prev"><img src="./assets/images/CAMP-SITE-1.png"><div class="overlay"></div></div>
-                        <div class="slide-content">
-                            <div class="slide-top-title">LOREM</div>
-                            <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                            <div class="slide-text">-Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, <br> -vero oporteat apeirian in vel. Et appareat electram appellantur est. <br> -Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                            <div class="slide-more">SEE MORE</div>
-                        </div>	
-                    </div>
-                    <div class="slide flex">
-                        <div class="slide-image slider-link next"><img src="./assets/images/chalets.jpg"><div class="overlay"></div></div>
-                        <div class="slide-content">
-                            <div class="slide-top-title">LOREM</div>
-                            <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                            <div class="slide-text">-Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, <br> -vero oporteat apeirian in vel. Et appareat electram appellantur est. <br> -Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                            <div class="slide-more">SEE MORE</div>
-                        </div>	
-                    </div>	
-                    <div class="slide flex">
-                        <div class="slide-image slider-link next"><img src="./assets/images/lodges-3008x2000.jpg"><div class="overlay"></div></div>
-                        <div class="slide-content">
-                            <div class="slide-top-title">LOREM</div>
-                            <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                            <div class="slide-text">-Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, <br> -vero oporteat apeirian in vel. Et appareat electram appellantur est. <br> -Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                            <div class="slide-more">SEE MORE</div>
-                        </div>	
-                    </div>
-                        <div class="slide flex">
-                        <div class="slide-image slider-link next"><img src="./assets/images/TENT-LODGE-3.jpeg"><div class="overlay"></div></div>
-                        <div class="slide-content">
-                            <div class="slide-top-title">LOREM</div>
-                            <div class="slide-title">LOREM IPSUM DOLOR SITE MATE, AD EST ABHORREANT</div>
-                            <div class="slide-text">-Lorem ipsum dolor sit amet, ad est abhorreant efficiantur, <br> -vero oporteat apeirian in vel. Et appareat electram appellantur est. <br> -Ei nec duis invenire. Cu mel ipsum laoreet, per rebum omittam ex. </div>
-                            <div class="slide-more">SEE MORE</div>
-                        </div>	
-                    </div>
-                </div>
-            
-                <div class="arrows">
-                    <a href="#" title="Previous" class="arrow slider-link prev"></a>
-                    <a href="#" title="Next" class="arrow slider-link next"></a>
-                </div>
-            </div>
-        </section>
-    
-        <!--End Park Accomodation Section-->
-    
-        <!--Park Activities-->
-        <section class="park-activities-section">
-            <h2 class="heading">Activities</h2>
-            <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <hr>
-            <div class="cardwrapper">
-                <div class="carousel owl-carousel">
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c1"></div>
-                        <h4>Mountain Hiking</h4>
-                        <p>Lorem ipsum, dolor sit amet  </p>
-                    </div>
-        
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c2"></div>
-                        <h4>Game Drives</h4>
-                        <p>Lorem ipsum, dolor sit amet </p>
-                    </div>
-        
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c3"></div>
-                        <h4>Mountain Hiking</h4>
-                        <p>Lorem ipsum, dolor sit amet </p>
-                    </div>
-        
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c4"></div>
-                        <h4>Game Drives</h4>
-                        <p>Lorem ipsum, dolor sit amet </p>
-                    </div>
-        
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c5"></div>
-                        <h4>Mountain Hiking</h4>
-                        <p>Lorem ipsum, dolor sit amet  </p>
-                    </div>
-                   
-                    <div class="slidecard-container">
-                        <div class="slidecard" id="c6"></div>
-                        <h4>Game Drives</h4>
-                        <p> Lorem ipsum, dolor sit amet </p>
-                    </div>           
-                </div>
-            </div>
-    
-        </section>
-        <!--End Park Activities-->
-    
-        <!--Park Gallery-->
-        <section class="park-gallery-sec">
-            <h2 class="heading">Gallery</h2>
-            <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <hr>
-            <div class="park-gallery-container">
-                <a href="#img1"> 
-                <img class="small" src="./assets/images/swimming.jpg">
-                </a>
-                <a href="#img2"> 
-                <img class="small" src="./assets/images/fishing-for-tiger.jpg">
-                </a>
-                  <a href="#img3"> 
-                <img class="small" src="./assets/images/nyanga-1.jpg">
-                </a>
-                  <a href="#img4"> 
-                <img class="small" src="./assets/images/Kazuma-hyena.png">
-                </a>
-                  <a href="#img5"> 
-                <img class="small" src="./assets/images/Nick-Dyer-31-1024x681.jpg">
-                </a>
-                  <a href="#img6"> 
-                <img class="small" src="./assets/images/Nick-Dyer-64-1024x6811.jpg">
-                </a>
-                  <a href="#img7"> 
-                <img class="small" src="./assets/images/Nick-Dyer-99-1024x683.jpg">
-                </a>
-                  <a href="#img8"> 
-                <img class="small" src="./assets/images/nyanga2.jpg">
-                </a>
+                                 <!--Our Parks-->
+                                 <li class="dropdown"><a href="">Our Parks</a>
+                                    <ul>
+                                        <li ><a href="national-parks.html">National Parks</a></li>
+                                        <li ><a href="rec-parks.html">Recreational Parks</a></li>
+                                        <li ><a href="botan-gardens.html">Botanical Gardens</a></li>
+                                        <li ><a href="safari-areas.html">Safari Areas</a></li>
+                                        <li ><a href="sanctuaries.html">Sanctuaries</a></li>
+                                           
+                                    </ul>
+                                </li>
 
-                <!--Lightboxes-->
-                <a href="#_" class="lightbox" id="img1">
-                    <div> 
-                      <img src="./assets/images/swimming.jpg"/> 
-                      <p> The mighty Bear </p>
-                    </div>
-                </a>
-
-                  <a href="#_" class="lightbox" id="img2">
-                    <div> 
-                      <img src="./assets/images/fishing-for-tiger.jpg"/> 
-                      <p> Lorem ipsum dolor, </p>
-                    </div>
-                  </a>
-
-                 <a href="#_" class="lightbox" id="img3">
-                    <div> 
-                      <img src="./assets/images/nyanga-1.jpg"/> 
-                      <p>Lorem ipsum dolor, </p>
-                    </div>
-                  </a>
-
-                 <a href="#_" class="lightbox" id="img4">
-                    <div> 
-                      <img src="./assets/images/Kazuma-hyena.png"/> 
-                      <p> Lorem ipsum dolor,</p>
-                    </div>  
-                  </a>
-
-                 <a href="#_" class="lightbox" id="img5">
-                    <div> 
-                      <img src="./assets/images/Nick-Dyer-31-1024x681.jpg"/> 
-                      <p> The Car</p>
-                    </div>
-                 </a>
-
-                  <a href="#_" class="lightbox" id="img6">
-                    <div> 
-                      <img src="./assets/images/Nick-Dyer-64-1024x6811.jpg"/> 
-                      <p> Lorem ipsum dolor,</p>
-                    </div>
-                  </a>
-
-                  <a href="#_" class="lightbox" id="img7">
-                    <div> 
-                      <img src="./assets/images/Nick-Dyer-99-1024x683.jpg"/> 
-                      <p> Lorem ipsum dolor,</p>
-                    </div>
-                  </a>
-
-                  <a href="#_" class="lightbox" id="img8">
-                    <div> 
-                      <img src="./assets/images/nyanga2.jpg"/> 
-                      <p> Lorem ipsum dolor,</p>
-                    </div>
-                  </a>
-</div>
-
-        </section>
-    
-         <!--End Park Gallery-->
-    
-         <!--Contact-->
-            <section>
-                <h2 class="heading"> Contact Us</h2>
-                <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-            <hr>
-            
-            </section>
-         <!--End Contact-->
-    
-
-    </div>
-
-
-                <!--Footer-->
-                <footer>
-                    <div class="footer-row">
-                        <div class="footer-col">
-                            <img src="/assets/images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" alt="footer-logo" class="footer-logo">
-        
-                        </div>
-                        <div class="footer-col">
-                            <h3>Office <div class="underline"><span></span></div></h3>
-                            <p>Cnr Borrowdale Rd,</p>
-                            <p>Sandringham Dr, Harare</p>
-                            <p>Tel: +263(241) 706077</p>
-          
-                        </div>
-                        <div class="footer-col">
-                            <h3>Links <div class="underline"><span></span></div></h3>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="visittheparks.html">Visit the Parks</a></li>
-                                <li><a href="aboutus.html">About Us</a></li>
-                                <li><a href="ourservices.html">Our Services</a></li>
-                                <li><a href="contactus.html">Contact Us</a></li>
+                                <!--Opportunities-->
+                                <li><a href="opportunities.html">Opportunities</a></li>
+                                
+                                <!--Media Room-->
+                                <li><a href="contact-us.html">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="footer-col">
-                              <h3>Newsletter <div class="underline"><span></span></div></h3>
-                              <form>
-                                  <i class="far fa-envelope"></i>
-                                  <input type="email" placeholder="Enter your email id" required>
-                                  <button type="submit"><i class="fas fa-arrow-right"></i></button>
-                              </form>
-                              <div class="social-icons">
-                                  <i class="fab fa-facebook-f"></i>
-                                  <i class="fab fa-twitter"></i>
-                                  <i class="fab fa-whatsapp"></i>
-                                  <i class="fab fa-instagram"></i>
-                              </div>
+                    </nav>
+                    <!--End of Main MENU-->
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <!--End of Header-Upper-->
+</header>
+    <!----*** End Of Header Area ***-->
+    
+    <!----*** Hero Section ***-->
+    <section class="park-hero-section overlay">
+        <div >
+            <div class="hero-inner">
+                <h1 class="wow fadeInUp" data-wow-duration="1s">Nyanga</h1>
+                
+            </div>
+        </div>
+    </section>
+    <!----*** End of Hero Section ***---->
+        <div class="tab-wrap">
+
+            <!-- active tab on page load gets checked attribute -->
+            <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+            <label for="tab1">Overview</label>
+        
+            <input type="radio" id="tab2" name="tabGroup1" class="tab">
+            <label for="tab2">Attractions</label>
+        
+            <input type="radio" id="tab3" name="tabGroup1" class="tab">
+            <label for="tab3">Activities</label>
+        
+            <input type="radio" id="tab4" name="tabGroup1" class="tab" checked>
+            <label for="tab4">Access</label>
+        
+            <input type="radio" id="tab5" name="tabGroup1" class="tab">
+            <label for="tab5">Accomodation</label>
+        
+            <input type="radio" id="tab6" name="tabGroup1" class="tab">
+            <label for="tab6">Park Entry Fees</label>
+
+            <input type="radio" id="tab7" name="tabGroup1" class="tab">
+            <label for="tab7">Contacts</label>
+        
+            <div class="tab__content">
+                <!--Parks Overview Section-->
+                <div class="overview_tabs">
+    
+                  <div class="overview_tab">
+                      <input type="radio" id="tab-1" name="tab-group-1" checked>
+                      <label for="tab-1">Key Features</label>
+                      
+                      <div class="overview_content">
+                          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A possimus reiciendis facilis vel repellat saepe deserunt, rem autem iste perferendis harum sapiente consequatur quibusdam voluptatum dolorum beatae labore! Praesentium, eos?</span>
+                      </div> 
+                  </div>
+                   
+                  <div class="overview_tab">
+                      <input type="radio" id="tab-2" name="tab-group-1">
+                      <label for="tab-2">Key Features</label>
+                      
+                      <div class="overview_content">
+                          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis sit veniam beatae est suscipit incidunt ex tenetur illo saepe. Corrupti deleniti praesentium delectus, maxime animi deserunt libero ex quam error.</<span>span>
+                      </div> 
+                  </div>
+                   
+                   <div class="overview_tab">
+                      <input type="radio" id="tab-3" name="tab-group-1">
+                      <label for="tab-3">Climate</label>
+                    
+                      <div class="overview_content">
+                          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores mollitia quo iste commodi cum, reiciendis libero fugiat deleniti suscipit rem, dignissimos doloremque odit nulla voluptates, tempore vero vel sunt ullam!</span>
+                      </div> 
+                  </div>
+                     <div class="overview_tab">
+                      <input type="radio" id="tab-4" name="tab-group-1">
+                      <label for="tab-4">Lorem</label>
+                    
+                      <div class="overview_content">
+                          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto aliquam architecto dignissimos id? Necessitatibus perferendis laudantium ducimus amet? Quam ipsa omnis officia exercitationem temporibus culpa id libero explicabo?</span>
+                      </div> 
+                  </div>
+               
+                  <div class="overview_tab">
+                   <input type="radio" id="tab-5" name="tab-group-1">
+                   <label for="tab-5">Lorem</label>
+                 
+                   <div class="overview_content">
+                       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto aliquam architecto dignissimos id? Necessitatibus perferendis laudantium ducimus amet? Quam ipsa omnis officia exercitationem temporibus culpa id libero explicabo?</span>
+                   </div> 
+               </div>
+               
+               <div class="overview_tab">
+                   <input type="radio" id="tab-6" name="tab-group-1">
+                   <label for="tab-6">Lorem</label>
+                 
+                   <div class="overview_content">
+                       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto aliquam architecto dignissimos id? Necessitatibus perferendis laudantium ducimus amet? Quam ipsa omnis officia exercitationem temporibus culpa id libero explicabo?</span>
+                   </div> 
+               </div>
+                   
+               </div>
+            <!--End Parks Overview Section-->           
+            </div>
+        
+            <div class="tab__content">
+              <h3>Attractions</h3>
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+            </div>
+        
+            <div class="tab__content">
+              <h3>Activities</h3>
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+        
+              <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        
+              <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+            </div>
+
+            <div class="tab__content">
+                <h3>Access</h3>
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+              </div>
+
+              <div class="tab__content">
+                <h3>Accomodation</h3>
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+              </div>
+
+              <div class="tab__content">
+                <h3>Park Entry Fee</h3>
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+              </div>
+
+              <div class="tab__content">
+                <h3>Contacts</h3>
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+  
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+          
+                <p>Praesent nonummy mi in odio. Nullam accumsan lorem in dui. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Nullam accumsan lorem in dui. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+          
+                <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Morbi mattis ullamcorper velit. Pellentesque posuere. Etiam ut purus mattis mauris sodales aliquam. Praesent nec nisl a purus blandit viverra.</p>
+              </div>
+    
+      </div>
+
+              <!--Park Gallery-->
+              <section class="park-gallery-sec">
+                <h2 class="heading">Gallery</h2>
+                <h5 class="title-02 heading-two">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                <hr>
+                <div class="park-gallery-container">
+                    <a href="#img1"> 
+                    <img class="small" src="./assets/images/swimming.jpg">
+                    </a>
+                    <a href="#img2"> 
+                    <img class="small" src="./assets/images/fishing-for-tiger.jpg">
+                    </a>
+                      <a href="#img3"> 
+                    <img class="small" src="./assets/images/nyanga-1.jpg">
+                    </a>
+                      <a href="#img4"> 
+                    <img class="small" src="./assets/images/Kazuma-hyena.png">
+                    </a>
+                      <a href="#img5"> 
+                    <img class="small" src="./assets/images/Nick-Dyer-31-1024x681.jpg">
+                    </a>
+                      <a href="#img6"> 
+                    <img class="small" src="./assets/images/Nick-Dyer-64-1024x6811.jpg">
+                    </a>
+                      <a href="#img7"> 
+                    <img class="small" src="./assets/images/Nick-Dyer-99-1024x683.jpg">
+                    </a>
+                      <a href="#img8"> 
+                    <img class="small" src="./assets/images/nyanga2.jpg">
+                    </a>
+    
+                    <!--Lightboxes-->
+                    <a href="#_" class="lightbox" id="img1">
+                        <div> 
+                          <img src="./assets/images/swimming.jpg"/> 
+                          <p> The mighty Bear </p>
                         </div>
-                    </div>
-                    <hr>
-                    <p class="copyright">Zimparks 2022 - All Rights Reserved</p>
-                </footer>
-              <!--End of Footer-->
+                    </a>
     
-
-
-
-
-
+                      <a href="#_" class="lightbox" id="img2">
+                        <div> 
+                          <img src="./assets/images/fishing-for-tiger.jpg"/> 
+                          <p> Lorem ipsum dolor, </p>
+                        </div>
+                      </a>
     
+                     <a href="#_" class="lightbox" id="img3">
+                        <div> 
+                          <img src="./assets/images/nyanga-1.jpg"/> 
+                          <p>Lorem ipsum dolor, </p>
+                        </div>
+                      </a>
+    
+                     <a href="#_" class="lightbox" id="img4">
+                        <div> 
+                          <img src="./assets/images/Kazuma-hyena.png"/> 
+                          <p> Lorem ipsum dolor,</p>
+                        </div>  
+                      </a>
+    
+                     <a href="#_" class="lightbox" id="img5">
+                        <div> 
+                          <img src="./assets/images/Nick-Dyer-31-1024x681.jpg"/> 
+                          <p> The Car</p>
+                        </div>
+                     </a>
+    
+                      <a href="#_" class="lightbox" id="img6">
+                        <div> 
+                          <img src="./assets/images/Nick-Dyer-64-1024x6811.jpg"/> 
+                          <p> Lorem ipsum dolor,</p>
+                        </div>
+                      </a>
+    
+                      <a href="#_" class="lightbox" id="img7">
+                        <div> 
+                          <img src="./assets/images/Nick-Dyer-99-1024x683.jpg"/> 
+                          <p> Lorem ipsum dolor,</p>
+                        </div>
+                      </a>
+    
+                      <a href="#_" class="lightbox" id="img8">
+                        <div> 
+                          <img src="./assets/images/nyanga2.jpg"/> 
+                          <p> Lorem ipsum dolor,</p>
+                        </div>
+                      </a>
+                </div>
+    
+            </section>
 
+      <!--JS Files-->
 
-
+          <!--Gallery-->
     <script>
-        var slideImage = document.getElementById("slideImage");
-
-        var images = new Array (
-            "./assets/images/banner-img/nyanga/nyanga-1.jpg",
-            "./assets/images/banner-img/nyanga/nyanga-2.jpg",
-            "./assets/images/banner-img/nyanga/nyanga-3.jpg",
-            "./assets/images/banner-img/nyanga/nyanga-4.jpg"
-        );
-
-        var len = images.length;
-        var i = 0;
-
-        function slider(){
-            if(i > len-1) {
-                i = 0;
-            }
-
-            slideImage.src = images[i];
-            i++;
-            setTimeout('slider()', 5000);
-        }
-
-    </script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){
+            dataLayer.push(arguments);
+          }
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-76614800-1');
+      </script>
 
 
-    <!--Gallery-->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){
-          dataLayer.push(arguments);
-        }
-      gtag('js', new Date());
+      <script src="./assets/js/jquery-slim.min.js"></script>
+      <script src="./assets/js/jquery-3.6.0.min.js"></script>
+      <script src="./assets/js/bootstrap.min.js"></script>
+      <script src="./assets/js/slick.min.js"></script>
+      <script src="./assets/js/wow.min.js"></script>
+      <script src="./assets/js/popper.min.js"></script>
+      <script src="./assets/js/scrollreveal.min.js"></script>
+      <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
+      <script src="./assets/js/charming.min.js"></script>
+      <script src="./assets/js/TweenMax.min.js"></script>
+      <script src="./assets/js/demo.js"></script>
+      <script src="./assets/js/leaflet.min.js"></script>
+      <script src="./assets/js/appear.js"></script> 
+
+      <!--Custom JS-->
+      <script src="./assets/js/index.js"></script>
+      <script src="./assets/js/menu.js"></script>
+      <script src="./assets/js/search-form.js"></script>
+      <script src="./assets/js/slider.js"></script>
+      <script src="./assets/js/horizontal-slider.js"></script>
+
     
-      gtag('config', 'UA-76614800-1');
-    </script>
-
-            <!--JS Files-->
-
-
-            <script src="./assets/js/jquery-slim.min.js"></script>
-            <script src="./assets/js/jquery-3.6.0.min.js"></script>
-            <script src="./assets/js/bootstrap.min.js"></script>
-            <script src="./assets/js/slick.min.js"></script>
-            <script src="./assets/js/wow.min.js"></script>
-            <script src="./assets/js/popper.min.js"></script>
-            <script src="./assets/js/scrollreveal.min.js"></script>
-            <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-            <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
-            <script src="./assets/js/charming.min.js"></script>
-            <script src="./assets/js/TweenMax.min.js"></script>
-            <script src="./assets/js/demo.js"></script>
-            <script src="./assets/js/leaflet.min.js"></script>
-            <script src="./assets/js/appear.js"></script> 
-    
-            <!--Custom JS-->
-            <script src="./assets/js/index.js"></script>
-            <script src="./assets/js/menu.js"></script>
-            <script src="./assets/js/search-form.js"></script>
-            <script src="./assets/js/slider.js"></script>
-            <script src="./assets/js/horizontal-slider.js"></script>
-            <script src="./assets/js/park-slider.js"></script>
-            <script src="./assets/js/cardslideshow.js"></script>
-
-
-
 </body>
 </html>

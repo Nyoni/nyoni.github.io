@@ -1,0 +1,48 @@
+.overview_tabs {
+  position: relative;   
+  min-height: 360px; 
+  clear: both;
+  margin: 25px 0;
+}
+.overview_tab {
+  float: left;  
+  clear: both;
+  width: 286px;
+}
+.overview_tab label {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    font-size: 21px;
+    vertical-align: middle;
+    position: relative;
+    left: 1px;
+    width: 264px;
+    height: 30px;
+    display: table-cell;
+}
+.overview_tab [type=radio] {
+  display: none;   
+}
+.overview_content {
+  position: absolute;
+  top: 0;
+  left: 286px;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+ }
+.overview_content span {
+  animation: 0.5s ease-out 0s 1 slideInFromTop; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 2px solid transparent;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .overview_content {
+  z-index: 1;
+}
