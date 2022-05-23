@@ -274,10 +274,81 @@ span.parisienne {
   border: .05em solid #e8eae3;
 }
 
+/*social media links*/
+
+nav.socials {
+  position: fixed;
+  width: 50px;
+  margin-top: 150px;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.45);
+  z-index: 1000; 
+}
+
+nav.socials li {
+  height: 60px;
+  position: relative;
+
+}
+
+nav.socials li a {
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  padding-left: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+  transition: all 0.3s linear;
+}
+
+nav.socials li:nth-child(1) a{
+  background: #4267B2;
+}
+
+nav.socials li:nth-child(2) a{
+  background: #1da1f2;
+}
+
+nav.socials li:nth-child(3) a{
+  background: #e1306c;
+}
+
+nav.socials li:nth-child(4) a{
+  background: #ff0000;
+}
+
+nav.socials li:nth-child(5) a{
+  background: #4267B2;
+}
+
+nav.socials li a i {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 22px;
+}
+
+nav.socials li a span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: none;
+}
+
+nav.socials a:hover {
+  z-index: 1;
+  width: 200px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+nav.socials ul li a:hover span {
+  display: block;
+  padding-left: 30%;
+}
 /**************************02. MENU******************************************************/
 /************************************************************************************/
 
-
+            
 header:after {
   display: block;
   clear: both;
@@ -463,6 +534,9 @@ display: block;
 margin: 7px 5px;
 background: var(--bg1);
 }
+
+
+
 
 /************************** HOME PAGE******************************************************/
 /**************************index.html******************************************************/

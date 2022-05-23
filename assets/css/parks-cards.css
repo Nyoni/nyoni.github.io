@@ -12,6 +12,7 @@
 
 .column {
 	background-size: cover;
+	border-radius: 5px;
 }
 
 .column a {
