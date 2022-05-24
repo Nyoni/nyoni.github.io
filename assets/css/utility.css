@@ -1,0 +1,297 @@
+/*font family*/
+
+@font-face {
+    font-family: 'Great Vibes', cursive;
+    src: local('./fonts/Great_Vibes/GreatVibes-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'parisienneregular';
+    src: url('./webfonts/parisienne/parisienne-regular-webfont.woff') format('woff2'),
+         url('./webfonts/parisienne/parisienne-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'nanummyeongjoregular';
+    src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
+         url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'latoblack';
+    src: url('./webfonts/lato/lato-black-webfont.woff2') format('woff2'),
+         url('./webfonts/lato/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'latobold';
+    src: url('lato-bold-webfont.woff2') format('woff2'),
+         url('lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'latoregular';
+    src: url('./webfonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('./webfonts/lato/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /*End font family*/
+  
+  /*--------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  :root {
+    --main-color: #d3ad7f;
+    --yellow: #e9ea0c;
+    --green: #013220;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    --white: #ffffff;
+    --text-color: #444;
+    --bg1: #e8eae3;
+    --bg2: #f5f5f5;
+  /*   --great-vibes: 'Great Vibes', cursive;
+    --open-sans: 'Open Sans', sans-serif;
+    --nanum: 'Nanum Myeongjo', serif;
+    --parisienne: 'Parisienne', cursive; 
+    --lato: 'Lato', sans-serif;
+   --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
+  }
+  
+  * {
+    font-family: 'latoregular';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
+  
+  html {
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 1.25;
+  }
+  
+  h2 {
+    font-size: 36px;
+    line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 16px;
+  }
+  
+  h6 {
+    font-size: 14px;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .page-wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--text-color);
+  }
+  
+  section {
+    padding: 3rem 5%;
+  }
+  
+  .heading {
+    text-align: center;
+    color: var(--text-color);
+    padding: 0.5rem;
+    word-spacing: 20px;
+  }
+  
+  h5.heading-two {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: center;
+    color: var(--text-color);
+    padding: 0.5rem;
+    font-family: 'parisienneregular';
+  }
+  
+  a:hover,
+  a:focus,
+  a:visited {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  span.parisienne {
+    font-family: 'parisienneregular';
+  }
+  
+  /*Input buttons*/
+  .overlay,
+  .relative {
+      position: relative;
+  }
+  
+  .overlay:before {
+      position: absolute;
+      content: '';
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.5;
+      background: rgba(0, 0, 0, 0.9);
+  }
+  
+  .overlay * {
+      z-index: 2;
+      position: relative;
+  }
+  
+  /*Underline*/
+  .underline-small {
+    width: 20%;
+    height: 5px;
+    background-color: var(--green);
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  /*End Underline*/
+  
+  /*Scrollbar*/
+  ::-webkit-scrollbar {
+    width: 0.8em;
+    height: 2em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #e8eae3;
+    border-radius: 100vw;
+    margin-block: 0.1em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--green);
+    border-radius: 100vw;
+    border: .05em solid #e8eae3;
+  }
+  
+  /*social media links*/
+  
+  nav.socials {
+    position: fixed;
+    width: 35px;
+    margin-top: 150px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.45);
+    z-index: 1000; 
+  }
+  
+  nav.socials li {
+    height: 40px;
+    position: relative;
+  
+  }
+  
+  nav.socials li a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    padding-left: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    transition: all 0.3s linear;
+  }
+  
+  nav.socials li:nth-child(1) a{
+    background: #4267B2;
+  }
+  
+  nav.socials li:nth-child(2) a{
+    background: #1da1f2;
+  }
+  
+  nav.socials li:nth-child(3) a{
+    background: #e1306c;
+  }
+  
+  nav.socials li:nth-child(4) a{
+    background: #ff0000;
+  }
+  
+  nav.socials li:nth-child(5) a{
+    background: #4267B2;
+  }
+  
+  nav.socials li a i {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 18px;
+  }
+  
+  nav.socials li a span {
+
+    letter-spacing: 1px;
+    display: none;
+    left: 10px;
+    font-size: 14px;
+  }
+  
+  nav.socials a:hover {
+    z-index: 1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  
+  nav.socials ul li a:hover span {
+    display: block;
+    padding-left: 30%;
+    top: 10%;
+  }
