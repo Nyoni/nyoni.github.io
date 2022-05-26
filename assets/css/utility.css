@@ -170,6 +170,12 @@
   span.parisienne {
     font-family: 'parisienneregular';
   }
+
+  span.latoblack {
+    font-family: 'latoblack';
+  }
+
+
   
   /*Input buttons*/
   .overlay,

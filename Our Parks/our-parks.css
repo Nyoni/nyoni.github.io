@@ -457,6 +457,8 @@ consists of Overview, Accomodation, etc          */
     left: 0;
     transform: translateY(-3px);
     border-radius: 6px;
+    word-spacing: 5px;
+    text-transform: none;
   }
 
   /*Tabs under Accomodation*/
