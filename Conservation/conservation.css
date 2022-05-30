@@ -152,9 +152,52 @@
     border-radius: 6px;
   }
 
+/*TFCA HERO SECTION*/
+.tfca-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../assets/images/Buffalo-Reflection-1.jpg); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tfca-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.tfca-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.tfca-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.tfca-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.tfca-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
 
 
-  .tfca-welcome-section {
+.tfca-welcome-section {
     background: var(--bg2);
     color: var(--text-color);
   }
@@ -196,11 +239,11 @@
     color: var(--white);
   }
   
-  .home-welcome-content .home-welcome-textbox p {
+  .tfca-welcome-content .tfca-welcome-textbox p {
     font-weight: 100;
   }
   
-  .home-welcome-textbox > .btn {
+  .tfca-welcome-textbox > .btn {
     margin-top: 1rem;
     padding: 0.6rem 1.8rem;
     background-color: #e9ea0c;
