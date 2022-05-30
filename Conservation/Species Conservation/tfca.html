@@ -29,10 +29,59 @@
         <link rel="stylesheet" href="/assets/css/spacing.min.css">
         <!--Style-->
 
+         <!--Font Awesome-->
+         <link rel="stylesheet" href="../assets/css/fontawesome-v5.9.0.min.css">
+         <!--Flaticon-->
+         <link rel="stylesheet" href="../assets/css/flaticon.css">
+         <!--Bootstrap-->
+         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+         <!--Bulma CSS-->
+         <link rel="stylesheet" href="../assets/css/bulma/css/bulma.css">
+         <!--Slick-->
+         <link rel="stylesheet" href="../assets/css/slick.css">
+         <!--Flaticon-->
+         <link rel="stylesheet" href="./assets/css/flaticon.css">
+         <!--Animate-->
+         <link rel="stylesheet" href="../assets/css/animate.css">
+         <!--Leaflet-->
+         <link rel="stylesheet" href="../assets/css/leaflet.css">
+         <!--Spacing-->
+         <link rel="stylesheet" href="../assets/css/spacing.min.css">
+         <!--Style-->
+ 
+     <!--Open Iconic Bootstrap-->
+     <link rel="stylesheet" href="../assets/css/open-iconic-bootstrap.min.css">
+     <!--Animate-->
+     <link rel="stylesheet" href="css/animate.css">
+     <!--Owl Carousel-->
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <!--Magnific Popup-->
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     <!--AOS-->
+     <link rel="stylesheet" href="css/aos.css">
+     <!--Ionicons-->
+     <link rel="stylesheet" href="css/ionicons.min.css">
+     <!--Bootstrap Date Picker-->
+     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+     <!--JQuery Time Picker-->
+     <link rel="stylesheet" href="css/jquery.timepicker.css">
+     <!--Flaticon-->
+     <link rel="stylesheet" href="css/flaticon.css">
+     <!--Icomoon-->
+     <link rel="stylesheet" href="css/icomoon.css">
+     <!--Style 2-->
+     
+ 
+
         <!--==Custom CSS==-->
         <link rel="stylesheet" href="/assets/css/chrome.css">
+
+        <link rel="stylesheet" href="/assets/css/utility.css">
         <!--Main CSS File-->
         <link rel="stylesheet" href="/assets/css/style.css">
+
+        <link rel="stylesheet" href="../conservation.css">
         <!--Responsive CSS-->
         <link rel="stylesheet" href="/assets/css/responsive.css">
 
@@ -96,7 +145,7 @@
                                     <li><a href="/index.html">Home</a></li>
                                     
                                     <!--About Us-->
-                                    <li class="dropdown"><a href="about-us.html">About Us</a></li>
+                                    <li class="dropdown"><a href="/About Us/about-us.html">About Us</a></li>
                                     
                                     <!--Conservation-->   
                                     <li class="dropdown"><a href="/Conservation/conservation.html">Conservation</a>
@@ -184,22 +233,91 @@
     </header>
     <!--*** End Of Header Area ***-->
     <!--end HEADER-->
-            <!--*** Hero Section ***-->
-            <section class="home-hero-section overlay">
-                <div >
-                    <div class="home-hero-inner">
-                        <h1 class="wow fadeInUp" data-wow-duration="1s">TFCAs</h1>
-                        
+    <!--*** Hero Section ***-->
+    <section class="tfca-hero-section overlay">
+        <div >
+            <div class="tfca-hero-inner">
+                <h1 class="wow fadeInUp" data-wow-duration="1s">TFCAs</h1>
+            </div>
+        </div>
+    </section>
+    <!--*** End of Hero Section ***-->
+
+    <div class="tab-wrap">
+
+        <!-- active tab on page load gets checked attribute -->
+        <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+        <label for="tab1">KAZA</label>
+    
+        <input type="radio" id="tab2" name="tabGroup1" class="tab">
+        <label for="tab2">Great Limpopo</label>
+
+        <input type="radio" id="tab3" name="tabGroup1" class="tab">
+        <label for="tab3">Lorem</label>
+    
+        <input type="radio" id="tab4" name="tabGroup1" class="tab">
+        <label for="tab4">Lorem</label>
+    
+        <input type="radio" id="tab5" name="tabGroup1" class="tab">
+        <label for="tab5">Lorem</label>
+    
+        <input type="radio" id="tab6" name="tabGroup1" class="tab">
+        <label for="tab6">Lorem</label>
+
+        <div class="tab__content">
+            <section class="tfca-welcome-section" id="tfca-welcome">
+                <div>
+                    <div class="tfca-welcome-content">
+                        <div class="tfca-welcome-image image-01 explore-image-overlay">                    
+                            <img src="./assets/images/Buffalo-Reflection-1.jpg" alt="tfca-welcome-image">
+                        </div> 
+
+                        <div class="tfca-welcome-textbox">
+                            <h1 class="title-03">Zimbabwe Parks & Wildlife Management Authority</h1>
+
+                            <p class>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ad tempore aut at, dolore numquam. Neque maiores, in quia, incidunt nisi voluptatum dolor commodi laborum, deserunt eaque voluptate inventore facere.
+                            </p>
+
+                            <a href="about-us.html" class="btn">Read More</a>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <!--*** End of Hero Section ***-->
+            </section>         
+        </div>
+
+        <div class="tab__content">
+                
+        </div>
+
+        <div class="tab__content">
+                
+        </div>
+
+        <div class="tab__content">
+                
+        </div>
+
+        <div class="tab__content">
+                
+        </div>
+
+        <div class="tab__content">
+                
+        </div>
+
+        
+
+    </div>    
+
+
 
 
 
                 <!--JS Files-->
     <script src="/assets/js/jquery-slim.min.js"></script>
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/slick.min.js"></script>
     <script src="/assets/js/wow.min.js"></script>
@@ -213,6 +331,20 @@
     <script src="/assets/js/appear.js"></script> 
 
     <!--Custom JS-->
+
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
     <script src="/assets/js/index.js"></script>
     <script src="/assets/js/menu.js"></script>
     <script src="/assets/js/search-form.js"></script>
