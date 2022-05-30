@@ -55,7 +55,7 @@ font-family: 'Parisienne', cursive;
 /**************************02. MENU******************************************************/
 /************************************************************************************/
 
-            
+                               
 header:after {
   display: block;
   clear: both;
@@ -240,7 +240,7 @@ width: 30px;
 display: block;
 margin: 7px 5px;
 background: var(--bg1);
-}
+} 
 
 
 
