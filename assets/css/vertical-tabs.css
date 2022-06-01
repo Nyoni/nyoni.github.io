@@ -1,34 +1,34 @@
-.overview_tabs {
+.season_tabs {
   position: relative;   
   min-height: 360px; 
   clear: both;
-  margin: 25px 0;
+  margin: 25px 40px;
 }
-.overview_tab {
+.season_tab {
   float: left;  
   clear: both;
   width: 286px;
 }
-.overview_tab label {
-    background: #eee;
+.season_tab label {
+
     padding: 10px;
-    border: 1px solid #ccc;
+  
     margin-left: -1px;
-    font-size: 21px;
+    font-size: 18px;
     vertical-align: middle;
     position: relative;
     left: 1px;
-    width: 264px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
     display: table-cell;
 }
-.overview_tab [type=radio] {
+.season_tab [type=radio] {
   display: none;   
 }
-.overview_content {
+.season_content {
   position: absolute;
   top: 0;
-  left: 286px;
+  left: 200px;
   background: white;
   right: 0;
   bottom: 0;
@@ -36,10 +36,10 @@
   border: 1px solid #ccc;
  }
 
- .overview_content .lists {
+ .season_content .lists {
    list-style: circle;
  }
-.overview_content span {
+.season_content span {
   animation: 0.5s ease-out 0s 1 slideInFromTop; 
 }
 [type=radio]:checked ~ label {
@@ -47,6 +47,6 @@
   border-bottom: 2px solid transparent;
   z-index: 2;
 }
-[type=radio]:checked ~ label ~ .overview_content {
+[type=radio]:checked ~ label ~ .season_content {
   z-index: 1;
 }

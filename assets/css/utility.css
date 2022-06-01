@@ -78,6 +78,10 @@
     text-transform: capitalize;
     transition: 0.2s linear;
   }
+
+  body.background-1 {
+    background: var(--bg1);
+}
   
   html {
     overflow-x: hidden;
