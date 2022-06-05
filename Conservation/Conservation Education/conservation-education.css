@@ -1,0 +1,52 @@
+
+
+
+
+
+
+/*** i. hero section ***/
+
+.education-hero-section{
+    position: relative;
+    height: 80vh;
+    background: url(images/DSC_0187.JPG); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .education-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .education-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .education-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .education-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .education-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }
+  
+  
