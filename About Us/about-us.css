@@ -1,4 +1,51 @@
 
+
+
+.about-hero-section{
+  position: relative;
+  height: 95vh;
+  background: url(/assets/images/banner-img/banner-1.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.about-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.about-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.about-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.about-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+
+
 section h2 {
     text-align: center;
 }
