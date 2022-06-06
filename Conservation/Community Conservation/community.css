@@ -1,0 +1,130 @@
+
+
+.conservancies-hero-section{
+    position: relative;
+    height: 95vh;
+    background: url(/assets/images/banner-img/banner-3.JPG); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .conservancies-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .conservancies-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .conservancies-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .conservancies-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .conservancies-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }
+
+  .conflict-hero-section{
+    position: relative;
+    height: 95vh;
+    background: url(/assets/images/banner-img/banner-4.JPG); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .conflict-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .conflict-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .conflict-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .conflict-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .conflict-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }
+
+  .outreach-hero-section{
+    position: relative;
+    height: 95vh;
+    background: url(/assets/images/banner-img/banner-5.JPG); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .outreach-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .outreach-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .outreach-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .outreach-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .outreach-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }

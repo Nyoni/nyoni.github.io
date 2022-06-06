@@ -137,6 +137,8 @@
     width: 100%;
     margin: 0 auto;
   }
+
+
   
   .section-title {
     text-align: center;
@@ -344,7 +346,8 @@
 /*********footer*******************/
 .kilimanjaro_area {
   position: relative;
-  z-index: 1;
+
+  top: 100px;
 }
 .foo_top_header_one {
   background-color: #013220;
