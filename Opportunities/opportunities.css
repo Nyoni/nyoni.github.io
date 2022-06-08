@@ -43,3 +43,68 @@
     letter-spacing: 0.8px;
     color: var(--green);
   }
+
+  
+  .opportunities-page {
+    margin: 20px 0
+  }
+  
+  .opportunities-page:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .opportunities-wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+    min-height: 600px;
+  }
+  
+  .opportunities-content-wrapper {
+    float: left;
+    width: 100%;
+  }
+  
+  .opportunities-content {
+    margin-right: 320px;
+    clear: both;
+    overflow: auto;
+    background: #1abc9c;
+    background: rgba(26,188,156, 0.4);
+    min-height: 600px;
+  }
+  
+  .opportunities-sidebar {
+    position: relative;
+    width: 320px;
+    margin-left: -320px;
+    float: right;
+    overflow: hidden;
+    background: #2c3e50;
+    background: rgba(44,62,80, 0.4);
+    color: #eee;
+    min-height: 600px;
+  }
+  
+  .opportunities-page > a{
+    display: block;
+    text-align:center;
+    margin: 10px auto;
+    width: 100%;
+    color: #2c3e50;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .opportunities-sidebar {
+      width: 100%;
+      margin-left: 0;
+      height: auto;
+      position: relative;
+    }
+    .opportunities-content {
+      margin-right: 0;
+    }
+  }

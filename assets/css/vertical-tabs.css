@@ -2,7 +2,7 @@
   position: relative;   
   min-height: auto!important; 
   clear: both;
-  margin: 25px 40px;
+  margin: 25px 50px;
   
 }
 .season_tab {
@@ -37,7 +37,7 @@
 .season_tab label {
 
     padding: 10px;
-  
+  color: var(--text-color);
     margin-left: -1px;
     font-size: 18px;
     vertical-align: middle;
@@ -53,7 +53,7 @@
 .season_content {
   position: absolute;
   top: 0;
-  left: 200px;
+  left: 180px;
   background: white;
   display: none;
   min-width: 700px;
@@ -69,9 +69,13 @@
 }
 [type=radio]:checked ~ label {
   background: white;
-  border-bottom: 2px solid transparent;
+  color: var(--heading-text-color);
+  border-left: 5px solid var(--green);
+  font-size: larger;
+
  
 }
 [type=radio]:checked ~ label ~ .season_content {
   display: block;
+
 }
