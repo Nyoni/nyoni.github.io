@@ -15,7 +15,31 @@
 
 .container-about ul li {
   display: list-item;
-  list-style: circle;
+  list-style: disc;
+}
+
+.container-about > ol {
+ 
+  display: block;
+ 
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin-bottom: 10px;
+}
+
+.container-about ol li {
+  display: list-item;
+  list-style: decimal;
+  padding-left: 10px;
+}
+
+.container-about ol li.roman {
+  display: list-item;
+  list-style: lower-roman;
+  font-style: italic;
 }
 
 /*Tabs section for TFCA Section*/
