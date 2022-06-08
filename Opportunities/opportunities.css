@@ -46,7 +46,7 @@
 
   
   .opportunities-page {
-    margin: 20px 0
+    margin: 25px 50px;
   }
   
   .opportunities-page:after {
@@ -72,8 +72,7 @@
     margin-right: 320px;
     clear: both;
     overflow: auto;
-    background: #1abc9c;
-    background: rgba(26,188,156, 0.4);
+    background: var(--bg1);
     min-height: 600px;
   }
   
@@ -81,11 +80,11 @@
     position: relative;
     width: 320px;
     margin-left: -320px;
+    padding-left: 30px;
     float: right;
     overflow: hidden;
-    background: #2c3e50;
-    background: rgba(44,62,80, 0.4);
-    color: #eee;
+    background: var(--bg2);
+    color: var(--heading-text-color);
     min-height: 600px;
   }
   
@@ -94,7 +93,7 @@
     text-align:center;
     margin: 10px auto;
     width: 100%;
-    color: #2c3e50;
+    color: var(-text-color);
   }
   
   @media only screen and (max-width: 768px) {
