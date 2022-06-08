@@ -132,11 +132,21 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    text-transform: none;
+    
+  }
+
+  p {
+    text-transform: none;
   }
   
   .page-wrapper {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .gallery-pad {
+      margin-bottom: 20px;
   }
 
 
