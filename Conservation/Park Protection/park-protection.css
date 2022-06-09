@@ -23,7 +23,7 @@
 
 .conservation_law-hero-section{
     position: relative;
-    height: 100vh;
+    height: 90vh;
     background: url(/assets/images/Zimparks-rangers.jpg); /*background image*/
     background-size: cover;
     background-position: center;
@@ -63,6 +63,51 @@
     letter-spacing: 0.8px;
     color: var(--green);
   }
+
+/*Fire Management*/
+  
+.fire_management-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(/assets/images/fire-management/fire.jpg); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.fire_management-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.fire_management-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.fire_management-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.fire_management-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.fire_management-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
   
   
   /*** ii. conservation_law welcome section ***/
