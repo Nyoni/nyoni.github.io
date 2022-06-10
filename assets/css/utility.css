@@ -425,8 +425,17 @@
    height: 100vh;
  }
 
+ .carousel-item h1,
+ .carousel-item h2,
+ .carousel-item h3,
+ .carousel-item h4,
+ .carousel-item h5 {
+   color: white;
+   font-weight: 300;
+ }
+
  .carousel-item:nth-child(1) {
-   background-image: url('../images/banner-img/banner-1.JPG');
+   background-image: url('../images/banner-img/home-banner.JPG');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -446,6 +455,19 @@
    background-position: center center;
  }
 
+ .carousel-item:nth-child(4) {
+  background-image: url('../images/banner-img/banner-5.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url('../images/banner-img/banner-6.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
  /* Height for devices larger than 576px */
  @media (min-width: 992px) {
    #introCarousel {
