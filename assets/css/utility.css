@@ -254,6 +254,11 @@
     font-family: 'latoblack';
   }
 
+  hr.my-5 {
+    color: #19171a;
+    font-weight: lighter;
+  }
+
 
   
   /*Input buttons*/
@@ -483,6 +488,8 @@
  .navbar .nav-link {
    color: #fff !important;
  }
+
+
 
 /*eND*/
 
