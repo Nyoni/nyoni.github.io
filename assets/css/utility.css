@@ -434,6 +434,11 @@
    font-weight: 300;
  }
 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   color: white;
+ }
+
  .carousel-item:nth-child(1) {
    background-image: url('../images/banner-img/home-banner.JPG');
    background-repeat: no-repeat;
@@ -471,7 +476,7 @@
  /* Height for devices larger than 576px */
  @media (min-width: 992px) {
    #introCarousel {
-     margin-top: 0;
+     margin-top: -10px;
    }
  }
 
