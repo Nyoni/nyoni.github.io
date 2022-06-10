@@ -195,6 +195,45 @@
     text-transform: none;
     font-size: 16px;
   }
+
+  p.bolder {
+    font-style: italic;
+    color: var(--green);
+  }
+
+  p.bolder > a {
+
+    color: var(--green);
+
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: var(--green);
+
+  }
+
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    background-color: #013220;
+    transform-origin: bottom-right;
+    transition: transform 0.25s ease-out;
+
+  }
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom-left;
+  }
+
   
   .page-wrapper {
     width: 100%;
@@ -255,8 +294,9 @@
   }
 
   hr.my-5 {
-    color: #19171a;
-    font-weight: lighter;
+    background-color: #19171a;
+    height: 0.5px;
+    opacity: 0.5;
   }
 
 
