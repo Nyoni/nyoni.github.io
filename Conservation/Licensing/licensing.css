@@ -3,7 +3,7 @@
 .hunting-hero-section{
     position: relative;
     height: 95vh;
-    background: url(/assets/images/banner-img/banner-4.JPG); /*background image*/
+    background: url(/images/banner-img/banner-4.JPG); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -46,7 +46,7 @@
   .permits-hero-section{
     position: relative;
     height: 95vh;
-    background: url(/assets/images/banner-img/banner-5.JPG); /*background image*/
+    background: url(/images/banner-img/banner-5.JPG); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;

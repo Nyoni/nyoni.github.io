@@ -4,7 +4,7 @@
 .about-hero-section{
   position: relative;
   height: 95vh;
-  background: url(/assets/images/banner-img/banner-1.JPG); /*background image*/
+  background: url(../images/banner-img/banner-1.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -39,7 +39,7 @@
 
 .about-hero-inner .sub-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.8px;
   color: var(--green);
 }

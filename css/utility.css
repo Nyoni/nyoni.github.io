@@ -304,6 +304,8 @@
     height: 5rem;
     width: 5rem;
     cursor: pointer;
+
+    z-index: 1;
   }
 
   
@@ -527,7 +529,7 @@
  /* Height for devices larger than 576px */
  @media (min-width: 992px) {
    #introCarousel {
-     margin-top: -10px;
+     margin-top: 0px;
    }
  }
 

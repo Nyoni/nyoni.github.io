@@ -155,7 +155,7 @@
 .tfca-hero-section{
   position: relative;
   height: 90vh;
-  background: url(../assets/images/Buffalo-Reflection-1.jpg); /*background image*/
+  background: url(/images/banner-img/banner-8.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
