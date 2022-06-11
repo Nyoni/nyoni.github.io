@@ -4,7 +4,7 @@
 .opportunities-hero-section{
     position: relative;
     height: 95vh;
-    background: url(/assets/images/banner-img/banner-2.jpg); /*background image*/
+    background: url(/images/banner-img/banner-2.jpg); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;
