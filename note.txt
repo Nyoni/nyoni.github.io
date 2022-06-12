@@ -120,3 +120,66 @@
         
   
     </header>
+
+
+
+  <!->
+                <div class="tab-wrap-2">
+
+                  <!-- active tab on page load gets checked attribute -->
+                  <input type="radio" id="tab2.1" name="tabGroup2" class="tab-2" checked>
+                  <label for="tab2.1">Park Size</label>
+              
+                  <input type="radio" id="tab2.2" name="tabGroup2" class="tab-2">
+                  <label for="tab2.2">Vegetation </label>
+              
+                  <input type="radio" id="tab2.3" name="tabGroup2" class="tab-2">
+                  <label for="tab2.3">Wildlife</label>
+              
+                  <input type="radio" id="tab2.4" name="tabGroup2" class="tab-2">
+                  <label for="tab2.4">Climate</label>
+              
+                 
+
+                  <!--Park Size-->
+                  <div class="tab__content-2">
+                    <p>The Park covers 5 000km2</p>
+                
+
+                  </div>
+                  <!--End Park Size-->
+
+                  <!--Vegetation-->
+                  <div class="tab__content-2">
+                   <p>Woodlands – including alluvial, mopane, miombo, combretum, dry forests and wooded grasslands. <br>
+                     The Park also possess baobab trees.</p>
+                  </div>
+                  <!--End Vegetation-->
+
+                  <!--Wildlife-->
+                  <div class="tab__content-2">
+                    Gonarezhou hosts 89 larger and 61 smaller mammal species, 400 bird species and 50 fish species (including Zambezi shark and small-tooth sawfish at the confluence of the Runde and Save rivers).Home to elephant, buffalo, lion and leopard. 
+                  </div>
+                  <!--End Wildlife-->
+
+                  <!--Climate-->
+                  <div class="tab__content-2">
+                    <p>
+                      April – Wet season comes to an end. <br> 
+                      Temperatures begin to cool especially at night. <br>
+                      May, June, July & August – Winter period and coldest time, with August warming a bit. <br>
+                      Day temperatures are around 270C/810F. <br> 
+                      Night time temperatures are around 120C/540F. <br>
+                      September & October – Days are hot with over 310C/880F. <br>
+                      November –Wet season begin. <br>
+                      December, January and February –Wettest period. <br> 
+                      Daytime temperature averages 320C/900F. <br> 
+                      Nighttime and early morning average 200C/680F. <br>
+                      March – Rains diminish. Temperatures average between 310C/880F and 190C/660F during day and night.
+                      
+
+                    </p>
+                   
+                  </div>
+                  <!--End Climate-->
+                </div>
