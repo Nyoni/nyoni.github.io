@@ -183,3 +183,42 @@
                   </div>
                   <!--End Climate-->
                 </div>
+
+           <div class="tab__content">
+              <div class="parks-tab-container">
+                <div class="parks-tab-box">
+                    <div class="parks-tab-imgBox">
+                        <img src="/images/gonaedit.jpg" alt="">
+                    </div>
+                    <div class="parks-tab-content">
+                      <h5> Chibilila Falls </h5>
+                    </div>
+                </div>
+                <div class="parks-tab-box">
+                    <div class="parks-tab-imgBox">
+                      <img src="/images/gonaedit.jpg" alt="">
+                    </div>
+                    <div class="parks-tab-content">
+                      <h5> Duguvi Falls</h5>
+                    </div>
+                </div>
+                <div class="parks-tab-box">
+                    <div class="parks-tab-imgBox">
+                      <img src="/images/gonaedit.jpg" alt="">
+                    </div>
+                    <div class="parks-tab-content">
+                        <h5>  Chipinda Pools </h2>
+                    </div>
+                </div>
+        
+                <div class="parks-tab-box">
+                    <div class="parks-tab-imgBox">
+                      <img src="/images/gonaedit.jpg" alt="">
+                    </div>
+                    <div class="parks-tab-content">
+                        <h5> Chilojo Cliffs </h2>
+                    </div>
+                </div>
+              </div>
+           
+            </div>      
