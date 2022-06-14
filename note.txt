@@ -328,3 +328,45 @@
                     </div>
                 </div>
             </section> 
+
+
+
+                           <!--div class="row container">
+                    <div class="col-xs-12 col-sm-8 col-md-8 container-about">
+                        <div class=" col-xs-12 col-sm-10 container-about">
+                            <div class="page-header" id="overview">
+                                <h3>
+                                  Overview <small>Park Protection</small>
+                                </h3>
+                            </div>
+            
+                            <p>
+                                Poaching, invasive species, uncontrolled fires, encroachments and climate change are nuisance in the protection of parks estates in Zimbabwe. 
+                            </p>
+            
+                            <p>
+                                Thus, it is upon this background that conservation division overseers all the fragile natural resources contained in the 5 million hectares (13%) of Zimbabwe’s total land with different strategies which are: 
+                            </p> <br> 
+
+                           
+                        </div>
+                    </div>
+
+                    <div class="col-xs-10 col-sm-3 col-md-3 col-lg-3">
+                        <div class="container-about">
+                            <img src="/images/Zimparks-rangers.jpg" alt="" class="img-thumbnail">
+                        </div>
+                        <br>
+                        <p class= "font-weight-bold bolder " style = "line-height: 30px; ">
+                            <a data-scroll href="#lawenforcement" class="hover-underline-animation"> Law enforcement &nbsp; &nbsp;</a> 
+                            <a data-scroll href="#firemanagement" class="hover-underline-animation">Fire Management &nbsp; &nbsp;</a> 
+                            <a data-scroll href="#rangemanagement" class="hover-underline-animation">Range Management  &nbsp; &nbsp;</a> 
+                            <a data-scroll href="#animalcontrol" class="hover-underline-animation">Animal Control &nbsp; &nbsp;</a> <br>
+                            <a data-scroll href="#others" class="hover-underline-animation">Others. &nbsp; &nbsp;</a>               
+                        </p>
+
+               
+                    </div>
+                </div>
+            </section>
+  Section: Park Protection-->
