@@ -221,4 +221,35 @@
                 </div>
               </div>
            
-            </div>      
+            </div>   
+
+
+
+            contact us
+                       <div class="container" id=articles>
+               <section>
+                   <div class="page-header">
+                       <h2>Lorem <small>Lorem ipsum, dolor </small></h2>
+                   </div>
+                   
+                   <div class="row">
+                   
+                       <div class="col-lg-4 col-sm-4 col-md-4">
+                           <img src="/images/gonarezhou/1.JPG" alt="">
+                        <figcaption class="text-muted" > <span class="border-right text-muted">ARTICLE &nbsp;</span> 14 June 2022 </figcaption>
+                        <figcaption> <span class="h4"> <a href="">Lorem ipsum dolor sit amet</a>  </span> </figcaption>
+                       </div>
+
+                       <div class="col-lg-4 col-sm-4 col-md-4">
+                           <img src="/images/gonarezhou/2.JPG" alt="">
+                           
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4 col-md-4">
+                        <img src="/images/gonarezhou/3.JPG" alt="">
+                           
+                    </div>
+                   </div>
+
+               </section>
+           </div>   

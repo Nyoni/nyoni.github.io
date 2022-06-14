@@ -151,6 +151,53 @@
     border-radius: 6px;
   }
 
+  /*PARK PROTECTION SECTION*/
+
+  .parkprotection-hero-section{
+    position: relative;
+    height: 90vh;
+    background: url(/images/Zimparks-rangers.jpg); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .parkprotection-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .parkprotection-tfca-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .parkprotection-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  .parkprotection-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .parkprotection-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }
+  
+
 /*TFCA HERO SECTION*/
 .tfca-hero-section{
   position: relative;
@@ -190,7 +237,7 @@
 
 .tfca-hero-inner .sub-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.8px;
   color: var(--green);
 }
