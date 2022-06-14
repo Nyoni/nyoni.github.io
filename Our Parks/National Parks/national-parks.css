@@ -19,9 +19,10 @@
   .gonarezhou-hero-inner{
     max-width: 500px;
     position: relative;
+    left: 0;
   }
   
-  .gonarezhou-hero-inner h1{
+  .gonarezhou-hero-inner h2{
     color: #ffffff;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -41,6 +42,29 @@
     letter-spacing: 0.8px;
     color: var(--green);
   }
+
+
+  /*google maps*/
+
+.map-responsive {
+  overflow:hidden;
+  position: relative;
+  padding-bottom: 70%;
+  height: 0;
+}
+
+.map-responsive iframe{
+    right:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
 
 
 
