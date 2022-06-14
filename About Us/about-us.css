@@ -70,7 +70,7 @@
 }
 
 
-.our-team .team-content{ 
+.our-team .leaders-content{ 
   padding: 20px; 
 }
 
@@ -361,4 +361,76 @@ About Us start area
         .ftco-counter .counter-wrap {
           margin-bottom: 20px; 
         } 
+}
+
+
+/*Our Leaders*/
+
+.leaders .leader {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.leaders .leader .leader-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.leaders .leader .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+
+}
+
+.leaders .leader .social a {
+  transition: color 0.3s;
+  color: #2b2320;
+  margin: 0 10px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+
+
+.leaders .leader .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.leaders .leader .leader-info {
+  padding: 25px 15px;
+}
+
+.leaders .leader .leader-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #2b2320;
+}
+
+.leaders .leader .leader-info span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b4aca8;
+}
+
+.leaders .leader .leader-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #847872;
+}
+
+.leaders .leader:hover .social {
+  opacity: 1;
 }
