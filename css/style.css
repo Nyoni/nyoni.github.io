@@ -61,6 +61,10 @@ header:after {
   content: "";
 }
 
+.green-header {
+  background-color: var(--green);
+}
+
 img {
 max-width: 100%;
 display: inline-block;

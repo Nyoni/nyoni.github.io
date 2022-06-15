@@ -2,22 +2,33 @@
 
     "use strict";
 
-    // Header Style and Scroll to Top
-    function headerStyle() {
-        if ($('.main-header').length) {
-            var windowpos = $(window).scrollTop();
-            var siteHeader = $('.main-header');
-            var scrollLink = $('.scroll-top');
-            if (windowpos >= 250) {
-                siteHeader.addClass('fixed-header');
-                scrollLink.fadeIn(300);
+
+    $(function() {
+        $(window).on("scroll", function() {
+            if($(window).scrollTop() > 50) {
+                $(".main-header").addClass("green-header");
             } else {
-                siteHeader.removeClass('fixed-header');
-                scrollLink.fadeOut(300);
+               $(".main-header").removeClass("green-header");
             }
-        }
-    }
-    headerStyle();
+        });
+    });
+
+    // Header Style and Scroll to Top
+   // function headerStyle() {
+     //   if ($('.main-header').length) {
+       //     var windowpos = $(window).scrollTop();
+         //   var siteHeader = $('.main-header');
+        //    var scrollLink = $('.scroll-top');
+         //   if (windowpos >= 250) {
+           //     siteHeader.addClass('fixed-header');
+         //       scrollLink.fadeIn(300);
+         //   } else {
+          //      siteHeader.removeClass('fixed-header');
+          //      scrollLink.fadeOut(300);
+           // }
+       // }
+   // }
+   // headerStyle();
 
     // dropdown menu
 
@@ -98,6 +109,8 @@
        When document is scroll, do
        ========================================================================== */
 
+    /*Change background Color */
+       /*
     $(window).on('scroll', function () {
 
         // Header Style and Scroll to Top
@@ -118,7 +131,7 @@
 
         headerStyle();
 
-    });
+    });*/
 
     /* ==========================================================================
        When document is loaded, do
