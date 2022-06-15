@@ -79,7 +79,6 @@
   font-weight: 100;
   letter-spacing: 2px;
   color: var(--text-color);
- 
   margin-bottom: 7px;
 }
 .our-team .post{
@@ -421,14 +420,14 @@ About Us start area
   display: block;
   font-size: 16px;
   font-weight: 400;
-  color: #b4aca8;
+  color: var(--text-color);
 }
 
 .leaders .leader .leader-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #847872;
+  color: var(--text-color);
 }
 
 .leaders .leader:hover .social {

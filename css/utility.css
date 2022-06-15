@@ -79,7 +79,7 @@
     text-transform: none;
     transition: 0.2s linear;
   
-    color: var(--heading-text-color);
+   
   }
 
   body.background-1 {
@@ -91,6 +91,7 @@
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     text-decoration: none;
+    color: var(--heading-text-color);
   }
   
   h1,
@@ -100,6 +101,9 @@
   h5,
   h6 {
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
   }
   
   h1 {
@@ -278,9 +282,11 @@
 
 
 
+
   p {
     text-transform: none;
-    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem; 
   }
 
   p.bolder {
@@ -338,15 +344,18 @@
   }
 
 
-  
-  .section-title {
-    text-align: center;
-    margin-bottom: 50px;
-    color: var(--text-color);
-  }
-  
+
   section {
     padding: 3rem 5%;
+  }
+
+  section .container-about p {
+    text-justify: inter-word;
+    line-height: 24px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+
   }
   
   .heading {
@@ -489,7 +498,7 @@
   }
   
   nav.socials li:nth-child(5) a{
-    color: #4267B2;
+    color: 	#25d365;
   }
   
   nav.socials li a i {
