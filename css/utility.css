@@ -56,10 +56,10 @@
     --green: #013220;
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
     --white: #ffffff;
-    --text-color: #45433e;
+    --text-color: #333;
     --heading-text-color: #19171a;
-    --bg1: #ffffff;
-    --bg2: #f6f6f6;
+    --bg1: #fff;
+    --bg2: #fff;
   /*   --great-vibes: 'Great Vibes', cursive;
     --open-sans: 'Open Sans', sans-serif;
     --nanum: 'Nanum Myeongjo', serif;
@@ -78,13 +78,10 @@
     text-decoration: none;
     text-transform: none;
     transition: 0.2s linear;
-  
+    
    
   }
 
-  body.background-1 {
-    background: var(--bg1);
-}
   
   html {
     overflow-x: hidden;
@@ -141,6 +138,10 @@
     margin: 0;
     text-transform: none;
     
+  }
+
+  .green {
+    color: #013220;
   }
 
   /*floor fade*/
@@ -287,6 +288,7 @@
     text-transform: none;
     margin-top: 0;
     margin-bottom: 1rem; 
+    font-size: 15px;
   }
 
   p.bolder {
@@ -336,7 +338,7 @@
   .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--text-color);
 }
 
   .gallery-pad {
@@ -353,7 +355,7 @@
     text-justify: inter-word;
     line-height: 24px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 100;
 
   }
