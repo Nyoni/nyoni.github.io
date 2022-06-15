@@ -116,7 +116,7 @@ img {
   border-style: none; 
 }
 
-About Us start area
+/*About Us start*/
 
 #section-counter {
   position: relative;
@@ -167,6 +167,21 @@ About Us start area
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: .1em; 
+}
+
+.ftco-counter strong.number {
+  align-items: center;
+  /* background-color: whitesmoke; */
+  border-radius: 9999px;
+  display: inline-flex;
+  font-size: 1.25rem;
+  height: 2em;
+  justify-content: center;
+  margin-right: 1.5rem;
+  min-width: 2.5em;
+  padding: 0.25rem 0.5rem;
+  text-align: center;
+  vertical-align: top;
 }
 
 
