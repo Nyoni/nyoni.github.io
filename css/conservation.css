@@ -1,0 +1,304 @@
+
+
+
+/*Tabs section for TFCA Section*/
+.tab-wrap {
+    font-size: 16px;
+    font-weight: 100px;
+    color: var();
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: var(--bg2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .tab-wrap:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  .tab {
+    display: none;
+
+  }
+  .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+  .tab:first-of-type:not(:last-of-type) + label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .tab:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+  }
+
+  .tab:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .tab:checked + label {
+    background-color: var(--green);
+    box-shadow: 0 -1px 0 #fff inset;
+    cursor: default;
+    color: #e8eae3;
+  }
+  .tab:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: var(--green);
+    color: #e8eae3;
+  }
+  .tab + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 7;
+    text-align: center;
+    background-color: var(--bg1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px 2rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tab + label:hover {
+    color: #f4f4f4;
+    background-color: var(--green);
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+  .tab__content {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    transform: translateY(-3px);
+    border-radius: 6px;
+  }
+
+  /*PARK PROTECTION SECTION*/
+
+  .parkprotection-hero-section{
+    position: relative;
+    height: 90vh;
+    background: url(/images/Zimparks-rangers.jpg); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .parkprotection-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .parkprotection-tfca-hero-inner{
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .parkprotection-hero-inner h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  .parkprotection-hero-inner h5 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 5px;
+  }
+  
+  .parkprotection-hero-inner .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    color: var(--green);
+  }
+  
+
+/*TFCA HERO SECTION*/
+.tfca-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(/images/banner-img/banner-8.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tfca-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.tfca-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.tfca-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.tfca-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.tfca-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+
+.tfca-welcome-section {
+    background: var(--bg2);
+    color: var(--text-color);
+  }
+  
+  .tfca-welcome-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tfca-welcome-content .tfca-welcome-image {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .tfca-welcome-content .tfca-welcome-image img {
+    z-index: 111;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .tfca-welcome-content .tfca-welcome-textbox {
+    z-index: 222;
+    margin-left: 50px;
+    width: 500px;
+    color: var(--text-color);
+  }
+  
+  .tfca-welcome-content .tfca-welcome-textbox h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--white);
+  }
+  
+  .tfca-welcome-content .tfca-welcome-textbox p {
+    font-weight: 100;
+  }
+  
+  .tfca-welcome-textbox > .btn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.8rem;
+    background-color: #e9ea0c;
+    border: none;
+    border-radius: 25px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  /*******/

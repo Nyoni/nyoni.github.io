@@ -9,7 +9,7 @@
 .education-hero-section{
     position: relative;
     height: 100vh;
-    background: url(images/DSC_0187.JPG); /*background image*/
+    background: url(/images/banner-img/banner-6.JPG); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;
