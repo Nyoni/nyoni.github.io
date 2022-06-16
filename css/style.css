@@ -257,7 +257,7 @@ background: var(--bg1);
 
 .home-hero-section{
   position: relative;
-  height: 95vh;
+  height: 100vh;
   background: url(../images/banner-img/home-banner.JPG); /*background image*/
   background-size: cover;
   background-position: center;
