@@ -129,6 +129,13 @@
   h6 {
     font-size: 14px;
   }
+
+  /*Superscript*/
+  .sup {
+    position: relative;
+    bottom: 1ex; 
+    font-size: 60%;
+  }
   
   ol,
   ul,
