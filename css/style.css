@@ -1045,124 +1045,62 @@ a div {
 
 
 
-/**07-Footer Section
+/**07-Footer Section**/
+
+
 footer {
-  margin-top: 150px;
-  width: 100%;
-  position: absolute;
+  padding: 7em 0; }
+
+.footer-01 {
   background: var(--green);
-  color: var(--bg2);
-  padding: 100px 0 30;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.footer-row {
-  width: 85%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.footer-col {
-  flex-basis: 25%;
-  padding: 10px;
-}
-
-.footer-col:nth-child(2),
-.footer-col:nth-child(3) {
-  flex-basis: 15%;
-}
-
-.footer-logo {
-  width: 80px;
-  margin-bottom: 30px;
-}
-/*footer search
-.search {
-  width: 100%;
   position: relative;
-  display: flex;
+  z-index: 0;
+  overflow: hidden;
+ }
+  
+ .footer-01:after {
+  position: absolute;
+  top: -300px;
+  left: -100px;
+  width: 800px;
+  height: 800px;
+  content: '';
+  background: url(../images/blob-shape.svg);
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  opacity: .05; 
 }
-.searchTerm {
-  width: 100%;
-  border: 3px solid #e8dd13;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
+  
+.footer-01 a {
+    color: #7f72e4; }
+  .footer-01 p {
+    color: rgba(255, 255, 255, 0.6); }
+  .footer-01 .copyright {
+    color: rgba(255, 255, 255, 0.3);
+    color: #999999; }
+  .footer-01 .footer-heading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+    position: relative; }
 
-.searchTerm:focus {
-  color: #00b4cc;
-}
+  .footer-01 ul.list-unstyled li a {
+    color: rgba(255, 255, 255, 0.7); }
+  .footer-01 .block-21 .text .heading a {
+    color: rgba(255, 255, 255, 0.7); }
+  .footer-01 .block-21 .meta > div a {
+    color: #7f72e4; }
+  .footer-01 .block-23 ul li {
+    color: rgba(255, 255, 255, 0.6); }
+    .footer-01 .block-23 ul li a {
+      color: rgba(255, 255, 255, 0.6); }
+    .footer-01 .block-23 ul li .icon {
+      color: rgba(255, 255, 255, 0.4); }
+  .footer-01 .ftco-footer-social li a {
+    background: #7f72e4;
+    color: #fff; }
 
-.searchButton {
-  width: 30px;
-  border: 1px solid #e8dd13;
-  background: #e8dd13;
-  text-align: center;
-  color: black;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.footer-col h3 {
-  color: white;
-  font-size: 15px;
-  font-weight: 250;
-  width: fit-content;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-footer ul li {
-  list-style: none;
-  margin-bottom: 12px;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-footer form {
-  padding-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #fff;
-  margin-bottom: 50px;
-}
-
-footer form .far {
-  font-size: 18px;
-  margin-right: 10px;
-}
-
-footer form input {
-  width: 100%;
-  background: transparent;
-  color: #fff;
-  border: 0;
-  outline: none;
-}
-
-footer form button {
-  background: transparent;
-  border: 0;
-  outline: none;
-  cursor: pointer;
-}
-
-footer form button .fas {
-  font-size: 16px;
-  color: #fff;
-} */
 
 .social-icons .fab {
   width: 30px;
