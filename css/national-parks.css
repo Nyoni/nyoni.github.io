@@ -2,7 +2,7 @@
 .gonarezhou-hero-section{
     position: relative;
     height: 90vh;
-    background: url(/images/gonarezhou/homebanner.JPG); /*background image*/
+    background: url(../images/gonarezhou/homebanner.JPG); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;

@@ -156,7 +156,7 @@
   .parkprotection-hero-section{
     position: relative;
     height: 90vh;
-    background: url(/images/Zimparks-rangers.jpg); /*background image*/
+    background: url(../images/Zimparks-rangers.jpg); /*background image*/
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -202,7 +202,7 @@
 .tfca-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/banner-img/banner-8.JPG); /*background image*/
+  background: url(../images/banner-img/banner-8.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
