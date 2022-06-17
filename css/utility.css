@@ -97,7 +97,7 @@
   h4,
   h5,
   h6 {
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 0.5rem;
 
@@ -345,7 +345,7 @@
   .page-header {
     padding-bottom: 9px;
     margin: 40px 0 20px;
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
   .gallery-pad {
