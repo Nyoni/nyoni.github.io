@@ -24,7 +24,7 @@ consists of Overview, Accomodation, etc          */
 .nationalparks-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/slider-images/chizarira-1.JPG); /*background image*/
+  background: url(../images/slider-images/chizarira-1.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -68,7 +68,7 @@ consists of Overview, Accomodation, etc          */
 .recparks-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/banner-img/banner-9.JPG); /*background image*/
+  background: url(../images/banner-img/banner-9.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -112,7 +112,7 @@ consists of Overview, Accomodation, etc          */
 .botanical-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/banner-img/banner-10.JPG); /*background image*/
+  background: url(../images/banner-img/banner-10.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -156,7 +156,7 @@ consists of Overview, Accomodation, etc          */
 .safari-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/banner-img/banner-5.JPG); /*background image*/
+  background: url(../images/banner-img/banner-5.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -200,7 +200,7 @@ consists of Overview, Accomodation, etc          */
 .sanctuaries-hero-section{
   position: relative;
   height: 90vh;
-  background: url(/images/banner-img/banner-5.JPG); /*background image*/
+  background: url(../images/banner-img/banner-5.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
