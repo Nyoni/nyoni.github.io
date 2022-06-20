@@ -590,8 +590,15 @@
       transform: rotateX(0deg)
     }
   }
+.journals-header {
+  padding: 10px 20px 20px;
+  margin-top: 30px;
+  height: 50px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(255, 255, 255, 0.2); 
+}
+  /*Topics pages*/
 
-  
+
   
   /*Accordion Publications*/
 
