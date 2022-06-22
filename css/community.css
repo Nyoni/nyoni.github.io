@@ -278,16 +278,6 @@
     margin-bottom: 1rem;
   }
   
-  .entry-lede time::after {
-    content: "";
-    display: block;
-    width: calc(100% + (var(--gutter) * 2));
-    height: 1px;
-    margin-left: calc(var(--gutter) * -2);
-    background: var(--primary);
-    mix-blend-mode: multiply;
-    margin-top: 0.67rem;
-  }
   
   /* Breakpoints */
   
