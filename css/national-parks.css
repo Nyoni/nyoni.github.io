@@ -88,6 +88,34 @@
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
 
+  .national-parks-card:hover, .national-parks-card:focus-within {
+    align-items: center;
+  }
+
+  .national-parks-card:hover:before, .national-parks-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .national-parks-card:hover:after, .national-parks-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .national-parks-card:hover .content, .national-parks-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .national-parks-card:hover .content > *:not(.title), .national-parks-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .national-parks-card:focus-within:before, .national-parks-card:focus-within:after, .national-parks-card:focus-within .content, .national-parks-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+
   /*National Parks*/
 .national-parks-card {
   position: relative;
@@ -138,89 +166,63 @@
 
 /*Gonarezhou National Park*/
 .national-parks-card:nth-child(1):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/gonarezhou/homebanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/gonarezhou/homebanner.JPG);
 }
 
 /*Hwange National Park*/
 .national-parks-card:nth-child(2):before {
-  background-image: url(../images/nationalparks/hwange/hwange-homebanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/hwange/hwange-homebanner.JPG);
 }
 
 /*Matusadonha National Park*/
 .national-parks-card:nth-child(3):before {
-  background-image: url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
 }
 
 /*Chimanimani National Park*/
 .national-parks-card:nth-child(4):before {
-  background-image: url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
 }
 
 
 /*Nyanga National Park*/
 .national-parks-card:nth-child(5):before {
-  background-image: url(../images/nationalparks/nyanga/nyanga-homebanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/nyanga/nyanga-homebanner.JPG);
 }
 
 /*Matopos National Park*/
 .national-parks-card:nth-child(6):before {
-  background-image: url(../images/nationalparks/matobo/matopos-1.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matobo/matopos-1.JPG);
 }
 
 /*Zambezi National Park*/
 .national-parks-card:nth-child(7):before {
-  background-image: url(../images/nationalparks/zambezi/zambezi-homebanner.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/zambezi/zambezi-homebanner.jpg);
 }
 
 /*Victoria Falls National Park*/
 .national-parks-card:nth-child(8):before {
-  background-image: url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
 }
 
 /*Chizarira National Park*/
 .national-parks-card:nth-child(9):before {
-  background-image: url(../images/nationalparks/chizarira/chizarira-hommerbanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chizarira/chizarira-hommerbanner.JPG);
 }
 
 /*Mana Pools National Park*/
 .national-parks-card:nth-child(10):before {
-  background-image: url(../images/nationalparks/manapools/manapools-homebanner.JPG);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/manapools/manapools-homebanner.JPG);
 }
 
 /*Kazuma Pan National Park*/
 .national-parks-card:nth-child(11):before {
-  background-image: url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
 }
 
 
 /*On Hover*/
 
-  .national-parks-card:hover, .national-parks-card:focus-within {
-    align-items: center;
-  }
-
-  .national-parks-card:hover:before, .national-parks-card:focus-within:before {
-    transform: translatey(-4%);
-  }
-
-  .national-parks-card:hover:after, .national-parks-card:focus-within:after {
-    transform: translatey(-50%);
-  }
-
-  .national-parks-card:hover .content, .national-parks-card:focus-within .content {
-    transform: translatey(0);
-  }
-
-  .national-parks-card:hover .content > *:not(.title), .national-parks-card:focus-within .content > *:not(.title) {
-    opacity: 1;
-    transform: translatey(0);
-    transition-delay: calc(var(--d) / 8);
-  }
-
-  .national-parks-card:focus-within:before, .national-parks-card:focus-within:after, .national-parks-card:focus-within .content, .national-parks-card:focus-within .content > *:not(.title) {
-    transition-duration: 0s;
-  }
-}
 
 
 
