@@ -39,7 +39,6 @@
 .national_parks-page-content .title {
   top: 0;
   font-size: 1rem;
-  font-weight: bold;
   line-height: 1.2;
   color: #ffffff;
 }
@@ -116,7 +115,7 @@
   width: 100%;
   height: 110%;
   background-size: cover;
-  background-position: 0 0;
+  background-position: center;
   transition: transform calc(var(--d) * 1.5) var(--e);
   pointer-events: none;
 }
@@ -151,10 +150,11 @@
   background-image: url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
 }
 
-/*Gonarezhou National Park*/
+/*Chimanimani National Park*/
 .national-parks-card:nth-child(4):before {
-  background-image: url(../images/gonarezhou/homebanner.JPG);
+  background-image: url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
 }
+
 
 /*Nyanga National Park*/
 .national-parks-card:nth-child(5):before {
@@ -173,7 +173,7 @@
 
 /*Victoria Falls National Park*/
 .national-parks-card:nth-child(8):before {
-  background-image: url(../images/);
+  background-image: url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
 }
 
 /*Chizarira National Park*/
@@ -183,7 +183,7 @@
 
 /*Mana Pools National Park*/
 .national-parks-card:nth-child(10):before {
-  background-image: url(../images/gonarezhou/6.JPG);
+  background-image: url(../images/nationalparks/manapools/manapools-homebanner.JPG);
 }
 
 /*Kazuma Pan National Park*/
@@ -191,13 +191,8 @@
   background-image: url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
 }
 
-/*Chimanimani National Park*/
-.national-parks-card:nth-child(12):before {
-  background-image: url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
-}
 
-
-
+/*On Hover*/
 
   .national-parks-card:hover, .national-parks-card:focus-within {
     align-items: center;
