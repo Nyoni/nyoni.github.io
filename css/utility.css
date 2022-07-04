@@ -845,7 +845,7 @@
 /*Gallery in GMTFCA*/
 
 
-/* gallery */
+/* gallery 
 .gallery-item{
   margin: 2rem 0;
   overflow: hidden;
@@ -895,7 +895,7 @@
 .gallery-item:hover .zoom-icon{
   opacity: 1;
 }
-/* img modal box */
+/* img modal box
 #img-modal-box{
   position: fixed;
   top: 0;
@@ -959,7 +959,7 @@
   color: #fff;
 }
 
-/* popular section */
+/* popular section 
 #popular.py-4{
   padding-bottom: 0;
 }
@@ -1043,7 +1043,7 @@
 
 
 
-
+*/
 
 
 
