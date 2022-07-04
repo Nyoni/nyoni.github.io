@@ -138,12 +138,12 @@
 
 /*Gonarezhou National Park*/
 .national-parks-card:nth-child(1):before {
-  background-image: url(../images/gonarezhou/1.JPG);
+  background-image: url(../images/gonarezhou/homebanner.JPG);
 }
 
 /*Hwange National Park*/
 .national-parks-card:nth-child(2):before {
-  background-image: url(../images/gonarezhou/4.JPG);
+  background-image: url(../images);
 }
 
 /*Matusadonha National Park*/
