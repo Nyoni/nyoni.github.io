@@ -136,25 +136,68 @@
   transition: transform calc(var(--d) * 2) var(--e);
 }
 
+/*Gonarezhou National Park*/
 .national-parks-card:nth-child(1):before {
   background-image: url(../images/gonarezhou/1.JPG);
 }
 
+/*Hwange National Park*/
 .national-parks-card:nth-child(2):before {
   background-image: url(../images/gonarezhou/4.JPG);
 }
 
+/*Matusadonha National Park*/
 .national-parks-card:nth-child(3):before {
   background-image: url(../images/gonarezhou/homebanner.JPG);
 }
 
+/*Gonarezhou National Park*/
 .national-parks-card:nth-child(4):before {
   background-image: url(../images/gonarezhou/5.JPG);
 }
 
+/*Nyanga National Park*/
 .national-parks-card:nth-child(5):before {
   background-image: url(../images/gonarezhou/6.JPG);
 }
+
+/*Matopos National Park*/
+.national-parks-card:nth-child(6):before {
+  background-image: url(../images/gonarezhou/1.JPG);
+}
+
+/*Zambezi National Park*/
+.national-parks-card:nth-child(7):before {
+  background-image: url(../images/gonarezhou/4.JPG);
+}
+
+/*Victoria Falls National Park*/
+.national-parks-card:nth-child(8):before {
+  background-image: url(../images/gonarezhou/homebanner.JPG);
+}
+
+/*Chizarira National Park*/
+.national-parks-card:nth-child(9):before {
+  background-image: url(../images/gonarezhou/5.JPG);
+}
+
+/*Mana Pools National Park*/
+.national-parks-card:nth-child(10):before {
+  background-image: url(../images/gonarezhou/6.JPG);
+}
+
+/*Kazuma Pan National Park*/
+.national-parks-card:nth-child(11):before {
+  background-image: url(../images/gonarezhou/6.JPG);
+}
+
+/*Chimanimani National Park*/
+.national-parks-card:nth-child(12):before {
+  background-image: url(../images/gonarezhou/6.JPG);
+}
+
+
+
 
   .national-parks-card:hover, .national-parks-card:focus-within {
     align-items: center;
