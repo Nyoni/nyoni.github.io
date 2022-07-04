@@ -229,7 +229,7 @@
 
 
 /*Heros Section for Gonarezhou National Park*/
-.gonarezhou-hero-section{
+.hwange-hero-section{
     position: relative;
     height: 90vh;
     background: url(../images/gonarezhou/homebanner.JPG); /*background image*/
@@ -241,25 +241,25 @@
     text-align: center;
   }
   
-  .gonarezhou-hero-section:before{
+  .hwange-hero-section:before{
     opacity: 0.35;
     background: rgba(0, 0, 0, 0.45);
   }
   
-  .gonarezhou-hero-inner{
+  .hwange-hero-inner{
     max-width: 500px;
     position: relative;
     left: 0;
   }
   
-  .gonarezhou-hero-inner h2{
+  .hwange-hero-inner h2{
     color: #ffffff;
     margin-bottom: 30px;
     font-size: 22px;
     text-transform: uppercase;
   }
   
-  .gonarezhou-hero-inner h5 {
+  .hwange-hero-inner h5 {
     color: white;
     margin-bottom: 20px;
     font-size: 18px;
@@ -267,7 +267,7 @@
     letter-spacing: 5px;
   }
   
-  .gonarezhou-hero-inner .sub-title {
+  .hwange-hero-inner .sub-title {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.8px;
@@ -283,6 +283,63 @@
   height: 100vh;
 
  }
+
+
+ /*Hwange National Park*/
+ /*Heros Section for Gonarezhou National Park*/
+.hwange-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/hwange/hwange-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hwange-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hwange-hero-inner{
+  max-width: 500px;
+  position: relative;
+  left: 0;
+}
+
+.hwange-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.hwange-hero-inner h5 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.hwange-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+/*Gonarezhou National Park Overview*/
+
+.hwange-overview {
+background-image: url("../images/nationalparks/hwange/hwange-1.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+}
 
 
   
