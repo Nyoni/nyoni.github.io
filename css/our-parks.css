@@ -930,7 +930,7 @@ consists of Overview, Accomodation, etc          */
   }
 }
 
-/*Content part of card*/
+/*Content part of cards*/
 .content {
   position: relative;
   display: flex;
@@ -1038,7 +1038,8 @@ consists of Overview, Accomodation, etc          */
   width: 100%;
   height: 200%;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  */
   transform: translatey(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
@@ -1090,6 +1091,8 @@ consists of Overview, Accomodation, etc          */
   }
 }
 
+/*End Gonarezhou Attractions*/
+
 /*Gonarezhou Activities*/
 .gonarezhou-activities-card {
   position: relative;
@@ -1132,25 +1135,31 @@ consists of Overview, Accomodation, etc          */
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);*/
   transform: translatey(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
 
+/*Images for Activities at Gonarezhou*/
+
+/*Game Drive*/
 .gonarezhou-activities-card:nth-child(1):before {
   background-image: url(../images/gonarezhou/game-drive-3008x2000.jpg);
 }
 
+/*Walking Safaris*/
 .gonarezhou-activities-card:nth-child(2):before {
   background-image: url(../images/gonarezhou/gonarezhou-walking-safaris.jpg);
 }
 
+/*Fishing*/
 .gonarezhou-activities-card:nth-child(3):before {
   background-image: url(../images/gonarezhou/fishing-for-tiger.jpg);
 }
 
 
 
+/*Transitions On Hover*/
 
 @media (hover: hover) and (min-width: 600px) {
   .gonarezhou-activities-card:after {
@@ -1195,29 +1204,22 @@ consists of Overview, Accomodation, etc          */
 }
 
 
-/*Carousel Items Safari*/
+/*Gonarezhou Safari Carousel Images*/
 
-.multi-item-carousel .carousel-inner > .item {
-  transition: 500ms ease-in-out left;
+.close {
+  font-size: 1.5rem;
 }
 
-.multi-item-carousel .carousel-inner .active.left {
-  left: -33%;
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  margin: 2rem;
+  width: 100%;
 }
 
-.multi-item-carousel .carousel-inner .active.right {
-  left: 33%;
+.col-12 img:hover {
+  opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.multi-item-carousel .carousel-inner .next {
-  left: 33%;
-}
 
-.multi-item-carousel .carousel-inner .prev {
-  left: -33%;
-}
-  
-  
-  
-  
-  
