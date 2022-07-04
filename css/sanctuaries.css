@@ -1,5 +1,6 @@
-/*Botanical Gardens Page*/
-.botanical_gardens-page-content {
+
+/*Sanctuaries Page*/
+.sanctuaries-page-content {
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
@@ -9,12 +10,12 @@
   }
   
   @media (min-width: 600px) {
-    .botanical_gardens-page-content {
+    .sanctuaries-page-content {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   @media (min-width: 800px) {
-    .botanical_gardens-page-content {
+    .sanctuaries-page-content {
       grid-template-columns: repeat(3, 1fr);
     }
   }
@@ -36,7 +37,7 @@
     margin-top: 1rem;
   }
   
-  .botanical_gardens-page-content .title {
+  .sanctuaries-page-content .title {
     top: 0;
     font-size: 1rem;
     line-height: 1.2;
@@ -74,7 +75,7 @@
   }
   
   @media (hover: hover) and (min-width: 600px) {
-    .botanical-gardens-card:after {
+    .sanctuaries-card:after {
       transform: translatey(0);
     }
   
@@ -88,36 +89,36 @@
       transition: transform var(--d) var(--e), opacity var(--d) var(--e);
     }
   
-    .botanical-gardens-card:hover, .botanical-gardens-card:focus-within {
+    .sanctuaries-card:hover, .sanctuaries-card:focus-within {
       align-items: center;
     }
   
-    .botanical-gardens-card:hover:before, .botanical-gardens-card:focus-within:before {
+    .sanctuaries-card:hover:before, .sanctuaries-card:focus-within:before {
       transform: translatey(-4%);
     }
   
-    .botanical-gardens-card:hover:after, .botanical-gardens-card:focus-within:after {
+    .sanctuaries-card:hover:after, .sanctuaries-card:focus-within:after {
       transform: translatey(-50%);
     }
   
-    .botanical-gardens-card:hover .content, .botanical-gardens-card:focus-within .content {
+    .sanctuaries-card:hover .content, .sanctuaries-card:focus-within .content {
       transform: translatey(0);
     }
   
-    .botanical-gardens-card:hover .content > *:not(.title), .botanical-gardens-card:focus-within .content > *:not(.title) {
+    .sanctuaries-card:hover .content > *:not(.title), .sanctuaries-card:focus-within .content > *:not(.title) {
       opacity: 1;
       transform: translatey(0);
       transition-delay: calc(var(--d) / 8);
     }
   
-    .botanical-gardens-card:focus-within:before, .botanical-gardens-card:focus-within:after, .botanical-gardens-card:focus-within .content, .botanical-gardens-card:focus-within .content > *:not(.title) {
+    .sanctuaries-card:focus-within:before, .sanctuaries-card:focus-within:after, .sanctuaries-card:focus-within .content, .sanctuaries-card:focus-within .content > *:not(.title) {
       transition-duration: 0s;
     }
   }
   
   
     /*National Parks*/
-  .botanical-gardens-card {
+  .sanctuaries-card {
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -130,12 +131,12 @@
   }
   
   @media (min-width: 600px) {
-    .botanical-gardens-card {
+    .sanctuaries-card {
       height: 250px;
      
     }
   }
-  .botanical-gardens-card:before {
+  .sanctuaries-card:before {
     content: "";
     position: absolute;
     top: 0;
@@ -149,7 +150,7 @@
     pointer-events: none;
   }
   
-  .botanical-gardens-card:after {
+  .sanctuaries-card:after {
     content: "";
     display: block;
     position: absolute;
@@ -165,58 +166,58 @@
   }
   
   /*Gonarezhou National Park*/
-  .botanical-gardens-card:nth-child(1):before {
+  .sanctuaries-card:nth-child(1):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/gonarezhou/homebanner.JPG);
   }
   
   /*Hwange National Park*/
-  .botanical-gardens-card:nth-child(2):before {
+  .sanctuaries-card:nth-child(2):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/hwange/hwange-homebanner.JPG);
   }
   
   /*Matusadonha National Park*/
-  .botanical-gardens-card:nth-child(3):before {
+  .sanctuaries-card:nth-child(3):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
   }
   
   /*Chimanimani National Park*/
-  .botanical-gardens-card:nth-child(4):before {
+  .sanctuaries-card:nth-child(4):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
   }
   
   
   /*Nyanga National Park*/
-  .botanical-gardens-card:nth-child(5):before {
+  .sanctuaries-card:nth-child(5):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/nyanga/nyanga-homebanner.JPG);
   }
   
   /*Matopos National Park*/
-  .botanical-gardens-card:nth-child(6):before {
+  .sanctuaries-card:nth-child(6):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matobo/matopos-1.JPG);
   }
   
   /*Zambezi National Park*/
-  .botanical-gardens-card:nth-child(7):before {
+  .sanctuaries-card:nth-child(7):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/zambezi/zambezi-homebanner.jpg);
   }
   
   /*Victoria Falls National Park*/
-  .botanical-gardens-card:nth-child(8):before {
+  .sanctuaries-card:nth-child(8):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
   }
   
   /*Chizarira National Park*/
-  .botanical-gardens-card:nth-child(9):before {
+  .sanctuaries-card:nth-child(9):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chizarira/chizarira-hommerbanner.JPG);
   }
   
   /*Mana Pools National Park*/
-  .botanical-gardens-card:nth-child(10):before {
+  .sanctuaries-card:nth-child(10):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/manapools/manapools-homebanner.JPG);
   }
   
   /*Kazuma Pan National Park*/
-  .botanical-gardens-card:nth-child(11):before {
+  .sanctuaries-card:nth-child(11):before {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
   }
   
