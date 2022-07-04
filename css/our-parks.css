@@ -1207,6 +1207,236 @@ consists of Overview, Accomodation, etc          */
 
 /*Gonarezhou Safari Carousel Images*/
 
+
+
+
+/*Hwange Section*/
+
+/*Hwange Attractions*/
+.hwange-attractions-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .hwange-attractions-card {
+    height: 350px;
+   
+  }
+}
+.hwange-attractions-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.hwange-attractions-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.hwange-attractions-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/hwange/hwange-1.JPG);
+}
+
+.hwange-attractions-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/hwange/hwange-4.JPG);
+}
+
+.hwange-attractions-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/hwange/hwange-homebanner.JPG);
+}
+
+.hwange-attractions-card:nth-child(4):before {
+  background-image: url(../images/nationalparks/hwange/hwange-5.JPG);
+}
+
+.hwange-attractions-card:nth-child(5):before {
+  background-image: url(../images/nationalparks/hwange/hwange-6.JPG);
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .hwange-attractions-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .hwange-attractions-card:hover, .hwange-attractions-card:focus-within {
+    align-items: center;
+  }
+
+  .hwange-attractions-card:hover:before, .hwange-attractions-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .hwange-attractions-card:hover:after, .hwange-attractions-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .hwange-attractions-card:hover .content, .hwange-attractions-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .hwange-attractions-card:hover .content > *:not(.title), .hwange-attractions-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .hwange-attractions-card:focus-within:before, .hwange-attractions-card:focus-within:after, .hwange-attractions-card:focus-within .content, .hwange-attractions-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Transition On Hover*/
+
+/*End Hwange Attractions*/
+
+/*Hwange Activities*/
+.hwange-activities-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .hwange-activities-card {
+    height: 350px;
+  }
+}
+.hwange-activities-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.hwange-activities-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+/*Images for Activities at Hwange*/
+
+/*Game Drive*/
+.hwange-activities-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/hwange/hwange-game-drive-3008x2000.jpg);
+}
+
+/*Walking Safaris*/
+.hwange-activities-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/hwange/hwange-Hwange-walking-safaris.jpg);
+}
+
+/*Fishing*/
+.hwange-activities-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/hwange/hwange-fishing-for-tiger.jpg);
+}
+
+
+
+/*Transitions On Hover*/
+
+@media (hover: hover) and (min-width: 600px) {
+  .hwange-activities-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .hwange-activities-card:hover, .hwange-activities-card:focus-within {
+    align-items: center;
+  }
+
+  .hwange-activities-card:hover:before, .hwange-activities-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .hwange-activities-card:hover:after, .hwange-activities-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .hwange-activities-card:hover .content, .hwange-activities-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .hwange-activities-card:hover .content > *:not(.title), .hwange-activities-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .hwange-activities-card:focus-within:before, .hwange-activities-card:focus-within:after, .hwange-activities-card:focus-within .content, .hwange-activities-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Hwange Section*/
+
 .close {
   font-size: 1.5rem;
 }
