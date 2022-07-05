@@ -221,11 +221,6 @@
 }
 
 
-/*On Hover*/
-
-
-
-
 
 
 /*Heros Section for Gonarezhou National Park*/
@@ -286,7 +281,7 @@
 
 
  /*Hwange National Park*/
- /*Heros Section for Gonarezhou National Park*/
+ /*Heros Section for Hwange National Park*/
 .hwange-hero-section{
   position: relative;
   height: 90vh;
@@ -331,7 +326,7 @@
   letter-spacing: 0.8px;
   color: var(--green);
 }
-/*Gonarezhou National Park Overview*/
+/*Hwange National Park Overview*/
 
 .hwange-overview {
 background-image: url("../images/nationalparks/hwange/hwange-1.JPG");
@@ -340,6 +335,65 @@ background-attachment: fixed;
 background-size: 100%;
 height: 100vh;
 }
+
+
+/*Zambezi National Park*/
+/*Heros Section for Zambezi National Park*/
+.zambezi-hero-section{
+position: relative;
+height: 90vh;
+background: url(../images/nationalparks/zambezi/zambezi-homebanner.JPG); /*background image*/
+background-size: cover;
+background-position: center;
+justify-content: center;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.zambezi-hero-section:before{
+opacity: 0.35;
+background: rgba(0, 0, 0, 0.45);
+}
+
+.zambezi-hero-inner{
+max-width: 500px;
+position: relative;
+left: 0;
+}
+
+.zambezi-hero-inner h2{
+color: #ffffff;
+margin-bottom: 30px;
+font-size: 22px;
+text-transform: uppercase;
+}
+
+.zambezi-hero-inner h5 {
+color: white;
+margin-bottom: 20px;
+font-size: 18px;
+text-transform: none;
+letter-spacing: 5px;
+}
+
+.zambezi-hero-inner .sub-title {
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.8px;
+color: var(--green);
+}
+
+/*Zambezi National Park Overview*/
+.zambezi-overview {
+background-image: url("../images/nationalparks/zambezi/zambezi-1.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+}
+
+
 
 
   
