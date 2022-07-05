@@ -1165,16 +1165,6 @@ consists of Overview, Accomodation, etc          */
     transform: translatey(0);
   }
 
-  .content {
-    transform: translatey(calc(100% - 4.5rem));
-  }
-
-  .content > *:not(.title) {
-    opacity: 0;
-    transform: translatey(1rem);
-    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
-
   .gonarezhou-activities-card:hover, .gonarezhou-activities-card:focus-within {
     align-items: center;
   }
@@ -1183,10 +1173,10 @@ consists of Overview, Accomodation, etc          */
     transform: translatey(-4%);
   }
 
-  .gonarezhou-activities-card:hover:after, .gonarezhou-activities-card:focus-within:after {
+ /* .gonarezhou-activities-card:hover:after, .gonarezhou-activities-card:focus-within:after {
     transform: translatey(-50%);
   }
-
+*/
   .gonarezhou-activities-card:hover .content, .gonarezhou-activities-card:focus-within .content {
     transform: translatey(0);
   }
