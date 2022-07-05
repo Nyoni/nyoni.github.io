@@ -8,7 +8,6 @@
     --text-color: #444;
     --bg1: #e8eae3;
     --bg2: #f5f5f5;
-
     --d: 700ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
     --font-sans: "Rubik", sans-serif;
@@ -909,7 +908,6 @@ consists of Overview, Accomodation, etc          */
 
   /*gonarezhou-attractions-Cards Under Attractions & Activities*/
 
-  
 .page-content {
   display: grid;
   grid-gap: 1rem;
