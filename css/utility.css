@@ -46,6 +46,17 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Gulzar';
+    src: url('./webfonts/gulzar/Gulzar-Regular.woff2') format('woff2'),
+        url('./webfonts/gulzar/Gulzar-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
   /*End font family*/
   
   /*--------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -364,6 +375,7 @@
     margin: 20px 0 10px;
     position: relative;
     height: 30px;
+    color: var(--heading-text-color);
 }
 
 .sub-heading > h3 {
