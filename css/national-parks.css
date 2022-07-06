@@ -48,6 +48,7 @@
   font-size: 15px;
   font-style: italic;
   line-height: 1.35;
+  color: #ffffff;
 }
 
 .btn > a {
@@ -68,10 +69,7 @@
   background-color: #0d0d0d;
 }
 
-.btn > a:focus {
-  outline: 1px dashed yellow;
-  outline-offset: 3px;
-}
+
 
 @media (hover: hover) and (min-width: 600px) {
   .national-parks-card:after {
@@ -224,7 +222,7 @@
 
 
 /*Heros Section for Gonarezhou National Park*/
-.hwange-hero-section{
+.gonarezhou-hero-section{
     position: relative;
     height: 90vh;
     background: url(../images/gonarezhou/homebanner.JPG); /*background image*/
@@ -236,38 +234,24 @@
     text-align: center;
   }
   
-  .hwange-hero-section:before{
+  .gonarezhou-hero-section:before{
     opacity: 0.35;
     background: rgba(0, 0, 0, 0.45);
   }
   
-  .hwange-hero-inner{
+  .gonarezhou-hero-inner{
     max-width: 500px;
     position: relative;
     left: 0;
   }
   
-  .hwange-hero-inner h2{
+  .gonarezhou-hero-inner h2{
     color: #ffffff;
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 48px;
     text-transform: uppercase;
   }
   
-  .hwange-hero-inner h5 {
-    color: white;
-    margin-bottom: 20px;
-    font-size: 18px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
-  
-  .hwange-hero-inner .sub-title {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.8px;
-    color: var(--green);
-  }
  /*Gonarezhou National Park Overview*/
 
  .gonarezhou-overview {
@@ -281,6 +265,7 @@
 
 
  /*Hwange National Park*/
+
  /*Heros Section for Hwange National Park*/
 .hwange-hero-section{
   position: relative;
@@ -305,10 +290,11 @@
   left: 0;
 }
 
-.hwange-hero-inner h2{
+.hwange-hero-inner h1{
   color: #ffffff;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 48px;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
