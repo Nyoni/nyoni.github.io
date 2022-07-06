@@ -708,18 +708,34 @@ background: var(--bg1);
   bottom: 0;
   right: 0;
   height: 40px;
-  opacity: 0;
+  opacity: 1;
   transition: ease-in-out 0.3s;
   text-align: center;
 }
 
 .leaders .leader .social a {
   transition: color 0.3s;
-  color: #2b2320;
   margin: 0 10px;
   padding-top: 8px;
   display: inline-block;
 }
+
+a.twitter{
+  color: #1da1f2;
+}
+
+a.facebook{
+  color:  #4267B2;
+}
+
+a.instagram{
+  color: #e4405f;
+}
+
+a.linkedin{
+  color: #0a66c2;
+}
+
 
 .leaders .leader .social i {
   font-size: 18px;
@@ -728,13 +744,14 @@ background: var(--bg1);
 
 .leaders .leader .leader-info {
   padding: 25px 15px;
+  margin-bottom: 10px;
 }
 
 .leaders .leader .leader-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #2b2320;
+  color: var(--text-color);
 }
 
 .leaders .leader .leader-info span {
@@ -750,10 +767,10 @@ background: var(--bg1);
   line-height: 26px;
   color: var(--text-color);
 }
-
+/*
 .leaders .leader:hover .social {
   opacity: 1;
-}
+} */
 
 /*-vii.  our partners section*/
 
