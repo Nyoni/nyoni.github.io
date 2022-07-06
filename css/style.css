@@ -8,13 +8,20 @@ rgb(247, 250, 252);
     - scrollbar
 2. Header Menu
 3. Home Page
-    -i.   hero section
-    -ii.  home welcome section
-    -iii. our park section
-    -iv.  explore more section 
-    -v.   news update section
-    -vi.  statistics section
-4. 
+    -i.    hero section
+    -ii.   home welcome section
+    -iii.  our park section
+    -iv.   explore more section 
+    -v.    news update section
+    -vi.   statistics section
+4. About Us Page
+    -i.    hero section
+    -ii.   about us section
+    -iii.  vision & mission section
+    -iv.   mandate section
+    -v.    protected areas section 
+    -vi.   our leadership section
+    -vii.  our partners section
 5. Header & Breadcrumbs
 6. Content Elements
     - Latest Offers
@@ -249,7 +256,7 @@ background: var(--bg1);
 
 
 
-/************************** HOME PAGE******************************************************/
+/**************************03. HOME PAGE******************************************************/
 /**************************index.html******************************************************/
 
 
@@ -634,102 +641,125 @@ background: var(--bg1);
 
 /***end news update section***/
 
-/***vi. statistics section***/
-.statistics {
-  width: 100%;
-  height: 100%;
-  padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.stats-card {
-  background-image: linear-gradient(to right, #e8eae3 40%, #e6e2dd);
-  color: var(--text-color);
-  font-family: "Open Sans", sans-serif;
-  padding: 2rem;
-  position: relative;
-  box-shadow: rgba(230, 226, 221, 0.3);
-}
-
-.stats-info-heading {
-  font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
-
-.stats-info-description {
-  font-size: 1.5rem;
-  margin-bottom: 3rem;
-  line-height: 1.5;
-}
-
-.stats-info-button {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #373833;
-  background-color: #e9ea0c;
-  padding: 1.5rem;
-  transition: all 0.5s;
-}
-
-.stats-info-button:hover {
-  box-shadow: 0 0 1.5rem rgba(230, 226, 221, 0.3);
-}
-
-.stats-info-right {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  margin-top: 5rem;
-  position: relative;
-}
-
-.stats-info-right::before,
-.stats-info-right::after {
-  content: "";
-  background-color: rgba(29, 29, 28, 0.3);
-  position: absolute;
-  top: 50%;
-}
-
-.stats-info-right::before {
-  width: 100%;
-  height: 1px;
-  transform: translateY(-50%);
-}
-
-.stats-info-right::after {
-  width: 1px;
-  height: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.stat-group {
-  padding: 2.5rem;
-}
-
-.stat-number {
-  font-size: 2.6rem;
-  letter-spacing: 1px;
-  margin-bottom: 0.6rem;
-}
-
-.stat-name {
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-/***end statistics section***/
 
 
 /************************** END HOME PAGE******************************************************/
 /**************************end index.html******************************************************/
 
 
+/**************************04. ABOUT US************************************************************/
+/**************************************************************************************************/
+
+/*i. Hero Section*/
+.about-hero-section {
+  position: relative;
+  height: 100vh;
+  /*About Us Background Image*/
+  background: url(../images/about_us/about_us-homebanner.JPG);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hero-section:before {
+  opacity: 0.3;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.about-hero-inner {
+  max-width: 500px;
+  position: relative;
+}
+
+.about-hero-inner h1 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+
+/*-ii.   Overview About Us Section*/
+
+/*-iii.  vision & mission section*/
+/*-iv.   mandate section*/
+/*-v.    protected areas section*/ 
+/*-vi.   Our Leadership Section*/
+
+.leaders .leader {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.leaders .leader .leader-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.leaders .leader .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.leaders .leader .social a {
+  transition: color 0.3s;
+  color: #2b2320;
+  margin: 0 10px;
+  padding-top: 8px;
+  display: inline-block;
+}
+
+.leaders .leader .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.leaders .leader .leader-info {
+  padding: 25px 15px;
+}
+
+.leaders .leader .leader-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #2b2320;
+}
+
+.leaders .leader .leader-info span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.leaders .leader .leader-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--text-color);
+}
+
+.leaders .leader:hover .social {
+  opacity: 1;
+}
+
+/*-vii.  our partners section*/
+
+
+/**************************END ABOUT US PAGE******************************************************/
+/************************************************************************************/
 
 /************************** PARKS PAGES******************************************************/
 /********************************************************************************************/
@@ -883,17 +913,7 @@ a div {
   text-align: center;
 }
 
-.about-hero-section{
-  position: relative;
-  height: 100vh;
-  background: url(../images/site1.jpg);
-  background-size: cover;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
+
 
 .investments-hero-section{
   position: relative;
