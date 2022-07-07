@@ -219,7 +219,48 @@
 }
 
 
+/*Heros Section for Chimanimani National Park*/
+.chimanimani-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/chimanimani/homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
+.chimanimani-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.chimanimani-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.chimanimani-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*Chimanimani National Park Overview*/
+
+.chimanimani-overview {
+background-image: url("../images/chimanimani/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
 
 /*Heros Section for Gonarezhou National Park*/
 .gonarezhou-hero-section{
@@ -240,7 +281,7 @@
   }
   
   .gonarezhou-hero-inner{
-    max-width: 500px;
+    max-width: 700px;
     position: relative;
     left: 0;
   }
@@ -248,8 +289,9 @@
   .gonarezhou-hero-inner h2{
     color: #ffffff;
     margin-bottom: 30px;
+    font-weight: 700;
     font-size: 48px;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
   
  /*Gonarezhou National Park Overview*/

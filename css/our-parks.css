@@ -975,230 +975,438 @@ consists of Overview, Accomodation, etc          */
   background-color: #0d0d0d;
 }
 
-/*Transition On Hover for Attractions*/
-
-
-
-  /*Gonarezhou Attractions*/
-.gonarezhou-attractions-card {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  width: 100%;
-  text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-  .gonarezhou-attractions-card {
-    height: 350px;
-   
+/*National Parks Attractions & Activities*/
+  /*chimanimani Attractions*/
+  .chimanimani-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
   }
-}
-.gonarezhou-attractions-card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: transform calc(var(--d) * 1.5) var(--e);
-  pointer-events: none;
-}
-
-.gonarezhou-attractions-card:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
-  transform: translatey(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
-}
-
-.gonarezhou-attractions-card:nth-child(1):before {
-  background-image: url(../images/gonarezhou/1.JPG);
-}
-
-.gonarezhou-attractions-card:nth-child(2):before {
-  background-image: url(../images/gonarezhou/4.JPG);
-}
-
-.gonarezhou-attractions-card:nth-child(3):before {
-  background-image: url(../images/gonarezhou/homebanner.JPG);
-}
-
-.gonarezhou-attractions-card:nth-child(4):before {
-  background-image: url(../images/gonarezhou/5.JPG);
-}
-
-.gonarezhou-attractions-card:nth-child(5):before {
-  background-image: url(../images/gonarezhou/6.JPG);
-}
-
-@media (hover: hover) and (min-width: 600px) {
-  .gonarezhou-attractions-card:after {
-    transform: translatey(0);
+  
+  @media (min-width: 600px) {
+    .chimanimani-attractions-card {
+      height: 350px;
+     
+    }
   }
-
-  .content {
-    transform: translatey(calc(100% - 4.5rem));
+  .chimanimani-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
   }
-
-  .content > *:not(.title) {
-    opacity: 0;
-    transform: translatey(1rem);
-    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
-
-  .gonarezhou-attractions-card:hover, .gonarezhou-attractions-card:focus-within {
-    align-items: center;
-  }
-
-  .gonarezhou-attractions-card:hover:before, .gonarezhou-attractions-card:focus-within:before {
-    transform: translatey(-4%);
-  }
-
-  .gonarezhou-attractions-card:hover:after, .gonarezhou-attractions-card:focus-within:after {
+  
+  .chimanimani-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
     transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
   }
-
-  .gonarezhou-attractions-card:hover .content, .gonarezhou-attractions-card:focus-within .content {
-    transform: translatey(0);
+  
+  .chimanimani-attractions-card:nth-child(1):before {
+    background-image: url(../images/chimanimani/1.JPG);
   }
-
-  .gonarezhou-attractions-card:hover .content > *:not(.title), .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
-    opacity: 1;
-    transform: translatey(0);
-    transition-delay: calc(var(--d) / 8);
+  
+  .chimanimani-attractions-card:nth-child(2):before {
+    background-image: url(../images/chimanimani/4.JPG);
   }
-
-  .gonarezhou-attractions-card:focus-within:before, .gonarezhou-attractions-card:focus-within:after, .gonarezhou-attractions-card:focus-within .content, .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
-    transition-duration: 0s;
+  
+  .chimanimani-attractions-card:nth-child(3):before {
+    background-image: url(../images/chimanimani/homebanner.JPG);
   }
-}
-
-/*End Transition On Hover*/
-
-/*End Gonarezhou Attractions*/
-
-/*Gonarezhou Activities*/
-.gonarezhou-activities-card {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-  .gonarezhou-activities-card {
-    height: 350px;
+  
+  .chimanimani-attractions-card:nth-child(4):before {
+    background-image: url(../images/chimanimani/5.JPG);
   }
-}
-.gonarezhou-activities-card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: transform calc(var(--d) * 1.5) var(--e);
-  pointer-events: none;
-}
-
-.gonarezhou-activities-card:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
-  transform: translatey(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
-}
-
-/*Images for Activities at Gonarezhou*/
-
-/*Game Drive*/
-.gonarezhou-activities-card:nth-child(1):before {
-  background-image: url(../images/gonarezhou/game-drive-3008x2000.jpg);
-}
-
-/*Walking Safaris*/
-.gonarezhou-activities-card:nth-child(2):before {
-  background-image: url(../images/gonarezhou/gonarezhou-walking-safaris.jpg);
-}
-
-/*Fishing*/
-.gonarezhou-activities-card:nth-child(3):before {
-  background-image: url(../images/gonarezhou/fishing-for-tiger.jpg);
-}
-
-
-
-/*Transitions On Hover*/
-
-@media (hover: hover) and (min-width: 600px) {
-  .gonarezhou-activities-card:after {
-    transform: translatey(0);
+  
+  .chimanimani-attractions-card:nth-child(5):before {
+    background-image: url(../images/chimanimani/6.JPG);
   }
-
-  .gonarezhou-activities-card:hover, .gonarezhou-activities-card:focus-within {
-    align-items: center;
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chimanimani-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .chimanimani-attractions-card:hover, .chimanimani-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .chimanimani-attractions-card:hover:before, .chimanimani-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .chimanimani-attractions-card:hover:after, .chimanimani-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .chimanimani-attractions-card:hover .content, .chimanimani-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-attractions-card:hover .content > *:not(.title), .chimanimani-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chimanimani-attractions-card:focus-within:before, .chimanimani-attractions-card:focus-within:after, .chimanimani-attractions-card:focus-within .content, .chimanimani-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
   }
-
-  .gonarezhou-activities-card:hover:before, .gonarezhou-activities-card:focus-within:before {
-    transform: translatey(-4%);
+  
+  /*End Transition On Hover*/
+  
+  /*End chimanimani Attractions*/
+  
+  /*chimanimani Activities*/
+  .chimanimani-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
   }
-
- /* .gonarezhou-activities-card:hover:after, .gonarezhou-activities-card:focus-within:after {
+  
+  @media (min-width: 600px) {
+    .chimanimani-activities-card {
+      height: 350px;
+    }
+  }
+  .chimanimani-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chimanimani-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
     transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
   }
-*/
-  .gonarezhou-activities-card:hover .content, .gonarezhou-activities-card:focus-within .content {
-    transform: translatey(0);
+  
+  /*Images for Activities at chimanimani*/
+  
+  /*Game Drive*/
+  .chimanimani-activities-card:nth-child(1):before {
+    background-image: url(../images/chimanimani/game-drive-3008x2000.jpg);
   }
-
-  .gonarezhou-activities-card:hover .content > *:not(.title), .gonarezhou-activities-card:focus-within .content > *:not(.title) {
-    opacity: 1;
-    transform: translatey(0);
-    transition-delay: calc(var(--d) / 8);
+  
+  /*Walking Safaris*/
+  .chimanimani-activities-card:nth-child(2):before {
+    background-image: url(../images/chimanimani/chimanimani-walking-safaris.jpg);
   }
-
-  .gonarezhou-activities-card:focus-within:before, .gonarezhou-activities-card:focus-within:after, .gonarezhou-activities-card:focus-within .content, .gonarezhou-activities-card:focus-within .content > *:not(.title) {
-    transition-duration: 0s;
+  
+  /*Fishing*/
+  .chimanimani-activities-card:nth-child(3):before {
+    background-image: url(../images/chimanimani/fishing-for-tiger.jpg);
   }
-}
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chimanimani-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-activities-card:hover, .chimanimani-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .chimanimani-activities-card:hover:before, .chimanimani-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .chimanimani-activities-card:hover:after, .chimanimani-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .chimanimani-activities-card:hover .content, .chimanimani-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-activities-card:hover .content > *:not(.title), .chimanimani-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chimanimani-activities-card:focus-within:before, .chimanimani-activities-card:focus-within:after, .chimanimani-activities-card:focus-within .content, .chimanimani-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*chimanimani Safari Carousel Images*/
 
+   /*chizarira Attractions*/
+   .chizarira-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chizarira-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .chizarira-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chizarira-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .chizarira-attractions-card:nth-child(1):before {
+    background-image: url(../images/chizarira/1.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(2):before {
+    background-image: url(../images/chizarira/4.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(3):before {
+    background-image: url(../images/chizarira/homebanner.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(4):before {
+    background-image: url(../images/chizarira/5.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(5):before {
+    background-image: url(../images/chizarira/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chizarira-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .chizarira-attractions-card:hover, .chizarira-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .chizarira-attractions-card:hover:before, .chizarira-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .chizarira-attractions-card:hover:after, .chizarira-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .chizarira-attractions-card:hover .content, .chizarira-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chizarira-attractions-card:hover .content > *:not(.title), .chizarira-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chizarira-attractions-card:focus-within:before, .chizarira-attractions-card:focus-within:after, .chizarira-attractions-card:focus-within .content, .chizarira-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End chizarira Attractions*/
+  
+  /*chizarira Activities*/
+  .chizarira-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chizarira-activities-card {
+      height: 350px;
+    }
+  }
+  .chizarira-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chizarira-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at chizarira*/
+  
+  /*Game Drive*/
+  .chizarira-activities-card:nth-child(1):before {
+    background-image: url(../images/chizarira/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .chizarira-activities-card:nth-child(2):before {
+    background-image: url(../images/chizarira/chizarira-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .chizarira-activities-card:nth-child(3):before {
+    background-image: url(../images/chizarira/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chizarira-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .chizarira-activities-card:hover, .chizarira-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .chizarira-activities-card:hover:before, .chizarira-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .chizarira-activities-card:hover:after, .chizarira-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .chizarira-activities-card:hover .content, .chizarira-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chizarira-activities-card:hover .content > *:not(.title), .chizarira-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chizarira-activities-card:focus-within:before, .chizarira-activities-card:focus-within:after, .chizarira-activities-card:focus-within .content, .chizarira-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*chizarira Safari Carousel Images*/
 
-/*Gonarezhou Safari Carousel Images*/
-
-
-
-
-/*Hwange Section*/
+  /*Hwange Section*/
 
 /*Hwange Attractions*/
 .hwange-attractions-card {
@@ -1424,6 +1632,1090 @@ consists of Overview, Accomodation, etc          */
 }
 
 /*End Hwange Section*/
+  
+  /*kazumapan Attractions*/
+  .kazumapan-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .kazumapan-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .kazumapan-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .kazumapan-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .kazumapan-attractions-card:nth-child(1):before {
+    background-image: url(../images/kazumapan/1.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(2):before {
+    background-image: url(../images/kazumapan/4.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(3):before {
+    background-image: url(../images/kazumapan/homebanner.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(4):before {
+    background-image: url(../images/kazumapan/5.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(5):before {
+    background-image: url(../images/kazumapan/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .kazumapan-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .kazumapan-attractions-card:hover, .kazumapan-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .kazumapan-attractions-card:hover:before, .kazumapan-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .kazumapan-attractions-card:hover:after, .kazumapan-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .kazumapan-attractions-card:hover .content, .kazumapan-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-attractions-card:hover .content > *:not(.title), .kazumapan-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .kazumapan-attractions-card:focus-within:before, .kazumapan-attractions-card:focus-within:after, .kazumapan-attractions-card:focus-within .content, .kazumapan-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End kazumapan Attractions*/
+  
+  /*kazumapan Activities*/
+  .kazumapan-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .kazumapan-activities-card {
+      height: 350px;
+    }
+  }
+  .kazumapan-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .kazumapan-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at kazumapan*/
+  
+  /*Game Drive*/
+  .kazumapan-activities-card:nth-child(1):before {
+    background-image: url(../images/kazumapan/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .kazumapan-activities-card:nth-child(2):before {
+    background-image: url(../images/kazumapan/kazumapan-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .kazumapan-activities-card:nth-child(3):before {
+    background-image: url(../images/kazumapan/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .kazumapan-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-activities-card:hover, .kazumapan-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .kazumapan-activities-card:hover:before, .kazumapan-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .kazumapan-activities-card:hover:after, .kazumapan-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .kazumapan-activities-card:hover .content, .kazumapan-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-activities-card:hover .content > *:not(.title), .kazumapan-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .kazumapan-activities-card:focus-within:before, .kazumapan-activities-card:focus-within:after, .kazumapan-activities-card:focus-within .content, .kazumapan-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*kazumapan Safari Carousel Images*/
+
+  
+  /*manapools Attractions*/
+  .manapools-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .manapools-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .manapools-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .manapools-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .manapools-attractions-card:nth-child(1):before {
+    background-image: url(../images/manapools/1.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(2):before {
+    background-image: url(../images/manapools/4.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(3):before {
+    background-image: url(../images/manapools/homebanner.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(4):before {
+    background-image: url(../images/manapools/5.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(5):before {
+    background-image: url(../images/manapools/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .manapools-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .manapools-attractions-card:hover, .manapools-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .manapools-attractions-card:hover:before, .manapools-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .manapools-attractions-card:hover:after, .manapools-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .manapools-attractions-card:hover .content, .manapools-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .manapools-attractions-card:hover .content > *:not(.title), .manapools-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .manapools-attractions-card:focus-within:before, .manapools-attractions-card:focus-within:after, .manapools-attractions-card:focus-within .content, .manapools-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End manapools Attractions*/
+  
+  /*manapools Activities*/
+  .manapools-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .manapools-activities-card {
+      height: 350px;
+    }
+  }
+  .manapools-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .manapools-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at manapools*/
+  
+  /*Game Drive*/
+  .manapools-activities-card:nth-child(1):before {
+    background-image: url(../images/manapools/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .manapools-activities-card:nth-child(2):before {
+    background-image: url(../images/manapools/manapools-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .manapools-activities-card:nth-child(3):before {
+    background-image: url(../images/manapools/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .manapools-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .manapools-activities-card:hover, .manapools-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .manapools-activities-card:hover:before, .manapools-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .manapools-activities-card:hover:after, .manapools-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .manapools-activities-card:hover .content, .manapools-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .manapools-activities-card:hover .content > *:not(.title), .manapools-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .manapools-activities-card:focus-within:before, .manapools-activities-card:focus-within:after, .manapools-activities-card:focus-within .content, .manapools-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*manapools Safari Carousel Images*/
+
+
+  
+  /*matopos Attractions*/
+  .matopos-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .matopos-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .matopos-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .matopos-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .matopos-attractions-card:nth-child(1):before {
+    background-image: url(../images/matopos/1.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(2):before {
+    background-image: url(../images/matopos/4.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(3):before {
+    background-image: url(../images/matopos/homebanner.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(4):before {
+    background-image: url(../images/matopos/5.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(5):before {
+    background-image: url(../images/matopos/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .matopos-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .matopos-attractions-card:hover, .matopos-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .matopos-attractions-card:hover:before, .matopos-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .matopos-attractions-card:hover:after, .matopos-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .matopos-attractions-card:hover .content, .matopos-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .matopos-attractions-card:hover .content > *:not(.title), .matopos-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .matopos-attractions-card:focus-within:before, .matopos-attractions-card:focus-within:after, .matopos-attractions-card:focus-within .content, .matopos-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End matopos Attractions*/
+  
+  /*matopos Activities*/
+  .matopos-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .matopos-activities-card {
+      height: 350px;
+    }
+  }
+  .matopos-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .matopos-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at matopos*/
+  
+  /*Game Drive*/
+  .matopos-activities-card:nth-child(1):before {
+    background-image: url(../images/matopos/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .matopos-activities-card:nth-child(2):before {
+    background-image: url(../images/matopos/matopos-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .matopos-activities-card:nth-child(3):before {
+    background-image: url(../images/matopos/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .matopos-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .matopos-activities-card:hover, .matopos-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .matopos-activities-card:hover:before, .matopos-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .matopos-activities-card:hover:after, .matopos-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .matopos-activities-card:hover .content, .matopos-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .matopos-activities-card:hover .content > *:not(.title), .matopos-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .matopos-activities-card:focus-within:before, .matopos-activities-card:focus-within:after, .matopos-activities-card:focus-within .content, .matopos-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*matopos Safari Carousel Images*/
+
+  
+  /*nyanga Attractions*/
+  .nyanga-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .nyanga-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .nyanga-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .nyanga-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .nyanga-attractions-card:nth-child(1):before {
+    background-image: url(../images/nyanga/1.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(2):before {
+    background-image: url(../images/nyanga/4.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(3):before {
+    background-image: url(../images/nyanga/homebanner.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(4):before {
+    background-image: url(../images/nyanga/5.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(5):before {
+    background-image: url(../images/nyanga/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .nyanga-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .nyanga-attractions-card:hover, .nyanga-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .nyanga-attractions-card:hover:before, .nyanga-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .nyanga-attractions-card:hover:after, .nyanga-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .nyanga-attractions-card:hover .content, .nyanga-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .nyanga-attractions-card:hover .content > *:not(.title), .nyanga-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .nyanga-attractions-card:focus-within:before, .nyanga-attractions-card:focus-within:after, .nyanga-attractions-card:focus-within .content, .nyanga-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End nyanga Attractions*/
+  
+  /*nyanga Activities*/
+  .nyanga-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .nyanga-activities-card {
+      height: 350px;
+    }
+  }
+  .nyanga-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .nyanga-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at nyanga*/
+  
+  /*Game Drive*/
+  .nyanga-activities-card:nth-child(1):before {
+    background-image: url(../images/nyanga/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .nyanga-activities-card:nth-child(2):before {
+    background-image: url(../images/nyanga/nyanga-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .nyanga-activities-card:nth-child(3):before {
+    background-image: url(../images/nyanga/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .nyanga-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .nyanga-activities-card:hover, .nyanga-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .nyanga-activities-card:hover:before, .nyanga-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .nyanga-activities-card:hover:after, .nyanga-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .nyanga-activities-card:hover .content, .nyanga-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .nyanga-activities-card:hover .content > *:not(.title), .nyanga-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .nyanga-activities-card:focus-within:before, .nyanga-activities-card:focus-within:after, .nyanga-activities-card:focus-within .content, .nyanga-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*nyanga Safari Carousel Images*/
+
+  /*Gonarezhou Attractions*/
+.gonarezhou-attractions-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .gonarezhou-attractions-card {
+    height: 350px;
+   
+  }
+}
+.gonarezhou-attractions-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.gonarezhou-attractions-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.gonarezhou-attractions-card:nth-child(1):before {
+  background-image: url(../images/gonarezhou/1.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(2):before {
+  background-image: url(../images/gonarezhou/4.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(3):before {
+  background-image: url(../images/gonarezhou/homebanner.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(4):before {
+  background-image: url(../images/gonarezhou/5.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(5):before {
+  background-image: url(../images/gonarezhou/6.JPG);
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .gonarezhou-attractions-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .gonarezhou-attractions-card:hover, .gonarezhou-attractions-card:focus-within {
+    align-items: center;
+  }
+
+  .gonarezhou-attractions-card:hover:before, .gonarezhou-attractions-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .gonarezhou-attractions-card:hover:after, .gonarezhou-attractions-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .gonarezhou-attractions-card:hover .content, .gonarezhou-attractions-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-attractions-card:hover .content > *:not(.title), .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .gonarezhou-attractions-card:focus-within:before, .gonarezhou-attractions-card:focus-within:after, .gonarezhou-attractions-card:focus-within .content, .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Transition On Hover*/
+
+/*End Gonarezhou Attractions*/
+
+/*Gonarezhou Activities*/
+.gonarezhou-activities-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .gonarezhou-activities-card {
+    height: 350px;
+  }
+}
+.gonarezhou-activities-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.gonarezhou-activities-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+/*Images for Activities at Gonarezhou*/
+
+/*Game Drive*/
+.gonarezhou-activities-card:nth-child(1):before {
+  background-image: url(../images/gonarezhou/game-drive-3008x2000.jpg);
+}
+
+/*Walking Safaris*/
+.gonarezhou-activities-card:nth-child(2):before {
+  background-image: url(../images/gonarezhou/gonarezhou-walking-safaris.jpg);
+}
+
+/*Fishing*/
+.gonarezhou-activities-card:nth-child(3):before {
+  background-image: url(../images/gonarezhou/fishing-for-tiger.jpg);
+}
+
+
+
+/*Transitions On Hover*/
+
+@media (hover: hover) and (min-width: 600px) {
+  .gonarezhou-activities-card:after {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-activities-card:hover, .gonarezhou-activities-card:focus-within {
+    align-items: center;
+  }
+
+  .gonarezhou-activities-card:hover:before, .gonarezhou-activities-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+ /* .gonarezhou-activities-card:hover:after, .gonarezhou-activities-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+*/
+  .gonarezhou-activities-card:hover .content, .gonarezhou-activities-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-activities-card:hover .content > *:not(.title), .gonarezhou-activities-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .gonarezhou-activities-card:focus-within:before, .gonarezhou-activities-card:focus-within:after, .gonarezhou-activities-card:focus-within .content, .gonarezhou-activities-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*Gonarezhou Safari Carousel Images*/
+
+
+
+
+
 
 /*Zambezi Section*/
 
