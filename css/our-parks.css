@@ -917,6 +917,28 @@ consists of Overview, Accomodation, etc          */
   font-family: var(--font-sans);
 }
 
+/*accomodation page content*/
+
+.accomodation_page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .accomodation_page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .accomodation_page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
 @media (min-width: 600px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
@@ -2953,11 +2975,9 @@ consists of Overview, Accomodation, etc          */
 
 /*Accomodation Tab Campsites*/
 .accomodation-wrapper {
-  float: left;
-  width: 30%;
+  height: 350px;
   min-width: 200px;
   background-color: #f1f1f1;
-  margin: 1.5%;
   box-sizing: border-box;
   text-align: center;
 }
@@ -2976,6 +2996,7 @@ consists of Overview, Accomodation, etc          */
   padding-bottom: 1em;
   background-color: #f1f1f1;
   color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
   transition: all ease-in 0.15s;
 }
 
@@ -2984,27 +3005,28 @@ consists of Overview, Accomodation, etc          */
   transform: translate(0px, -2px) scale(1.01);
 }
 
-.details>h1 {
+.accomodation-wrapper .details>h1 {
   font-family: "Playfair Display";
   font-size: 1em;
 }
-.details>h2 {
+.accomodation-wrapper .details>h2 {
   font-family: sans-serif;
   font-size: 1.4em;
   font-weight: 200;
   letter-spacing: 0.1em;
 }
-.details>p {
+.accomodation-wrapper .details>p {
   font-family: sans-serif;
   font-size: 1em;
   font-weight: 200;
+  text-align: center;
 }
 
 .accomodation-image{
   position: relative;
   z-index: 2;
   width: 85%;
-  height: 250px;
+  height: 200px;
   margin: 0 auto -10em;
   background-size: cover;
   background-position: center;
@@ -3017,7 +3039,7 @@ consists of Overview, Accomodation, etc          */
 }
   
 .i1{
-    background-image: url(https://31.media.tumblr.com/9e9ba532a3174811c79e07bc4a61ebdc/tumblr_n92w6iRSjY1r5gmiko1_500.jpg);
+    background-image: url(../images/CAMP-SITE-1.png);
 }
 .i2 {
   background-image: url(http://www.asianventure.com/images/country/vietnam.jpg);
@@ -3025,23 +3047,3 @@ consists of Overview, Accomodation, etc          */
 .i3 {
   background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/06/c7/ba/92/salah-satu-bangunan-di.jpg);
   }
-
-@media screen and (max-width: 1000px) {
-  .accomodation-wrapper{
-    width: 47%;
-  }
-}
-@media screen and(max-width:700px){
-  .accomodation-wrapper{
-    float: none;
-    width: 70%;
-    margin: 1em auto;
-  }
-}
-@media screen and(max-width:700px){
-  .accomodation-wrapper{
-    float: none;
-    width: 70%;
-    margin: 1em auto;
-  }
-}
