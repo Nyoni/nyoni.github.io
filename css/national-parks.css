@@ -223,7 +223,7 @@
 .chimanimani-hero-section{
   position: relative;
   height: 90vh;
-  background: url(../images/chimanimani/homebanner.JPG); /*background image*/
+  background: url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -254,13 +254,271 @@
 /*Chimanimani National Park Overview*/
 
 .chimanimani-overview {
-background-image: url("../images/chimanimani/homebanner.JPG");
+background-image: url("../images/nationalparks/chimanimani/homebanner.JPG");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100%;
 height: 100vh;
 
 }
+
+/*Heros Section for chizarira National Park*/
+.chizarira-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/chizarira/chizarira-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.chizarira-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.chizarira-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.chizarira-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*chizarira National Park Overview*/
+.chizarira-overview {
+  background-image: url("../images/nationalparks/chizarira/homebanner.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100vh;
+  
+  }
+
+  /*Heros Section for kazumapan National Park*/
+.kazumapan-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/kazumapan/kazumapan-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.kazumapan-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.kazumapan-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.kazumapan-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*kazumapan National Park Overview*/
+
+.kazumapan-overview {
+background-image: url("../images/nationalparks/kazumapan/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
+
+/*Heros Section for manapools National Park*/
+.manapools-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/manapools/manapools-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.manapools-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.manapools-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.manapools-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*manapools National Park Overview*/
+
+.manapools-overview {
+background-image: url("../images/nationalparks/manapools/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
+
+/*Heros Section for matopos National Park*/
+.matopos-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/matopos/matopos-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.matopos-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.matopos-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.matopos-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*matopos National Park Overview*/
+
+.matopos-overview {
+background-image: url("../images/nationalparks/matopos/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
+
+/*Heros Section for nyanga National Park*/
+.nyanga-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/nyanga/nyanga-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nyanga-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.nyanga-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.nyanga-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*nyanga National Park Overview*/
+
+.nyanga-overview {
+background-image: url("../images/nationalparks/nyanga/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
+
+/*Heros Section for victoriafalls National Park*/
+.victoriafalls-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/nationalparks/victoriafalls/victoriafalls-homebanner.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.victoriafalls-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.victoriafalls-hero-inner{
+  max-width: 700px;
+  position: relative;
+  left: 0;
+}
+
+.victoriafalls-hero-inner h2{
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+
+/*victoriafalls National Park Overview*/
+
+.victoriafalls-overview {
+background-image: url("../images/nationalparks/victoriafalls/homebanner.JPG");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+height: 100vh;
+
+}
+
 
 /*Heros Section for Gonarezhou National Park*/
 .gonarezhou-hero-section{
