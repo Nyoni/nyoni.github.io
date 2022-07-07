@@ -379,8 +379,7 @@ height: 100vh;
   text-transform: capitalize;
 }
 
-/*manapools National Park Overview*/
-
+/*Mana Pools National Park Overview*/
 .manapools-overview {
 background-image: url("../images/nationalparks/manapools/homebanner.JPG");
 background-repeat: no-repeat;
@@ -567,7 +566,7 @@ height: 100vh;
  /*Hwange National Park*/
 
  /*Heros Section for Hwange National Park*/
-.hwange-hero-section{
+.hwange-hero-section {
   position: relative;
   height: 90vh;
   background: url(../images/nationalparks/hwange/hwange-homebanner.JPG); /*background image*/
@@ -585,12 +584,12 @@ height: 100vh;
 }
 
 .hwange-hero-inner{
-  max-width: 500px;
+  max-width: 700px;
   position: relative;
   left: 0;
 }
 
-.hwange-hero-inner h1{
+.hwange-hero-inner h2{
   color: #ffffff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -598,20 +597,6 @@ height: 100vh;
   text-transform: uppercase;
 }
 
-.hwange-hero-inner h5 {
-  color: white;
-  margin-bottom: 20px;
-  font-size: 18px;
-  text-transform: none;
-  letter-spacing: 5px;
-}
-
-.hwange-hero-inner .sub-title {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 0.8px;
-  color: var(--green);
-}
 /*Hwange National Park Overview*/
 
 .hwange-overview {
@@ -643,7 +628,7 @@ background: rgba(0, 0, 0, 0.45);
 }
 
 .zambezi-hero-inner{
-max-width: 500px;
+max-width: 700px;
 position: relative;
 left: 0;
 }
@@ -651,23 +636,9 @@ left: 0;
 .zambezi-hero-inner h2{
 color: #ffffff;
 margin-bottom: 30px;
-font-size: 22px;
-text-transform: uppercase;
-}
-
-.zambezi-hero-inner h5 {
-color: white;
-margin-bottom: 20px;
-font-size: 18px;
-text-transform: none;
-letter-spacing: 5px;
-}
-
-.zambezi-hero-inner .sub-title {
-font-size: 20px;
-font-weight: 500;
-letter-spacing: 0.8px;
-color: var(--green);
+font-size: 48px;
+font-weight: 700;
+text-transform: capitalize;
 }
 
 /*Zambezi National Park Overview*/
@@ -678,13 +649,6 @@ background-attachment: fixed;
 background-size: 100%;
 height: 100vh;
 }
-
-
-
-
-
-
-
 
 /*National Parks Gallery*/
 
