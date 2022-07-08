@@ -166,57 +166,72 @@
   
   /*Gonarezhou National Park*/
   .recreational-parks-card:nth-child(1):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/gonarezhou/homebanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/bangala/DSC_0626.JPG);
   }
   
   /*Hwange National Park*/
   .recreational-parks-card:nth-child(2):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/hwange/hwange-homebanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/chibwatata/DSC_0605.JPG);
   }
   
   /*Matusadonha National Park*/
   .recreational-parks-card:nth-child(3):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/chinhoyi/chinhoyi-1.jpg);
   }
   
   /*Chimanimani National Park*/
   .recreational-parks-card:nth-child(4):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/chivero/DSC_0601.JPG);
   }
   
   
   /*Nyanga National Park*/
   .recreational-parks-card:nth-child(5):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/nyanga/nyanga-homebanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/cullingham/DSC_0381.JPG);
   }
   
   /*Matopos National Park*/
   .recreational-parks-card:nth-child(6):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matobo/matopos-1.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/darewendale/DSC_0359.JPG);
   }
   
   /*Zambezi National Park*/
   .recreational-parks-card:nth-child(7):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/zambezi/zambezi-homebanner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/kariba/DSC_0333.JPG);
   }
   
   /*Victoria Falls National Park*/
   .recreational-parks-card:nth-child(8):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/kyle/DSC_0309.jpg);
   }
   
   /*Chizarira National Park*/
   .recreational-parks-card:nth-child(9):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chizarira/chizarira-hommerbanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/manjirenji/DSC_0322.JPG);
   }
   
   /*Mana Pools National Park*/
   .recreational-parks-card:nth-child(10):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/manapools/manapools-homebanner.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/matopos/DSC_9659.JPG);
   }
   
   /*Kazuma Pan National Park*/
   .recreational-parks-card:nth-child(11):before {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/mzingwane/DSC_0305.JPG);
   }
+
+  /*Kazuma Pan National Park*/
+    .recreational-parks-card:nth-child(12):before {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks/ngezi/DSC_0145.JPG);
+    }
+
+  /*Kazuma Pan National Park*/
+  .recreational-parks-card:nth-child(13):before {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks);
+  }
+
+    /*Kazuma Pan National Park*/
+    .recreational-parks-card:nth-child(14):before {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/recreationalparks);
+    }
   

@@ -1,317 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recreational Parks</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
 
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="css/fontawesome-v5.9.0.min.css" />
+  <!--Flaticon-->
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-        <!--Font Awesome-->
-        <link rel="stylesheet" href="css/fontawesome-v5.9.0.min.css">
-        <!--Flaticon-->
-        <link rel="stylesheet" href="css/flaticon.css">
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bulmacss/bulma.css" />
 
-        <link rel="stylesheet" href="css/bulmacss/bulma.css">
+  <!--Slick-->
+  <link rel="stylesheet" href="css/slick.css" />
+  <!--Flaticon-->
+  <link rel="stylesheet" href="./assetscss/flaticon.css" />
+  <!--Animate-->
+  <link rel="stylesheet" href="css/animate.css" />
+  <!--Leaflet-->
+  <link rel="stylesheet" href="css/leaflet.css" />
+  <!--Spacing-->
+  <link rel="stylesheet" href="css/spacing.min.css" />
+  <!--Style-->
 
-        <!--Slick-->
-        <link rel="stylesheet" href="css/slick.css">
-        <!--Flaticon-->
-        <link rel="stylesheet" href="./assetscss/flaticon.css">
-        <!--Animate-->
-        <link rel="stylesheet" href="css/animate.css">
-        <!--Leaflet-->
-        <link rel="stylesheet" href="css/leaflet.css">
-        <!--Spacing-->
-        <link rel="stylesheet" href="css/spacing.min.css">
-        <!--Style-->
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="css/chrome.css" />
+  <!--Main CSS File-->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/utility.css" />
+  <link rel="stylesheet" href="css/our-parks.css" />
+  <link rel="stylesheet" href="css/recreational-parks.css" />
+  <!--Responsive CSS-->
+  <link rel="stylesheet" href="css/responsive.css" />
 
-        <!--Custom CSS-->
-        <link rel="stylesheet" href="css/chrome.css">
-        <!--Main CSS File-->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/utility.css">
-        <link rel="stylesheet" href="css/our-parks.css">
-        <link rel="stylesheet" href="css/recreational-parks.css">
-        <!--Responsive CSS-->
-        <link rel="stylesheet" href="css/responsive.css">
-
-        <link rel="stylesheet" href="css/parks-cards.css">
-<body>
-      <!--HEADER-->
+  <link rel="stylesheet" href="css/parks-cards.css" />
+  <body>
+    <!--HEADER-->
     <!--sticky social media icons-->
     <nav class="socials">
-        <ul>
-            <li>
-                <a href="#"><i class="fab fa-facebook-f"><span>Facebook</span></i></a>
-            </li>
+      <ul>
+        <li>
+          <a href="#"
+            ><i class="fab fa-facebook-f"><span>Facebook</span></i></a
+          >
+        </li>
 
-            <li>
-                <a href="#"><i class="fab fa-twitter"><span>Twitter</span></i></a>
-            </li>
+        <li>
+          <a href="#"
+            ><i class="fab fa-twitter"><span>Twitter</span></i></a
+          >
+        </li>
 
-            <li>
-                <a href="#"><i class="fab fa-instagram"><span>Instagram</span></i></a>
-            </li>
+        <li>
+          <a href="#"
+            ><i class="fab fa-instagram"><span>Instagram</span></i></a
+          >
+        </li>
 
-            <li>
-                <a href="#"><i class="fab fa-youtube"><span>Youtube</span></i></a>
-            </li>
+        <li>
+          <a href="#"
+            ><i class="fab fa-youtube"><span>Youtube</span></i></a
+          >
+        </li>
 
-            <li>
-                <a href="#"><i class="fab fa-whatsapp"><span>Contact Us</span></i></a>
-            </li>
-        </ul>
+        <li>
+          <a href="#"
+            ><i class="fab fa-whatsapp"><span>Contact Us</span></i></a
+          >
+        </li>
+      </ul>
     </nav>
 
     <!--Section: Header-->
     <header class="main-header">
-        <!--Header-Upper-->
-        <div class="header-upper">
-            <div class="container clearfix">
-                
-                <div class="header-inner d-lg-flex align-items-center">
-                    <div class="logo-outer d-flex align-items-center">
-                        <div class="logo">
-                            <a href="index.html">
-                            <img src="images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png" alt="logo" title="">
-                        </a>
-                        </div>
-                    </div>
-
-                    <div class="nav-outer clearfix ml-lg-auto">
-                        <!-- Main Menu -->
-                        <nav class="main-menu navbar-expand-lg">
-                            <div class="navbar-header clearfix">
-                                <!--Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <div class="navbar-collapse collapse clearfix">
-                                <ul class="navigation clearfix">
-                                    <!--Home-->
-                                    <li><a href="index.html">Home</a></li>
-                                    
-                                    <!--About Us-->
-                                    <li ><a href="about-us.html">About Us</a></li>
-                                    
-                                    <!--Conservation-->   
-                                    <li class="dropdown"><a href="#">Conservation</a>
-                                        <ul>
-                                            <!--Park Protection-->
-                                            <li ><a href="park-protection.html">Park Protection</a></li>
-                                           
-                                            <!--Conservation Research-->
-                                            <li class="dropdown"><a href="#">Conservation Research</a>
-                                                <ul>
-                                                    <li><a href="research-policy.html">Research Policy</a></li>
-                                                    <li><a href="research-strategy.html">Research Strategy</a></li>
-                                                    <li><a href="priotity-areas.html">Priority Areas</a></li> <!--Research Priority Areas-->
-                                                    <li><a href="research-publications.html">Research Publications</a></li>
-                                                    <li><a href="research-monitoring.html">Research Monitoring</a></li>
-                                                    <li><a href="management-plans.html">Management Plans</a></li>
-                                                    <li><a href="research-partnership.html ">Research Partnership</a></li>
-                                                </ul> 
-                                            </li>
-                                            
-                                            <li class="dropdown"><a href="#">Community Conservation</a>
-                                                <ul>
-                                                    <li><a href="community-conservancies.html">Conservancies</a></li>
-                                                    <li><a href="human-wildlife-conflict.html">Human Wildlife Conflicts</a></li>
-                                                    <li><a href="community-outreach.html">Community Outreach</a></li>
-                                                    <li ><a href="conservation-education.html">Conservation Education</a></li>
-                                                    <li><a href="CAMPFIRE.html">CAMPFIRE</a></li>
-                                                </ul>
-                                            </li>
-
-                                            <li class="dropdown"><a href="#">International Conservation</a>
-                                                <ul>
-                                                    <li><a href="tfca.html">TFCA</a></li>
-                                                    <li><a href="joint-commissions.html">Joint Commissions</a></li>
-                                                    <li><a href="conventions.html">Conventions</a></li>
-                                                    <li><a href="monitoring.html">Monitoring</a></li>
-                                                </ul>
-                                            </li>
-                                            <!--Licensing-->
-                                            <li><a href="licencing.html">Licensing</a></li>
-                                        
-                                          </ul>
-                                    </li>
-
-                                     <!--Our Parks-->
-                                     <li class="dropdown"><a href="">Our Parks</a>
-                                        <ul>
-                                            <li ><a href="national-parks.html">Recreational Parks</a></li>
-                                            <li ><a href="recreational-parks.html">Recreational Parks</a></li>
-                                            <li ><a href="botanical-gardens.html">Botanical Gardens</a></li>
-                                            <li ><a href="safari-areas.html">Safari Areas</a></li>
-                                            <li ><a href="sanctuaries.html">Sanctuaries</a></li>
-                                               
-                                        </ul>
-                                    </li>
-
-                                    <!--Opportunities-->
-                                    <li><a href="opportunities.html">Opportunities</a></li>
-                                    
-                                    <!--Contact-->
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!--End of Main MENU-->
-                    </div>
-                
-                </div>
+      <!--Header-Upper-->
+      <div class="header-upper">
+        <div class="container clearfix">
+          <div class="header-inner d-lg-flex align-items-center">
+            <div class="logo-outer d-flex align-items-center">
+              <div class="logo">
+                <a href="index.html">
+                  <img
+                    src="images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png"
+                    alt="logo"
+                    title=""
+                  />
+                </a>
+              </div>
             </div>
+
+            <div class="nav-outer clearfix ml-lg-auto">
+              <!-- Main Menu -->
+              <nav class="main-menu navbar-expand-lg">
+                <div class="navbar-header clearfix">
+                  <!--Toggle Button -->
+                  <button
+                    type="button"
+                    class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                  >
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <div class="navbar-collapse collapse clearfix">
+                  <ul class="navigation clearfix">
+                    <!--Home-->
+                    <li><a href="index.html">Home</a></li>
+
+                    <!--About Us-->
+                    <li><a href="about-us.html">About Us</a></li>
+
+                    <!--Conservation-->
+                    <li class="dropdown">
+                      <a href="#">Conservation</a>
+                      <ul>
+                        <!--Park Protection-->
+                        <li>
+                          <a href="park-protection.html">Park Protection</a>
+                        </li>
+
+                        <!--Conservation Research-->
+                        <li class="dropdown">
+                          <a href="#">Conservation Research</a>
+                          <ul>
+                            <li>
+                              <a href="research-policy.html">Research Policy</a>
+                            </li>
+                            <li>
+                              <a href="research-strategy.html"
+                                >Research Strategy</a
+                              >
+                            </li>
+                            <li>
+                              <a href="priotity-areas.html">Priority Areas</a>
+                            </li>
+                            <!--Research Priority Areas-->
+                            <li>
+                              <a href="research-publications.html"
+                                >Research Publications</a
+                              >
+                            </li>
+                            <li>
+                              <a href="research-monitoring.html"
+                                >Research Monitoring</a
+                              >
+                            </li>
+                            <li>
+                              <a href="management-plans.html"
+                                >Management Plans</a
+                              >
+                            </li>
+                            <li>
+                              <a href="research-partnership.html "
+                                >Research Partnership</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+
+                        <li class="dropdown">
+                          <a href="#">Community Conservation</a>
+                          <ul>
+                            <li>
+                              <a href="community-conservancies.html"
+                                >Conservancies</a
+                              >
+                            </li>
+                            <li>
+                              <a href="human-wildlife-conflict.html"
+                                >Human Wildlife Conflicts</a
+                              >
+                            </li>
+                            <li>
+                              <a href="community-outreach.html"
+                                >Community Outreach</a
+                              >
+                            </li>
+                            <li>
+                              <a href="conservation-education.html"
+                                >Conservation Education</a
+                              >
+                            </li>
+                            <li><a href="CAMPFIRE.html">CAMPFIRE</a></li>
+                          </ul>
+                        </li>
+
+                        <li class="dropdown">
+                          <a href="#">International Conservation</a>
+                          <ul>
+                            <li><a href="tfca.html">TFCA</a></li>
+                            <li>
+                              <a href="joint-commissions.html"
+                                >Joint Commissions</a
+                              >
+                            </li>
+                            <li><a href="conventions.html">Conventions</a></li>
+                            <li><a href="monitoring.html">Monitoring</a></li>
+                          </ul>
+                        </li>
+                        <!--Licensing-->
+                        <li><a href="licencing.html">Licensing</a></li>
+                      </ul>
+                    </li>
+
+                    <!--Our Parks-->
+                    <li class="dropdown">
+                      <a href="">Our Parks</a>
+                      <ul>
+                        <li>
+                          <a href="national-parks.html">Recreational Parks</a>
+                        </li>
+                        <li>
+                          <a href="recreational-parks.html"
+                            >Recreational Parks</a
+                          >
+                        </li>
+                        <li>
+                          <a href="botanical-gardens.html">Botanical Gardens</a>
+                        </li>
+                        <li><a href="safari-areas.html">Safari Areas</a></li>
+                        <li><a href="sanctuaries.html">Sanctuaries</a></li>
+                      </ul>
+                    </li>
+
+                    <!--Opportunities-->
+                    <li><a href="opportunities.html">Opportunities</a></li>
+
+                    <!--Contact-->
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!--End of Main MENU-->
+            </div>
+          </div>
         </div>
-    <!--Section: Header-Upper-->
+      </div>
+      <!--Section: Header-Upper-->
     </header>
     <!--Section: Header-->
-            <!--Section: Hero -->
-            <section class="recparks-hero-section overlay">
-                <div >
-                    <div class="recparks-hero-inner">
-                        <h1 class="wow fadeInUp" data-wow-duration="1s">Recreational Parks</h1>
-                        
-                    </div>
-                </div>
-            </section>
-            <!--Section: Hero -->
+    <!--Section: Hero -->
+    <section class="recparks-hero-section overlay">
+      <div>
+        <div class="recparks-hero-inner">
+          <h1 class="wow fadeInUp" data-wow-duration="1s">
+            Recreational Parks
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!--Section: Hero -->
 
-            <!--Section: Recreational Parks-->
+    <!--Section: Recreational Parks-->
 
-            <section>
-                <div class="container">
-                    <div class="recreational_parks-page-content">
-                        <div class="recreational-parks-card">
-                          <div class="content">
-                            <h2 class="title">Darewendale Recreational Park</h2>     
-                            <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                          </div>
-                        </div>
-                        <div class="recreational-parks-card">
-                          <div class="content">
-                            <h2 class="title">Chinhoyi Recreational Park</h2>
-                            
-                            <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                          </div>
-                        </div>
-                        <div class="recreational-parks-card">
-                          <div class="content">
-                            <h2 class="title">Kyle Recreational Park</h2>
-                            
-                            <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                          </div>
-                        </div>
-        
-                        <div class="recreational-parks-card">
-                            <div class="content">
-                              <h2 class="title">Chivero Recreational Park</h2>
-                              
-                              <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                            </div>
-                          </div>
-                          <div class="recreational-parks-card">
-                            <div class="content">
-                              <h2 class="title">Ngezi Recreational Park</h2>
-                              
-                              <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                            </div>
-                          </div>
-                          <div class="recreational-parks-card">
-                            <div class="content">
-                              <h2 class="title">Sebakwe Recreational Park</h2>
-                              
-                              <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                            </div>
-                          </div>
+    <section>
+      <div class="container">
+        <div class="recreational_parks-page-content">
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Bangala Dam</h2>
+              <button class="btn">
+                <a href="rec_park-bangala.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
-                          <div class="recreational-parks-card">
-                            <div class="content">
-                              <h2 class="title">Matopos Recreational Park</h2>
-                              
-                              <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                            </div>
-                          </div>
-                          <div class="recreational-parks-card">
-                            <div class="content">
-                              <h2 class="title">Lake Kariba </h2>
-                              
-                              <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                            </div>
-                          </div>
-          
-                          <div class="recreational-parks-card">
-                              <div class="content">
-                                <h2 class="title">Chibwatata Recreational Park</h2>
-                                
-                                <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                              </div>
-                            </div>
-                            <div class="recreational-parks-card">
-                              <div class="content">
-                                <h2 class="title">Bangala Dam </h2>
-                                
-                                <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                              </div>
-                            </div>
-                            <div class="recreational-parks-card">
-                              <div class="content">
-                                <h2 class="title">Lake Cunningham</h2>
-                                
-                                <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                              </div>
-                            </div>
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Chibwatata Recreational Park</h2>
+              <button class="btn">
+                <a href="rec_park-chibwatata.html">Explore</a>
+              </button>
+            </div>
+          </div>
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Chinhoyi Recreational Park</h2>
 
-                            <div class="recreational-parks-card">
-                                <div class="content">
-                                  <h2 class="title">Mzingwane Recreational Park</h2>
-                                  
-                                  <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                                </div>
-                              </div>
+              <button class="btn">
+                <a href="rec_park-chinhoyi.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
-                              <div class="recreational-parks-card">
-                                <div class="content">
-                                  <h2 class="title">Osborne Dam</h2>
-                                  
-                                  <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                                </div>
-                              </div>
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Chivero Recreational Park</h2>
+              <button class="btn">
+                <a href="rec_park-chivero.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
-                              <div class="recreational-parks-card">
-                                <div class="content">
-                                  <h2 class="title">Manjirenji Recreational Park</h2>
-                                  
-                                  <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                                </div>
-                              </div>
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Lake Cunningham</h2>
 
-                              <div class="recreational-parks-card">
-                                <div class="content">
-                                  <h2 class="title">Lake Cunningham</h2>
-                                  
-                                  <button class="btn"><a href="gonarezhou.html">Explore</a></button>
-                                </div>
-                              </div>
-                    </div>
-                </div>
-            </section>
+              <button class="btn">
+                <a href="rec_park-cullingham.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Darewendale Recreational Park</h2>
+              <button class="btn">
+                <a href="rec_park-darewendale.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
-            <!--Section: Recreational Parks-->
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Lake Kariba</h2>
 
+              <button class="btn">
+                <a href="rec_park-kariba.html">Explore</a>
+              </button>
+            </div>
+          </div>
 
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Kyle Recreational Park</h2>
 
-                <!--JS Files-->
+              <button class="btn">
+                <a href="rec_park-kyle.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Manjirenji Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_manjirenji.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Matopos Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_park-matopos.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Mzingwane Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_park-mzingwane.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Ngezi Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_park-ngezi.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Osborne Dam</h2>
+
+              <button class="btn">
+                <a href="rec_park-osborne.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Matopos Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_park-matopos.html">Explore</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="recreational-parks-card">
+            <div class="content">
+              <h2 class="title">Mzingwane Recreational Park</h2>
+
+              <button class="btn">
+                <a href="rec_park-mzingwane.html">Explore</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: Recreational Parks-->
+
+    <!--JS Files-->
     <script src="js/jquery-slim.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -324,13 +428,13 @@
     <script src="js/TweenMax.min.js"></script>
     <script src="js/demo.js"></script>
     <script src="js/leaflet.min.js"></script>
-    <script src="js/appear.js"></script> 
+    <script src="js/appear.js"></script>
 
     <!--Custom JS-->
     <script src="js/index.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/search-form.js"></script>
     <script src="js/slider.js"></script>
-    <script src="js/horizontal-slider.js"></script>    
-</body>
+    <script src="js/horizontal-slider.js"></script>
+  </body>
 </html>
