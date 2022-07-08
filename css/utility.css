@@ -72,6 +72,8 @@
     --heading-text-color: #19171a;
     --bg1: #fff;
     --bg2: #fff;
+    font-size: 16px;
+    --card-img-height: 200px;
   /*   --great-vibes: 'Great Vibes', cursive;
     --open-sans: 'Open Sans', sans-serif;
     --nanum: 'Nanum Myeongjo', serif;
@@ -79,6 +81,129 @@
     --lato: 'Lato', sans-serif;
    --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
   }
+
+  /*Articles Card Template*/
+
+  
+  .cites_article_card {
+    align-self: flex-start;
+    position: relative;
+    width: 270px;
+    min-width: 200px;
+    margin: 0.65rem 0.65rem;
+    background: white;
+    transition: all 300ms ease-in-out;
+  }
+  .cites_article_card .cites_article_card-img {
+    visibility: hidden;
+    width: 100%;
+    height: var(--card-img-height);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .cites_article_card .cites_article_card-img-hovered {
+    --card-img-hovered-overlay: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    );
+    transition: all 350ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: var(--card-img-height);
+    top: 0;
+  }
+  .cites_article_card .cites_article_card-info {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    transition: all 200ms ease-in-out;
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    transition: all 200ms ease-in-out;
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-about .cites_article_card-tag {
+    width: 60px;
+    max-width: 100px;
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #505f79;
+    color: #fff;
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-about .cites_article_card-tag.tag-news {
+    background: var(--green);
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-about .cites_article_card-tag.tag-deals {
+    background: var(--green);
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-about .cites_article_card-tag.tag-politics {
+    width: 51px;
+    background: var(--green);
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-title {
+    z-index: 10;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+    transition: all 350ms ease-in-out;
+  }
+  .cites_article_card .cites_article_card-info .cites_article_card-creator {
+    padding-bottom: 0.75rem;
+    transition: all 250ms ease-in-out;
+  }
+  .cites_article_card:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+    transform: scale(1.025);
+  }
+  .cites_article_card:hover .cites_article_card-img-hovered {
+    --card-img-hovered-overlay: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.65)
+    );
+    height: 100%;
+  }
+  .cites_article_card:hover .cites_article_card-about,
+  .cites_article_card:hover .cites_article_card-creator {
+    opacity: 0;
+  }
+  .cites_article_card:hover .cites_article_card-info {
+    background-color: transparent;
+  }
+  .cites_article_card:hover .cites_article_card-title {
+    color: #ebecf0;
+    transform: translate(0, 40px);
+  }
+  
+  .cites_article_card-1 .cites_article_card-img,
+  .cites_article_card-1 .cites_article_card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(../images/internationalconventions/cites/ivory-stock-piles.jpg);
+  }
+  
+  .cites_article_card-2 .cites_article_card-img,
+  .cites_article_card-2 .cites_article_card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(../images/internationalconventions/cites/lions.JPG);
+  }
+  
+  .cites_article_card-3 .cites_article_card-img,
+  .cites_article_card-3 .cites_article_card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(../images/internationalconventions/cites/elephants.JPG);
+  }
+  
+
+ /*End Article Card Template*/
+
+
   
   * {
     font-family: 'latoregular';
