@@ -109,64 +109,10 @@
 
   /*Human Wildlife Conflict Articles*/
 
-  html {
-    font-family: Fraunces, serif;
-    font-size: 115%;
-    line-height: 1.35;
-    font-weight: 340;
-    color: var(--text);
-    background: var(--background);
-    padding-bottom: 20vh;
-  
-    /* Typetura */
-    --tt-key: html;
-    --tt-max: 900;
-    --tt-ease: cubic-bezier(0, 0.78, 0.53, 1);
-  
-    /* Grid */
-    --max-width: 1200px;
-    --columns: 6;
-    --gutter: 1.5rem;
-  
-    /* Color */
-    --primary: #f4663a;
-    --background: #efeded;
-    --background-alt: #ffffff;
-    --text: #31355b;
-  }
-  @keyframes html {
-    0% {
-      font-size: 0%;
-    }
-  
-    100% {
-      font-size: 125%;
-    }
-  }
-  * {
-    --grid: minmax(var(--gutter), 1fr)
-      repeat(
-        var(--columns),
-        minmax(
-          0,
-          calc(
-            (var(--max-width) - (var(--gutter) * (var(--columns) - 1))) /
-              var(--columns)
-          )
-        )
-      )
-      minmax(var(--gutter), 1fr);
-  }
+
   
   /* Element styles */
   
-  body {
-    margin: 0;
-  }
-  
-  img {
-    width: 100%;
-  }
   
   /* Typography */
   
