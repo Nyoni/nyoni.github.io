@@ -1721,7 +1721,7 @@ ol li {
 
 .news .post .caption .title > a {
 color: #ffffff;
-font-size: 18px;
+font-size: 24px;
 }
 .news .post .caption:hover .title  {
   color: var(--yellow);
