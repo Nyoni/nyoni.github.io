@@ -8,7 +8,7 @@ $(document).ready(function() {
 	function changeNewsArticleClass() {
 		var width = $(window).outerWidth();
 		
-		$('.news .post').removeClass(highlighted);
+		$('.news .post').addClass(highlighted);
 		
 		if (width > large) {
 			$('.news .post:nth-child(1), .news .post:nth-child(4), .news .post:nth-child(6)').addClass(highlighted);

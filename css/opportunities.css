@@ -1,7 +1,7 @@
 
 .opportunities-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-2.jpg); /*background image*/
     background-size: cover;
     background-position: center;
@@ -17,30 +17,18 @@
   }
   
   .opportunities-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .opportunities-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-  }
-  
-  .opportunities-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
-  
-  .opportunities-hero-inner .sub-title {
-    font-size: 20px;
+    font-size: 52px;
     font-weight: 700;
-    letter-spacing: 0.8px;
-    color: var(--green);
+    letter-spacing: 3px;
+    text-transform: capitalize;
   }
+  
 
 /*investments section*/
   .investments {
