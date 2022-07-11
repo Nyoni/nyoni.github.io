@@ -2,7 +2,7 @@
 
 .conservancies-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-3.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -18,14 +18,16 @@
   }
   
   .conservancies-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .conservancies-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
   
   .conservancies-hero-inner h5 {
@@ -45,7 +47,7 @@
 
   .conflict-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-4.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -61,34 +63,22 @@
   }
   
   .conflict-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .conflict-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-  }
-  
-  .conflict-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
-  
-  .conflict-hero-inner .sub-title {
-    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
     font-weight: 700;
-    letter-spacing: 0.8px;
-    color: var(--green);
   }
+  
 
   .outreach-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-5.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -104,31 +94,18 @@
   }
   
   .outreach-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .outreach-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-  }
-  
-  .outreach-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
-  
-  .outreach-hero-inner .sub-title {
-    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
     font-weight: 700;
-    letter-spacing: 0.8px;
-    color: var(--green);
   }
-
+  
 
   /*Human Wildlife Conflict Articles*/
 

@@ -513,8 +513,8 @@ background: var(--bg1);
 
 .about-hero-inner h1 {
   color: #ffffff;
-  margin-bottom: 10px;
   font-weight: 700;
+  letter-spacing: 1px;
   text-transform: capitalize;
 }
 

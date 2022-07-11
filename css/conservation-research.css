@@ -1,6 +1,6 @@
 .researchpolicy-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-2.jpg); /*background image*/
     background-size: cover;
     background-position: center;
@@ -16,14 +16,16 @@
   }
   
   .researchpolicy-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchpolicy-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
 
 
@@ -31,7 +33,7 @@
 
   .researchstrategy-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-3.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -47,21 +49,23 @@
   }
   
   .researchstrategy-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchstrategy-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
 
   /*Research Strategy*/
 
   .researchpriority-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-5.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -77,14 +81,16 @@
   }
   
   .researchpriority-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchpriority-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
 
 
@@ -92,7 +98,7 @@
 
   .researchpriority-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-6.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -108,14 +114,16 @@
   }
   
   .researchpriority-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchpriority-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
 
 
@@ -123,7 +131,7 @@
 
    .researchmonitoring-hero-section{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-7.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -139,14 +147,16 @@
   }
   
   .researchmonitoring-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchmonitoring-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
 
 
@@ -154,7 +164,7 @@
 
   .researchprograms-hero-section{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-9.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -170,22 +180,16 @@
   }
   
   .researchprograms-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchprograms-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-  }
-  
-  .researchprograms-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
   
 
@@ -193,7 +197,7 @@
 
   .researchpermits-hero-section{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background: url(../images/gonarezhou/3.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -209,28 +213,23 @@
   }
   
   .researchpermits-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchpermits-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
   
-  .researchpermits-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
 
 /*Reseaarch Partners*/
   .researchpartners-hero-section{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background: url(../images/gonarezhou/5.JPG); /*background image*/
     background-size: cover;
     background-position: center;
@@ -246,30 +245,25 @@
   }
   
   .researchpartners-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
   .researchpartners-hero-inner h1{
     color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 700;
   }
   
-  .researchpartners-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
   
 
   /*Research Management*/
 
 .researchmanage-hero-section{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     background: url(../images/banner-img/banner-10.jpg); /*background image*/
     background-size: cover;
     background-position: center;
@@ -285,22 +279,17 @@
   }
   
 .researchmanage-hero-inner{
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
   }
   
 .researchmanage-hero-inner h1{
-    color: #ffffff;
-    margin-bottom: 30px;
-    text-transform: uppercase;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 52px;
+  font-weight: 700;
   }
   
-.researchmanage-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
   
   
