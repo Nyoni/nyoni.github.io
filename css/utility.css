@@ -1723,7 +1723,7 @@ ol li {
 color: #ffffff;
 font-size: 24px;
 }
-.news .post .caption:hover .title  {
+.news .post .caption:hover .title > a  {
   color: var(--yellow);
 
 }
