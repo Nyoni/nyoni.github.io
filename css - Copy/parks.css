@@ -1,0 +1,786 @@
+:root {
+  --main-color: #d3ad7f;
+  --yellow: #e9ea0c;
+  --green: #013220; 
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --text-color: #373833;
+  --bg1: #e8eae3;
+  --bg2: #f5f5f5;
+  --overlay: rgba(1, 50, 32, 0.7);
+}
+
+
+* {
+  font-family: 'nanummyeongjoregular';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 3rem 7%;
+}
+
+/*Header Section*/
+.park-header {
+  margin-bottom: 80px;
+}
+
+
+.park-banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.park-slider {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+
+}
+
+#slideImage {
+  width:100%;
+  height: 100%;
+  animation: zoom 5s linear infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.2);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  85% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.park-overlay {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 5, 3, 0.481), rgba(0, 6, 4, 0.6));
+  position: absolute;
+  top: 0;
+}
+
+.park-navbar {
+  top: 0;
+  display: flex;
+  align-items: center;    
+  margin-left: 80px;
+
+}
+
+.park-logo > img {
+  height: 5rem;
+  cursor: pointer;
+}
+
+.park-content {
+  width: 60%;
+  margin: 100px auto 0;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.park-content h3 {
+  width: 80%;
+  margin: 20px auto 100px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.park-content button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #e9ea0c;
+  background: #e9ea0c;
+  color: #f5f5f5;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+button:hover {
+  background: transparent;
+  border: 2px solid #f5f5f5;
+}
+
+.btn-2 {
+  background: transparent;
+  border: 2px solid #f5f5f5;
+
+}
+
+.btn-2:hover {
+  background: #e9ea0c;
+  border: 2px solid #e9ea0c;
+
+}
+
+/*End of Header Section*/
+
+.park-accomodation-section {
+  background: var(--bg2);
+  height: 100vh;
+
+}
+
+.flex { 
+  display: -webkit-flex; 
+  display: flex; 
+  -webkit-flex-direction: row;  
+  flex-direction: row; 
+  -webkit-justify-content: flex-start; 
+  justify-content: flex-start;
+}
+
+
+.slider-wrapper div {
+  position: relative;
+}
+
+.slider-wrapper {
+  margin-top: 5vw; 
+  margin-left: 11vw;
+}
+
+.slide-image {
+  height: 24vw;
+  width: 24vw;
+
+}
+
+.slide-image img {
+  width: 24vw;
+  height: 100%;
+   cursor: pointer;
+   object-fit: cover;
+}
+
+.slide-content {
+  width: 25vw;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: var(--text-color); 
+  height: 200px;
+}
+
+.slide-top-title {
+  color: var(--green); 
+  font-size: 1.1vw; 
+  font-weight: 800; 
+  letter-spacing: 0.1vw; 
+  padding-bottom: 1.4vw;
+}
+
+.slide-title {
+  font-size: 1.2vw; 
+  font-weight: 600; 
+  letter-spacing: 0.1vw; 
+  line-height: 1.55vw; 
+  padding-bottom: 1.8vw;
+}
+
+.slide-text {
+  font-size: 1.0vw; 
+  line-height: 1.8vw; 
+  opacity: 0.8; 
+  padding-bottom: 2vw;
+}
+
+.slide-more {
+  font-weight: 400; 
+  letter-spacing: 0.1vw; 
+  float: left; 
+  font-size: 0.9vw;
+}
+
+.slide-bullet {
+  width: 0.5vw; 
+  height: 0.5vw; 
+  background-color: var(--green); 
+  border-radius: 200%; 
+  position: relative; 
+  margin-left: 1.2vw;
+}
+
+.slide-nav {
+  margin-left: 64vw; 
+  margin-top: -5.5vw;
+}
+
+div.overlay-blue {
+  width: 100%; 
+  height: 100%; 
+  position: absolute; 
+  top: 0; 
+  transition: 0.5s ease all;
+}
+
+div.overlay-blue:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.arrows{
+  width: 3.5vw; 
+  margin-top: -5.8vw; 
+  margin-left: 72vw; 
+  position: relative;
+}
+
+.arrow {
+  display: inline-block; 
+  position: absolute; 
+  width: 1.2vw; 
+  height: 1.2vw; 
+  background: transparent; 
+  text-indent: -9999px; 
+  border-top: 0.15vw solid var(--green); 
+  border-left: 0.15vw solid var(--green); 
+  transition: all .1s ease-in-out; 
+  text-decoration: none; 
+  color: transparent;
+}
+
+.arrow:hover {
+  border-color: var(--yellow); 
+  border-width: 0.25vw;
+}
+.arrow:before {
+  display: block; 
+  height: 200%; 
+  width: 200%; 
+  margin-left: -50%; 
+  margin-top: -50%; 
+  content: ""; 
+  transform: rotate(45deg);
+}
+
+.arrow.prev {
+  transform: rotate(-45deg); 
+  left: 0;
+}
+
+.arrow.next {
+  transform: rotate(135deg); 
+  right: 0;
+}
+
+
+/*Park Overview Section*/
+
+
+/*End Park Overview Section*/
+
+/*Park Activities*/
+
+.park-activities-section {
+  background: var(--bg2);
+}
+.cardwrapper {
+  margin-top: 50px;
+  background: var(--bg2);
+  width: 100%;
+}
+
+.cardwrapper .carousel {
+  margin-top: 50px;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 60px;
+  color: var(transparent);
+}
+
+.slidecard-container {
+  height: 300px;
+  text-align: center;
+}
+
+.slidecard-container h5 {
+  padding: 10px 15px;
+}
+
+.slidecard-container p {
+  padding: 10px 15px;
+  letter-spacing: 2px;
+  color: var(--text-color);
+}
+
+.carousel .slidecard {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.carousel .slidecard2 {
+  height: 300px;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
+#c1 {
+  background: url(../images/mountainhike.jpg)  no-repeat center center/cover;
+}
+
+#c2 {
+  background: url(../images/game-drive-3008x2000.jpg) no-repeat center
+    center/cover;
+}
+
+#c3 {
+  background: url(../images/mountainhike.jpg)  no-repeat center center/cover;
+}
+
+#c4 {
+  background: url(../images/game-drive-3008x2000.jpg) no-repeat center
+    center/cover;
+}
+
+#c5 {
+  background: url(../images/mountainhike.jpg) no-repeat center center/cover;
+}
+
+#c6 {
+  background:url(../images/game-drive-3008x2000.jpg) no-repeat center center/cover;
+}
+
+/*Second Slideshow*/
+
+#c21 {
+  background: url(../images/package.jpg) no-repeat center center/cover;
+}
+
+#c22 {
+  background: url(../images/package2.jpg) no-repeat center center/cover;
+}
+
+#c23 {
+  background: url(../images/package3.jpg) no-repeat center center/cover;
+}
+
+#c24 {
+  background: url(../images/package4.jpeg) no-repeat center center/cover;
+}
+
+#c25 {
+  background: url(../images/package5.png) no-repeat center center/cover;
+}
+
+#c26 {
+  background: url(../images/package6.jpg) no-repeat center center/cover;
+}
+
+.owl-dots {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  /*background-color: #fff !important;*/
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid var(--green) !important;
+  transition: all 0.2s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background-color: var(--green) !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.owl-prev {
+  left: 40px;
+}
+
+.owl-next {
+  right: 25px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: #fff;
+  transition: all 1s;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: var(--green);
+}
+
+
+/*End Park Activities*/
+
+/*Park Gallery*/
+
+.park-gallery-sec {
+  background: var(--bg2);
+}
+.park-gallery-container {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+  padding-top: 40px;
+	text-align: center;
+}
+
+.small {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	margin: 3px;
+	object-fit: cover;
+
+}
+
+.small:hover {
+	-webkit-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox img {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
+
+a div {
+	position: relative;
+	margin: auto auto;
+	text-align: center;
+}
+
+.lightbox:target {
+	display: -webkit-box;
+	display: flex;
+}
+
+.park-gallery-container a {
+	text-decoration: none;
+}
+
+.park-gallery-container p {
+	font-size: 20px;
+	color: var(--bg1);
+  font-weight: 500;
+}
+
+/*End Park Gallery*/
+
+
+
+
+
+/*Responsive Grids*/
+
+.rt-container {
+	margin: 0 auto;
+	padding-left:12px;
+	padding-right:12px;
+}
+.rt-row:before, .rt-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.rt-row:after {
+  clear: both;
+}
+[class^="col-rt-"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 0 15px;
+  min-height: 1px;
+  position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .rt-container {
+    width: 750px;
+  }
+  [class^="col-rt-"] {
+    float: left;
+    width: 49.9999999999%;
+  }
+  .col-rt-6, .col-rt-12 {
+    width: 100%;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+	.rt-container {
+		width: 1170px;
+	}
+	.col-rt-1 {
+		width:16.6%;
+	}
+	.col-rt-2 {
+		width:30.33%;
+	}
+	.col-rt-3 {
+		width:50%;
+	}
+	.col-rt-4 {
+		width: 67.664%;
+	}
+	.col-rt-5 {
+		width: 83.33%;
+	}
+	
+
+}
+
+
+
+
+
+/*slider-one*/ 
+
+.site-slider{
+  position: relative;
+}
+
+.position-top{
+  position: absolute;
+  top: 45%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+  background-color: var(--primary-color);
+  padding: 1rem 1.5rem;
+  border-radius: 10rem;
+  color: white;
+  margin: 0 1rem;
+  opacity: 0;
+  transition:opacity 1s ease;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+  opacity: 1;
+}
+
+.right-0{
+  right:0;
+}
+.slider-hero-inner{
+  position: relative;
+  height: 100vh;
+}
+.nyanga-1{
+  height: 100vh;
+  background: url(../images/Nick-Dyer-31-1024x681.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-2{
+  height: 100vh;
+  background: url(../images/Nick-Dyer-64-1024x6811.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-3{
+  height: 100vh;
+  background: url(../images/Nick-Dyer-99-1024x683.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;-fit: cover;
+  width: 100%;
+}
+
+.nyanga-4{
+  height: 100vh;
+  background: url(../images/Buffalo-Reflection-1.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.slider-hero-inner h1{
+  color: var(--bg1);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: var(--gugi);
+}
+
+.slider-hero-inner p {
+  color: var(--bg1);
+  margin-bottom: 40px;
+}
+
+
+
+.theme-btn,
+a.theme-btn{
+    color: var(--green);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    min-width: 180px;
+    transition: 0.5s;
+    padding: 18px 40px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid var(--green);
+    display: inline-block;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.theme-btn:hover{
+    background: var(--green);
+    color: white;
+}
+/*slick dots*/
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+.slick-dots li{
+    margin: 0 0.6rem;
+
+}
+
+.slick-dots button{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+}
+
+.slick-dots li.slick-active button{
+    transform: scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.205);
+}

@@ -1,0 +1,3045 @@
+:root {
+    --main-color: #d3ad7f;
+    --yellow: #e9ea0c;
+    --green: #013220;
+    --green2: #063b04;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    --white: #ffffff;
+    --text-color: #444;
+    --bg1: #e8eae3;
+    --bg2: #f5f5f5;
+    --d: 700ms;
+    --e: cubic-bezier(0.19, 1, 0.22, 1);
+    --font-sans: "Rubik", sans-serif;
+    --font-serif: "gonarezhou-attractions-Cardo", serif;
+  /*   --great-vibes: 'Great Vibes', cursive;
+    --open-sans: 'Open Sans', sans-serif;
+    --nanum: 'Nanum Myeongjo', serif;
+    --parisienne: 'Parisienne', cursive; 
+    --lato: 'Lato', sans-serif;
+   --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
+  }
+
+/*Horizontal Tabs*/
+/*Horizontal tabs available on all parks webpages
+consists of Overview, Accomodation, etc          */
+
+/*National Parks*/
+.nationalparks-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/slider-images/chizarira-1.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nationalparks-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.nationalparks-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.nationalparks-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.nationalparks-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.nationalparks-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+/*Recreational Parks*/
+.recparks-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/banner-img/banner-9.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.recparks-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.recparks-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.recparks-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.recparks-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.recparks-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+/*Botanical Gardens*/
+.botanical-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/banner-img/banner-10.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.botanical-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.botanical-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.botanical-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.botanical-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.botanical-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+/*Safari Areas*/
+.safari-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/banner-img/banner-5.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.safari-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.safari-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.safari-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.safari-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.safari-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+/*Sanctuaries*/
+.sanctuaries-hero-section{
+  position: relative;
+  height: 90vh;
+  background: url(../images/banner-img/banner-5.JPG); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sanctuaries-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.sanctuaries-hero-inner{
+  max-width: 500px;
+  position: relative;
+}
+
+.sanctuaries-hero-inner h1{
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.sanctuaries-hero-inner h5 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 5px;
+}
+
+.sanctuaries-hero-inner .sub-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--green);
+}
+
+
+
+.tab-wrap {
+    font-size: 16px;
+    font-weight: 100px;
+    color: var();
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: #ffffff;
+  }
+  .tab-wrap:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  .tab {
+    display: none;
+
+  }
+  .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+    opacity: 1;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+  .tab:first-of-type:not(:last-of-type) + label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .tab:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+  }
+
+  .tab:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .tab:checked + label {
+    background-color: var(--green);
+    box-shadow: 0 -1px 0 #fff inset;
+    cursor: default;
+    color: #e8eae3;
+  }
+  .tab:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: var(--green);
+    color: #e8eae3;
+  }
+  .tab + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 5;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 3px dotted #013220;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .tab + label:hover {
+    color: #f4f4f4;
+    background-color: var(--green);
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+  .tab__content {
+    background-color: var(--green);
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    transform: translateY(-3px);
+  }
+  
+  /* boring stuff */
+
+  
+.tab-wrap {
+    font-size: 16px;
+    font-weight: 100px;
+    color: var(--text-color);
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: var(--bg2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .tab-wrap:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  .tab {
+    display: none;
+
+  }
+  .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  
+  .tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+  .tab:first-of-type:not(:last-of-type) + label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .tab:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+  }
+
+  .tab:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .tab:checked + label {
+    background-color: var(--green);
+    box-shadow: 0 -1px 0 #fff inset;
+    cursor: default;
+    color: #e8eae3;
+  }
+  .tab:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: var(--green);
+    color: #e8eae3;
+  }
+  .tab + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 7;
+    text-align: center;
+    background-color: var(--bg1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px 2rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tab + label:hover {
+    color: #f4f4f4;
+    background-color: var(--green);
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+  .tab__content {
+    padding: 1rem 5%;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    transform: translateY(-3px);
+    border-radius: 6px;
+  }
+  
+  /* boring stuff */
+
+/*Tabs under Overview*/
+  
+.tab-wrap-2 {
+    font-size: 15px;
+    font-weight: 100px;
+    color: var(--bg2);
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: var(--green2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .tab-wrap-2:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  .tab-2 {
+    display: none;
+
+  }
+  .tab-2:checked:nth-of-type(1) ~ .tab__content-2:nth-of-type(1) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-2:checked:nth-of-type(2) ~ .tab__content-2:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-2:checked:nth-of-type(3) ~ .tab__content-2:nth-of-type(3) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-2:checked:nth-of-type(4) ~ .tab__content-2:nth-of-type(4) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-2:checked:nth-of-type(5) ~ .tab__content-2:nth-of-type(5) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+
+  .tab-2:first-of-type:not(:last-of-type) + label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .tab-2:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+  }
+
+  .tab-2:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .tab-2:checked + label {
+    background-color: var(--green2);
+    box-shadow: 0 -1px 0 #fff inset;
+    cursor: default;
+    color: #e8eae3;
+  }
+  .tab-2:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: var(--green2);
+    color: #e8eae3;
+  }
+  .tab-2 + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 7;
+    text-align: center;
+    background-color: var(--bg1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px 2rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tab-2 + label:hover {
+    color: #f4f4f4;
+    background-color: var(--green2);
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+  .tab__content-2 {
+    padding: 3rem 7%;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    transform: translateY(-3px);
+    border-radius: 6px;
+    word-spacing: 5px;
+    text-transform: none;
+  }
+
+  /*Tabs under Accomodation*/
+
+  .tab-wrap-3 {
+    font-size: 15px;
+    font-weight: 100px;
+    color: var(--bg2);
+    transition: 0.3s box-shadow ease;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style: none;
+    background-color: var(--green2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  .tab-wrap-3:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+  }
+  
+  .tab-3 {
+    display: none;
+
+  }
+  .tab-3:checked:nth-of-type(1) ~ .tab__content-3:nth-of-type(1) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+  .tab-3:checked:nth-of-type(2) ~ .tab__content-3:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-3:checked:nth-of-type(3) ~ .tab__content-3:nth-of-type(3) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+  .tab-3:checked:nth-of-type(4) ~ .tab__content-3:nth-of-type(4) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+  }
+
+  .tab-3:first-of-type:not(:last-of-type) + label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .tab-3:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+  }
+
+  .tab-3:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .tab-3:checked + label {
+    background-color: var(--green2);
+    box-shadow: 0 -1px 0 #fff inset;
+    cursor: default;
+    color: #e8eae3;
+  }
+  .tab-3:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: var(--green2);
+    color: #e8eae3;
+  }
+  .tab-3 + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 7;
+    text-align: center;
+    background-color: var(--bg1);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px 2rem;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tab-3 + label:hover {
+    color: #f4f4f4;
+    background-color: var(--green2);
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+  }
+  .tab__content-3 {
+    padding: 1rem 5%;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+    left: 0;
+    transform: translateY(-3px);
+    border-radius: 6px;
+  }
+
+  /*Accomodation Section*/
+
+  .parks-tab-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  .parks-tab-container .parks-tab-box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 2.5rem;
+  }
+  
+  .parks-tab-container .parks-tab-box .parks-tab-imgBox {
+    transform: translate(0, -1.8rem);
+  }
+  
+  .parks-tab-container .parks-tab-box .parks-tab-content {
+    transform: translate(0, 1.8rem);
+  }
+  
+  .parks-tab-imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .parks-tab-imgBox img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    resize: both;
+  }
+  
+  .parks-tab-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .parks-tab-content a {
+    display: block;
+    font-size: 18px;
+    color: #111;
+    font-weight: 500;
+    line-height: 0.5rem;
+    letter-spacing: 1px;
+  }
+
+  .single-gallery-image {
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 200px;
+  }
+
+  .section-top-border {
+    padding: 50px 0;
+    border-top: 1px dotted #eee;
+  }
+  
+
+  
+  @media (max-width: 600px) {
+    .parks-tab-container .parks-tab-box:hover .parks-tab-content {
+      transform: translate(0, 1.5rem);
+    }
+    .parks-tab-container .parks-tab-box:hover .parks-tab-imgBox {
+      transform: translate(0, -1.5rem);
+    }
+  }
+  
+  
+
+  /*gonarezhou-attractions-Cards Under Attractions & Activities*/
+
+.page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+
+/*accomodation page content*/
+
+.accomodation_page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .accomodation_page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .accomodation_page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*Content part of cards*/
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+
+.content > * + * {
+  margin-top: 1rem;
+}
+
+.title {
+  top: 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: var(--green);
+  border: none;
+}
+
+.btn:hover {
+  background-color: #0d0d0d;
+}
+
+/*National Parks Attractions & Activities*/
+  /*chimanimani Attractions*/
+  .chimanimani-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chimanimani-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .chimanimani-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chimanimani-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .chimanimani-attractions-card:nth-child(1):before {
+    background-image: url(../images/chimanimani/1.JPG);
+  }
+  
+  .chimanimani-attractions-card:nth-child(2):before {
+    background-image: url(../images/chimanimani/4.JPG);
+  }
+  
+  .chimanimani-attractions-card:nth-child(3):before {
+    background-image: url(../images/chimanimani/homebanner.JPG);
+  }
+  
+  .chimanimani-attractions-card:nth-child(4):before {
+    background-image: url(../images/chimanimani/5.JPG);
+  }
+  
+  .chimanimani-attractions-card:nth-child(5):before {
+    background-image: url(../images/chimanimani/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chimanimani-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .chimanimani-attractions-card:hover, .chimanimani-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .chimanimani-attractions-card:hover:before, .chimanimani-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .chimanimani-attractions-card:hover:after, .chimanimani-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .chimanimani-attractions-card:hover .content, .chimanimani-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-attractions-card:hover .content > *:not(.title), .chimanimani-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chimanimani-attractions-card:focus-within:before, .chimanimani-attractions-card:focus-within:after, .chimanimani-attractions-card:focus-within .content, .chimanimani-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End chimanimani Attractions*/
+  
+  /*chimanimani Activities*/
+  .chimanimani-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chimanimani-activities-card {
+      height: 350px;
+    }
+  }
+  .chimanimani-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chimanimani-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at chimanimani*/
+  
+  /*Game Drive*/
+  .chimanimani-activities-card:nth-child(1):before {
+    background-image: url(../images/chimanimani/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .chimanimani-activities-card:nth-child(2):before {
+    background-image: url(../images/chimanimani/chimanimani-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .chimanimani-activities-card:nth-child(3):before {
+    background-image: url(../images/chimanimani/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chimanimani-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-activities-card:hover, .chimanimani-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .chimanimani-activities-card:hover:before, .chimanimani-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .chimanimani-activities-card:hover:after, .chimanimani-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .chimanimani-activities-card:hover .content, .chimanimani-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chimanimani-activities-card:hover .content > *:not(.title), .chimanimani-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chimanimani-activities-card:focus-within:before, .chimanimani-activities-card:focus-within:after, .chimanimani-activities-card:focus-within .content, .chimanimani-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*chimanimani Safari Carousel Images*/
+
+   /*chizarira Attractions*/
+   .chizarira-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chizarira-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .chizarira-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chizarira-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .chizarira-attractions-card:nth-child(1):before {
+    background-image: url(../images/chizarira/1.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(2):before {
+    background-image: url(../images/chizarira/4.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(3):before {
+    background-image: url(../images/chizarira/homebanner.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(4):before {
+    background-image: url(../images/chizarira/5.JPG);
+  }
+  
+  .chizarira-attractions-card:nth-child(5):before {
+    background-image: url(../images/chizarira/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chizarira-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .chizarira-attractions-card:hover, .chizarira-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .chizarira-attractions-card:hover:before, .chizarira-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .chizarira-attractions-card:hover:after, .chizarira-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .chizarira-attractions-card:hover .content, .chizarira-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chizarira-attractions-card:hover .content > *:not(.title), .chizarira-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chizarira-attractions-card:focus-within:before, .chizarira-attractions-card:focus-within:after, .chizarira-attractions-card:focus-within .content, .chizarira-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End chizarira Attractions*/
+  
+  /*chizarira Activities*/
+  .chizarira-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .chizarira-activities-card {
+      height: 350px;
+    }
+  }
+  .chizarira-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .chizarira-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at chizarira*/
+  
+  /*Game Drive*/
+  .chizarira-activities-card:nth-child(1):before {
+    background-image: url(../images/chizarira/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .chizarira-activities-card:nth-child(2):before {
+    background-image: url(../images/chizarira/chizarira-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .chizarira-activities-card:nth-child(3):before {
+    background-image: url(../images/chizarira/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .chizarira-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .chizarira-activities-card:hover, .chizarira-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .chizarira-activities-card:hover:before, .chizarira-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .chizarira-activities-card:hover:after, .chizarira-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .chizarira-activities-card:hover .content, .chizarira-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .chizarira-activities-card:hover .content > *:not(.title), .chizarira-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .chizarira-activities-card:focus-within:before, .chizarira-activities-card:focus-within:after, .chizarira-activities-card:focus-within .content, .chizarira-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*chizarira Safari Carousel Images*/
+
+  /*Hwange Section*/
+
+/*Hwange Attractions*/
+.hwange-attractions-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .hwange-attractions-card {
+    height: 350px;
+   
+  }
+}
+.hwange-attractions-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.hwange-attractions-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.hwange-attractions-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/hwange/hwange-1.JPG);
+}
+
+.hwange-attractions-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/hwange/hwange-4.JPG);
+}
+
+.hwange-attractions-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/hwange/hwange-homebanner.JPG);
+}
+
+.hwange-attractions-card:nth-child(4):before {
+  background-image: url(../images/nationalparks/hwange/hwange-5.JPG);
+}
+
+.hwange-attractions-card:nth-child(5):before {
+  background-image: url(../images/nationalparks/hwange/hwange-6.JPG);
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .hwange-attractions-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .hwange-attractions-card:hover, .hwange-attractions-card:focus-within {
+    align-items: center;
+  }
+
+  .hwange-attractions-card:hover:before, .hwange-attractions-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .hwange-attractions-card:hover:after, .hwange-attractions-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .hwange-attractions-card:hover .content, .hwange-attractions-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .hwange-attractions-card:hover .content > *:not(.title), .hwange-attractions-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .hwange-attractions-card:focus-within:before, .hwange-attractions-card:focus-within:after, .hwange-attractions-card:focus-within .content, .hwange-attractions-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Transition On Hover*/
+
+/*End Hwange Attractions*/
+
+/*Hwange Activities*/
+.hwange-activities-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .hwange-activities-card {
+    height: 350px;
+  }
+}
+.hwange-activities-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.hwange-activities-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+/*Images for Activities at Hwange*/
+
+/*Game Drive*/
+.hwange-activities-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/hwange/hwange-game-drive-3008x2000.jpg);
+}
+
+/*Walking Safaris*/
+.hwange-activities-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/hwange/hwange-Hwange-walking-safaris.jpg);
+}
+
+/*Fishing*/
+.hwange-activities-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/hwange/hwange-fishing-for-tiger.jpg);
+}
+
+
+
+/*Transitions On Hover*/
+
+@media (hover: hover) and (min-width: 600px) {
+  .hwange-activities-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .hwange-activities-card:hover, .hwange-activities-card:focus-within {
+    align-items: center;
+  }
+
+  .hwange-activities-card:hover:before, .hwange-activities-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .hwange-activities-card:hover:after, .hwange-activities-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .hwange-activities-card:hover .content, .hwange-activities-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .hwange-activities-card:hover .content > *:not(.title), .hwange-activities-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .hwange-activities-card:focus-within:before, .hwange-activities-card:focus-within:after, .hwange-activities-card:focus-within .content, .hwange-activities-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Hwange Section*/
+  
+  /*kazumapan Attractions*/
+  .kazumapan-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .kazumapan-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .kazumapan-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .kazumapan-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .kazumapan-attractions-card:nth-child(1):before {
+    background-image: url(../images/kazumapan/1.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(2):before {
+    background-image: url(../images/kazumapan/4.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(3):before {
+    background-image: url(../images/kazumapan/homebanner.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(4):before {
+    background-image: url(../images/kazumapan/5.JPG);
+  }
+  
+  .kazumapan-attractions-card:nth-child(5):before {
+    background-image: url(../images/kazumapan/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .kazumapan-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .kazumapan-attractions-card:hover, .kazumapan-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .kazumapan-attractions-card:hover:before, .kazumapan-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .kazumapan-attractions-card:hover:after, .kazumapan-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .kazumapan-attractions-card:hover .content, .kazumapan-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-attractions-card:hover .content > *:not(.title), .kazumapan-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .kazumapan-attractions-card:focus-within:before, .kazumapan-attractions-card:focus-within:after, .kazumapan-attractions-card:focus-within .content, .kazumapan-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End kazumapan Attractions*/
+  
+  /*kazumapan Activities*/
+  .kazumapan-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .kazumapan-activities-card {
+      height: 350px;
+    }
+  }
+  .kazumapan-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .kazumapan-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at kazumapan*/
+  
+  /*Game Drive*/
+  .kazumapan-activities-card:nth-child(1):before {
+    background-image: url(../images/kazumapan/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .kazumapan-activities-card:nth-child(2):before {
+    background-image: url(../images/kazumapan/kazumapan-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .kazumapan-activities-card:nth-child(3):before {
+    background-image: url(../images/kazumapan/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .kazumapan-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-activities-card:hover, .kazumapan-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .kazumapan-activities-card:hover:before, .kazumapan-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .kazumapan-activities-card:hover:after, .kazumapan-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .kazumapan-activities-card:hover .content, .kazumapan-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .kazumapan-activities-card:hover .content > *:not(.title), .kazumapan-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .kazumapan-activities-card:focus-within:before, .kazumapan-activities-card:focus-within:after, .kazumapan-activities-card:focus-within .content, .kazumapan-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*kazumapan Safari Carousel Images*/
+
+  
+  /*manapools Attractions*/
+  .manapools-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .manapools-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .manapools-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .manapools-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .manapools-attractions-card:nth-child(1):before {
+    background-image: url(../images/manapools/1.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(2):before {
+    background-image: url(../images/manapools/4.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(3):before {
+    background-image: url(../images/manapools/homebanner.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(4):before {
+    background-image: url(../images/manapools/5.JPG);
+  }
+  
+  .manapools-attractions-card:nth-child(5):before {
+    background-image: url(../images/manapools/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .manapools-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .manapools-attractions-card:hover, .manapools-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .manapools-attractions-card:hover:before, .manapools-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .manapools-attractions-card:hover:after, .manapools-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .manapools-attractions-card:hover .content, .manapools-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .manapools-attractions-card:hover .content > *:not(.title), .manapools-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .manapools-attractions-card:focus-within:before, .manapools-attractions-card:focus-within:after, .manapools-attractions-card:focus-within .content, .manapools-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End manapools Attractions*/
+  
+  /*manapools Activities*/
+  .manapools-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .manapools-activities-card {
+      height: 350px;
+    }
+  }
+  .manapools-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .manapools-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at manapools*/
+  
+  /*Game Drive*/
+  .manapools-activities-card:nth-child(1):before {
+    background-image: url(../images/manapools/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .manapools-activities-card:nth-child(2):before {
+    background-image: url(../images/manapools/manapools-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .manapools-activities-card:nth-child(3):before {
+    background-image: url(../images/manapools/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .manapools-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .manapools-activities-card:hover, .manapools-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .manapools-activities-card:hover:before, .manapools-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .manapools-activities-card:hover:after, .manapools-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .manapools-activities-card:hover .content, .manapools-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .manapools-activities-card:hover .content > *:not(.title), .manapools-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .manapools-activities-card:focus-within:before, .manapools-activities-card:focus-within:after, .manapools-activities-card:focus-within .content, .manapools-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*manapools Safari Carousel Images*/
+
+
+  
+  /*matopos Attractions*/
+  .matopos-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .matopos-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .matopos-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .matopos-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .matopos-attractions-card:nth-child(1):before {
+    background-image: url(../images/matopos/1.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(2):before {
+    background-image: url(../images/matopos/4.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(3):before {
+    background-image: url(../images/matopos/homebanner.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(4):before {
+    background-image: url(../images/matopos/5.JPG);
+  }
+  
+  .matopos-attractions-card:nth-child(5):before {
+    background-image: url(../images/matopos/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .matopos-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .matopos-attractions-card:hover, .matopos-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .matopos-attractions-card:hover:before, .matopos-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .matopos-attractions-card:hover:after, .matopos-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .matopos-attractions-card:hover .content, .matopos-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .matopos-attractions-card:hover .content > *:not(.title), .matopos-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .matopos-attractions-card:focus-within:before, .matopos-attractions-card:focus-within:after, .matopos-attractions-card:focus-within .content, .matopos-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End matopos Attractions*/
+  
+  /*matopos Activities*/
+  .matopos-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .matopos-activities-card {
+      height: 350px;
+    }
+  }
+  .matopos-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .matopos-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at matopos*/
+  
+  /*Game Drive*/
+  .matopos-activities-card:nth-child(1):before {
+    background-image: url(../images/matopos/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .matopos-activities-card:nth-child(2):before {
+    background-image: url(../images/matopos/matopos-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .matopos-activities-card:nth-child(3):before {
+    background-image: url(../images/matopos/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .matopos-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .matopos-activities-card:hover, .matopos-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .matopos-activities-card:hover:before, .matopos-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .matopos-activities-card:hover:after, .matopos-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .matopos-activities-card:hover .content, .matopos-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .matopos-activities-card:hover .content > *:not(.title), .matopos-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .matopos-activities-card:focus-within:before, .matopos-activities-card:focus-within:after, .matopos-activities-card:focus-within .content, .matopos-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*matopos Safari Carousel Images*/
+
+  
+  /*nyanga Attractions*/
+  .nyanga-attractions-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .nyanga-attractions-card {
+      height: 350px;
+     
+    }
+  }
+  .nyanga-attractions-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .nyanga-attractions-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  .nyanga-attractions-card:nth-child(1):before {
+    background-image: url(../images/nyanga/1.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(2):before {
+    background-image: url(../images/nyanga/4.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(3):before {
+    background-image: url(../images/nyanga/homebanner.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(4):before {
+    background-image: url(../images/nyanga/5.JPG);
+  }
+  
+  .nyanga-attractions-card:nth-child(5):before {
+    background-image: url(../images/nyanga/6.JPG);
+  }
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .nyanga-attractions-card:after {
+      transform: translatey(0);
+    }
+  
+    .content {
+      transform: translatey(calc(100% - 4.5rem));
+    }
+  
+    .content > *:not(.title) {
+      opacity: 0;
+      transform: translatey(1rem);
+      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+    }
+  
+    .nyanga-attractions-card:hover, .nyanga-attractions-card:focus-within {
+      align-items: center;
+    }
+  
+    .nyanga-attractions-card:hover:before, .nyanga-attractions-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+    .nyanga-attractions-card:hover:after, .nyanga-attractions-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  
+    .nyanga-attractions-card:hover .content, .nyanga-attractions-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .nyanga-attractions-card:hover .content > *:not(.title), .nyanga-attractions-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .nyanga-attractions-card:focus-within:before, .nyanga-attractions-card:focus-within:after, .nyanga-attractions-card:focus-within .content, .nyanga-attractions-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*End Transition On Hover*/
+  
+  /*End nyanga Attractions*/
+  
+  /*nyanga Activities*/
+  .nyanga-activities-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 600px) {
+    .nyanga-activities-card {
+      height: 350px;
+    }
+  }
+  .nyanga-activities-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform calc(var(--d) * 1.5) var(--e);
+    pointer-events: none;
+  }
+  
+  .nyanga-activities-card:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    pointer-events: none;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+    transform: translatey(-50%);
+    transition: transform calc(var(--d) * 2) var(--e);
+  }
+  
+  /*Images for Activities at nyanga*/
+  
+  /*Game Drive*/
+  .nyanga-activities-card:nth-child(1):before {
+    background-image: url(../images/nyanga/game-drive-3008x2000.jpg);
+  }
+  
+  /*Walking Safaris*/
+  .nyanga-activities-card:nth-child(2):before {
+    background-image: url(../images/nyanga/nyanga-walking-safaris.jpg);
+  }
+  
+  /*Fishing*/
+  .nyanga-activities-card:nth-child(3):before {
+    background-image: url(../images/nyanga/fishing-for-tiger.jpg);
+  }
+  
+  
+  
+  /*Transitions On Hover*/
+  
+  @media (hover: hover) and (min-width: 600px) {
+    .nyanga-activities-card:after {
+      transform: translatey(0);
+    }
+  
+    .nyanga-activities-card:hover, .nyanga-activities-card:focus-within {
+      align-items: center;
+    }
+  
+    .nyanga-activities-card:hover:before, .nyanga-activities-card:focus-within:before {
+      transform: translatey(-4%);
+    }
+  
+   /* .nyanga-activities-card:hover:after, .nyanga-activities-card:focus-within:after {
+      transform: translatey(-50%);
+    }
+  */
+    .nyanga-activities-card:hover .content, .nyanga-activities-card:focus-within .content {
+      transform: translatey(0);
+    }
+  
+    .nyanga-activities-card:hover .content > *:not(.title), .nyanga-activities-card:focus-within .content > *:not(.title) {
+      opacity: 1;
+      transform: translatey(0);
+      transition-delay: calc(var(--d) / 8);
+    }
+  
+    .nyanga-activities-card:focus-within:before, .nyanga-activities-card:focus-within:after, .nyanga-activities-card:focus-within .content, .nyanga-activities-card:focus-within .content > *:not(.title) {
+      transition-duration: 0s;
+    }
+  }
+  
+  /*nyanga Safari Carousel Images*/
+
+  /*Gonarezhou Attractions*/
+.gonarezhou-attractions-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .gonarezhou-attractions-card {
+    height: 350px;
+   
+  }
+}
+.gonarezhou-attractions-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.gonarezhou-attractions-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.gonarezhou-attractions-card:nth-child(1):before {
+  background-image: url(../images/gonarezhou/1.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(2):before {
+  background-image: url(../images/gonarezhou/4.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(3):before {
+  background-image: url(../images/gonarezhou/homebanner.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(4):before {
+  background-image: url(../images/gonarezhou/5.JPG);
+}
+
+.gonarezhou-attractions-card:nth-child(5):before {
+  background-image: url(../images/gonarezhou/6.JPG);
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .gonarezhou-attractions-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .gonarezhou-attractions-card:hover, .gonarezhou-attractions-card:focus-within {
+    align-items: center;
+  }
+
+  .gonarezhou-attractions-card:hover:before, .gonarezhou-attractions-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .gonarezhou-attractions-card:hover:after, .gonarezhou-attractions-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .gonarezhou-attractions-card:hover .content, .gonarezhou-attractions-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-attractions-card:hover .content > *:not(.title), .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .gonarezhou-attractions-card:focus-within:before, .gonarezhou-attractions-card:focus-within:after, .gonarezhou-attractions-card:focus-within .content, .gonarezhou-attractions-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Transition On Hover*/
+
+/*End Gonarezhou Attractions*/
+
+/*Gonarezhou Activities*/
+.gonarezhou-activities-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .gonarezhou-activities-card {
+    height: 350px;
+  }
+}
+.gonarezhou-activities-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.gonarezhou-activities-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+/*Images for Activities at Gonarezhou*/
+
+/*Game Drive*/
+.gonarezhou-activities-card:nth-child(1):before {
+  background-image: url(../images/gonarezhou/game-drive-3008x2000.jpg);
+}
+
+/*Walking Safaris*/
+.gonarezhou-activities-card:nth-child(2):before {
+  background-image: url(../images/gonarezhou/gonarezhou-walking-safaris.jpg);
+}
+
+/*Fishing*/
+.gonarezhou-activities-card:nth-child(3):before {
+  background-image: url(../images/gonarezhou/fishing-for-tiger.jpg);
+}
+
+
+
+/*Transitions On Hover*/
+
+@media (hover: hover) and (min-width: 600px) {
+  .gonarezhou-activities-card:after {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-activities-card:hover, .gonarezhou-activities-card:focus-within {
+    align-items: center;
+  }
+
+  .gonarezhou-activities-card:hover:before, .gonarezhou-activities-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+ /* .gonarezhou-activities-card:hover:after, .gonarezhou-activities-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+*/
+  .gonarezhou-activities-card:hover .content, .gonarezhou-activities-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .gonarezhou-activities-card:hover .content > *:not(.title), .gonarezhou-activities-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .gonarezhou-activities-card:focus-within:before, .gonarezhou-activities-card:focus-within:after, .gonarezhou-activities-card:focus-within .content, .gonarezhou-activities-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*Gonarezhou Safari Carousel Images*/
+
+
+
+
+
+
+/*Zambezi Section*/
+
+  /*Hwange Section*/
+
+/*Hwange Attractions*/
+.zambezi-attractions-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .zambezi-attractions-card {
+    height: 350px;
+   
+  }
+}
+.zambezi-attractions-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.zambezi-attractions-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+.zambezi-attractions-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-1.JPG);
+}
+
+.zambezi-attractions-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-4.JPG);
+}
+
+.zambezi-attractions-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-homebanner.JPG);
+}
+
+.zambezi-attractions-card:nth-child(4):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-5.JPG);
+}
+
+.zambezi-attractions-card:nth-child(5):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-6.JPG);
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .zambezi-attractions-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .zambezi-attractions-card:hover, .zambezi-attractions-card:focus-within {
+    align-items: center;
+  }
+
+  .zambezi-attractions-card:hover:before, .zambezi-attractions-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .zambezi-attractions-card:hover:after, .zambezi-attractions-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .zambezi-attractions-card:hover .content, .zambezi-attractions-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .zambezi-attractions-card:hover .content > *:not(.title), .zambezi-attractions-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .zambezi-attractions-card:focus-within:before, .zambezi-attractions-card:focus-within:after, .zambezi-attractions-card:focus-within .content, .zambezi-attractions-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Transition On Hover*/
+
+/*End Zambezi Attractions*/
+
+/*Hwange Activities*/
+.zambezi-activities-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+  .zambezi-activities-card {
+    height: 350px;
+  }
+}
+.zambezi-activities-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+
+.zambezi-activities-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translatey(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+
+/*Images for Activities at Hwange*/
+
+/*Game Drive*/
+.zambezi-activities-card:nth-child(1):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-game-drive-3008x2000.jpg);
+}
+
+/*Walking Safaris*/
+.zambezi-activities-card:nth-child(2):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-Hwange-walking-safaris.jpg);
+}
+
+/*Fishing*/
+.zambezi-activities-card:nth-child(3):before {
+  background-image: url(../images/nationalparks/zambezi/zambezi-fishing-for-tiger.jpg);
+}
+
+
+
+/*Transitions On Hover*/
+
+@media (hover: hover) and (min-width: 600px) {
+  .zambezi-activities-card:after {
+    transform: translatey(0);
+  }
+
+  .content {
+    transform: translatey(calc(100% - 4.5rem));
+  }
+
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translatey(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .zambezi-activities-card:hover, .zambezi-activities-card:focus-within {
+    align-items: center;
+  }
+
+  .zambezi-activities-card:hover:before, .zambezi-activities-card:focus-within:before {
+    transform: translatey(-4%);
+  }
+
+  .zambezi-activities-card:hover:after, .zambezi-activities-card:focus-within:after {
+    transform: translatey(-50%);
+  }
+
+  .zambezi-activities-card:hover .content, .zambezi-activities-card:focus-within .content {
+    transform: translatey(0);
+  }
+
+  .zambezi-activities-card:hover .content > *:not(.title), .zambezi-activities-card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translatey(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .zambezi-activities-card:focus-within:before, .zambezi-activities-card:focus-within:after, .zambezi-activities-card:focus-within .content, .zambezi-activities-card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+/*End Zambezi Section*/
+/*End Zambezi Section*/
+
+
+
+
+
+/*Accomodation Tab Campsites*/
+.accomodation-wrapper {
+  height: 350px;
+  min-width: 200px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  text-align: center;
+}
+.accomodation-wrapper>h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: .15em;
+  color: #333;
+}
+.accomodation-wrapper .details {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto 2em;
+  padding-top: 10.5em;
+  padding-bottom: 1em;
+  background-color: #f1f1f1;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all ease-in 0.15s;
+}
+
+.accomodation-wrapper:hover .details{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 5px rgba(0,0,0,0.22);
+  transform: translate(0px, -2px) scale(1.01);
+}
+
+.accomodation-wrapper .details>h1 {
+  font-family: "Playfair Display";
+  font-size: 1em;
+}
+.accomodation-wrapper .details>h2 {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+.accomodation-wrapper .details>p {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.accomodation-image{
+  position: relative;
+  z-index: 2;
+  width: 85%;
+  height: 200px;
+  margin: 0 auto -10em;
+  background-size: cover;
+  background-position: center;
+  
+  transition: all ease-in .15s;
+}
+.accomodation-wrapper:hover .accomodation-image{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: translate(0px, -3px) scale(1.02);
+}
+  
+.i1{
+    background-image: url(../images/CAMP-SITE-1.png);
+}
+.i2 {
+  background-image: url(http://www.asianventure.com/images/country/vietnam.jpg);
+}
+.i3 {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/06/c7/ba/92/salah-satu-bangunan-di.jpg);
+  }

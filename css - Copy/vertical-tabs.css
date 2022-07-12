@@ -1,0 +1,81 @@
+.season_tabs {
+  position: relative;   
+  min-height: auto!important; 
+  clear: both;
+  margin: 25px 50px;
+  
+}
+.season_tab {
+  float: left;  
+  clear: both;
+  width: 286px;
+  
+}
+
+.season_tabs .indented {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.indented p {
+  text-transform: none;
+  font-size: 16px;
+}
+
+.indented hr {
+  color: black;
+  opacity: 0.8;
+}
+
+.indented span.subheading {
+  color: black;
+}
+
+
+.season_tab label {
+
+    padding: 10px;
+  color: var(--text-color);
+    margin-left: -1px;
+    font-size: 18px;
+    vertical-align: middle;
+    position: relative;
+    left: 1px;
+    width: 200px;
+    height: 20px;
+    display: table-cell;
+}
+.season_tab [type=radio] {
+  display: none;   
+}
+.season_content {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  background: white;
+  display: none;
+  min-width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+ }
+
+ .season_content .lists {
+   list-style: circle;
+ }
+.season_content span {
+  animation: 0.5s ease-out 0s 1 slideInFromTop; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  color: var(--heading-text-color);
+  border-left: 5px solid var(--green);
+  font-size: larger;
+
+ 
+}
+[type=radio]:checked ~ label ~ .season_content {
+  display: block;
+
+}
