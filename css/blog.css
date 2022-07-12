@@ -148,7 +148,7 @@
 .blog_area a:hover,
 .blog_area a :hover {
   background: -webkit-linear-gradient(131deg, var(--green) 0%, var(--green) 99%);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -195,7 +195,7 @@
 }
 .single-blog .tag {
   text-align: left;
-  display: inline-block;
+  
   float: left;
   font-size: 13px;
   font-weight: 300;
@@ -1196,7 +1196,7 @@
 }
 .blog_part .single-home-blog .card .card-body a:hover {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  -webkit-background-clip: text;
+ 
   -webkit-text-fill-color: transparent;
 }
 .blog_part .single-home-blog .card .dot {
@@ -1278,9 +1278,9 @@
   -webkit-transition: 0.8s;
   transition: 0.8s;
   background: -webkit-linear-gradient(131deg, #feb47b 0%, #ff7e5f 99%);
-  -webkit-background-clip: text;
+  
   -webkit-text-fill-color: transparent;
-  -webkit-animation: 1s;
+ 
 }
 .blog_part .single-home-blog .card ul li {
   display: inline-block;
