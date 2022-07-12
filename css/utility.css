@@ -307,6 +307,13 @@
     color: var(--yellow);
   }
 
+  .yellow-hover {
+    height: 20px;
+  }
+
+  .yellow-hover:hover > a {
+    color: yellow;
+  }
   /*floor fade*/
   .floor-fade  {
     background: 
