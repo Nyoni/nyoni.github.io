@@ -428,6 +428,37 @@ background: var(--bg1);
   text-transform: capitalize;
 }
 
+/*Leadership Page Section*/
+.leadership-hero-section{
+  position: relative;
+  height: 100vh;
+  background: url(../images/banner-img/banner-2.jpg); /*background image*/
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.leadership-hero-section:before{
+  opacity: 0.35;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.leadership-hero-inner{
+  max-width: 800px;
+  position: relative;
+}
+
+.leadership-hero-inner h1{
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-size: 52px;
+  font-weight: 700;
+}
+
 
 /*-ii.   Overview About Us Section*/
 
