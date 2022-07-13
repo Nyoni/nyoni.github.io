@@ -27,7 +27,7 @@ including + (mananga, chilojo bushcamps, bosmans etc)
 
 
     .inner .text span.price {
-      font-size: 26px;
+      font-size: 20px;
       color: #000000;
       position: relative; }
       .inner .text span.price:after {
@@ -38,9 +38,9 @@ including + (mananga, chilojo bushcamps, bosmans etc)
         width: 100%;
         height: 2px;
         content: '';
-        background: #d1ba90; }
+        background: #ffffff; }
 
-            .inner .text ul.list {
+        .inner .text ul.list {
       padding: 0; }
       .inner .text ul.list li {
         list-style: none;

@@ -2063,3 +2063,35 @@ font-size: 24px;
   }
 }
 
+
+.activities-inner .text span.price {
+  font-size: 24px;
+  color: #000000;
+  position: relative; 
+}
+.activities-inner .text span.price:after {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #ffffff; 
+}
+
+.activities-inner .text ul.list {
+  padding: 0; 
+}
+
+.activities-inner .text ul.list li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 18px; 
+}
+
+.activities-inner .text ul.list li span {
+      color: #ffffff;
+      font-size: 18px; 
+}
+
