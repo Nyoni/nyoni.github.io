@@ -1,2 +1,12 @@
--add prices to game drives
--
+Activities
+-add prices to activities
+Game Drives & Fishing
+-Game Drives (morning/evening) 180
+-Fishing - $5
+
+Accomodation
+
+campsites
+tented camps
+lodges
+including + (mananga, chilojo bushcamps, bosmans etc)
