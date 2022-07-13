@@ -48,3 +48,17 @@ including + (mananga, chilojo bushcamps, bosmans etc)
         font-size: 14px; }
         .inner .text ul.list li span {
           color: #8d703b; }
+
+Developed Campsite
+
+Exclusive Campsite
+
+
+
+Wilderness Campsite
+
+Transit Campsite
+
+
+
+

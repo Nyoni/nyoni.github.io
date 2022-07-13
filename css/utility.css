@@ -2066,7 +2066,7 @@ font-size: 24px;
 
 .activities-inner .text span.price {
   font-size: 24px;
-  color: #000000;
+  color: #ffffff;
   position: relative; 
 }
 .activities-inner .text span.price:after {
@@ -2093,5 +2093,9 @@ font-size: 24px;
 .activities-inner .text ul.list li span {
       color: #ffffff;
       font-size: 18px; 
+}
+
+.activities-inner .text span.per {
+  color: #ffffff;
 }
 
