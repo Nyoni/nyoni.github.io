@@ -26,11 +26,11 @@ including + (mananga, chilojo bushcamps, bosmans etc)
 		    					</div>
 
 
-    .room .text span.price {
+    .inner .text span.price {
       font-size: 26px;
       color: #000000;
       position: relative; }
-      .room .text span.price:after {
+      .inner .text span.price:after {
         position: absolute;
         bottom: -3px;
         left: 0;
@@ -40,11 +40,11 @@ including + (mananga, chilojo bushcamps, bosmans etc)
         content: '';
         background: #d1ba90; }
 
-            .room .text ul.list {
+            .inner .text ul.list {
       padding: 0; }
-      .room .text ul.list li {
+      .inner .text ul.list li {
         list-style: none;
         color: #000000;
         font-size: 14px; }
-        .room .text ul.list li span {
+        .inner .text ul.list li span {
           color: #8d703b; }
