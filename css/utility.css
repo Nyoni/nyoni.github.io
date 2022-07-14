@@ -162,7 +162,6 @@
   
   * {
     font-family: 'Song Myung';
-    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -170,7 +169,8 @@
     border: none;
     text-decoration: none;
     text-transform: none;
-    transition: 0.2s linear; 
+    transition: 0.2s linear;
+    font-size: 16px; 
     --grid: minmax(var(--gutter), 1fr)
     repeat(
       var(--columns),
@@ -187,6 +187,7 @@
 
   
   html {
+
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
@@ -222,16 +223,16 @@
 
 
   p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 100;
     letter-spacing: 0.2px;
     text-align: justify;
     color: var(--gray-dark);
     text-transform: none;
     margin-top: 0;
     margin-bottom: 1rem; 
-    font-family: 'nanummyeongjoregular';
+    font-family: 'Song Myung';
 
   }
 
