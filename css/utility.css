@@ -2253,11 +2253,11 @@ text-align: center;
   top: 150px;
   left: -1.8%;
   z-index: 100;
+  width: 300px;
 }
 
 .accomodation_item-header .vertical-part {
   margin: 0 -4px;
-  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: auto;
   font-size: 7vw;
   color: #fff;
