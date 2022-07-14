@@ -266,6 +266,68 @@ consists of Overview, Accomodation, etc          */
     display: none;
 
   }
+
+  /*SVG EXTERNAL CODE*/
+
+  .tabs ul li label {
+    font-weight: bold;
+    font-size: 20px;
+ 
+  }
+  .tabs ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  .tabs ul li {
+    box-sizing: border-box;
+    flex: 1;
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .tabs ul li label {
+    transition: all 0.3s ease-in-out;
+    color: #929daf;
+    padding: 5px auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .tabs ul li label br {
+    display: none;
+  }
+  .tabs ul li label svg {
+    fill: var(--green);
+    height: 4em;
+
+    margin-right: 0.2em;
+    transition: all 0.2s ease-in-out;
+  }
+  .tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+    outline: 0;
+    color: var(--green);
+  }
+  .tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
+    fill: var(--green);
+  }
+
+  /*svg*/
+
+
   .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
     opacity: 1;
     position: relative;
@@ -345,11 +407,11 @@ consists of Overview, Accomodation, etc          */
     border-bottom-left-radius: 0;
   }
   
-  .tab:checked + label {
+  .tab:checked + ul li label {
     background-color: var(--green);
     box-shadow: 0 -1px 0 #fff inset;
     cursor: default;
-    color: #e8eae3;
+ 
   }
   .tab:checked + label:hover {
     box-shadow: 0 -1px 0 #fff inset;
@@ -365,17 +427,17 @@ consists of Overview, Accomodation, etc          */
     flex-grow: 5;
     text-align: center;
     background-color: #ffffff;
-    border-bottom: 3px dotted #013220;
+    border-bottom: 1px dotted #013220;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
     text-align: center;
     transition: 0.3s background-color ease, 0.3s box-shadow ease;
-    height: 50px;
+    height: 100px;
     box-sizing: border-box;
     padding: 15px 0px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
   }
   .tab + label:hover {
