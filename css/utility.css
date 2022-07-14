@@ -1640,22 +1640,22 @@ ol li {
 
 /*Slider in National PARKS*/
 
-
 .work {
   width: 100%; 
 }
 
 .work .img {
-    width: 90%;
-    height: 350px;
+    width: 100%;
+    height: 400px;
     position: relative;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    -webkit-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
-    -moz-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
-    box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 0; 
+    border-radius: 2px;
 }
 
 .work .img:after {
@@ -1678,18 +1678,18 @@ ol li {
 }
 
 .work .text h3 {
-      font-size: 18px;
-      font-weight: 400;
-      font-family: "Playfair Display", serif;
       margin-bottom: 0; 
 }
       
-.work .text h3 a {
+.work .text h3 > a {
         color: #fff; 
+        font-size: 24px;
+        font-weight: 400;
 }
     
 .work .text .cat {
-      font-size: 12px;
+      font-size: 16px;
+      font-style: italic;
       color: var(--green);
       font-weight: 400;
       background: rgba(255, 255, 255, 0.9);
