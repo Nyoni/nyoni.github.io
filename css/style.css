@@ -272,9 +272,10 @@ z-index: 999;
 }
 .zimparks_menu a.logo {
   display: inline-block;
-  padding: 1.5em 3em;
-  width: 19%;
+  padding: 1em 2em;
+  width: 10%;
   float: left;
+  z-index: 1000;
 }
 .zimparks_menu img {
   max-width: 100%;
@@ -306,7 +307,7 @@ color: #333;
 }
 .zimparks_menu > ul {
 margin: 0 auto;
-width: 100%;
+width: 80%;
 list-style: none;
 padding: 0;
 position: relative;
@@ -330,7 +331,7 @@ margin: 0;
 }
 .zimparks_menu > ul > li a {
 text-decoration: none;
-font-size: 18px;
+font-size: 20px;
 color: #f5f5f5;
 padding: 1.5em 3em;
 display: block;
