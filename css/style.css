@@ -261,7 +261,7 @@ background: var(--bg1);
 
 .zimparks_menu {
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: 999;
   background: var(--green);
 }
@@ -302,8 +302,8 @@ display: none;
 cursor: pointer;
 float: right;
 padding: 1.5em 2em;
-background: #fff;
-color: #333;
+background: var(--green);
+color: #ffffff;
 }
 .zimparks_menu > ul {
 margin: 0 auto;
