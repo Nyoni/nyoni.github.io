@@ -25,7 +25,8 @@
   
   :root {
     --yellow: #e9ea0c;
-    --green: #013220;
+    --green: rgb(1, 50, 32);
+    --green2: rgb(1, 99, 63);
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
     --white: #ffffff;
     --text-color: #333;
@@ -1067,7 +1068,7 @@
     width: 35px;
     margin-top: 150px;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.45);
-    z-index: 1000;
+    z-index: 800;
     color: #ffffff; 
   }
   
