@@ -263,11 +263,11 @@ background: var(--bg1);
   width: 100%;
   position: absolute;
   z-index: 999;
-  background: var(--green);
+  background: transparent;
 }
 .zimparks_menu-container {
 margin: 0 auto;
-background: var(--green);
+background: transparent;
 z-index: 999;
 }
 .zimparks_menu a.logo {
@@ -325,7 +325,7 @@ clear: both;
 }
 .zimparks_menu > ul > li {
 float: left;
-background: var(--green);
+background: transparent;
 padding: 0;
 margin: 0;
 }
@@ -424,6 +424,7 @@ Mobile style's
 }
 .zimparks_menu-container .zimparks_menu{
 display:inline-block;
+background: var(--green);
  }
 .zimparks_menu-mobile {
   display: block;    
@@ -441,6 +442,7 @@ display:inline-block;
   width: 100%;
   float: none;
   display: block;
+  background: var(--green);
 }
 .zimparks_menu > ul > li a {
   padding: 1.5em;
