@@ -222,6 +222,14 @@
     }
   }
 
+  @media (max-width: 600px) {
+    .margin-left-0 {
+      margin-left: 0;
+    }
+  }
+
+
+
 
   p {
     font-size: 1.05rem;
