@@ -2475,15 +2475,15 @@ text-align: center;
 	grid-template-columns: 1fr 1fr;
 	gap: 1rem;
 }
-.whyUs__item {
-	background: var(--green);
-	padding: 1rem;
+.whyUs__item img {
+	
+	padding: 0.6rem;
 	border-radius: 12px;
 }
 .whyUs__item__icon {
 	max-width: 56px;
 	margin: 0 auto;
-	margin-bottom: 1rem;
+	margin-bottom: 0.5rem;
 }
 .whyUs__item__text {
 	font-size: 1rem;
