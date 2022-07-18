@@ -600,7 +600,7 @@
 }
 
 .sub-heading-small {
-  margin: 30px 0 15px;
+  margin: 15px 0 0px;
   letter-spacing: 0.6px;
   position: relative;
   color: var(--heading-text-color);
@@ -2476,8 +2476,8 @@ text-align: center;
 	gap: 1rem;
 }
 .whyUs__item {
-	background: var(--lightGreen-1);
-	padding: 2rem;
+	background: var(--green);
+	padding: 1rem;
 	border-radius: 12px;
 }
 .whyUs__item__icon {
@@ -2488,7 +2488,8 @@ text-align: center;
 .whyUs__item__text {
 	font-size: 1rem;
 	font-weight: 500;
-	color: var(--black-1);
+  text-align: center;
+	color: #ffffff;
 }
 @media only screen and (min-width: 768px) {
 	.whyUs__wrapper {
@@ -2515,7 +2516,7 @@ text-align: center;
 		gap: 1rem;
 	}
 	.whyUs__item {
-		padding: 1rem;
+		padding: 0.8rem;
 	}
 	.whyUs__item__icon {
 		max-width: 65px;
