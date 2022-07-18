@@ -1,28 +1,4 @@
-:root {
-    --main-color: #d3ad7f;
-    --yellow: #e9ea0c;
-    --green: #013220;
-    --green2: #063b04;
-    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
-    --white: #ffffff;
-    --text-color: #444;
-    --bg1: #e8eae3;
-    --bg2: #f5f5f5;
-    --d: 700ms;
-    --e: cubic-bezier(0.19, 1, 0.22, 1);
-    --font-sans: "Rubik", sans-serif;
-    --font-serif: "gonarezhou-attractions-Cardo", serif;
-  /*   --great-vibes: 'Great Vibes', cursive;
-    --open-sans: 'Open Sans', sans-serif;
-    --nanum: 'Nanum Myeongjo', serif;
-    --parisienne: 'Parisienne', cursive; 
-    --lato: 'Lato', sans-serif;
-   --linear-gradient:   background: linear-gradient(rgba(1, 50, 32, 0.4), rgba(1, 50, 32, 0.4));*/
-  }
 
-/*Horizontal Tabs*/
-/*Horizontal tabs available on all parks webpages
-consists of Overview, Accomodation, etc          */
 
 /*National Parks*/
 .nationalparks-hero-section{

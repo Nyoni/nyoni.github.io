@@ -36,7 +36,7 @@
     animation: imageAnimation 36s linear infinite 0s;
 }
 .bg_slideshow .text_right {
-    z-index: 1000;
+    z-index: 900;
     position: absolute;
     bottom: 60px;
     right: 0px;
@@ -60,7 +60,7 @@
 }
 
 .bg_slideshow .text_center {
-    z-index: 1000;
+    z-index: 900;
     position: relative;
     width: 600px;
 	top: 70%;
