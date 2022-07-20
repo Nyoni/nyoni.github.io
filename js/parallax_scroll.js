@@ -39,7 +39,7 @@ function parallaxIt() {
         var yPos = -((scrollTop - $backgroundObj.__fgOffset) / $backgroundObj.__speed);
   
         $backgroundObj.css({
-          backgroundPosition: '80% ' + yPos + 'px'
+          backgroundPosition: '50% ' + yPos + 'px'
         });
       });
     });
