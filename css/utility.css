@@ -3008,7 +3008,7 @@ text-align: center;
   background-color: #000;
 }
 .community_outreach section:nth-child(1) .image {
-  background-image: url(https://images.unsplash.com/photo-1463412855783-af97e375664b?iq=100&fm=jpg&w=1000);
+  background-image: url(../images/Conservation/CommunityConservancies/ConservationEducation.JPG);
 }
 .community_outreach section:nth-child(2) .image {
   background-image: url(https://images.unsplash.com/photo-1462819067004-905a72ea3996?iq=100&fm=jpg&w=1000);
@@ -3019,12 +3019,7 @@ text-align: center;
 .community_outreach section:nth-child(4) .image {
   background-image: url(https://images.unsplash.com/photo-1461080639469-66d73688fb21?iq=100&fm=jpg&w=1000);
 }
-.community_outreach section:nth-child(5) .image {
-  background-image: url(https://images.unsplash.com/photo-1460804198264-011ca89eaa43?iq=100&fm=jpg&w=1000);
-}
-.community_outreach section:nth-child(6) .image {
-  background-image: url(https://images.unsplash.com/photo-1463123081488-789f998ac9c4?iq=100&fm=jpg&w=1000);
-}
+
 .community_outreach section .image {
   background-attachment: fixed;
   background-size: cover;
