@@ -30,20 +30,7 @@
     font-weight: 700;
   }
   
-  .conservancies-hero-inner h5 {
-    color: white;
-    margin-bottom: 40px;
-    font-size: 24px;
-    text-transform: none;
-    letter-spacing: 5px;
-  }
-  
-  .conservancies-hero-inner .sub-title {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    color: var(--green);
-  }
+
 
   .conflict-hero-section{
     position: relative;
