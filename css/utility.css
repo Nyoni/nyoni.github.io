@@ -3030,3 +3030,59 @@ text-align: center;
   text-align: center;
   font-size: 18px;
 }
+
+
+
+
+
+
+
+
+.conservation_education-about #inner_header_post_thumb {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url(../images/Conservation/ConservationEducation/DSC_0404.JPG);
+  height: 100vh;
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt {
+  color: #ffffff;
+
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt h1 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt p strong {
+  font-weight: 700;
+}
+
+
+.conservation_education-desc p{
+text-align: left;
+  font-size: 20px;
+
+}
