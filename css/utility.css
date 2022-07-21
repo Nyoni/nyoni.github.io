@@ -2985,18 +2985,7 @@ text-align: center;
 
 /*Community Outrreach*/
 
-.community_outreach {
-  display: flex;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 100%;
-  justify-content: space-around;
-  position: relative;
-  width: 100%;
-}
-.community_outreach section {
+.community_outreach-wrapper {
   width: 100%;
   height: 100vh;
   padding: 0;
@@ -3005,76 +2994,23 @@ text-align: center;
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #000;
-}
-
-
-.community_outreach section .image {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  z-index: 500;
-  opacity: 0.4;
-}
-.community_outreach section .stuff {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  height: 100%;
-  width: 100%;
-  max-width: 90%;
-  justify-content: center;
-  text-align: center;
-  z-index: 1000;
-  color: #e67e22;
-  margin: 0 auto;
-  font-size: 20px;
-  position: relative;
-}
-.community_outreach section .stuff h3 {
-  margin: 0px;
-}
-.community_outreach section .stuff:before, .community_outreach section .stuff:after {
-  width: 100%;
-  height: 1px;
-  display: block;
-  background-color: transparent;
-  content: "";
-  margin: 15px 0;
-}
-
-
-
-.community_outreach-fixed-parallax {
   background: #000;
 }
 
-.community_outreach-fixed-parallax .image {
-  position: relative;
+
+
+.community_outreach-fixed-parallax .community_outreach-wrapper .image {
+  position:absolute;
   height: 100vh;
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.6;
   z-index: 0;
 }
-.community_outreach-fixed-parallax .image.one {
-  background-image: url(../images/Conservation/CommunityConservancies/ConservationEducation.JPG);
-}
-.community_outreach-fixed-parallax .image.two {
-  background-image: url(../images/Conservation/CommunityOutreach/PlanninbgSession.jpg);
-}
-.community_outreach-fixed-parallax .image.three {
-  background-image: url(../images/Conservation/CommunityOutreach/Development.jpg);
-}
-.community_outreach-fixed-parallax .image.four {
-  background-image: url(../images/Conservation/CommunityOutreach/matoposfood.jpg);
-}
 
-.community_outreach-fixed-parallax .content {
+
+.community_outreach-fixed-parallax .community_outreach-wrapper .content {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -3088,4 +3024,9 @@ text-align: center;
   margin: 0 auto;
   font-size: 20px;
   position: relative;
+}
+
+.community_outreach-fixed-parallax .community_outreach-wrapper .content p {
+  text-align: center;
+  font-size: 18px;
 }
