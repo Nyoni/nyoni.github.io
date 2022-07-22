@@ -3086,3 +3086,37 @@ text-align: left;
   font-size: 20px;
 
 }
+
+
+
+
+/*button in middle of image*/
+
+.image_button {
+  position: relative;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.image_button > button {
+  position: absolute;
+}
+
+
+
+.conservation_education .dark_overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
