@@ -336,90 +336,46 @@
     </section>
     <!--Section: Hero ***-->
 
+
+    <div class="container mt-100">   
+      <div class="animal-section slider">
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/elephants.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/buffalo.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/leopard.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/lion.webp" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/buffalo.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/elephants.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/elephants.jpg" alt="logo"></div>
+          <div class="slide"><img src="images/gonarezhou/AnimalSection/elephants.jpg" alt="logo"></div>
+      </div>
+  </div>
+
     <div id="parks">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <section class="animal-section">
-              <div class="row">
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Mammals behaviour/DSC_0346.JPG"
-                    class="img-fluid"
-                    alt="African Parks"
-                  />
-                  <h5>hippopotamus</h5>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Funny/DSC_7031.JPG"
-                    class="img-fluid"
-                    alt="Frankfurt"
-                  />
-                  <h5>hippopotamus</h5>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Funny/DSC_0518.JPG"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <h5>hippopotamus</h5>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Mammals behaviour/DSC_6961.JPG"
-                    class="img-fluid"
-                    alt="IFAW"
-                  />
-                  <h5>hippopotamus</h5>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Funny/DSC_0518.JPG"
-                    class="img-fluid"
-                    alt="GEF6"
-                  />
-                  <h5>hippopotamus</h5>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                  <img
-                    src="images/Brian-Aaaron/Mammals behaviour/DSC_0346.JPG"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <br />
-                  <h5>hippopotamus</h5>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-
         <div id="tabs">
           <nav class="tabs-nav">
             <a href="#" class="active" data-tab="tab1">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/006-map.png" alt="">
               <span>Overview</span>
             </a>
             <a href="#" data-tab="tab2">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/007-elephant.png" alt="">
               <span>Attractions</span>
             </a>
             <a href="#" data-tab="tab3">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/009-accomodation.png" alt="">
               <span>Accomodation</span>
             </a>
             <a href="#" data-tab="tab4">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/004-car.png" alt="">
               <span>Access</span>
             </a>
             <a href="#" data-tab="tab5">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/003-money.png" alt="">
               <span>Park Entry Fees</span>
             </a>
             <a href="#" data-tab="tab6">
-              <i class="flaticon-check icon"></i>
+              <img src="images/tabsImages/008-call.png" alt="">
               <span>Contacts</span>
             </a>
           </nav>
@@ -436,7 +392,7 @@
                   </div>
                   <div class="col-md-6">
                     <span class="super-heading-sm">World Class</span>
-                    <h3 class="heading">Restaurant</h3>
+                    <h3 class="heading">About the Park</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Molestias officia perferendis modi impedit, rem quasi
@@ -481,9 +437,35 @@
     <script src="js/jquery-slim.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
 
     <!--Custom JS-->
     <script src="js/parks_final.js"></script>
     <script src="js/zimparks_menu.js"></script>
+    <script> 
+      $(document).ready(function(){
+          $('.animal-section').slick({
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1500,
+              arrows: false,
+              dots: false,
+              pauseOnHover:false,
+              responsive: [{
+                  breakpoint: 768,
+                  setting: {
+                      slidesToShow:3
+                  }
+              }, {
+                  breakpoint: 520,
+                  setting: {
+                      slidesToShow: 2
+                  }
+              }]
+          });
+      });
+  
+      </script>
   </body>
 </html>

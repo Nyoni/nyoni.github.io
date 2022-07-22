@@ -14,10 +14,53 @@
 
   .animal-section img {
    height: 120px;
+   width: 120px;
    width: 100%;
    object-fit: cover;
-   border-radius: 2px;
+   border-radius: 50%;
   }
+
+
+  /*Animal Section Slide*/
+
+  
+.slick-slide{
+  margin: 0 20px;
+}
+.slick-slide img{
+  width: 100%;
+}
+.slick-slider{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+.slick-list{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block
+}
+.slick-slide{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img{
+  display: block;
+}
+.slick-initialized .slick-slide{
+  display: block;
+}
+
 
   .tab-content > .tab-pane {
     display: none;
@@ -52,13 +95,13 @@
     -o-transition: 0.3s;
     transition: 0.3s;
   }
-  #tabs .tabs-nav > a > .icon {
+  #tabs .tabs-nav > a > img {
     margin-bottom: 20px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
-  #tabs .tabs-nav > a > .icon:before {
+  #tabs .tabs-nav > a > img:before {
     font-size: 40px;
   }
   #tabs .tabs-nav > a > .icon, #tabs .tabs-nav > a > span {
