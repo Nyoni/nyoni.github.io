@@ -2023,7 +2023,7 @@ font-size: 24px;
 .activities-cols .activities-col{
   display: flex;
   flex-flow: column nowrap;
-  grid-column-end: span 4;
+  grid-column-end: span 12;
 }
 
 .activities-container{
@@ -2035,7 +2035,7 @@ font-size: 24px;
 
 @media (max-width: 1200px) {
   .activities-cols .activities-col {
-    grid-column-end: span 4;
+    grid-column-end: span 12;
   }
 
 }
