@@ -228,6 +228,18 @@
     }
   }
 
+
+
+  img {
+    vertical-align: middle;
+  }
+  
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   p {
     font-size: 1.05rem;
     line-height: 1.5;
