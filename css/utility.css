@@ -1136,6 +1136,8 @@
     left: 10px;
     font-size: 18px;
   }
+
+
   
   nav.socials li a span {
     top: 40%;
@@ -1145,6 +1147,45 @@
     font-size: 14px;
     color: #e8eae3;
   }
+
+  /*Check List*/
+  .desc li i{
+    color: 	#029337;
+    font-size: 20px;
+  }
+
+  .desc p {
+    text-align: left;
+      font-size: 20px;
+      letter-spacing: 0.6px;
+    }
+    
+    .desc p > span {
+      letter-spacing: 0.6px;
+      font-size: 20px;
+    }
+    .desc ul > li,
+    .desc ol > li {
+      font-size: 19px;
+      font-weight: 100;
+      text-align: left;
+      list-style: none;
+    }
+
+   .desc li span {
+      letter-spacing: 0.6px;
+      line-height: 40px;
+      font-size: 20px;
+      color: var(--gray-dark);
+    }
+
+    .desc ul li {
+      line-height: 40px;
+    }
+
+
+
+
   /*
   nav.socials a:hover {
     z-index: 1;
@@ -3090,11 +3131,6 @@ text-align: center;
 }
 
 
-.conservation_education-desc p{
-text-align: left;
-  font-size: 20px;
-
-}
 
 
 
