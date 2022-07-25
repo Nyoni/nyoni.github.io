@@ -1167,6 +1167,7 @@
     .desc ul > li,
     .desc ol > li {
       font-size: 19px;
+      font-weight: 100;
       text-align: left;
       list-style: none;
     }
