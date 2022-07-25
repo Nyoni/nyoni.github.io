@@ -147,9 +147,8 @@
 }
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, var(--green) 0%, var(--green) 99%);
 
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #03c634;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
