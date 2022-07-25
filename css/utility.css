@@ -1154,7 +1154,7 @@
     font-size: 20px;
   }
 
-  .desc p{
+  .desc p {
     text-align: left;
       font-size: 20px;
       letter-spacing: 0.6px;
@@ -1166,7 +1166,7 @@
     }
     .desc ul > li,
     .desc ol > li {
-      font-size: 20px;
+      font-size: 19px;
       text-align: left;
       list-style: none;
     }
