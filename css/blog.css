@@ -140,7 +140,7 @@
   margin-bottom: 70px;
 }
 .blog_area a {
-  color: #666 !important;
+  color: #666;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -148,7 +148,7 @@
 .blog_area a:hover,
 .blog_area a :hover {
 
-  -webkit-text-fill-color: #03c634;
+  -webkit-text-fill-color: #c6c603;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -503,7 +503,7 @@
   margin-bottom: 30px;
 }
 .blog_details a {
-  color: #ff8b23;
+  color: #ffffff;
 }
 .blog_details a:hover {
   color: var(--green);
@@ -766,9 +766,9 @@
   font-size: 13px;
 }
 .blog-pagination .page-item.active .page-link {
-  background-color: #fbf9ff;
-  border-color: #f0e9ff;
-  color: #888888;
+  background-color: var(--green);
+  border-color: var(--green2);
+  color: #ffffff;
 }
 .blog-pagination .page-item:last-child .page-link {
   margin-right: 0;
