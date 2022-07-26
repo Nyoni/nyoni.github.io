@@ -155,9 +155,10 @@
 
   .parkprotection-hero-section{
     position: relative;
-    height: 100vh;
-    background: url(../images/parkprotection/PHOTO-2022-06-18-20-45-35.jpg); /*background image*/
+    min-height: 650px;
+    background: url(../images/Conservation/ParkProtection/LadyRangers.JPG); /*background image*/
     background-size: cover;
+   
     background-position: center;
     justify-content: center;
     display: flex;
@@ -173,6 +174,7 @@
   .parkprotection-tfca-hero-inner{
     max-width: 800px;
     position: relative;
+    
   }
   
   .parkprotection-hero-inner h1{
