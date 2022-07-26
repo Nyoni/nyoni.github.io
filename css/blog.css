@@ -61,6 +61,38 @@
   }
 
 
+  .publication_1-hero-section{
+    position: relative;
+    height: 100vh;
+    background: url(../images/Brian-Aaaron/Funny/DSC_0979.JPG); /*background image*/
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .publication_1-hero-section:before{
+    opacity: 0.35;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  
+  .publication_1-hero-inner{
+    max-width: 800px;
+    position: relative;
+  }
+  
+  .publication_1-hero-inner h1{
+    color: #ffffff;
+    text-transform: none;
+    letter-spacing: 3px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+
 
 
 

@@ -635,7 +635,8 @@
 }
 
 
-.sub-heading > h3 {
+.sub-heading > h3,
+.sub-heading a h3 {
   font-weight: 700;
   font-size: 32px;
 }
