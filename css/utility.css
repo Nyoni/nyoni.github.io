@@ -2881,17 +2881,17 @@ text-align: center;
   left: 5px;
   width: 36px;
   height: 2px;
-  background: rgba(255, 255, 255, 0.5);
+  background: transparent;
   transition: background 0.2s ease;
 }
 .page_slideshow .pagination .item::after {
   width: 0;
-  background: #fff;
+  background: transparent;
   z-index: 2;
   transition: width 0.2s ease;
 }
 .page_slideshow .pagination .item:hover::before, .page_slideshow .pagination .item.is-active::before {
-  background-color: #fff;
+  background-color: transparent;
 }
 .page_slideshow .arrows .arrow {
   margin: -33px 0 0;
