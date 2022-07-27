@@ -2221,13 +2221,13 @@ font-size: 24px;
 
 @media screen and (max-width: 64rem){
   .activities-col{
-    width: calc(33.333333% - 2rem);
+    width: calc(100% - 2rem);
   }
 }
 
 @media screen and (max-width: 48rem){
   .activities-col{
-    width: calc(50% - 2rem);
+    width: calc(100% - 2rem);
   }
 }
 
@@ -3245,12 +3245,12 @@ text-align: center;
 
 .park_right_sidebar .widget_title {
 font-size: 20px;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 .park_right_sidebar .widget_title::after {
 content: "";
 display: block;
-padding-top: 15px;
+padding-top: 10px;
 border-bottom: 1px solid #f0e9ff;
 }
 .park_right_sidebar .single_sidebar_widget {
@@ -3260,7 +3260,21 @@ margin-bottom: 30px;
 line-height: 1.5;
 }
 
-.park_right_sidebar .single_sidebar_widget p {
-  line-height: 1.4;
-}
+.park_right_sidebar .entry_sidebar_widget {
+  background: #03bc78;
+  padding: 10px;
+  margin-bottom: 15px;
+  }
+
 /*Park Sidebar*/
+
+
+/*Park Map*/
+
+#park-map {
+  height: 400px;
+  width: 100%;
+}
+
+
+/*Park Map*/
