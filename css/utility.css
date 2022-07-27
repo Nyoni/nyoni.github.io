@@ -3255,7 +3255,12 @@ border-bottom: 1px solid #f0e9ff;
 }
 .park_right_sidebar .single_sidebar_widget {
 background: #fbf9ff;
-padding: 30px;
+padding: 20px;
 margin-bottom: 30px;
+line-height: 1.5;
+}
+
+.park_right_sidebar .single_sidebar_widget p {
+  line-height: 1.4;
 }
 /*Park Sidebar*/
