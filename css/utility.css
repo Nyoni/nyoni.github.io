@@ -3236,3 +3236,26 @@ text-align: center;
 
 
 /**/
+
+
+/*Park Sidebar*/
+.park_item_date p {
+  font-size: 18px;
+}
+
+.park_right_sidebar .widget_title {
+font-size: 20px;
+margin-bottom: 40px;
+}
+.park_right_sidebar .widget_title::after {
+content: "";
+display: block;
+padding-top: 15px;
+border-bottom: 1px solid #f0e9ff;
+}
+.park_right_sidebar .single_sidebar_widget {
+background: #fbf9ff;
+padding: 30px;
+margin-bottom: 30px;
+}
+/*Park Sidebar*/
