@@ -11,8 +11,8 @@
   }
 
   .animal-section img {
-   height: 70px;
-   width: 70px;
+   height: 100px;
+   width: 100px;
    width: 100%;
    object-fit: cover;
    border-radius: 50%;
@@ -30,7 +30,7 @@
 
   /*Animal Section Slide*/
 .slick-slide{
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 @media (min-width: 768px) {
