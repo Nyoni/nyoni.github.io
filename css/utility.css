@@ -3240,28 +3240,28 @@ text-align: center;
 
 
 /*Park Sidebar*/
-.park_item_date p {
+.blog_item_date p {
   font-size: 18px;
 }
 
-.park_right_sidebar .widget_title {
+.blog_right_sidebar .widget_title {
 font-size: 20px;
 margin-bottom: 20px;
 }
-.park_right_sidebar .widget_title::after {
+.blog_right_sidebar .widget_title::after {
 content: "";
 display: block;
 padding-top: 10px;
 border-bottom: 1px solid #f0e9ff;
 }
-.park_right_sidebar .single_sidebar_widget {
+.blog_right_sidebar .single_sidebar_widget {
 background: #fbf9ff;
 padding: 20px;
 margin-bottom: 30px;
 line-height: 1.5;
 }
 
-.park_right_sidebar .entry_sidebar_widget {
+.blog_right_sidebar .entry_sidebar_widget {
   background: #03bc78;
   padding: 10px;
   margin-bottom: 15px;
