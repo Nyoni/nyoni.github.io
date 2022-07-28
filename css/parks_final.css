@@ -10,23 +10,35 @@
     transition: 0.5s;
   }
 
-
-
   .animal-section img {
-   height: 120px;
-   width: 120px;
+   height: 70px;
+   width: 70px;
    width: 100%;
    object-fit: cover;
    border-radius: 50%;
   }
 
 
-  /*Animal Section Slide*/
-
+  @media (min-width: 768px) {
+    .animal-section img {
+      height: 120px;
+      width: 120px;
+    }
+  }
   
+
+
+  /*Animal Section Slide*/
 .slick-slide{
-  margin: 0 20px;
+  margin: 0 10px;
 }
+
+@media (min-width: 768px) {
+  .slick-slide{
+    margin: 0 20px;
+  }
+}
+
 .slick-slide img{
   width: 100%;
 }
@@ -81,7 +93,7 @@
   }
   #tabs .tabs-nav > a {
     float: left;
-    width: 25%;
+    width: 100%;
     text-align: center;
     font-size: 13px;
     letter-spacing: 2px;
@@ -94,6 +106,12 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+  }
+
+  @media (min-width: 768px) {
+    #tabs .tabs-nav > a  {
+      width: 25%
+    }
   }
   #tabs .tabs-nav > a > img {
     margin-bottom: 20px;
