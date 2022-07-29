@@ -3082,6 +3082,17 @@ text-align: center;
   font-size: 18px;
 }
 
+/*National Park What to wear*/
+
+.image_background .image {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+
+/**/
 
 
 
