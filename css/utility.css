@@ -1175,9 +1175,10 @@
 
    .desc li span {
       letter-spacing: 0.6px;
+      font-weight: 100;
       line-height: 40px;
       font-size: 20px;
-      color: var(--gray-dark);
+    color: var(--text-color);
     }
 
     .desc ul li {
