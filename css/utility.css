@@ -1155,11 +1155,21 @@
     font-size: 20px;
   }
 
+  .small-desc li i{
+    color: 	#029337;
+    font-size: 17px;
+  }
   .desc p {
     text-align: left;
       font-size: 20px;
       letter-spacing: 0.6px;
     }
+
+    .small-desc p {
+      text-align: left;
+        font-size: 20px;
+        letter-spacing: 0.6px;
+      }
     
     .desc p > span {
       letter-spacing: 0.6px;
@@ -1173,10 +1183,25 @@
       list-style: none;
     }
 
+    .small-desc ul > li,
+    .small-desc ol > li {
+      font-size: 16px;
+      font-weight: 100;
+      text-align: left;
+      list-style: none;
+    }
+
    .desc li span {
       letter-spacing: 0.6px;
       line-height: 40px;
       font-size: 20px;
+      color: var(--gray-dark);
+    }
+
+    .small-desc li span {
+      letter-spacing: 0.6px;
+      line-height: 40px;
+      font-size: 16px;
       color: var(--gray-dark);
     }
 

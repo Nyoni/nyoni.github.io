@@ -401,7 +401,7 @@ ul.slick-dots {
   margin-left: 30px;
   padding: 45px 30px;
   background-color: #fff;
-  border-radius: 5px;
+
 }
 
 #contact h4 {
@@ -438,8 +438,183 @@ ul.slick-dots {
 #reservation {
   margin-top: 120px;
   padding: 120px 0px;
-  background-image: url(../images/gonarezhou/Activities/gamedrives.jpg);
+  background-image: url(../images/gonarezhou/Activities/gamedrive.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+
+.testimonial {
+  background-color: #fff;
+}
+
+.testimonial_Carousel {
+  background: #4d4f12;
+  padding: 100px 45px;
+}
+
+.margin_boot {
+  padding-right: 0;
+}
+
+.testimonial_box .titlepage {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.testimonial .titlepage h2 {
+  color: #313131;
+}
+
+.testimonial_box p {
+  color: #313131;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.testimonial_Carousel .carousel-caption {
+  position: inherit;
+  padding: 0;
+}
+
+.testimonial_box {
+  text-align: left;
+  padding: 0px 10px 0px 20px;
+}
+
+.test_box {
+  padding: 30px 25px;
+  background: #fff;
+}
+
+.testimonial_Carousel .test_box h4 {
+  font-size: 25px;
+  color: var(--green);
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  padding: 0;
+  padding-top: 8px;
+}
+
+.testimonial_Carousel .test_box p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #222122;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.testimonial_Carousel .carousel-indicators {
+  bottom: 50px;
+}
+
+.testimonial_Carousel .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.testimonial_Carousel .carousel-indicators li.active {
+  background: #f9c40b;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none;
+}
+
+
+/** end testimonial section **/
+.testimonial {
+  background-color: #fff;
+  padding-top: 50px;
+}
+
+.testimonial_Carousel {
+  background: var(--green);
+  padding: 100px 45px;
+}
+
+.margin_boot {
+  padding-right: 0;
+}
+
+
+.testimonial_box .titlepage {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.testimonial .titlepage h2 {
+  color: #313131;
+}
+
+.testimonial_box p {
+  color: #313131;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.testimonial_Carousel .carousel-caption {
+  position: inherit;
+  padding: 0;
+}
+
+.testimonial_box {
+  text-align: left;
+  margin-left: 30px;
+  padding: 45px 30px;
+}
+
+.test_box {
+  padding: 30px 25px;
+  background: #fff;
+}
+
+.testimonial_Carousel .test_box h4 {
+  font-size: 22px;
+  color: var(--green);
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  padding: 0;
+  padding-top: 8px;
+}
+
+.testimonial_Carousel .test_box p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #222122;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.testimonial_Carousel .carousel-indicators {
+  bottom: 50px;
+}
+
+.testimonial_Carousel .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.testimonial_Carousel .carousel-indicators li.active {
+  background: var(--yellow);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none;
+}
+
+
+/** end testimonial section **/
