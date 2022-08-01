@@ -18,6 +18,18 @@
    border-radius: 50%;
   }
 
+  .animal-section .slide {
+    transition: transform 0.3s linear;
+    transition-delay: 0.5s;
+  }
+
+
+  .animal-section .slide:not(.slick-current) {
+    transform: scale(0.9);
+    transition-delay: 0s;
+  }
+
+
 
   @media (min-width: 768px) {
     .animal-section img {
