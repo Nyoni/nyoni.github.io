@@ -530,87 +530,6 @@ background: var(--green);
   color: var(--green);
 }
 
-
-
-
-
-
-
-
-
-/*** v. news update section ***/
-.featured-section {
-  background: var(--bg2);
-}
-
-.featured-box {
-  padding: 20px 25px 15px;
-  box-shadow: 2px 2px 90px rgba(1, 50, 32, 0.45);
-  margin-top: 20px;
-  margin-bottom: 30px;
-  border-radius: 3px;
-  text-align: center;
-  background: var(--green);
-}
-
-.featured-box i {
-  height: 80px;
-  width: 80px;
-  margin-bottom: 30px;
-  display: inline-block;
-  text-align: center;
-  line-height: 80px;
-  color: var(--bg1);
-  background: var(--green);
-  font-size: 40px;
-  border-radius: 50%;
-}
-
-.featured-box span {
-  display: inline-block;
-  margin: 10px 0 15px;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-.featured-box .read-more {
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.featured-box p {
-  font-size: 14px;
-}
-
-.featured-box,
-.featured-box i,
-.featured-box p,
-.featured-box span {
-  transition: 0.5s;
-  color: #e6e2dd;
-}
-
-.featured-box:hover {
-  background: var(--green);
-}
-
-.featured-box:hover i {
-  background: white;
-  color: var(--green);
-}
-
-.featured-box:hover p,
-.featured-box:hover h3,
-.featured-box:hover h3 a,
-.featured-box:hover span {
-  color: white;
-}
-
-/***end news update section***/
-
-
-
 /************************** END HOME PAGE******************************************************/
 /**************************end index.html******************************************************/
 
@@ -623,8 +542,10 @@ background: var(--green);
   position: relative;
   height: 100vh;
   /*About Us Background Image*/
-  background: url(../images/about_us/about_us-homebanner.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/about_us/about_us-banner.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
   justify-content: center;
   display: flex;
@@ -632,10 +553,6 @@ background: var(--green);
   text-align: center;
 }
 
-.about-hero-section:before {
-  opacity: 0.35;
-  background: rgba(0, 0, 0, 0.45);
-}
 
 .about-hero-inner {
   max-width: 700px;
@@ -643,12 +560,29 @@ background: var(--green);
 }
 
 .about-hero-inner h1 {
-  color: #ffffff;
-  font-size: 52px;
+  position: relative;
+  color: var(--yellow);
+  font-size: 60px;
   font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
 }
+
+.about-hero-inner h1::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  left: calc(50% - 50px);
+  bottom: 0;
+  background: var(--yellow);
+}
+
+
+
+
 
 /*Leadership Page Section*/
 .leadership-hero-section{
@@ -683,10 +617,216 @@ background: var(--green);
 
 
 /*-ii.   Overview About Us Section*/
+.main-layout {
+  padding: 15px 10px;
+}
 
+/*Responsive About Page*/
+@media (min-width: 1200px) and (max-width: 1340px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .description .about_overview-text p {
+    line-height: 27px;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .description h3 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+}
+
+/**/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .description h3 {
+   margin-top: 20px;
+  }
+
+  .section-header h2 {
+    font-size: 45px;
+}
+} 
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .description h3 {
+    margin-top: 20px;
+   }
+
+   .section-header h2 {
+    font-size: 40px;
+}
+}
+
+@media (max-width: 575px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .description h3 {
+    margin-top: 20px;
+   }
+
+   .section-header h2 {
+    font-size: 35px;
+}
+}
+
+
+/*End About Responsive*/
+.description {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about_overview {
+  background-color: var(--primary-background);
+  padding: 90px 0;
+}
+
+.has-img-bg {
+  background: url(../images/gonarezhou/Activities/gamedrive.JPG) no-repeat center center;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.body-background {
+  background-color: var(--body-background);
+}
+
+.description .about_overview-text{
+
+  padding: 0;
+}
+
+#about_overview .description .about_overview-text p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+  padding-bottom: 35px;
+  text-align: right;
+}
+
+#about_overview .description h3 {
+     color: #1e2426;
+     margin-bottom: 30px;
+     text-align: right;
+     font-size: 45px;
+     font-weight: 700;
+}
+
+#about_overview .description {
+  padding: 0px 20px 0px 10px;
+}
 /*-iii.  vision & mission section*/
-/*-iv.   mandate section*/
+
+.section-header {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 45px auto;
+}
+
+.section-header p {
+  margin-bottom: 5px;
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--yellow);
+}
+
+.section-header h2 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/*Tabs*/
+.about {
+  background-color: var(--primary-background);
+}
+.about .section-header {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.about .about-img {
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+}
+
+.about .about-tab {
+    width: 100%;
+}
+
+.about .about-tab .nav.nav-pills .nav-link {
+    padding: 8px;
+    font-weight: 600;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    transition: none;
+}
+
+.about .about-tab .nav.nav-pills .nav-link:hover,
+.about .about-tab .nav.nav-pills .nav-link.active {
+    color: var(--yellow);
+    padding-bottom: 7px;
+    border-bottom: 3px solid var(--yellow);
+}
+
+.nav-item > a {
+  color: #1e2426;
+  transition: .3s;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+}
+
+.nav-item > a:hover,
+.nav-item > a:active,
+.nav-item > a:focus {
+  color: var(--yellow);
+  outline: none;
+  text-decoration: none;
+}
+
+.about .about-tab .tab-content {
+    padding: 15px 0 0 0;
+    background: transparent;
+}
+
+.about .about-tab .tab-content .container {
+    padding: 0;
+}
+
 /*-v.    protected areas section*/ 
+
+#protected-areas {
+  background-color: var(--primary-background);
+}
 /*-vi.   Our Leadership Section*/
 
 .leaders .leader {
