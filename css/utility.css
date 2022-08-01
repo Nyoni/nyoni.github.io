@@ -2813,9 +2813,11 @@ text-align: center;
 .page_slideshow .slide.is-loaded {
   opacity: 1;
 }
-.page_slideshow .slide .caption {
+.page_slideshow .slide .slide-content {
   padding: 0 100px;
 }
+
+
 .page_slideshow .slide .image-container {
   position: absolute;
   top: 0;
@@ -2856,11 +2858,34 @@ text-align: center;
   justify-content: center;
   align-items: center;
 }
+
+/*Park slider*/
+.page_slideshow .park-slide-content {
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.page_slideshow .slide .park-slide-content .title {
+  max-width: 500px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/**/
 .page_slideshow .slide .title {
   margin: 0 auto 15px;
   max-width: 1000px;
   font: 300 50px/1.2 "Oswald", sans-serif;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.8px;
 }
 .page_slideshow .slide .text {
   margin: 0 auto;
