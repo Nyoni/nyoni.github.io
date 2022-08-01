@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <!--Normalise-->
+    <link rel="stylesheet" href="css/normalise.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="css/fontawesome-v5.9.0.min.css" />
+    <!--Flaticon-->
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--Normalise-->
+    <link rel="stylesheet" href="css/normalise.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!--Slick-->
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!--Flaticon-->
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <!--Animate-->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!--Leaflet-->
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <!--Spacing-->
+    <link rel="stylesheet" href="css/spacing.min.css" />
+    <!--Utility CSS-->
+    <link rel="stylesheet" href="css/utility.css" />
+    <!--Main CSS File-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/our-parks.css" />
+    <link rel="stylesheet" href="css/national-parks.css" />
+  </head>
+  <body>
+    <!--sticky social media icons-->
+    <nav class="socials">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/zimparks/"
+            ><i class="fab fa-facebook-f"><span>Facebook</span></i></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fab fa-twitter"><span>Twitter</span></i></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fab fa-instagram"><span>Instagram</span></i></a
+          >
+        </li>
+
+        <li>
+          <a href="#"
+            ><i class="fab fa-youtube"><span>Youtube</span></i></a
+          >
+        </li>
+
+        <li>
+          <a href="https://wa.me/+263784352058"
+            ><i class="fab fa-whatsapp"><span>Contact Us</span></i></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!--Live Chat-->
+    <div class="live-chat">
+      <div class="trigger">
+        <div class="trigger-inside">
+          <span>Live Chat</span>
+        </div>
+      </div>
+      <div class="start">
+        <div class="chat-input">
+          <input type="text" placeholder="Send Us A Message" />
+        </div>
+        <div class="close"></div>
+      </div>
+    </div>
+
+    <!--Section: Header-->
+    <!-- partial:index.partial.html -->
+    <div class="zimparks_menu-container">
+      <div class="zimparks_menu ml-auto">
+        <a href="#" class="logo">
+          <img
+            src="images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png"
+            alt="logo"
+            title=""
+          />
+        </a>
+        <ul class="clearfix">
+          <!--Home-->
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <!--About Us-->
+            <a href="about-us.html">About Us</a>
+            <ul>
+              <!--Leadership-->
+              <li><a href="leadership.html">Leadership</a></li>
+              <!--News & Blogs-->
+              <li><a href="blog-page.html">News & Blogs</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Conservation</a>
+            <ul>
+              <!--Park Protection-->
+              <li>
+                <a href="park-protection.html"
+                  >Park <br />
+                  Protection</a
+                >
+                <ul>
+                  <li><a href="park-protection.html">Law Enforcement</a></li>
+                  <li><a href="park-protection.html">Fire Management</a></li>
+                  <li><a href="park-protection.html">Water Management</a></li>
+                  <li>
+                    <a href="park-protection.html">Range Land Management</a>
+                  </li>
+                </ul>
+              </li>
+              <!--Conservation Research-->
+              <li>
+                <a href="#">Conservation Research</a>
+                <ul>
+                  <!--Research Policy-->
+                  <li>
+                    <a href="research-policy.html">Research Policy</a>
+                  </li>
+                  <!--Research Strategy-->
+                  <li>
+                    <a href="research-strategy.html">Research Strategy</a>
+                  </li>
+                  <!--Research Priority-->
+                  <li>
+                    <a href="priotity-areas.html">Priority Areas</a>
+                  </li>
+                  <!--Research Publications-->
+                  <li>
+                    <a href="research-publications.html"
+                      >Research Publications</a
+                    >
+                  </li>
+                  <!--Research Monitoring-->
+                  <li>
+                    <a href="research-monitoring.html">Research Monitoring</a>
+                  </li>
+                  <!--Management Plans-->
+                  <li>
+                    <a href="management-plans.html">Management Plans</a>
+                  </li>
+                  <!--Research Partnership-->
+                  <li>
+                    <a href="research-partnership.html "
+                      >Research Partnership</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <!--Community Conservation-->
+                <a href="#">Community Conservation</a>
+                <ul>
+                  <!--Community Conservancies-->
+                  <li>
+                    <a href="community-conservancies.html">Conservancies</a>
+                  </li>
+                  <!--Human Wildlife Conflict-->
+                  <li>
+                    <a href="human-wildlife-conflict.html"
+                      >Human Wildlife Conflicts</a
+                    >
+                  </li>
+
+                  <!--Community Outreach-->
+                  <li>
+                    <a href="community-outreach.html">Community Outreach</a>
+                  </li>
+                  <!--Conservation Education-->
+                  <li>
+                    <a href="conservation-education.html"
+                      >Conservation Education</a
+                    >
+                  </li>
+                  <!--CAMPFIRE-->
+                  <li><a href="CAMPFIRE.html">CAMPFIRE</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">International Conservation</a>
+                <ul>
+                  <!--TFCA-->
+                  <li><a href="tfca.html">TFCA</a></li>
+                  <!--Joint Commissions-->
+                  <li>
+                    <a href="joint-commissions.html">Joint Commissions</a>
+                  </li>
+                  <!--International Conventions-->
+                  <li>
+                    <a href="conventions.html">International Conventions</a>
+                  </li>
+                  <!--Monitoring-->
+                  <li><a href="monitoring.html">Monitoring</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="licencing.html">Licensing <br /> </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Our Parks</a>
+            <ul>
+              <li>
+                <a href="national-parks.html">National Parks</a>
+                <ul>
+                  <li>
+                    <a href="national_park-chimanimani.html">Chimanimani</a>
+                  </li>
+                  <li><a href="national_park-chizarira.html">Chizarira</a></li>
+                  <li><a href="gonarezhou.html">Gonarezhou</a></li>
+                  <li><a href="national_park-hwange.html">Hwange</a></li>
+                  <li><a href="national_park-kazumapan.html">Kazumapan</a></li>
+                  <li><a href="national_park-manapools.html">Mana Pools</a></li>
+                  <li><a href="national_park-matopos.html">Matobo</a></li>
+                  <li>
+                    <a href="national_park-matusadonha.html">Matusadonha</a>
+                  </li>
+                  <li><a href="national_park-nyanga.html">Nyanga</a></li>
+                  <li>
+                    <a href="national_park-vicfall.html">Victoria Falls</a>
+                  </li>
+                  <li><a href="national_park-zambezi.html">Zambezi</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="recreational-parks.html">Recreational Parks</a>
+                <ul>
+                  <li><a href="rec_park-bangala.html">Bangala</a></li>
+                  <li><a href="rec_park-chibwatata.html">Chibwatata</a></li>
+                  <li><a href="rec_park-chinhoyi.html">Chinhoyi</a></li>
+                  <li><a href="rec_park-chivero.html">Chivero</a></li>
+                  <li><a href="rec_park-cullingham.html">Cullingham</a></li>
+                  <li><a href="rec_park-darewendale.html">Darewendale</a></li>
+                  <li><a href="rec_park-kariba.html">Kariba</a></li>
+                  <li><a href="rec_park-matopos.html">Matopos</a></li>
+                  <li><a href="rec_manjirenji.html">Manjirenji</a></li>
+                  <li><a href="rec_park-mzingwane.html">Mzingwane</a></li>
+                  <li><a href="rec_park-ngezi.html">Ngezi</a></li>
+                  <li><a href="rec_park-osborne.html">Osborne</a></li>
+                  <li><a href="rec_park-sebakwe.html">Sebakwe</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="botanical-gardens.html">Botanical Gardens</a>
+                <ul>
+                  <li><a href="botanical_garden-ewanrigg.html">Ewanrigg</a></li>
+                  <li>
+                    <a href="botanical_garden-nationalbotanic.html"
+                      >National Botanic</a
+                    >
+                  </li>
+                  <li><a href="botanical_garden-vumba.html">Vumba</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="safari-areas.html">Safari Areas</a>
+                <ul>
+                  <li><a href="safari_area-charara.html">Charara</a></li>
+                  <li><a href="safari_area-chete.html">Chete</a></li>
+                  <li><a href="safari_area-chipinge.html">Chipinge</a></li>
+                  <li><a href="safari_area-hurungwe.html">Hurungwe</a></li>
+                  <li><a href="safari_area-matetsi.html">Matetsi</a></li>
+                  <li><a href="safari_area-sapi.html">Sapi</a></li>
+                  <li><a href="safari_area-sengwa.html">Sengwa</a></li>
+                  <li><a href="safari_area-tuli.html">Tuli</a></li>
+                  <li><a href="safari_area-umfurudzi.html">Umfurudzi</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a href="sanctuaries.html">Sanctuaries</a>
+                <ul>
+                  <li><a href="sanctuary-mushandike.html">Mushandike</a></li>
+                  <li><a href="sanctuary-tshabalala.html">Tshabalala</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <!--Opportunities-->
+            <a href="opportunities.html">Opportunities</a>
+            <ul>
+              <!--Leadership-->
+              <li><a href="opportunities.html">Investments</a></li>
+              <!--News & Blogs-->
+              <li><a href="opportunities.html">Tenders</a></li>
+              <!--News & Blogs-->
+              <li><a href="opportunities.html">Careers</a></li>
+            </ul>
+          </li>
+
+          <!--Contact Us-->
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--Section: Header-->
+
+    <!--Section: Hero -->
+    <section class="gonarezhou-hero-section overlay">
+      <div class="gonarezhou-hero-inner">
+        <h2 class="wow fadeInUp" data-wow-duration="1s">
+          Gonarezhou National Park
+        </h2>
+      </div>
+    </section>
+    <!--Section: Hero-->
+
+    <div class="tab-wrap responsive container">
+      <!-- active tab on page load gets checked attribute -->
+      <input type="radio" id="tab1" name="tabGroup1" class="tab" checked />
+      <label for="tab1">Overview</label>
+
+      <input type="radio" id="tab2" name="tabGroup1" class="tab" />
+      <label for="tab2">Attractions</label>
+
+      <input type="radio" id="tab3" name="tabGroup1" class="tab" />
+      <label for="tab3">Activities</label>
+
+      <input type="radio" id="tab4" name="tabGroup1" class="tab" />
+      <label for="tab4">Accomodation</label>
+
+      <input type="radio" id="tab5" name="tabGroup1" class="tab" />
+      <label for="tab5">Park Entry Fees</label>
+
+      <input type="radio" id="tab6" name="tabGroup1" class="tab" />
+      <label for="tab6">Contacts</label>
+
+      <!--Parks Overview Section-->
+      <div class="tab__content" id="gonarezhou-overview">
+        <div class="page-header"></div>
+        <div class="row container-about">
+          <div class="col-md-6 gx-5 mb-4">
+            <div data-mdb-ripple-color="light">
+              <img
+                style="height: 400px"
+                class="image-box-shadow"
+                src="images/gonarezhou/3.JPG"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4 align-content-center">
+            <p>
+              Gonarezhou National Park is Zimbabwe’s second largest park and
+              lies in the South Eastern corner of Zimbabwe bordering Kruger
+              National Park in South Africa and Limpopo National Park in
+              Zimbabwe.
+            </p>
+
+            <p>
+              It forms part of the Great Limpopo Trans-frontier Conservation
+              Area and covers 5 000km<sup>2</sup>.
+            </p>
+
+            <p>
+              The park is home to all of the big 5: elephant, buffalo, rhino,
+              lion and leopard and in addition to these hosts over 100 mammal
+              species, 400 bird species and 50 fish species including Zambezi
+              shark and small-tooth sawfish at the confluence of the Save and
+              Runde; which also happens to be the lowest point in Zimbabwe at
+              162m above sea level.
+            </p>
+
+            <p>
+              The semi-arid climate is covered in wooded grasslands with
+              alluvial, mopane and miombo woodlands as well towering baobab
+              trees.
+            </p>
+          </div>
+        </div>
+
+        <div class="page-"></div>
+        <!-- Why Us section -->
+        <div id="whyUs">
+          <div class="container">
+            <div class="whyUs__wrapper">
+              <div class="whyUs__left" data-aos="fade-right">
+                <h2 class="whyUs__title">What to bring & wear</h2>
+                <p class="whyUs__text">
+                  Binoculars, cameras, hiking/ walking shoes and wildlife
+                  reference books or smartphone application. Food supplies
+                  enough for the stay. Medical Aid Kit. Malaria and insect
+                  repellant. Mosquito nets.
+                </p>
+
+                <div class="row container-about">
+                  <div class="sub-heading-small">
+                    <h4>September to March</h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      For summer, cool comfortable clothing is recommended along
+                      with sunhats and sunscreen.
+                    </li>
+                  </ul>
+
+                  <div class="sub-heading-small">
+                    <h4>April to August</h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      For winter and autumn, warm clothing is recommended,
+                      especially for the night times.
+                    </li>
+                  </ul>
+
+                  <div class="sub-heading-small">
+                    <h4>September to March</h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Wear earthy colours and avoid bright-coloured clothing
+                      like red, yellow, bright
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="whyUs__right" data-aos="fade-left">
+                <div class="whyUs__items__wrapper">
+                  <div class="whyUs__item">
+                    <a href="http://www.paramount.co.zw/">
+                      <img
+                        src="images/nationalparks/companylogos/paramount.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+
+                  <div class="whyUs__item">
+                    <a
+                      href="http://www.tselentisgroup.com/product-category/mazari/"
+                    >
+                      <img
+                        src="images/nationalparks/companylogos/tselentis.jpg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+
+                  <div class="whyUs__item">
+                    <a href="https://www.facebook.com/batazim/">
+                      <img
+                        src="images/nationalparks/companylogos/bata.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Why Us section -->
+        <div class="page-header"></div>
+        <div id="whyUs">
+          <div class="container">
+            <div class="whyUs__wrapper">
+              <div class="whyUs__left" data-aos="fade-right">
+                <h2 class="whyUs__title">How to get there</h2>
+
+                <div class="row container-about">
+                  <div class="sub-heading-small">
+                    <h4>Access by air</h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Private charters are available from any airstrip in
+                      Zimbabwe to Chipinda Pools airstrip located within the
+                      park.
+                    </li>
+                    <li>
+                      Private charter to Buffalo Range Airport then 3 hour
+                      vehicle transfer to Gonarezhou National Park.
+                    </li>
+                  </ul>
+
+                  <div class="sub-heading-small">
+                    <h4>Access by road</h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      Follow main tarred road from the Chiredzi turn-off to
+                      Mutare to Mutare for 21km. turn off to the south at the
+                      Chipinda Pools sign post.
+                    </li>
+                    <li>
+                      Follow the gravel road for approximately 34km to the
+                      entrance of the Park, about 55km from Chiredzi.
+                    </li>
+                  </ul>
+
+                  <div class="sub-heading-small"></div>
+                </div>
+              </div>
+              <div class="whyUs__right" data-aos="fade-left">
+                <div class="whyUs__items__wrapper">
+                  <div class="whyUs__item">
+                    <img
+                      src="images/nationalparks/companylogos/impalaCarRentals.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Why Us section -->
+        <div class="page-header"></div>
+
+        <h4 class="font-italic font-weight-bold">Rules & Regulations</h4>
+        <br />
+
+        <h4 class="font-italic font-weight-bold">Caution</h4>
+        <p>Elephants with calves</p>
+      </div>
+
+      <!--End Park Overview Section-->
+
+      <!--Parks Attractions Section-->
+      <div class="tab__content">
+        <div class="page-header"></div>
+        <div class="page-content">
+          <div class="gonarezhou-attractions-card">
+            <div class="content">
+              <h2 class="title">Wildlife</h2>
+            </div>
+          </div>
+          <div class="gonarezhou-attractions-card">
+            <div class="content">
+              <h2 class="title">Chilojo Cliffs</h2>
+            </div>
+          </div>
+          <div class="gonarezhou-attractions-card">
+            <div class="content">
+              <h2 class="title">Chipinda Pools</h2>
+            </div>
+          </div>
+          <div class="gonarezhou-attractions-card">
+            <div class="content">
+              <h2 class="title">Chibilila Falls</h2>
+            </div>
+          </div>
+
+          <div class="gonarezhou-attractions-card">
+            <div class="content">
+              <h2 class="title">Duguvi Falls</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Park Attractions Section-->
+
+      <!--Parks Activities Section
+            <div class="tab__content">
+                <div class="page-header"></div>
+                <div class="page-content">
+                  <div class="gonarezhou-activities-card">
+                    <div class="content">
+                      <h2 class="title">Game Drives</h2>      
+                    </div>
+                  <h3>Lorem</h3>
+                  </div>
+                 
+                  <div class="gonarezhou-activities-card">
+                    <div class="content">
+                      <h2 class="title">Fishing</h2>
+                      
+                    </div>
+                  </div>
+                </div> 
+            </div>
+            End Park Activities Section-->
+
+      <div class="tab__content">
+        <div class="page-header"></div>
+        <div class="activities-wrapper">
+          <div class="activities-cols">
+            <div
+              class="activities-col"
+              ontouchstart="this.classList.toggle('hover');"
+            >
+              <div class="activities-container">
+                <div
+                  class="activities-front"
+                  style="
+                    background-image: url(images/gonarezhou/Activities/gamedrives.jpg);
+                  "
+                >
+                  <div class="activities-inner">
+                    <p>Game Drives</p>
+                  </div>
+                </div>
+                <div class="activities-back">
+                  <div class="activities-inner">
+                    <div class="text p-3 text-center">
+                      <h3 class="mb-3">Game Drive Fees</h3>
+                      <p><span class="price mr-2">$120.00</span></p>
+                      <ul class="list">
+                        <li><span>Up to 9 PAX</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="activities-col"
+              ontouchstart="this.classList.toggle('hover');"
+            >
+              <div class="activities-container">
+                <div
+                  class="activities-front"
+                  style="
+                    background-image: url(images/gonarezhou/Activities/fishing.jpg);
+                  "
+                >
+                  <div class="activities-inner">
+                    <p>Fishing</p>
+                  </div>
+                </div>
+                <div class="activities-back">
+                  <div class="activities-inner">
+                    <div class="text p-3 text-center">
+                      <h3 class="mb-3">Fishing Fees</h3>
+                      <p>
+                        <span class="price mr-2">$5.00</span
+                        ><span class="per">per person</span>
+                      </p>
+                      <ul class="list">
+                        <li><span>Only for one fishing day</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="activities-col"
+              ontouchstart="this.classList.toggle('hover');"
+            >
+              <div class="activities-container">
+                <div
+                  class="activities-front"
+                  style="
+                    background-image: url(images/gonarezhou/Activities/viewingplatform.jpg);
+                  "
+                >
+                  <div class="activities-inner">
+                    <p>Viewing Platform</p>
+                  </div>
+                </div>
+                <div class="activities-back">
+                  <div class="activities-inner">
+                    <div class="text p-3 text-center">
+                      <h3 class="mb-3">Platform Fees</h3>
+                      <p>
+                        <span class="price mr-2">$5.00</span
+                        ><span class="per">min. charge</span>
+                      </p>
+                      <ul class="list">
+                        <li><span>3 Base PAX</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+
+      <!--Park Accomodation Section-->
+      <div class="tab__content">
+        <!--Campsites-->
+        <div class="page-header"></div>
+
+        <div class="sub-heading">
+          <h3>&nbsp; &nbsp;Campsites</h3>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="featured-carousel owl-carousel">
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/chilojocampsite.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Bopomela</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/chamulavati.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Exclusive Campsite</span>
+                        <h3>
+                          <a href="#">Chamulavati</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/chilojocampsite.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Exclusive Campsite</span>
+                        <h3>
+                          <a href="#">Chilojo</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/CHINGULI.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Developed Campsite</span>
+                        <h3>
+                          <a href="#">Chinguli</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/chipinda.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Developed Campsite</span>
+                        <h3>
+                          <a href="#">Chipinda Pools</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url('images/gonarezhou/Accomodation/campsites/chitovecampsite2.jpg');
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Exclusive Campsite</span>
+                        <h3>
+                          <a href="#">Chitove</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/chivilila.jpg
+                        );
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Chivilila</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/fishans.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Fishans</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/mabalauta.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Gayiseni</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/gorwe.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Gorwe</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/CHINGULI.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Transit Campsite</span>
+                        <h3>
+                          <a href="#">Guluweni</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Developed Campsite</span>
+                        <h3>
+                          <a href="#">Hlaro</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Lisoda</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/mabalauta.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Developed Campsite</span>
+                        <h3>
+                          <a href="#">Mabalauta</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Exclusive Campsite</span>
+                        <h3>
+                          <a href="#">Machaniwa</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Malilangani</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Nyavasikana</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                      background-image: url(images/gonarezhou/CAMP-SITE-1.png);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Pokwe</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/rossipools.jpg);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Rossi Pools</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/gonarezhou/Accomodation/campsites/runde);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Wilderness Campsite</span>
+                        <h3>
+                          <a href="#">Runde Gorge</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="work">
+                    <div
+                      class="img d-flex align-items-end justify-content-center"
+                      style="
+                        background-image: url(images/nationalparks/gonarezhou/gallery/DSC_1852.JPG);
+                      "
+                    >
+                      <div class="text w-100">
+                        <span class="cat">Transit Campsite</span>
+                        <h3>
+                          <a href="#">Tondo</a>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--End Campsites-->
+        <div id="self-catering-lodges">
+          <!--Self Catering Lodges-->
+          <div class="sub-heading">
+            <h3>&nbsp; &nbsp;Self Catering Lodges</h3>
+          </div>
+          <!-- partial:index.partial.html -->
+
+          <!--Section: divs-->
+          <div class="accomodation_grids">
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/AcaciaLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Acacia</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/AlbaziaLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Albazia</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/CordylaLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Cordyla</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/Cussonia.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Cussonia</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/Kigelia_Swimuwini.jpeg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Kigelia</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/Masasani.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Masasani</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/NyalaLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Nyala</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/TambotiLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Tamboti</a>
+                </h3>
+              </div>
+            </div>
+
+            <div class="accomodation_grid">
+              <div
+                class="media image-box-shadow"
+                style="
+                  background-image: url('images/gonarezhou/Accomodation/selfcatering/Swimuwini/TricheliaLodge.jpg');
+                  background-size: cover;
+                "
+              ></div>
+              <div class="caption">
+                <h3 class="title">
+                  <a href="">Trichelia</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Section: divs-->
+
+        <div class="page-header"></div>
+
+        <!--Private Safari Camps-->
+        <div class="sub-heading">
+          <h3>&nbsp;&nbsp;Private Safari Camps</h3>
+        </div>
+        <!--Private Safari Carousel-->
+      </div>
+      <!--End Park Accomodation Section-->
+
+      <!--Park Entry Fee Section-->
+      <div class="tab__content">
+        <div class="page-header"></div>
+        <div class="container">
+          <div>
+            <table class="table">
+              <thead class="thead-primary">
+                <tr>
+                  <th scope="col">Fees</th>
+                  <th scope="col">Local</th>
+                  <th scope="col">Regional</th>
+                  <th scope="col">International</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <!--Conservation Fees row-->
+                  <th scope="row">Conservation</th>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                </tr>
+
+                <tr>
+                  <!--Vehicle Entry Fees row-->
+                  <th scope="row">Vehicle Entry</th>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                  <td>$0.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!--End Park Entry Fee Section-->
+
+      <!--Contacts Section-->
+
+      <!--Park Contact Section-->
+      <div class="tab__content"></div>
+      <!--End Park Contact Section-->
+
+      <!--End Contacts Section-->
+    </div>
+    <!--Section: Park Gallery-->
+    <div class="top">
+      <ul>
+        <li>
+          <a href="#img_1"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1840.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_2"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1852.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_3"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1867.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_4"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1906.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_5"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1940.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_6"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_1984.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_7"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_7656.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_8"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_4028.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_9"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_4067.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_10"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_2020.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_11"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_2085.JPG"
+          /></a>
+        </li>
+        <li>
+          <a href="#img_12"
+            ><img src="images/nationalparks/gonarezhou/gallery/DSC_2130.JPG"
+          /></a>
+        </li>
+      </ul>
+      <a href="#_1" class="lightbox trans" id="img_1"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1840.JPG"
+      /></a>
+      <a href="#_2" class="lightbox trans" id="img_2"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1852.JPG"
+      /></a>
+      <a href="#_3" class="lightbox trans" id="img_3"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1867.JPG"
+      /></a>
+      <a href="#_4" class="lightbox trans" id="img_4"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1906.JPG"
+      /></a>
+      <a href="#_5" class="lightbox trans" id="img_5"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1940.JPG"
+      /></a>
+      <a href="#_6" class="lightbox trans" id="img_6"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_1984.JPG"
+      /></a>
+      <a href="#_7" class="lightbox trans" id="img_7"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_7656.JPG"
+      /></a>
+      <a href="#_8" class="lightbox trans" id="img_8"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_4028.JPG"
+      /></a>
+      <a href="#_9" class="lightbox trans" id="img_9"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_4067.JPG"
+      /></a>
+      <a href="#_10" class="lightbox trans" id="img_10"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_2020.JPG"
+      /></a>
+      <a href="#_11" class="lightbox trans" id="img_11"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_2085.JPG"
+      /></a>
+      <a href="#_12" class="lightbox trans" id="img_12"
+        ><img src="images/nationalparks/gonarezhou/gallery/DSC_2130.JPG"
+      /></a>
+    </div>
+
+    <!--End Section: Park Gallery-->
+
+    <!--JS Files-->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/leaflet.min.js"></script>
+    <script src="js/appear.js"></script>
+
+    <!--Custom JS-->
+    <script src="js/slideshow.js"></script>
+
+    <script src="js/accomodation_grid.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/live-chat.js"></script>
+    <script src="js/zimparks_menu.js"></script>
+  </body>
+</html>
