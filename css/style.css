@@ -639,6 +639,12 @@ background: var(--green);
     font-size: 16px;
   }
 
+  .description .protected_areas-text p {
+    line-height: 27px;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
   .description h3 {
     font-size: 45px;
     line-height: 40px;
@@ -715,7 +721,10 @@ background: var(--green);
 }
 
 .description .about_overview-text{
+  padding: 0;
+}
 
+.description .protected_areas-text{
   padding: 0;
 }
 
@@ -725,7 +734,18 @@ background: var(--green);
   line-height: 28px;
   font-weight: 500;
   padding-bottom: 35px;
+  letter-spacing: 0.5px;
   text-align: right;
+}
+
+.description .protected_areas-text p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 500;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 #about_overview .description h3 {
@@ -895,7 +915,7 @@ background: var(--green);
 /*Our Partners Logos*/
 
 .about_partners-logo {
-  padding: 90px 0;
+  background-color: var(--primary-background);
 }
 
 
