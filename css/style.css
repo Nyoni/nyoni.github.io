@@ -748,12 +748,6 @@ background: var(--green);
   margin: 0 auto 45px auto;
 }
 
-#protected-areas > .section-header {
-  position: relative;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto 45px auto;
-}
 
 .section-header p {
   margin-bottom: 5px;
@@ -837,6 +831,7 @@ background: var(--green);
 
 #protected-areas {
   background-color: var(--primary-background);
+  padding: 90px 0;
 }
 
 .protected_areas .section-header {
@@ -897,6 +892,13 @@ background: var(--green);
   margin: 0;
 
 }
+
+/*Our Partners Logos*/
+
+.about_partners-logo {
+  padding: 90px 0;
+}
+
 
 /*-vi.   Our Leadership Section*/
 
