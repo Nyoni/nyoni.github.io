@@ -841,12 +841,13 @@ background: var(--green);
 
 #protected-areas .protected_areas-wrapper .protected_areas-overlay {
   position: absolute;
-  top: 10%;
+  bottom: 0;
   right: 30px;
+  height: 100%;
+  z-index: 200;
 }
 
 #protected-areas .protected_areas-wrapper .protected_areas-img {
-  position: relative;
   width: 100%;
   height: 100vh;
   z-index: 100;
@@ -854,9 +855,36 @@ background: var(--green);
   background-attachment: fixed;
   background-size: cover;
   margin: 0;
-  top: 10px;
-  left: 10px;
+
 }
+
+.protected_areas-wrapper .protected_areas-overlay .national_area-img {
+  width: 100%;
+  height: 30%;
+  z-index: 300;
+
+  margin: 0;
+
+}
+
+.protected_areas-wrapper .protected_areas-overlay .botanical_area-img {
+  width: 100%;
+  height: 30%;
+  z-index: 300;
+
+  margin: 0;
+
+}
+
+.protected_areas-wrapper .protected_areas-overlay .recreational_area-img {
+  width: 100%;
+  height: 30%;
+  z-index: 300;
+
+  margin: 0;
+
+}
+
 /*-vi.   Our Leadership Section*/
 
 .leaders .leader {
