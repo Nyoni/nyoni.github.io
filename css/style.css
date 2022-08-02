@@ -73,6 +73,13 @@ font-family: 'Parisienne', cursive;
   font-style: normal;
   font-display: swap;
 }
+
+
+.italic {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  
+}
 /**************************02. MENU******************************************************/
 /************************************************************************************/
                                
@@ -500,7 +507,7 @@ background: var(--green);
 
 .home-hero-section{
   position: relative;
-  height: 100vh;
+  min-height: 700px;
   background: url(../images/banner-img/home-banner.JPG); /*background image*/
   background-size: cover;
   background-position: center;
@@ -577,7 +584,7 @@ background: var(--green);
   position: relative;
   font-family: 'Playfair Display'; 
   color: var(--yellow);
-  font-size: 60px;
+  font-size: 3em;
   font-weight: 900;
   font-style: italic;
   margin-bottom: 20px;
@@ -585,10 +592,6 @@ background: var(--green);
   letter-spacing: 3px;
   text-transform: capitalize;
 }
-
-
-
-
 
 
 /*Leadership Page Section*/
@@ -1041,3 +1044,43 @@ a.linkedin{
 }
 
 
+
+
+/**************************05. PARK PROTECTION************************************************************/
+/**************************************************************************************************/
+
+/*Park Protection Hero Section*/
+
+.parkprotection-hero-section{
+  position: relative;
+  height: 100vh;
+  /*About Us Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ParkProtection/LadyRangers.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.parkprotection-hero-inner{
+  max-width: 700px;
+  position: relative;
+  
+}
+
+.parkprotection-hero-inner h1{
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}

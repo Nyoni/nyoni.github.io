@@ -153,37 +153,7 @@
 
   /*PARK PROTECTION SECTION*/
 
-  .parkprotection-hero-section{
-    position: relative;
-    min-height: 650px;
-    background: url(../images/Conservation/ParkProtection/LadyRangers.JPG); /*background image*/
-    background-size: cover;
-   
-    background-position: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .parkprotection-hero-section:before{
-    opacity: 0.3;
-    background: rgba(0, 0, 0, 0.3);
-  }
-  
-  .parkprotection-tfca-hero-inner{
-    max-width: 800px;
-    position: relative;
-    
-  }
-  
-  .parkprotection-hero-inner h1{
-    letter-spacing: 3px;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-size: 52px;
-    font-weight: 700;
-  }
+
   
   
 
