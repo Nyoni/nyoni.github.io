@@ -53,12 +53,26 @@ font-family: 'Parisienne', cursive;
 
 
 }
-
-
-
 */
 
+/*Fonts*/
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayFairFont/PlayfairDisplay-Italic.woff2') format('woff2'),
+      url('fonts/PlayFairFont/PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('fonts/PlayFairFont/PlayfairDisplay-Regular.woff2') format('woff2'),
+      url('fonts/PlayFairFont/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /**************************02. MENU******************************************************/
 /************************************************************************************/
                                
@@ -561,24 +575,17 @@ background: var(--green);
 
 .about-hero-inner h1 {
   position: relative;
+  font-family: 'Playfair Display'; 
   color: var(--yellow);
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 900;
+  font-style: italic;
   margin-bottom: 20px;
   padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
 }
 
-.about-hero-inner h1::after {
-  position: absolute;
-  content: "";
-  width: 100px;
-  height: 2px;
-  left: calc(50% - 50px);
-  bottom: 0;
-  background: var(--yellow);
-}
 
 
 
@@ -772,6 +779,8 @@ background: var(--green);
 .section-header p {
   margin-bottom: 5px;
   position: relative;
+  font-family: 'Playfair Display';
+  font-style: italic;
   font-size: 22px;
   font-weight: 400;
   text-transform: capitalize;
