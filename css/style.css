@@ -821,6 +821,10 @@ background: var(--green);
   margin: 0 auto 45px auto;
 }
 
+.section-header {
+  margin-bottom: 45px;
+}
+
 
 .section-header p {
   margin-bottom: 5px;
@@ -1136,6 +1140,24 @@ a.linkedin{
 
 .protection_overview-img {
   background: url(../images/Conservation/ParkProtection/RangersatWork.JPG) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.fire_management-img {
+  background: url(../images/Conservation/ParkProtection/LadyRangers.JPG) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.water_management-img {
+  background: url(../images/Conservation/ParkProtection/RhodesNyangaLodges.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
