@@ -741,7 +741,14 @@ background: var(--green);
 }
 /*-iii.  vision & mission section*/
 
-.section-header {
+.about .section-header {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 45px auto;
+}
+
+#protected-areas > .section-header {
   position: relative;
   width: 100%;
   max-width: 700px;
@@ -752,7 +759,7 @@ background: var(--green);
   margin-bottom: 5px;
   position: relative;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: capitalize;
   color: var(--yellow);
 }
@@ -830,6 +837,12 @@ background: var(--green);
 
 #protected-areas {
   background-color: var(--primary-background);
+}
+
+.protected_areas .section-header {
+  width: 100%;
+  max-width: 700px;
+
 }
 
 #protected-areas .protected_areas-wrapper {
