@@ -1555,8 +1555,8 @@
   color: #fff;
 }
 .section_padding_100_70 {
-  padding-top: 100px;
-  padding-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 .foo_top_header_one {
   color: #fff;
@@ -1570,6 +1570,9 @@
 .footer_part h4,
 .footer_part h5 {
   margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.6px;
 }
 .footer_single_contact_info > p,
 .footer_single_contact_info > h5,
@@ -1579,8 +1582,11 @@
 }
 .footer_area p,
 .footer_area ul li,
-.footer_area ol li {
+.footer_area ol li,
+.footer_area > a {
   font-weight: 300;
+  color: #ffffff;
+  font-size: 17px;
 }
 .footer_area ul {
   margin: 0;
@@ -1603,7 +1609,8 @@ ol li {
 }
 .footer_bottom_header_one a {
   color: inherit;
-  font-size: 14px;
+  font-size: 17px;
+  color: #ffffff;
 }
 
 .m-top-15 {
@@ -1620,26 +1627,25 @@ ol li {
   list-style: outside none none;
 }
 .footer_widget a {
-  border: 1px solid #333;
+  border: 1px solid #ffffff;
   border-radius: 6px;
-  color: #888;
+  color: #ffffff;
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 4px;
   padding: 7px 12px;
 }
 
 .footer_links a {
-  border-bottom: 1px solid #333;
-  color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
   display: block;
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 5px;
   padding-bottom: 10px;
 }
 .footer_links a {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  color: #ffffff;
+  font-size: 17px;
 }
 
 .foo_top_header_one .footer_part > h5 {
@@ -1649,19 +1655,8 @@ ol li {
 .footer_part h5 {
   margin-bottom: 30px;
 }
-.footer_social_links > li {
-  display: inline-block;
-}
 
-.footer_social_links a {
-  border: 1px solid #333;
-  border-radius: 6px;
-  color: #888;
-  display: inline-block;
-  font-size: 13px;
-  margin-bottom: 3px;
-  padding: 7px 12px;
-}
+
 .footer_blog_area .footer_date {
   color: var(--white);
   font-size: 13px;
@@ -1698,39 +1693,12 @@ ol li {
   color: #27ae60;
 }
 
-.social_links_area {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 50px 0 30px 0;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-.social_links_area > a:hover {
-  color: #27ae60;
-}
 
-.inline-style .social_links_area > a:hover {
-  background-color: transparent;
-  color: #27ae60;
-  border: 0px solid transparent;
-}
-.single_feature:hover .feature_text h4 {
-  color: #27ae60;
-}
 .footer_blog_area {
-  border-bottom: 1px solid #333;
   margin-bottom: 15px;
   padding: 0 0 15px 90px;
   position: relative;
   z-index: 1;
-}
-.footer_links a {
-  border-bottom: 1px solid #333;
-  color: rgba(255, 255, 255, 0.5);
-  display: block;
-  font-size: 13px;
-  margin-bottom: 5px;
-  padding-bottom: 10px;
 }
 
 

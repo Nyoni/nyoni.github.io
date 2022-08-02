@@ -860,7 +860,6 @@ background: var(--green);
   height: 100vh;
   z-index: 100;
   background: url(../images/about_us/map.png) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
   margin: 0;
 
