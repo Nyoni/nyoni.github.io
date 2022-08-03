@@ -161,7 +161,6 @@
 .tfca-hero-section{
   position: relative;
   height: 100vh;
-  width: fit-content;
   background: url(../images/banner-img/banner-8.JPG); /*background image*/
   background-size: cover;
   justify-content: center;
