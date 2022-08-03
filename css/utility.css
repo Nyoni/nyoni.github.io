@@ -322,7 +322,7 @@
   }
 
   .green {
-    color: #013220;
+    color: #04884c;;
   }
 
   .yellow {
@@ -1155,7 +1155,7 @@
   /*Check List*/
   .desc li i{
     color: 	#029337;
-    font-size: 20px;
+    font-size: 18.5px;
   }
 
   .small-desc li i{
@@ -1164,7 +1164,7 @@
   }
   .desc p {
     text-align: left;
-      font-size: 20px;
+      font-size: 19px;
       letter-spacing: 0.6px;
     }
 
@@ -1176,7 +1176,7 @@
     
     .desc p > span {
       letter-spacing: 0.6px;
-      font-size: 20px;
+      font-size: 19px;
     }
     .desc ul > li,
     .desc ol > li {
@@ -1198,14 +1198,14 @@
       letter-spacing: 0.6px;
       font-weight: 100;
       line-height: 40px;
-      font-size: 20px;
+      font-size: 19px;
     color: var(--text-color);
     }
 
     .small-desc li span {
       letter-spacing: 0.6px;
       line-height: 40px;
-      font-size: 16px;
+      font-size: 17px;
       color: var(--gray-dark);
     }
 
