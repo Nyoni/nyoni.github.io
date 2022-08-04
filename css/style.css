@@ -1460,6 +1460,38 @@ a.linkedin{
 /**************************07.  RESEARCH STRATEGY************************************************************/
 /**************************************************************************************************/
 
+.researchstrategy-hero-section {
+  position: relative;
+  height: 100vh;
+  /*Par Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchStrategy/SunsetMana.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.researchstrategy-hero-inner{
+  max-width: 700px;
+  position: relative; 
+}
+
+.researchstrategy-hero-inner h1{
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
 
 
 .research_strategy-overview{
@@ -1480,11 +1512,10 @@ a.linkedin{
   color: #ffffff;
 }
 
-
-
 .research_strategy-about #inner_header_post_thumb {
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   background-image: url(../images/Conservation/ConservationResearch/ResearchStrategy/Butterfly.jpg);
   height: 100vh;
