@@ -1468,16 +1468,19 @@ a.linkedin{
 }
 
 .research_strategy-goals {
-  background-color: #104ba9;
+  background-color: rgba(12, 112, 149, 0.2);
   padding: 100px 0;
 }
 
-.research_strategy-goals .desc > h3,
-.research_strategy-goals .desc > h4,
+.research_strategy-goals .desc .list-item > h3,
+.research_strategy-goals .desc .list-item > h4,
 .research_strategy-goals ul li .list-item > h4,
-.research_strategy-goals .desc > p {
+.research_strategy-goals .desc > p,
+.research_strategy-goals .sub-heading {
   color: #ffffff;
 }
+
+
 
 .research_strategy-about #inner_header_post_thumb {
   background-position: center;
