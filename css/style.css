@@ -1598,6 +1598,39 @@ a.linkedin{
 /**************************09.  PUBLICATIONS************************************************************/
 /**************************************************************************************************/
 
+.publication_1-hero-section {
+  position: relative;
+  height: 100vh;
+  /*Research Priority Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchPublication/Events.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.publication_1-hero-inner{
+  max-width: 700px;
+  position: relative; 
+}
+
+.publication_1-hero-inner h1{
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
 .publication_overview {
   background-color: var(--primary-background);
   padding: 50px 0;
