@@ -1398,3 +1398,29 @@ a.linkedin{
   letter-spacing: 2px;
   transition: 0.2s;
 }
+
+
+
+/**************************06.  RESEARCH POLICY************************************************************/
+/**************************************************************************************************/
+
+
+.research_overview{
+  background-color: var(--primary-background);
+  padding: 50px 0;
+}
+
+
+.research_policy-img {
+  background: url(../images/gonarezhou/Activities/gamedrive.JPG) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 300px;
+  padding: 30px;
+  margin: 0;
+}
+
+.different_bg {
+  background-color: #616161;
+}
