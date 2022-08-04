@@ -291,7 +291,6 @@
   
   h4 {
     font-size: 18px;
-    color: var(--heading-text-color);
   }
   
   h5 {
@@ -1182,6 +1181,7 @@
       font-size: 19px;
       margin-left: 10px;
       line-height: 30px;
+      color: #ffffff;
     }
     .desc ul > li,
     .desc ol > li {
