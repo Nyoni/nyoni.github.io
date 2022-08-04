@@ -1467,9 +1467,15 @@ a.linkedin{
   padding-bottom: 50px;
 }
 
-.research_strategy-goals{
-  background-color: var(--primary-background);
+.research_strategy-goals {
+  background-color: #0c3a92;
   padding: 50px 0;
+}
+
+.research_strategy-goals .desc > h3
+.research_strategy-goals .desc > h4
+.research_strategy-goals .desc > p {
+  color: #ffffff;
 }
 
 .research_strategy-about #inner_header_post_thumb {
