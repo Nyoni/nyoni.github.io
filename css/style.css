@@ -1460,11 +1460,23 @@ a.linkedin{
 /**************************07.  RESEARCH STRATEGY************************************************************/
 /**************************************************************************************************/
 
+
+
+.research_strategy-overview{
+  background-color: var(--primary-background);
+  padding-bottom: 50px;
+}
+
+.research_strategy-goals{
+  background-color: var(--primary-background);
+  padding: 50px 0;
+}
+
 .research_strategy-about #inner_header_post_thumb {
   background-position: center;
   background-size: cover;
   position: relative;
-  background-image: url(../images/Conservation/ConservationResearch/);
+  background-image: url(../images/Conservation/ConservationResearch/ResearchStrategy/Butterfly.jpg);
   height: 100vh;
 }
 .research_strategy-about  #inner_header_post_thumb .dark_overlay {
@@ -1480,24 +1492,14 @@ a.linkedin{
   justify-content: center;
   align-items: center;
 }
-.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt {
+.research_strategy-about  #inner_header_post_thumb .dark_overlay .container .header-txt {
   color: #ffffff;
 
 }
-.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt h1 {
-  font-size: 40px;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
+
+.research_strategy-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
   font-size: 22px;
   color: #ffffff;
   font-weight: 300;
 }
-.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt p {
-  font-size: 1rem;
-  font-weight: 300;
-}
-.conservation_education-about  #inner_header_post_thumb .dark_overlay .container .header-txt p strong {
-  font-weight: 700;
-}
+

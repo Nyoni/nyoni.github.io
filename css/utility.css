@@ -1161,7 +1161,6 @@
     font-size: 17px;
   }
   .desc p {
-    text-align: left;
       font-size: 19px;
       letter-spacing: 0.6px;
     }
@@ -1175,6 +1174,14 @@
     .desc p > span {
       letter-spacing: 0.6px;
       font-size: 19px;
+      margin-left: 10px;
+    }
+
+    .list_item > h4 {
+      letter-spacing: 0.6px;
+      font-size: 19px;
+      margin-left: 10px;
+      line-height: 30px;
     }
     .desc ul > li,
     .desc ol > li {
