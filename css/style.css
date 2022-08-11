@@ -1635,3 +1635,80 @@ a.linkedin{
   background-color: var(--primary-background);
   padding: 50px 0;
 }
+
+
+
+
+
+
+
+
+
+
+body #about {
+	background-color: #f9f9f9;
+	position: relative;
+}
+body #about .section-block, body #about #features, body #about #process, body #about #testimonial, body #about #footer, body #about #about-page-section-3, body #about #skills, body #about #team-member, body #about #portfolio, body #about #faq, body #about #contact, body #about #contact-page, body #about #features-page .subsection1, body #features-page #about .subsection1, body #about #features-page .subsection2, body #features-page #about .subsection2, body #about #features-page .subsection3 .right-section, body #features-page .subsection3 #about .right-section, body #about #features-page .subsection3 .left-section, body #features-page .subsection3 #about .left-section, body #about #features-page .subsection4, body #features-page #about .subsection4, body #about #login-reg {
+	padding: 50px 0px;
+	display: inline-block;
+}
+body #about .background-imgholder {
+	background: url(../img/1.jpg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	background-size: cover !important;
+	background-position: 50% 50% !important;
+}
+body #about .image-holder {
+	overflow: hidden;
+	height: 100%;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+}
+body #about .text-inner {
+	padding: 62px;
+}
+body #about .text-block {
+	background: #fff;
+	padding: 40px;
+	position: relative;
+	top: 50%;
+	box-shadow: 0px 0px 12px #ddd;
+}
+body #about .text-block li {
+	padding: 0px;
+	margin: 0 0 15px 0;
+	display: block;
+	line-height: 23px;
+}
+body #about .text-block i {
+	margin-right: 10px;
+}
+body #about .text-block .btn-primary {
+	margin: 30px 0px 20px;
+}
+body #about .about-list {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+body #about .about-list h3, body #about .about-list .h3 {
+	font-size: 26px;
+}
+body #about p.subheading {
+	font-style: italic;
+	width: 100%;
+}
+@media screen and (max-width: 640px) {
+body #about .image-holder {
+	display: none;
+}
+body #about .text-inner {
+	padding: 50px 0px;
+}
+}
