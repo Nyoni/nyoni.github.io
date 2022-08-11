@@ -575,7 +575,7 @@ background: var(--green);
 /**************************end index.html******************************************************/
 
 
-/**************************04. About UsUS************************************************************/
+/**************************04. About Us************************************************************/
 /**************************************************************************************************/
 
 /*i. Hero Section*/
@@ -611,38 +611,6 @@ background: var(--green);
   padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
-}
-
-
-/*Leadership Page Section*/
-.leadership-hero-section{
-  position: relative;
-  height: 100vh;
-  background: url(../images/banner-img/banner-2.jpg); /*background image*/
-  background-size: cover;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.leadership-hero-section:before{
-  opacity: 0.35;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-.leadership-hero-inner{
-  max-width: 800px;
-  position: relative;
-}
-
-.leadership-hero-inner h1{
-  color: #ffffff;
-  text-transform: capitalize;
-  letter-spacing: 3px;
-  font-size: 60px;
-  font-weight: 700;
 }
 
 
@@ -977,6 +945,42 @@ background: var(--green);
   background-color: var(--primary-background);
 }
 
+
+/**************************05. LEADERSHIP************************************************************/
+/**************************************************************************************************/
+
+.leadership-hero-section {
+  position: relative;
+  height: 100vh;
+  /*About Us Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/about_us/about_us-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.leadership-hero-inner {
+  max-width: 700px;
+  position: relative;
+}
+
+.leadership-hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
 
 /*-vi.   Our Leadership Section*/
 
