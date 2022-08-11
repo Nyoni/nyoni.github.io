@@ -1567,8 +1567,8 @@
 /*********footer*******************/
 
 .footer_area {
-  position: relative;
-  z-index: 1;
+  float: left;
+  width: 100%;
 }
 .foo_top_header_one {
   background-color: var(--green);
