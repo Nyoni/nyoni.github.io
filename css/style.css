@@ -1766,8 +1766,8 @@ body #terrestial_research-monitoring .text-inner {
 .researchmanage-hero-section {
   position: relative;
   height: 100vh;
-  /*Research Monitoring Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaSunset2.JPG);
+  /*Research Management Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchManagement/NyangaRainfall.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1794,4 +1794,14 @@ body #terrestial_research-monitoring .text-inner {
   padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
+}
+
+.area_management-plans {
+  background-color: var(--primary-background);
+  padding: 50px 0;
+}
+
+.species_management-plans {
+  background-color: var(--primary-background);
+  padding: 50px 0;
 }
