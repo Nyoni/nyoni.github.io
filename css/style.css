@@ -952,7 +952,7 @@ background: var(--green);
 .leadership-hero-section {
   position: relative;
   height: 100vh;
-  /*About Us Background Image*/
+  /*Leadership Background Image*/
   background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/about_us/about_us-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -983,6 +983,10 @@ background: var(--green);
 }
 
 /*-vi.   Our Leadership Section*/
+#leaders {
+  background-color: var(--primary-background);
+  padding: 50px 0;
+}
 
 .leaders .leader {
   margin-bottom: 20px;
