@@ -1183,6 +1183,18 @@
       line-height: 30px;
       color: #ffffff;
     }
+
+    .dark-list_item > h4 {
+      letter-spacing: 0.6px;
+      font-size: 18px;
+      margin-left: 10px;
+      line-height: 30px;
+      font-weight: 500;
+      color: #1e2123;
+      font-style: italic;
+      font-family: 'Playfair Display';
+    }
+    
     .desc ul > li,
     .desc ol > li {
       font-size: 19px;

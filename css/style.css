@@ -14,7 +14,7 @@ rgb(247, 250, 252);
     -iv.   explore more section 
     -v.    news update section
     -vi.   statistics section
-4. About Us Page
+4.  About Us Page
     -i.    hero section
     -ii.   about us section
     -iii.  vision & mission section
@@ -575,7 +575,7 @@ background: var(--green);
 /**************************end index.html******************************************************/
 
 
-/**************************04. ABOUT US************************************************************/
+/**************************04. About UsUS************************************************************/
 /**************************************************************************************************/
 
 /*i. Hero Section*/
@@ -780,7 +780,7 @@ background: var(--green);
   color: #222122;
   font-size: 17px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 300;
   padding-bottom: 35px;
   letter-spacing: 0.5px;
   text-align: right;
@@ -825,7 +825,6 @@ background: var(--green);
   margin-bottom: 45px;
 }
 
-
 .section-header p {
   margin-bottom: 5px;
   position: relative;
@@ -842,7 +841,6 @@ background: var(--green);
   font-size: 45px;
   font-weight: 700;
 }
-
 
 
 /*Tabs*/
@@ -1028,7 +1026,6 @@ a.instagram{
 a.linkedin{
   color: #0a66c2;
 }
-
 
 .leaders .leader .social i {
   font-size: 18px;
@@ -1636,24 +1633,49 @@ a.linkedin{
   padding: 50px 0;
 }
 
+/**************************10.  RESEARCH MONITORING************************************************************/
+/**************************************************************************************************/
 
+.researchmonitoring-hero-section {
+  position: relative;
+  height: 100vh;
+  /*Research Monitoring Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaSunset2.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 
+.researchmonitoring-hero-inner{
+  max-width: 700px;
+  position: relative; 
+}
 
+.researchmonitoring-hero-inner h1{
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
 
-
-
-
-
-
-body #about {
-	background-color: #f9f9f9;
+body #terrestial_research-monitoring {
+	background-color: var(--primary-background);
 	position: relative;
+  padding: 50px 0;
 }
-body #about .section-block, body #about #features, body #about #process, body #about #testimonial, body #about #footer, body #about #about-page-section-3, body #about #skills, body #about #team-member, body #about #portfolio, body #about #faq, body #about #contact, body #about #contact-page, body #about #features-page .subsection1, body #features-page #about .subsection1, body #about #features-page .subsection2, body #features-page #about .subsection2, body #about #features-page .subsection3 .right-section, body #features-page .subsection3 #about .right-section, body #about #features-page .subsection3 .left-section, body #features-page .subsection3 #about .left-section, body #about #features-page .subsection4, body #features-page #about .subsection4, body #about #login-reg {
-	padding: 50px 0px;
-	display: inline-block;
-}
-body #about .background-imgholder {
+
+body #terrestial_research-monitoring .background-imgholder {
 	background: url(../images/Conservation/ConservationResearch/ResearchMonitoring/Giraffe.JPG);
 	position: absolute;
 	width: 100%;
@@ -1664,51 +1686,112 @@ body #about .background-imgholder {
 	background-size: cover !important;
 	background-position: 50% 50% !important;
 }
-body #about .image-holder {
+body #terrestial_research-monitoring .image-holder {
 	overflow: hidden;
 	height: 100%;
 	padding: 0px;
 	position: absolute;
 	top: 0px;
 }
-body #about .text-inner {
+body #terrestial_research-monitoring .text-inner {
 	padding: 62px;
 }
-body #about .text-block {
+body #terrestial_research-monitoring .text-block {
 	background: #fff;
 	padding: 40px;
 	position: relative;
+  color: #222122;
 	top: 50%;
 	box-shadow: 0px 0px 12px #ddd;
 }
-body #about .text-block li {
-	padding: 0px;
-	margin: 0 0 15px 0;
-	display: block;
-	line-height: 23px;
+
+#terrestial_research-monitoring .desc ul li {
+  color: #222122;
 }
-body #about .text-block i {
-	margin-right: 10px;
-}
-body #about .text-block .btn-primary {
-	margin: 30px 0px 20px;
-}
-body #about .about-list {
-	display: inline-block;
-	margin-bottom: 15px;
-}
-body #about .about-list h3, body #about .about-list .h3 {
-	font-size: 26px;
-}
-body #about p.subheading {
-	font-style: italic;
-	width: 100%;
-}
+
 @media screen and (max-width: 640px) {
-body #about .image-holder {
+body #terrestial_research-monitoring .image-holder {
 	display: none;
 }
-body #about .text-inner {
+body #terrestial_research-monitoring .text-inner {
 	padding: 50px 0px;
 }
+}
+
+
+#terrestial_research-monitoring p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 100;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+#aquatic_research-monitoring p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 100;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+#aquatic_research-monitoring {
+  margin: 100px 0;
+  padding: 100px 0;
+  background-image: url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaPools5.JPG);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aquatic_research-block {
+  padding: 40px 30px;
+  background-color: #fff;
+
+}
+
+.aquatic_research-block h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+
+/**************************11.  RESEARCH MANAGEMENT PLANS************************************************************/
+/**************************************************************************************************/
+.researchmanage-hero-section {
+  position: relative;
+  height: 100vh;
+  /*Research Monitoring Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaSunset2.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.researchmanage-hero-inner{
+  max-width: 700px;
+  position: relative; 
+}
+
+.researchmanage-hero-inner h1{
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
 }
