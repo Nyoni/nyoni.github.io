@@ -1707,32 +1707,19 @@ body #terrestial_research-monitoring .text-block {
 	background: #fff;
 	padding: 40px;
 	position: relative;
+  color: #222122;
 	top: 50%;
 	box-shadow: 0px 0px 12px #ddd;
 }
-body #terrestial_research-monitoring .text-block li {
-	padding: 0px;
-	margin: 0 0 15px 0;
-	display: block;
-	line-height: 23px;
+
+#terrestial_research-monitoring .desc ul li {
+  color: #222122;
 }
-body #terrestial_research-monitoring .text-block i {
-	margin-right: 10px;
-}
-body #terrestial_research-monitoring .text-block .btn-primary {
-	margin: 30px 0px 20px;
-}
-body #terrestial_research-monitoring .about-list {
-	display: inline-block;
-	margin-bottom: 15px;
-}
-body #terrestial_research-monitoring .about-list h3, body #terrestial_research-monitoring .about-list .h3 {
-	font-size: 26px;
-}
-body #terrestial_research-monitoring p.subheading {
-	font-style: italic;
-	width: 100%;
-}
+
+
+
+
+
 @media screen and (max-width: 640px) {
 body #terrestial_research-monitoring .image-holder {
 	display: none;
@@ -1743,21 +1730,13 @@ body #terrestial_research-monitoring .text-inner {
 }
 
 
-#aquatic_research-monitoring .section-heading {
-  margin-bottom: 30px;
-}
-
-#aquatic_research-monitoring .section-heading h6 {
-  color: #fff;
-}
-
-#aquatic_research-monitoring .section-heading h2 {
-  color: #fff;
-  font-weight: 700;
-}
-
-#aquatic_research-monitoring .section-heading h6:before {
-  background-color: #fff;
+#terrestial_research-monitoring p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 100;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
 }
 
 #aquatic_research-monitoring p {
@@ -1772,7 +1751,7 @@ body #terrestial_research-monitoring .text-inner {
 #aquatic_research-monitoring {
   margin: 100px 0;
   padding: 100px 0;
-  background-image: url(../images/gonarezhou/Activities/gamedrive.jpg);
+  background-image: url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaPools5.JPG);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
