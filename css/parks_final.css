@@ -13,20 +13,36 @@
 
 
   .animal-section {
-    background-color: var(--primary-background);
-    padding: 50px 0;
+    background-color: #f9f9f9;
+    padding: 70px 0;
   }
+
+  /*
   .animal-section img {
    height: 100px;
-   width: 100px;
    width: 100%;
    object-fit: cover;
    border-radius: 50%;
   }
+*/
 
   .animal-section .slide {
+    border: 3px solid var(--primary-background);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 1px 1px #e7e4dc;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
     transition: transform 0.3s linear;
     transition-delay: 0.5s;
+  }
+ 
+  .animal-section .slide img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
   }
 
 
@@ -36,14 +52,14 @@
   }
 
 
-
+/*
   @media (min-width: 768px) {
     .animal-section img {
       height: 120px;
       width: 120px;
     }
   }
-
+*/
 
 
   
@@ -94,6 +110,8 @@
   display: block;
 }
 
+
+/*Tabs Section*/
 
   .tab-content > .tab-pane {
     display: none;

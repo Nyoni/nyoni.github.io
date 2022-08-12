@@ -620,6 +620,7 @@ background: var(--green);
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 
