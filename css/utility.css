@@ -196,21 +196,10 @@
     text-decoration: none;
     color: var(--heading-text-color);
     font-size: 16px;
-    /* Typetura */
-    --tt-key: html;
-    --tt-max: 900;
-    --tt-ease: cubic-bezier(0, 0.78, 0.53, 1);
-  
-    /* Grid */
-    --max-width: 1200px;
-    --columns: 6;
-    --gutter: 1.5rem;
-  
-    /* Color */
-    --primary: #f4663a;
-    --background: #efeded;
-    --background-alt: #ffffff;
-    --text: #31355b;
+  }
+
+  body {
+    min-height: 100%;
   }
 
   @keyframes html {
@@ -1569,6 +1558,7 @@
 .footer_area {
   float: left;
   width: 100%;
+  margin-top: auto;
 }
 .foo_top_header_one {
   background-color: var(--green);
