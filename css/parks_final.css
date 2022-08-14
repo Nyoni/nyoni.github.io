@@ -7,7 +7,7 @@
 }
 
 .overview_content .slide {
-  height: 100vh;
+  height: 600px;
   width: 100vw;
   float: left;
   text-align: center;
@@ -208,7 +208,7 @@
   color: #000;
 }
 #overview_tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
+  color: #FFF;
 }
 .second-content .tabs-content {
   margin-left: 60px;
