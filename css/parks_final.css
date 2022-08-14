@@ -7,9 +7,9 @@
 }
 
 .overview_content .slide {
-  min-height: 100vh;
+  height: 600px;
   width: 100vw;
-  float: left;
+  float: none;
   text-align: center;
   background-size: cover;
 }
@@ -106,7 +106,7 @@
 }
 #thumbnail {
   position: absolute;
-  z-index: 99999;
+  z-index: 99;
   bottom: 30px;
   right: 30px;
 }
