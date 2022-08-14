@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 
 
         $(function() {
-            $( "#tabs" ).tabs();
+            $( "#overview_tabs" ).tabs();
         });
 
 

@@ -155,26 +155,26 @@
 
 /* Slide 2 Style */
 
-.second-content #tabs {
+.second-content #overview_tabs {
   float: right;
   margin-right: 0px;
   background-color: transparent;
 }
-.second-content #tabs ul {
+.second-content #overview_tabs ul {
   margin: 0;
   padding: 0;
   float: left;
 }
-.second-content #tabs ul li {
+.second-content #overview_tabs ul li {
   margin-top: 5px;
   margin-bottom: 25px;
   display: block;
   background-color: transparent;
 }
-.second-content #tabs ul li:last-child {
+.second-content #overview_tabs ul li:last-child {
   margin-bottom: 0px;
 }
-.second-content #tabs ul li a {
+.second-content #overview_tabs ul li a {
   display: block;
   cursor: pointer;
   outline: 0;
@@ -183,7 +183,7 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.second-content #tabs ul li span {
+.second-content #overview_tabs ul li span {
   text-align: center; 
   background-color: transparent;
   border: 3px solid #fff;
@@ -194,16 +194,16 @@
   line-height: 84px;
   border-radius: 50%;
 }
-.second-content #tabs ul .ui-tabs-active span {
+.second-content #overview_tabs ul .ui-tabs-active span {
   background: #faf5b2;
   border: #faf5b2;
   line-height: 90px;
   border-bottom: none;
 }
-.second-content #tabs ul .ui-tabs-active a {
+.second-content #overview_tabs ul .ui-tabs-active a {
   color: #000;
 }
-.second-content #tabs ul .ui-tabs-active span {
+.second-content #overview_tabs ul .ui-tabs-active span {
   color: #1e1e1e;
 }
 .second-content .tabs-content {
