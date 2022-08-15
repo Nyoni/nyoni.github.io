@@ -1145,7 +1145,7 @@ body #contact-page .submit-button {
 /** latest_news section **/
 
 .latest_news {
-  padding: 80px 0 50px 0;
+  padding: 0 0 50px 0;
 }
 
 .latest_news .titlepage {
@@ -1250,8 +1250,6 @@ body #contact-page .submit-button {
 /** gallery  section **/
 
 .park_accomodation {
-  margin-top: 80px;
-  padding-top: 80px;
   background-color: #eae7e7;
   padding-bottom: 50px;
 }
@@ -1307,5 +1305,28 @@ body #contact-page .submit-button {
   color: #fff;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .park_accomodation-text {
+    height: 308px;
+}
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .park_accomodation-text {
+    height: 233px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .park_accomodation-text {
+    height: 264px;
+}
+}
+
+@media (max-width: 575px) {
+  .park_accomodation-text {
+    height: 264px;
+    margin-bottom: 30px;
+}
+}
 /** end gallery  section **/
