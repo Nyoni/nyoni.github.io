@@ -1173,7 +1173,6 @@ body #contact-page .submit-button {
 
 .latest_news .news_box .news_img figure img {
   width: 100%;
-  height: 400px;
 }
 
 .mr_le figure {
@@ -1265,21 +1264,21 @@ body #contact-page .submit-button {
   padding-top: 20px;
 }
 
-.park_accomodation .park_acconodation-img {
+.park_accomodation .park_accomodation-img {
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-.park_accomodation .park_acconodation-img figure {
+.park_accomodation .park_accomodation-img figure {
   margin: 0;
 }
 
-.park_accomodation .park_acconodation-img figure img {
+.park_accomodation .park_accomodation-img figure img {
   width: 100%;
   transition: all .5s;
 }
 
-.park_accomodation .park_acconodation-img figure img:hover {
+.park_accomodation .park_accomodation-img figure img:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
