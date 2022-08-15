@@ -1187,8 +1187,11 @@ body #contact-page .submit-button {
 
 .latest_news .news_box .news_room h3 {
   color: #252525;
-  font-size: 22px;
-  line-height: 20px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 0.7px;
+  line-height: 30px;
   font-weight: bold;
   padding-bottom: 10px;
   transition: ease-in all 0.5s;
@@ -1196,8 +1199,9 @@ body #contact-page .submit-button {
   padding-top: 15px;
 }
 
-.latest_news .news_box .news_room span {
-  font-size: 15px;
+
+.latest_news .news_box .news_room p {
+  font-size: 16px;
   color: #252525;
   font-weight: 400;
   margin-bottom: 0px;
@@ -1231,9 +1235,11 @@ body #contact-page .submit-button {
 .latest_news .news_box .news_room p {
   font-size: 16px;
   line-height: 21px;
+  letter-spacing: 0.6px;
   font-weight: 400;
   color: #1b1b1b;
   transition: ease-in all 0.5s;
+
 }
 
 
@@ -1293,6 +1299,9 @@ body #contact-page .submit-button {
 
 .park_accomodationh3 h3 {
   font-size: 24px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  letter-spacing: 0.7px;
   line-height: 30px;
   color: #fff;
   font-weight: bold;
