@@ -90,10 +90,10 @@
   overflow: hidden;
 }
 #image-slider ul li:nth-child(1) {
-  background-image: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/gonarezhou/2.JPG);
+  background-image: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/gonarezhou/3.JPG);
 }
 #image-slider ul li:nth-child(2) {
-  background-image:linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/gonarezhou/3.JPG);
+  background-image:linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/gonarezhou/2.JPG);
 }
 #image-slider ul li:nth-child(3) {
   background-image:linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/gonarezhou/4.JPG);

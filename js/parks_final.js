@@ -1,6 +1,6 @@
 $(function(){
 
-    var park_tabs = function() {
+    var tabs = function() {
         $('#parks').css('height', $('.tab-content.active').height() + 400);
   
         $(window).resize(function(){
@@ -28,13 +28,9 @@ $(function(){
            e.preventDefault();
         });
      };
-
-
-
-
      $(function(){
 
-      park_tabs();
+      tabs();
   
    });
 
