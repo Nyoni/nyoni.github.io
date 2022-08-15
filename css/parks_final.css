@@ -1137,3 +1137,175 @@ body #contact-page .submit-button {
 	border: none;
 	margin-top: 10px;
 }
+
+
+
+/*Accomodation Section*/
+
+/** latest_news section **/
+
+.latest_news {
+  padding: 80px 0 50px 0;
+}
+
+.latest_news .titlepage {
+  text-align: center;
+}
+
+.latest_news .titlepage p {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.latest_news .news_box {
+  text-align: left;
+  background-color: var(--primary-background);
+  margin-bottom: 30px;
+  transition: ease-in all 0.5s;
+}
+
+.latest_news .news_box .news_img figure {
+  margin: 0;
+  padding: 0px 30px 0 0;
+  margin-left: -195px;
+}
+
+.latest_news .news_box .news_img figure img {
+  width: 100%;
+}
+
+.mr_le figure {
+  margin-left: 0 !important;
+  margin-right: -195px !important;
+  padding: 0px 0px 0 30px !important;
+}
+
+.latest_news .news_box .news_room {
+  padding: 15px 30px;
+  text-align: left;
+}
+
+.latest_news .news_box .news_room h3 {
+  color: #252525;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  transition: ease-in all 0.5s;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.latest_news .news_box .news_room span {
+  font-size: 15px;
+  color: #252525;
+  font-weight: 400;
+  margin-bottom: 0px;
+  display: block;
+  transition: ease-in all 0.5s;
+}
+
+.latest_news .news_box .news_room ul li {
+  display: inline-block;
+}
+
+.latest_news .news_box .news_room ul li a {
+  transition: ease-in all 0.5s;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.latest_news .news_box .news_room ul li a i {
+  padding-left: 5px;
+}
+
+.latest_news .news_box .news_room ul li a:hover {
+  color: #16e816 !important;
+}
+
+.latest_news .news_box .news_room ul li:last-child a {
+  padding-right: 0;
+}
+
+.latest_news .news_box .news_room p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1b1b1b;
+  transition: ease-in all 0.5s;
+}
+
+
+.latest_news .read_more {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+
+
+/** end latest_news section **/
+
+/** gallery  section **/
+
+.park_accomodation {
+  margin-top: 80px;
+  padding-top: 80px;
+  background-color: #eae7e7;
+  padding-bottom: 50px;
+}
+
+.park_accomodation .titlepage {
+  text-align: center;
+}
+
+.park_accomodation .titlepage p {
+  color: #2a2b2a;
+  display: block;
+  padding-top: 20px;
+}
+
+.park_accomodation .park_acconodation-img {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.park_accomodation .park_acconodation-img figure {
+  margin: 0;
+}
+
+.park_accomodation .park_acconodation-img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.park_accomodation .park_acconodation-img figure img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.park_accomodation-text {
+  text-align: center;
+  background-color: #2a2b2a;
+  height: 369px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.park_accomodationh3 h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.park_accomodationh3 p {
+  font-size: 17px;
+  line-height: 31px;
+  color: #fff;
+}
+
+
+/** end gallery  section **/
