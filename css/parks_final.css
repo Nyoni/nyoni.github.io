@@ -1168,7 +1168,6 @@ body #contact-page .submit-button {
 .latest_news .news_box .news_img figure {
   margin: 0;
   padding: 0px 30px 0 0;
-  margin-left: -195px;
 }
 
 .latest_news .news_box .news_img figure img {
@@ -1188,7 +1187,7 @@ body #contact-page .submit-button {
 
 .latest_news .news_box .news_room h3 {
   color: #252525;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 20px;
   font-weight: bold;
   padding-bottom: 10px;
