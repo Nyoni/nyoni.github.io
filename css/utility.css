@@ -39,6 +39,8 @@
     --white-background:#ffffff;
     font-size: 16px;
     --card-img-height: 200px;
+    --scale: 0.1;
+    --space: 8vmin;
   }
 
   /*Articles Card Template*/
@@ -234,7 +236,7 @@
     font-size: 1.05rem;
     line-height: 1.5;
     font-weight: 100;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5px;
     text-align: justify;
     color: var(--gray-dark);
     text-transform: none;

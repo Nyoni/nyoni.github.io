@@ -1,3 +1,26 @@
+:root {
+  --yellow: #e9ea0c;
+  --green: #013220;
+  --green2: rgb(1, 99, 63);
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --white: #ffffff;
+  --text-color: #333;
+  --gray-dark: #191919;
+  --heading-text-color: #19171a;
+  --bg1: #fff;
+  --bg2: #fff;
+  --body-background: #014c0294;
+  --primary-background: #e6efe9fd;
+  --white-background:#ffffff;
+  font-size: 16px;
+  --card-img-height: 200px;
+  --scale: 0.1;
+  --space: 8vmin;
+}
+
+
+
+
 .national_park-slides .slide {
   height: 100vh;
   width: 100vw;
@@ -1341,10 +1364,11 @@ body #contact-page .submit-button {
 
 
 .section .content {
+  color: #ffffff;
   position: relative;
-  margin: -50vh auto 0;
+  margin: -80vh auto 0;
   padding: var(--space);
-  max-width: 55ch;
+  max-width: 100ch;
   width: calc(100% - var(--space));
   background: hsla(5, 15%, 5%, 0.9);
 }
