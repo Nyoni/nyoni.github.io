@@ -617,7 +617,7 @@ background: var(--green);
 /*-ii.   Overview About Us Section*/
 .main-layout {
   padding: 15px 10px;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
