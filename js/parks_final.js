@@ -19,7 +19,7 @@ $(function(){
            setTimeout(function(){
               $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
               $('#parks').css('height', $('.tab-content.active').height() + 600);
-           }, 200);
+           }, 600);
            setTimeout(function(){
               $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
            }, 600);
