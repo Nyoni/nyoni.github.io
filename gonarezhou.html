@@ -435,7 +435,7 @@
           <div class="tab-content-container">
             <!--Section: Overview-->
             <div class="tab-content active show" data-tab-content="tab1">              
-              <div class="small-desc container">
+              <div class="small-desc mx-15">
                 <p>
                   Gonarezhou National Park is Zimbabwe’s second largest park and
                   lies in the South Eastern corner of Zimbabwe bordering Kruger
@@ -463,7 +463,7 @@
                   trees.
                 </p>
               </div>
-
+              
               <div class="overview_content">
                 <div class="slide">
                   <div class="content second-content">
@@ -475,8 +475,7 @@
                       </ul>
                       
                       <div class="tabs-content">
-                        <article id='tabs-1'>
-                         
+                        <article id='tabs-1'>  
                           <span>Access by Road</span>
                           <p>Follow main tarred road from the Chiredzi turn-off to
                             Mutare to Mutare for 21km. turn off to the south at the
@@ -515,7 +514,6 @@
                             especially for the night times.</p>
                         </article>
                       </div>
-
                     </div>
                   </div>
                 </div>
@@ -1100,21 +1098,59 @@
 
     <!--JS Files-->
 
-    <script src="js/jquery-slim.min.js"></script>
+
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/accordations.js"></script>
     <script src="js/slick.min.js"></script>
 
     <!--Custom JS-->
+    <script src="js/national_parks-banner.js"></script>
     <script src="js/zimparks_menu.js"></script>
     <script src="js/parks_final.js"></script>
-    <script src="js/national_parks-banner.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/page_slideshow.js"></script>
     <script src="js/slideshow.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+          // navigation click actions 
+          $('.scroll-link').on('click', function(event){
+              event.preventDefault();
+              var sectionID = $(this).attr("data-id");
+              scrollToID('#' + sectionID, 750);
+          });
+          // scroll to top action
+          $('.scroll-top').on('click', function(event) {
+              event.preventDefault();
+              $('html, body').animate({scrollTop:0}, 'slow');         
+          });
+          // mobile nav toggle
+          $('#nav-toggle').on('click', function (event) {
+              event.preventDefault();
+              $('#main-nav').toggleClass("open");
+          });
+      });
+      // scroll function
+      function scrollToID(id, speed){
+          var offSet = 0;
+          var targetOffset = $(id).offset().top - offSet;
+          var mainNav = $('#main-nav');
+          $('html,body').animate({scrollTop:targetOffset}, speed);
+          if (mainNav.hasClass("open")) {
+              mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+              mainNav.removeClass("open");
+          }
+      }
+      if (typeof console === "undefined") {
+          console = {
+              log: function() { }
+          };
+      }
+  </script>
 
     <script>
       $(document).ready(function () {

@@ -7,9 +7,9 @@
 }
 
 .overview_content .slide {
-  height: 600px;
+  height: 100vh;
   width: 100vw;
-  float: none;
+  float: left;
   text-align: center;
   background-size: cover;
 }
@@ -197,6 +197,7 @@
   font-size: 32px;
   line-height: 84px;
   border-radius: 50%;
+  cursor: pointer;
 }
 #overview_tabs ul .ui-tabs-active span {
   background: var(--green);
@@ -237,8 +238,6 @@
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
-
 
 #parks {
     float: left;
@@ -1338,3 +1337,5 @@ body #contact-page .submit-button {
 }
 }
 /** end gallery  section **/
+
+
