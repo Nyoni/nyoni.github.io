@@ -7,9 +7,9 @@
 }
 
 .overview_content .slide {
-  height: 600px;
+  height: 700px;
   width: 100vw;
-  float: none;
+  float: left;
   text-align: center;
   background-size: cover;
 }
@@ -197,6 +197,7 @@
   font-size: 32px;
   line-height: 84px;
   border-radius: 50%;
+  cursor: pointer;
 }
 #overview_tabs ul .ui-tabs-active span {
   background: var(--green);
@@ -237,8 +238,6 @@
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
-
 
 #parks {
     float: left;
@@ -1136,4 +1135,280 @@ body #contact-page .submit-button {
 	color: #fff;
 	border: none;
 	margin-top: 10px;
+}
+
+
+
+/*Accomodation Section*/
+
+/** latest_news section **/
+
+.latest_news {
+  padding: 0 0 50px 0;
+}
+
+.latest_news .titlepage {
+  text-align: center;
+}
+
+.latest_news .titlepage p {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.latest_news .news_box {
+  text-align: left;
+  background-color: var(--primary-background);
+  margin-bottom: 30px;
+  transition: ease-in all 0.5s;
+}
+
+.latest_news .news_box .news_img figure {
+  margin: 0;
+  padding: 0px 30px 0 0;
+}
+
+.latest_news .news_box .news_img figure img {
+  width: 100%;
+}
+
+.mr_le figure {
+  margin-left: 0 !important;
+  margin-right: -195px !important;
+  padding: 0px 0px 0 30px !important;
+}
+
+.latest_news .news_box .news_room {
+  padding: 15px 30px;
+  text-align: left;
+}
+
+.latest_news .news_box .news_room h3 {
+  color: #252525;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  transition: ease-in all 0.5s;
+  margin: auto;
+  padding-top: 15px;
+}
+
+
+.latest_news .news_box .news_room p {
+  font-size: 16px;
+  color: #252525;
+  font-weight: 400;
+  margin-bottom: 0px;
+  display: block;
+  transition: ease-in all 0.5s;
+}
+
+.latest_news .news_box .news_room ul li {
+  display: inline-block;
+}
+
+.latest_news .news_box .news_room ul li a {
+  transition: ease-in all 0.5s;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.latest_news .news_box .news_room ul li a i {
+  padding-left: 5px;
+}
+
+.latest_news .news_box .news_room ul li a:hover {
+  color: #16e816 !important;
+}
+
+.latest_news .news_box .news_room ul li:last-child a {
+  padding-right: 0;
+}
+
+.latest_news .news_box .news_room p {
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  color: #1b1b1b;
+  transition: ease-in all 0.5s;
+
+}
+
+
+.latest_news .read_more {
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+}
+
+
+/** end latest_news section **/
+
+/** gallery  section **/
+
+.park_accomodation {
+  background-color: #eae7e7;
+  padding-bottom: 50px;
+}
+
+.park_accomodation .titlepage {
+  text-align: center;
+}
+
+.park_accomodation .titlepage p {
+  color: #2a2b2a;
+  display: block;
+  padding-top: 20px;
+}
+
+.park_accomodation .park_accomodation-img {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.park_accomodation .park_accomodation-img figure {
+  margin: 0;
+}
+
+.park_accomodation .park_accomodation-img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.park_accomodation .park_accomodation-img figure img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.park_accomodation-text {
+  text-align: center;
+  background-color: #2a2b2a;
+  height: 369px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.park_accomodationh3 h3 {
+  font-size: 24px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  letter-spacing: 0.7px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.park_accomodationh3 p {
+  font-size: 17px;
+  line-height: 31px;
+  color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .park_accomodation-text {
+    height: 308px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .park_accomodation-text {
+    height: 233px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .park_accomodation-text {
+    height: 264px;
+  }
+}
+
+@media (max-width: 575px) {
+  .park_accomodation-text {
+    height: 264px;
+    margin-bottom: 30px;
+}
+}
+/** end gallery  section **/
+
+
+
+.section .content {
+  position: relative;
+  margin: -50vh auto 0;
+  padding: var(--space);
+  max-width: 55ch;
+  width: calc(100% - var(--space));
+  background: hsla(5, 15%, 5%, 0.9);
+}
+
+.section .content > * + * {
+  margin-top: 2rem;
+}
+
+.section .image-container {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section .image-container img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section .image-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    to bottom,
+    hsla(5, 15%, 5%, 0) 0%,
+    hsla(5, 15%, 5%, 0.013) 8.1%,
+    hsla(5, 15%, 5%, 0.049) 15.5%,
+    hsla(5, 15%, 5%, 0.104) 22.5%,
+    hsla(5, 15%, 5%, 0.175) 29%,
+    hsla(5, 15%, 5%, 0.259) 35.3%,
+    hsla(5, 15%, 5%, 0.352) 41.2%,
+    hsla(5, 15%, 5%, 0.45) 47.1%,
+    hsla(5, 15%, 5%, 0.55) 52.9%,
+    hsla(5, 15%, 5%, 0.648) 58.8%,
+    hsla(5, 15%, 5%, 0.741) 64.7%,
+    hsla(5, 15%, 5%, 0.825) 71%,
+    hsla(5, 15%, 5%, 0.896) 77.5%,
+    hsla(5, 15%, 5%, 0.951) 84.5%,
+    hsla(5, 15%, 5%, 0.987) 91.9%,
+    hsl(5, 15%, 5%) 100%
+  );
+}
+
+@-webkit-keyframes fadein {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
