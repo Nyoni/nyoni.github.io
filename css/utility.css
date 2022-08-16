@@ -201,6 +201,7 @@
   }*
 
   body {
+    margin: 0;
     position: relative;
     min-height: 100vh;
   }
@@ -1549,16 +1550,14 @@
   }
 }
 
-
-
 */
-
 
 
 /*Footer*/
 /*********footer*******************/
 
 .footer_area {
+  position: absolute bottom;
   width: 100%;
   margin-top: auto;
   bottom: 0;
