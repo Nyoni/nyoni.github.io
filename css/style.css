@@ -1534,6 +1534,8 @@ a.linkedin{
   background-image: url(../images/Conservation/ConservationResearch/ResearchStrategy/Butterfly.jpg);
   height: 100vh;
 }
+
+
 .research_strategy-about  #inner_header_post_thumb .dark_overlay {
   position: relative;
   left: 0;
@@ -1858,4 +1860,148 @@ body #terrestial_research-monitoring .text-inner {
   padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
+}
+
+
+
+
+/**************************12. COMMUNITY CONSERVANCIES************************************************************/
+/**************************************************************************************************/
+
+.conservancies-hero-section {
+  position: relative;
+  height: 100vh;
+  /*Conservancies Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CommunityConservancies/ConservationEducation.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.conservancies-hero-inner {
+  max-width: 700px;
+  position: relative;
+}
+
+.conservancies-hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+/**/
+#community_conservancies {
+  background-color: var(--primary-background);
+  padding: 50px 0;
+}
+
+body #community_conservancies-overview {
+	background-color: var(--primary-background);
+	position: relative;
+  padding: 50px 0;
+}
+
+body #community_conservancies-overview .background-imgholder {
+	background: url(../images/Conservation/CommunityConservancies/Chivero.JPG);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	background-size: cover !important;
+	background-position: 50% 50% !important;
+}
+body #community_conservancies-overview .image-holder {
+	overflow: hidden;
+	height: 100%;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+}
+body #community_conservancies-overview .text-inner {
+	padding: 62px;
+}
+body #community_conservancies-overview .text-block {
+	background: #fff;
+	padding: 40px;
+	position: relative;
+  color: #222122;
+	top: 50%;
+	box-shadow: 0px 0px 12px #ddd;
+}
+
+#community_conservancies-overview .desc ul li {
+  color: #222122;
+}
+
+@media screen and (max-width: 640px) {
+body #community_conservancies-overview .image-holder {
+	display: none;
+}
+body #community_conservancies-overview .text-inner {
+	padding: 50px 0px;
+}
+}
+
+#community_conservancies-overview p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 100;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+.description_image h4 {
+  font-size: 22px;
+  letter-spacing: 0.7px;
+  line-height: 40px;
+}
+
+
+.community_conservancies-about #inner_header_post_thumb {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(../images/Conservation/CommunityConservancies/Fishing.JPG);
+  height: 100vh;
+}
+
+
+.community_conservancies-about #inner_header_post_thumb .dark_overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(14, 14, 14, 0.5);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community_conservancies-about  #inner_header_post_thumb .dark_overlay .container .header-txt {
+  color: #ffffff;
+
+}
+
+.community_conservancies-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
 }

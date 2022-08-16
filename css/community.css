@@ -1,36 +1,5 @@
 
 
-.conservancies-hero-section{
-    position: relative;
-    height: 100vh;
-    background: url(../images/banner-img/banner-3.JPG); /*background image*/
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .conservancies-hero-section:before{
-    opacity: 0.35;
-    background: rgba(0, 0, 0, 0.45);
-  }
-  
-  .conservancies-hero-inner{
-    max-width: 800px;
-    position: relative;
-  }
-  
-  .conservancies-hero-inner h1{
-    color: #ffffff;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-size: 52px;
-    font-weight: 700;
-  }
-  
-
 
   .conflict-hero-section{
     position: relative;
