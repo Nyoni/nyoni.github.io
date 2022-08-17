@@ -2136,3 +2136,13 @@ body #community_conservancies-overview .text-inner {
   color: #ffffff;
   font-weight: 300;
 }
+
+
+
+/**************************14. COMMUNITY OUTREACH************************************************************/
+/**************************************************************************************************/
+
+#community-outreach {
+  background-color: var(--primary-background);
+  padding: 90px 0;
+}
