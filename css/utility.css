@@ -36,6 +36,7 @@
     --bg2: #fff;
     --body-background: #014c0294;
     --primary-background: #e6efe9fd;
+    --secondary-background: #efefeffd;
     --white-background:#ffffff;
     font-size: 16px;
     --card-img-height: 200px;
@@ -43,6 +44,14 @@
     --space: 8vmin;
   }
 
+
+  .primary-background {
+    background-color: var(--primary-background);
+  }
+
+  .secondary-background {
+    background-color: var(--secondary-background);
+  }
   /*Articles Card Template*/
 
   
