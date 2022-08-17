@@ -2051,43 +2051,7 @@ body #community_conservancies-overview .text-inner {
 
 /**************************12. CAMPFIRE************************************************************/
 /**************************************************************************************************/
-.campfire-hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Human Wildlife Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/vetdoc.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
 
-.campfire-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.campfire-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-
-#campfire {
-  background: var(--primary-background);
-}
 #campfire_overview {
   background-color: var(--primary-background);
   padding: 90px 0;
@@ -2131,6 +2095,7 @@ body #community_conservancies-overview .text-inner {
 
 }
 
+<<<<<<< HEAD
 .campfire-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
   font-size: 22px;
   color: #ffffff;
@@ -2146,3 +2111,5 @@ body #community_conservancies-overview .text-inner {
   background-color: var(--primary-background);
   padding: 90px 0;
 }
+=======
+>>>>>>> d8193ad6b53ea69271ee659223284ff245f74209
