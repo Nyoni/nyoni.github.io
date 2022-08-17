@@ -2006,7 +2006,8 @@ body #community_conservancies-overview .text-inner {
   font-weight: 300;
 }
 
-
+/**************************12. HUMAN AND WILDLIFE CONFLICT************************************************************/
+/**************************************************************************************************/
 
 
 .conflict-hero-section  {
@@ -2047,3 +2048,21 @@ body #community_conservancies-overview .text-inner {
   background-color: var(--primary-background);
   padding: 50px 0;
 }
+
+/**************************12. CAMPFIRE************************************************************/
+/**************************************************************************************************/
+
+#campfire_overview {
+  background-color: var(--primary-background);
+  padding: 90px 0;
+}
+
+.campfire_overview-img {
+  background: url(../images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+}
+
