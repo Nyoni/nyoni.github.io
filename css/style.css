@@ -651,10 +651,10 @@ background: var(--green);
   }
 
   /*Park Protection*/
-  .description .park_protection-text p {
+  .description p {
     line-height: 27px;
     padding-bottom: 10px;
-    font-size: 16px;
+    font-size: 16.5px;
   }
 
   .description h3 {
@@ -1173,6 +1173,12 @@ a.linkedin{
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+.description .column_text p {
+  line-height: 27px;
+  padding-bottom: 10px;
+  font-size: 17px;
 }
 
 .description .park_protection-text {
@@ -2189,7 +2195,7 @@ body #community_conservancies-overview .text-inner {
   padding: 50px 0;
 }
 
-/**************************15. OUTREACH************************************************************/
+/**************************16. OUTREACH************************************************************/
 /**************************************************************************************************/
 
 .outreach-hero-section  {
@@ -2230,7 +2236,7 @@ body #community_conservancies-overview .text-inner {
   padding: 90px 0;
 }
 
-/**************************15. CONSERVATION EDUCATION************************************************************/
+/**************************17. CONSERVATION EDUCATION************************************************************/
 /**************************************************************************************************/
 
 .education-hero-section  {
@@ -2280,6 +2286,14 @@ body #community_conservancies-overview .text-inner {
   height: 100vh;
 }
 
+#conservation_education-schools {
+  background-color: var(--secondary-background);
+}
+
+.section_padding {
+  padding: 7% 0;
+}
+
 #inner_header_post_thumb .dark_overlay {
   position: relative;
   left: 0;
@@ -2305,4 +2319,36 @@ body #community_conservancies-overview .text-inner {
   color: #ffffff;
   font-weight: 300;
 }
+
+.text_over-image p {
+  color: #222122;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 100;
+  padding-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+.text_over-image {
+  margin: 100px 0;
+  padding: 100px 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-image_block {
+  padding: 40px 30px;
+  background-color: #fff;
+
+}
+
+.text_image-block h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
 
