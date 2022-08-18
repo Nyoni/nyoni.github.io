@@ -1166,6 +1166,14 @@ a.linkedin{
   margin: 0;
 }
 
+.column_image {
+  background: url(../images/Conservation/ParkProtection/RhodesNyangaLodges.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 
 .description .park_protection-text {
   padding: 0;
@@ -2051,6 +2059,40 @@ body #community_conservancies-overview .text-inner {
 
 /**************************12. CAMPFIRE************************************************************/
 /**************************************************************************************************/
+.campfire-hero-section  {
+  position: relative;
+  height: 100vh;
+  /*Community Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CAMPFIRE/DSC_0634.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.campfire-hero-inner {
+  max-width: 700px;
+  position: relative;
+}
+
+.campfire-hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+
 
 #campfire_overview {
   background-color: var(--primary-background);
@@ -2112,7 +2154,7 @@ body #community_conservancies-overview .text-inner {
   position: relative;
   height: 100vh;
   /*Human Wildlife Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/vetdoc.png);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/DSC_0914.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2147,14 +2189,14 @@ body #community_conservancies-overview .text-inner {
   padding: 50px 0;
 }
 
-/**************************12. CAMPFIRE************************************************************/
+/**************************15. OUTREACH************************************************************/
 /**************************************************************************************************/
 
 .outreach-hero-section  {
   position: relative;
   height: 100vh;
   /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/vetdoc.png);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CommunityOutreach/DSC_0979.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2187,3 +2229,80 @@ body #community_conservancies-overview .text-inner {
   background-color: var(--primary-background);
   padding: 90px 0;
 }
+
+/**************************15. CONSERVATION EDUCATION************************************************************/
+/**************************************************************************************************/
+
+.education-hero-section  {
+  position: relative;
+  height: 100vh;
+  /*Community Background Image*/
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationEducation/DSC_0404.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.education-hero-inner {
+  max-width: 700px;
+  position: relative;
+}
+
+.education-hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+
+#conservation_education {
+  background-color: var(--primary-background);
+  padding: 90px 0;
+}
+
+#inner_header_post_thumb {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(../images/Conservation/CommunityConservancies/Fishing.JPG);
+  height: 100vh;
+}
+
+#inner_header_post_thumb .dark_overlay {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(14, 14, 14, 0.5);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner_header_post_thumb .dark_overlay .container .header-txt {
+  color: #ffffff;
+
+}
+
+
+#inner_header_post_thumb .dark_overlay .container .header-txt h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
