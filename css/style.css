@@ -2355,4 +2355,6 @@ body #community_conservancies-overview .text-inner {
 /**************************************************************************************************/
 
 
-
+#international-conventions {
+  background-color: var(--primary-background);
+}
