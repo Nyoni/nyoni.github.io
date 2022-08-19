@@ -2358,3 +2358,36 @@ body #community_conservancies-overview .text-inner {
 #international-conventions {
   background-color: var(--primary-background);
 }
+
+.hero-section  {
+  position: relative;
+  height: 100vh;
+  /*Community Background Image*/
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 700px;
+  position: relative;
+}
+
+.hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}

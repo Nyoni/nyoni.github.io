@@ -187,36 +187,6 @@
   font-size: 52px;
 }
 
-  .conventions-hero-section{
-    position: relative;
-    height: 100vh;
-    background: url(../images/banner-img/banner-8.JPG); /*background image*/
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .conventions-hero-section:before{
-    opacity: 0.35;
-    background: rgba(0, 0, 0, 0.45);
-  }
-  
-  .conventions-hero-inner{
-    max-width: 800px;
-    position: relative;
-  }
-  
-  .conventions-hero-inner h1{
-    color: #ffffff;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-size: 52px;
-    font-weight: 700px;
-  }
-
   .world-heritage {
     height: 300px;
   }
