@@ -2363,7 +2363,7 @@ body #community_conservancies-overview .text-inner {
   position: relative;
   height: 100vh;
   /*Community Background Image*/
- 
+  object-fit: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
