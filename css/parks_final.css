@@ -554,7 +554,7 @@
 .activities-cols .activities-col{
   display: flex;
   flex-flow: column nowrap;
-  grid-column-end: span 12;
+  grid-column-end: span 8;
   margin-bottom: 100px;
 }
 
@@ -567,14 +567,14 @@
 
 @media (max-width: 1200px) {
   .activities-cols .activities-col {
-    grid-column-end: span 4;
+    grid-column-end: span 8;
   }
 
 }
 
 @media (max-width: 900px) {
   .activities-cols .activities-col {
-    grid-column-end: span 4;
+    grid-column-end: span 8;
   }
 }
 
@@ -898,7 +898,6 @@ ul.slick-dots {
   color: #2a2a2a;
   margin-bottom: 30px;
 }
-
 
 #reservation .section-heading {
   margin-bottom: 30px;
