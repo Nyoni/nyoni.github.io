@@ -200,19 +200,25 @@
 
   
   html {
-
+    min-height: 100%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     text-decoration: none;
     color: var(--heading-text-color);
     font-size: 16px;
-  }*
+  }
+  
+  * {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0; 
+  }
 
   body {
     margin: 0;
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
   }
 
   @keyframes html {
