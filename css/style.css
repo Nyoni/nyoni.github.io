@@ -616,7 +616,7 @@ background: var(--green);
 
 /*-ii.   Overview About Us Section*/
 .main-layout {
-  padding: 15px 10px;
+  padding: 25px 20px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -716,7 +716,6 @@ background: var(--green);
 
 #about_overview {
   background-color: var(--primary-background);
-  padding: 90px 0;
 }
 
 
@@ -756,9 +755,8 @@ background: var(--green);
   font-size: 17px;
   line-height: 28px;
   font-weight: 300;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
   letter-spacing: 0.5px;
-  text-align: right;
 }
 
 .description .protected_areas-text p {
@@ -778,16 +776,25 @@ background: var(--green);
      font-size: 4.2rem;
      line-height: 4.6rem;
      letter-spacing: 0.46px;
-     font-weight: 700;
+     font-weight: 500;
 }
 
 #about_overview .description h4 {
   color: #4b3e36;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   text-align: right;
   font-size: 2.1rem;
   line-height: 2.3rem;
-  letter-spacing: -0.46px;
+  letter-spacing: 0.46px;
+  font-weight: 400;
+}
+
+#about_overview .description h5 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.46px;
   font-weight: 400;
 }
 
@@ -2303,7 +2310,7 @@ body #community_conservancies-overview .text-inner {
 }
 
 .section_padding {
-  padding: 7% 0;
+  padding: 4% 0;
 }
 
 #inner_header_post_thumb .dark_overlay {
