@@ -42,6 +42,26 @@
   <link rel="stylesheet" href="css/responsive.css" />
 
   <body class="body-background">
+
+    <article class="box">
+      <div class="box-left">
+        <img src="http://uiclients.com/thinc/assets/images/thinc-drop-white.svg">
+      <p>THINC Pure products are only for use in states where the sale and consumption of such products are legal. </p>
+      </div>
+      <div class="box-right">
+        <h3>Age Verification</h3>
+        <p>By clicking enter, I certify that I am over the age of 21 and will comply with the above statement.</p>
+        
+        <a href="#" class="btn btn-alpha"  id="refresh-page">ENTER</a>
+        
+        <p class="decor-line"><span>Or</span></p>
+        
+        <a href="#" class="btn btn-beta" id="reset-session">EXIT</a>
+        
+        <small>Always enjoy responsibily.</small>
+      </div>
+      </div>
+    </article>
     <!--sticky social media icons-->
     <nav class="socials">
       <ul>
@@ -337,7 +357,136 @@
     </section>
     <!--Section: Hero -->
     <div class="main-layout">
-      <div id="human_wildlife-conflict"></div>
+      <div id="human_wildlife-conflict">
+                      <!--Section: home about us-->
+                      <div id="heritage" class="container section_padding">
+                        <div class="row d-flex align-content-center align-items-center justify-content-center">
+                          <div class="col-lg-10">
+                            <div class="desc d-flex align-content-center align-items-center justify-content-center">
+                                <h3 class="text-center">
+                                 <span class="green italic fw-bold"><h3>Human Wildlife Conflict</h3></span> is a mounting challenge which requires urgent attention. The growing competition for scarce resources between man and beast has far reaching socioeconomic consequences; which in the immediate term is characterized by loss of lives, livelihoods and destruction of infrastructure. The most affected areas in Zimbabwe are the provinces of include Mashonaland West, Mashonaland Central, Matebeleland North, Matebeleland South and Masvingo.
+                                </h3>  
+        
+                            </div> 
+                            
+                             
+                          </div>
+                        </div>
+                      </div>
+                      <!--Section: home about us-->
+        <!--Section: Articles-->
+        <div class="news section_padding">
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_0027.JPG');
+                background-size: cover;
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> HUMAN WILDLIFE CONFLICT </a
+              ><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+              </h3>
+              <div class="author">by lorem</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_0634.JPG');
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> BLOG </a><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+              </h3>
+              <div class="author">by lorem</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_0914.JPG');
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> ARTICLE </a><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.</a
+                >
+              </h3>
+              <div class="author">by lorem</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_0225.JPG');
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> NEWS </a><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </a>
+              </h3>
+              <div class="author">by Lorem ipsum</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_7009.JPG');
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> NEWS </a><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </a>
+              </h3>
+              <div class="author">by Lorem ipsum</div>
+            </div>
+          </article>
+
+          <article class="post">
+            <div
+              class="media image-box-shadow"
+              style="
+                background-image: url('images/Brian-Aaaron/Funny/DSC_7031.JPG');
+              "
+            ></div>
+            <div class="caption">
+              <a class="element--hover yellow"> NEWS </a><br /><br />
+              <h3 class="title">
+                <a href=""
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </a>
+              </h3>
+              <div class="author">by Lorem ipsum</div>
+            </div>
+          </article>
+        </>
+      </div>
     </div>
 
             <!--Section: Footer-->
@@ -478,5 +627,28 @@
     <script src="js/zimparks_menu.js"></script>
     <script src="js/live-chat.js"></script>
     <script src="js/articles.js"></script>
+
+    <script>
+      jQuery(document).ready(function($){
+
+if (sessionStorage.getItem('advertOnce') !== 'true') {
+//sessionStorage.setItem('advertOnce','true');
+  $('.box').show();
+}else{
+  $('.box').hide();
+}
+ 
+$('#refresh-page').on('click',function(){
+$('.box').hide();
+sessionStorage.setItem('advertOnce','true');
+});
+  
+$('#reset-session').on('click',function(){
+$('.box').show();
+sessionStorage.setItem('advertOnce','');
+});
+ 
+});
+    </script>
   </body>
 </html>
