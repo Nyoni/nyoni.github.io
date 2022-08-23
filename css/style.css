@@ -2362,7 +2362,7 @@ body #community_conservancies-overview .text-inner {
 }
 
 a.btn {
-  background-color: #54A984;
+  background-color: var(--green);
   color: #fff;
   text-decoration: none;
   display: inline-block;
