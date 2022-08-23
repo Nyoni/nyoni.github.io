@@ -605,9 +605,7 @@ background: var(--green);
 
 /******* Middle section CSS Start ******/
 /* -------- Landing page ------- */
-.game-section {
-  padding: 60px 50px;
-}
+
 .game-section .owl-stage {
   margin: 15px 0;
   display: flex;
@@ -622,7 +620,7 @@ background: var(--green);
   align-items: flex-end;
   -webkit-align-items: flex-end;
   background: #343434 no-repeat center center / cover;
-  border-radius: 16px;
+  border-radius: 6px;
   overflow: hidden;
   position: relative;
   transition: all 0.4s ease-in-out;
@@ -681,10 +679,10 @@ background: var(--green);
 /***** responsive css Start ******/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  h2 {
+ .item-desc h2 {
     margin-bottom: 32px;
   }
-  h3 {
+ .item-desc h3 {
     margin: 0 0 8px;
     font-size: 24px;
     line-height: 32px;
@@ -692,7 +690,7 @@ background: var(--green);
 
   /* -------- Landing page ------- */
   .game-section {
-    padding: 50px 30px;
+
   }
   .game-section .item {
     margin: 0 12px 60px;
@@ -709,10 +707,10 @@ background: var(--green);
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  h2 {
+  .item-desc h2 {
     margin-bottom: 32px;
   }
-  h3 {
+  .item-desc h3 {
     margin: 0 0 8px;
     font-size: 24px;
     line-height: 32px;
@@ -740,13 +738,11 @@ background: var(--green);
 }
 
 @media (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-  h2 {
+
+ .item-desc h2 {
     margin-bottom: 20px;
   }
-  h3 {
+  .item-desc h3 {
     margin: 0 0 8px;
     font-size: 19px;
     line-height: 24px;
