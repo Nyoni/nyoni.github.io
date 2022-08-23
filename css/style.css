@@ -2488,13 +2488,14 @@ a.btn.btn-beta {
   height: 100%;
   position: absolute;
   left: 0;
+  object-fit: cover;
 }
 
 
 .backdrop {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 80vh;
   margin: 15px auto;
 }
 
@@ -2526,6 +2527,7 @@ a.btn.btn-beta {
 }
 
 .warning p {
+  top: 10%;
   text-align: center;
   color: white;
   line-height: 20px;
@@ -2537,16 +2539,18 @@ a.btn.btn-beta {
   content: "";
   display: block;
   width: 80%;
+  
   height: 1px;
   border-bottom: 1px solid #ffffff;
   left: 10%;
   right: 0;
   opacity: 0.5;
-  margin-top: 10px;
+  margin-top: 20px;
   position: absolute;
 }
 
 .warning h3 {
+  top: 40%;
   text-align: center;
   color: white;
   margin-bottom: 15px;
@@ -2782,7 +2786,7 @@ a.btn.btn-beta {
 }
 
 .section_padding {
-  padding: 4% 0;
+  padding: 7% 0;
 }
 
 #inner_header_post_thumb .dark_overlay {
