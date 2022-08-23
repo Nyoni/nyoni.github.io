@@ -2515,10 +2515,14 @@ images wrapper
   float: left;
   width: 100%;
   padding: 4px;
+  -webkit-backdrop-filter: contrast(4) blur(20px);
+  backdrop-filter: contrast(4) blur(20px);
 }
 .grid-image img {
   float: left;
   width: 100%;
+  background: rgba(0,0,0,0.75);
+
 }
 
 .zoom-wrapper {
@@ -2660,6 +2664,9 @@ arrow navigation
 
 .backdrop {
   position: relative;
+  width: 400px;
+  height: 350px;
+  margin: 15px auto;
 }
 
 .warning {
