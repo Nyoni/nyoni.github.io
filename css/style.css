@@ -2540,6 +2540,7 @@ a.btn.btn-beta {
   height: 1px;
   background: #ffffff;
   right: 0;
+  opacity: 0.5;
   margin-top: 10px;
   position: absolute;
 }
