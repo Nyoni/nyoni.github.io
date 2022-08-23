@@ -2483,87 +2483,24 @@ a.btn.btn-beta {
 }
 
 /*Imageg Gallery*/
-
-.conflictcontainer {
-  margin: auto;
-  padding: 0 1rem;
-  max-width: 71.25rem;
+.backdrop img {
   width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
 }
 
-.conflictgrid {
-  display: flex;
-  flex-direction: column;
-  flex-flow: row wrap;
-}
-.conflictgrid > [class*=col-] {
-  display: block;
-}
-
-.conflictgallery {
-  padding: 0 0 4rem 0;
-}
-
-.conflictgallery .img-container {
-  width: 100%;
-  height: 500px;
-  cursor: pointer;
-  overflow: hidden;
-}
-.img-container:hover .img-content-hover {
-  display: block;
-}
-
-.conflictgalllery .img-container img {
-  width: 100%;
-  height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-
-@supports (display: grid) {
-
-  .conflictgrid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-  }
-  .conflictgrid > [class*=col-] {
-    margin: 0;
-    max-width: 100%;
-  }
-  .conflictgallery .conflictgrid {
-    grid-gap: 1rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-
-  .conflictgallery .img-container {
-    height: 100%;
-  }
-  .img-container:hover .img-content-hover {
-    display: none;
-  }
-
-  .img-content {
-    display: block;
-    padding: 1rem 0;
-  }
-}
 
 .backdrop {
   position: relative;
-  width: 400px;
-  height: 350px;
+  width: 100%;
+  height: 400px;
   margin: 15px auto;
 }
 
 .warning {
   position: absolute;
-  padding: 10px 10px;
+  padding: 20% 0;
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,0.75);
@@ -2577,21 +2514,23 @@ a.btn.btn-beta {
   color: white;
   font-weight: 300;
   font-family: 'Lato';
-  font-size: 0.5em;
-  padding: 0.2em;
-  margin-top: 10px;
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin-top: 20px;
   cursor: pointer;
 }
 
 .warning p {
+  text-align: center;
   color: white;
-  font-size: 0.8em;
+  font-size: 1.25em;
 }
 
 .warning h3 {
+  text-align: center;
   color: white;
   margin-bottom: 15px;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 
