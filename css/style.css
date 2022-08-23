@@ -2664,7 +2664,7 @@ arrow navigation
 
 .warning {
   position: absolute;
-  padding: 10px 0;
+  padding: 10px 10px;
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,0.75);
