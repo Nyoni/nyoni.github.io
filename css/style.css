@@ -2488,14 +2488,13 @@ a.btn.btn-beta {
   height: 100%;
   position: absolute;
   left: 0;
-  object-fit: cover;
 }
 
 
 .backdrop {
   position: relative;
   width: 100%;
-  height: 65vh;
+  height: 400px;
   margin: 15px auto;
 }
 
@@ -2514,7 +2513,6 @@ a.btn.btn-beta {
 .fa-eye-slash {
   color: #ffffff;
 }
-
 .warning button {
   border: none;
   background: transparent;
@@ -2535,6 +2533,18 @@ a.btn.btn-beta {
   position: relative;
 }
 
+.warning p:after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 1px;
+  border-bottom: 1px solid #ffffff;
+  left: 10%;
+  right: 0;
+  opacity: 0.5;
+  margin-top: 10px;
+  position: absolute;
+}
 
 .warning h3 {
   text-align: center;
@@ -2772,7 +2782,7 @@ a.btn.btn-beta {
 }
 
 .section_padding {
-  padding: 7% 0;
+  padding: 4% 0;
 }
 
 #inner_header_post_thumb .dark_overlay {
