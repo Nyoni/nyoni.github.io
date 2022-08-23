@@ -81,6 +81,26 @@ font-family: 'Parisienne', cursive;
 
 }
 
+.read_more-white {
+  font-size: 17px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 13px 0px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  text-transform: uppercase;
+}
+
+.read_more-white:hover {
+  background: var(--green);
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
+
 .read_more-button {
   font-size: 17px;
   background-color: transparent;
@@ -657,7 +677,14 @@ background: var(--green);
   transform: none;
   -webkit-transform: none;
 }
+.item-desc h3 {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  color: #ffffff;
+}
+
 .game-section .item-desc p {
+  color: white;
   opacity: 0;
   -webkit-transform: translateY(32px);
   transform: translateY(32px);
