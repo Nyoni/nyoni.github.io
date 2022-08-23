@@ -45,7 +45,7 @@
 
     <article class="box">
       <div class="box-left">
-        <img src="http://uiclients.com/thinc/assets/images/thinc-drop-white.svg">
+        <img src="images/ZIMPARKS-LOGO-01-945x1024.png">
       <p>THINC Pure products are only for use in states where the sale and consumption of such products are legal. </p>
       </div>
       <div class="box-right">
@@ -56,12 +56,14 @@
         
         <p class="decor-line"><span>Or</span></p>
         
-        <a href="#" class="btn btn-beta" id="reset-session">EXIT</a>
+        <a href="index.html" class="btn btn-beta" id="reset-session">EXIT</a>
         
         <small>Always enjoy responsibily.</small>
       </div>
       </div>
     </article>
+
+    
     <!--sticky social media icons-->
     <nav class="socials">
       <ul>
@@ -356,6 +358,7 @@
       </div>
     </section>
     <!--Section: Hero -->
+
     <div class="main-layout">
       <div id="human_wildlife-conflict">
                       <!--Section: home about us-->
@@ -631,24 +634,24 @@
     <script>
       jQuery(document).ready(function($){
 
-if (sessionStorage.getItem('advertOnce') !== 'true') {
-//sessionStorage.setItem('advertOnce','true');
-  $('.box').show();
-}else{
-  $('.box').hide();
-}
- 
-$('#refresh-page').on('click',function(){
-$('.box').hide();
-sessionStorage.setItem('advertOnce','true');
-});
-  
-$('#reset-session').on('click',function(){
-$('.box').show();
-sessionStorage.setItem('advertOnce','');
-});
- 
-});
+      if (sessionStorage.getItem('advertOnce') !== 'true') {
+      //sessionStorage.setItem('advertOnce','true');
+        $('.box').show();
+      }else{
+        $('.box').hide();
+      }
+      
+      $('#refresh-page').on('click',function(){
+      $('.box').hide();
+      sessionStorage.setItem('advertOnce','true');
+      });
+        
+      $('#reset-session').on('click',function(){
+      $('.box').show();
+      sessionStorage.setItem('advertOnce','');
+      });
+      
+      });
     </script>
   </body>
 </html>

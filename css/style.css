@@ -2436,9 +2436,11 @@ a.btn.btn-beta {
   z-index: 3;
 }
 .box .box-left {
-  background: url(http://uiclients.com/thinc/assets/images/block-bg-2.jpg) 50% 50%;
+  background: url(../images/Conservation/HumanWildlife/CrocodileAttackinSimatelele\,Binga\ District.jpeg) 50% 50%;
   background-size: cover;
   color: #fff;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 .box .box-left img {
   position: relative;
