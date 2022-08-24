@@ -2685,10 +2685,24 @@ text-align: center;
 }
 
 .page_slideshow .slide .park-slide-content .title {
+  color: var(--yellow);
   max-width: 500px;
-  font-size: 38px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
+}
+
+.page_slideshow .slide .park-slide-content .text {
+  max-width: 700px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.07em;
+  line-height: 2rem;
+  margin-bottom: 30px;
 }
 
 /**/
