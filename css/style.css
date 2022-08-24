@@ -928,14 +928,14 @@ background: var(--green);
 
   .description .about_overview-text p {
     line-height: 27px;
-    padding-bottom: 10px;
-    font-size: 16px;
+
+    font-size: 17px;
   }
 
   .description .protected_areas-text p {
     line-height: 27px;
-    padding-bottom: 10px;
-    font-size: 16px;
+
+    font-size: 17px;
   }
 
   /*Park Protection*/
@@ -1040,7 +1040,7 @@ background: var(--green);
   font-size: 17px;
   line-height: 28px;
   font-weight: 300;
-  padding-bottom: 15px;
+
   letter-spacing: 0.5px;
 }
 
@@ -1056,10 +1056,10 @@ background: var(--green);
 
 #about_overview .description h3 {
      color: #594233;
-     margin-bottom: 2rem;
+     margin-bottom: 1.5rem;
      text-align: right;
      font-size: 4.2rem;
-     line-height: 4.6rem;
+     line-height: 3.5rem;
      letter-spacing: 0.46px;
      font-weight: 500;
 }
@@ -1070,7 +1070,7 @@ background: var(--green);
 
 #about_overview .description h4 {
   color: #4b3e36;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   text-align: right;
   font-size: 2.1rem;
   line-height: 2.3rem;
@@ -1080,11 +1080,10 @@ background: var(--green);
 
 #about_overview .description h5 {
   color: #333;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
-  line-height: 2.3rem;
   letter-spacing: 0.46px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 

@@ -42,7 +42,6 @@
 
 
 #parks {
-    border: 1px solid red;
     float: left;
     width: 100%;
     position: relative;
@@ -126,7 +125,6 @@
 
   
 #tabs {
-  border: 1px solid red;
     float: left;
     width: 100%;
     background-color: var(--primary-background);
