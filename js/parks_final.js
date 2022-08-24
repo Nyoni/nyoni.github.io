@@ -1,7 +1,7 @@
 $(function(){
 
     var tabs = function() {
-        $('#parks').css('height', $('.tab-content.active').height() + 600);
+        $('#parks').css('height', $('.tab-content.active').height() );
 
         $(window).resize(function(){
            $('#parks').css('height', $('.tab-content.active').height() + 600 );
@@ -18,7 +18,7 @@ $(function(){
            
            setTimeout(function(){
               $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
-              $('#parks').css('height', $('.tab-content.active').height() );
+              $('#parks').css('height', $('.tab-content.active').height() + 600 );
            }, 200);
            setTimeout(function(){
               $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
