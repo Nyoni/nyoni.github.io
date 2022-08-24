@@ -2952,6 +2952,11 @@ a.btn.btn-beta {
 
 }
 
+.contact-card p > a {
+  font-size: 17px;
+  color: var(--green);
+}
+
 .region-contacts .contact-card {
   background: var(--primary-background)!important;
 }
