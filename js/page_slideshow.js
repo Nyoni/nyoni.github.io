@@ -1,4 +1,4 @@
-var slideshowDuration = 4000;
+var slideshowDuration = 5000;
 var slideshow=$('.main-content .page_slideshow');
 
 function slideshowSwitch(slideshow,index,auto){
@@ -11,7 +11,7 @@ function slideshowSwitch(slideshow,index,auto){
   var newSlide = slides.eq(index);
   var newSlideImage = newSlide.find('.image-container');
   var newSlideContent = newSlide.find('.slide-content');
-  var newSlideElements=newSlide.find('.caption > *');
+  var newSlideElements=newSlide.find('.caption > .title');
   if(newSlide.is(activeSlide))return;
 
   newSlide.addClass('is-new');
