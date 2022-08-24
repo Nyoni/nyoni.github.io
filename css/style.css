@@ -55,6 +55,8 @@ font-family: 'Parisienne', cursive;
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
 /*Fonts*/
 @font-face {
   font-family: 'Playfair Display';
@@ -74,10 +76,17 @@ font-family: 'Parisienne', cursive;
   font-display: swap;
 }
 
-
+/*Background Pattern*/
+.background-pattern {
+  background-color: #e9ea0c;
+  opacity: 0.2;
+  border-radius: 50%;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9ea0c 9px ), repeating-linear-gradient( #01322055, #013220 );
+}
 .italic {
   font-family: 'Playfair Display';
   font-style: italic;
+  font-weight: 700;
 
 }
 
@@ -993,9 +1002,6 @@ background: var(--green);
   flex-wrap: wrap;
 }
 
-#about_overview {
-  background-color: var(--primary-background);
-}
 
 
 .left-align {
@@ -1105,17 +1111,20 @@ background: var(--green);
 .section-header p {
   margin-bottom: 5px;
   position: relative;
-  font-family: 'Playfair Display';
-  font-style: italic;
-  font-size: 22px;
-  font-weight: 400;
-  text-transform: capitalize;
-  color: var(--yellow);
+  
+  font-family: 'Fira Sans', sans-serif;
+  color: #4b3e36;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase ;
+
 }
 
 .section-header h2 {
   margin: 0;
-  font-size: 45px;
+  font-size: 3rem;
+  font-family: 'Playfair Display';
+  font-style: italic;
   font-weight: 700;
 }
 
@@ -1154,22 +1163,22 @@ background: var(--green);
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-    color: var(--yellow);
+  color: #4b3e36;
     padding-bottom: 7px;
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid #4b3e36;
 }
 
 .nav-item > a {
   color: #1e2426;
   transition: .3s;
-  font-size: 20px;
+  font-size: 1.5rem;
   letter-spacing: 0.6px;
 }
 
 .nav-item > a:hover,
 .nav-item > a:active,
 .nav-item > a:focus {
-  color: var(--yellow);
+  color: #4b3e36;
   outline: none;
   text-decoration: none;
 }
@@ -1177,6 +1186,10 @@ background: var(--green);
 .about .about-tab .tab-content {
     padding: 15px 0 0 0;
     background: transparent;
+}
+
+.about .about-tab .tab-content p {
+  font-size: 17px;
 }
 
 .about .about-tab .tab-content .container {
