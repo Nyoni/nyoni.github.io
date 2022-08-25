@@ -1,3 +1,140 @@
+            <div class="mdl-tabs__panel is-active" id="tab1-panel">
+            <div id="about_overview" class="section_padding secondary-background section_padding">
+              <div class="container">
+                <div class="row ">
+                  <div class="col-lg-11">  
+                    <div class="description">
+                      <div class="about_overview-text">
+                        <h5 >Access by Road</h5>
+                        <p class="left-align">
+                         <span class="italic fw-bold brown-text">Road from Chirundu highway only accessed by 4x4 vehicles.</span> <br>
+                         <span class="brown-text"> Mana Pools is approximately 391km from Harare.</span>   
+                        
+                        </p>
+
+                        <p>
+                          Drive along the main Harare – Chirundu road, you will pass the Makuti, this is approximately 295 km from Harare. Continue past Makuti to Marongora Parks Offices. <br>
+                          Stop at the Marongora Parks Offices on the left hand side of the road. There you must obtain a permit to enter Mana Pools. <br>
+                          From Marongora continue towards Chirundu down the escarpment, through the Tsetse Fly Control Point after which you turn right onto a gravel road to Mana Pools, it is clearly sign posted.  This road is currently very corrugated, and should be driven with caution. <br>
+                          At the turning point onto the dirt road you will come across the first of two security booms (Chimutsi Gate). You will have to show the entry permit you got from Marongora. <br>
+                          After the first boom follow the road until you reach the second boom gate (Nyakasikana Gate) from here you will turn left and continue on to Nyamepi Tourist Office. <br>
+                          Follow the signs that will take you to Nyamepi Tourist Office <br>
+
+                        </p>
+                      </div>
+                    </div>
+  
+                    <div class="description">
+                      <div class="about_overview-text">
+                        <h5>Access by Air</h5>
+                        <p class="left-align">
+                          Private charters are available from any airstrip in Zimbabwe to Mana Pools airstrip located within the park
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-11"> 
+                      <div class="row py-3 my-3">
+                        <div class="col-lg-3 col-md-4 col-6">
+                          <div data-aos="zoom-in-up" data-aos-duration="1500">
+                            <a href="#" style="display: inline-block ;">
+                              <img
+                              src="images/nationalparks/companylogos/impala.png"
+                              class="img-fluid"
+                              alt="Impala"
+                            />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                          <div data-aos="zoom-in-up" data-aos-duration="1500">
+                            <a href="">
+                              <img
+                              src="images/nationalparks/companylogos/lindezi.jpg"
+                              class="img-fluid"
+                              alt="lindezi"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                          <div data-aos="zoom-in-up" data-aos-duration="1500">
+                            <a href="">
+                              <img
+                              src="images/nationalparks/companylogos/manapools.png"
+                              class="img-fluid"
+                              alt="Manapools"
+                              />   
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                          <div data-aos="zoom-in-up" data-aos-duration="1500">
+                            <a href="">
+                              <img
+                              src="images/nationalparks/companylogos/seal.jpg"
+                              class="img-fluid"
+                              alt="Seal"
+                            />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  <header class="main-header">
         <!--Header-Upper-->
         <div class="header-upper">
