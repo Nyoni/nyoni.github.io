@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="css/fontawesome-v5.9.0.min.css">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="css/flaticon.css">
+        
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/bulma/css/bulma.css">
+
+        <!--Slick-->
+        <link rel="stylesheet" href="css/slick.css">
+        <!--Flaticon-->
+        <link rel="stylesheet" href="css/flaticon.css">
+        <!--Animate-->
+        <link rel="stylesheet" href="css/animate.css">
+        <!--Leaflet-->
+        <link rel="stylesheet" href="css/leaflet.css">
+        <!--Spacing-->
+        <link rel="stylesheet" href="css/spacing.min.css">
+        <!--Style-->
+
+        <!--==Custom CSS==-->
+        <link rel="stylesheet" href="css/chrome.css">
+
+        <link rel="stylesheet" href="css/utility.css">
+        <!--Main CSS File-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/national-parks.css">
+        <link rel="stylesheet" href="css/our-parks.css">
+        <!--Responsive CSS-->
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <link rel="stylesheet" href="css/parks-cards.css">
+
+
+</head>
+<body>
+   <!--sticky social media icons-->
+   <nav class="socials">
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/zimparks/"
+          ><i class="fab fa-facebook-f"><span>Facebook</span></i></a
+        >
+      </li>
+
+      <li>
+        <a href="#"
+          ><i class="fab fa-twitter"><span>Twitter</span></i></a
+        >
+      </li>
+
+      <li>
+        <a href="#"
+          ><i class="fab fa-instagram"><span>Instagram</span></i></a
+        >
+      </li>
+
+      <li>
+        <a href="#"
+          ><i class="fab fa-youtube"><span>Youtube</span></i></a
+        >
+      </li>
+
+      <li>
+        <a href="#"
+          ><i class="fab fa-whatsapp"><span>Contact Us</span></i></a
+        >
+      </li>
+    </ul>
+  </nav>
+
+  <!--Live Chat-->
+  <div class="live-chat">
+    <div class="trigger">
+      <div class="trigger-inside">
+        <span>Live Chat</span>
+      </div>
+    </div>
+    <div class="start">
+      <div class="chat-input">
+        <input type="text" placeholder="Send Us A Message" />
+      </div>
+      <div class="close"></div>
+    </div>
+  </div>
+
+  <!--Section: Header-->
+  <!-- partial:index.partial.html -->
+  <div class="zimparks_menu-container">
+    <div class="zimparks_menu ml-auto">
+      <a href="#" class="logo">
+        <img
+          src="images/ZIMPARKS-LOGO-01-945x1024-e1590512106931.png"
+          alt="logo"
+          title=""
+        />
+      </a>
+      <ul class="clearfix">
+        <!--Home-->
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <!--About Us-->
+          <a href="about-us.html">About Us</a>
+          <ul>
+            <!--Leadership-->
+            <li><a href="leadership.html">Leadership</a></li>
+            <!--News & Blogs-->
+            <li><a href="blog-page.html">News & Blogs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Conservation</a>
+          <ul>
+            <!--Park Protection-->
+            <li>
+              <a href="park-protection.html"
+                >Park <br />
+                Protection</a
+              >
+              <ul>
+                <li><a href="park-protection.html">Law Enforcement</a></li>
+                <li><a href="park-protection.html">Fire Management</a></li>
+                <li><a href="park-protection.html">Water Management</a></li>
+                <li>
+                  <a href="park-protection.html">Range Land Management</a>
+                </li>
+              </ul>
+            </li>
+            <!--Conservation Research-->
+            <li>
+              <a href="#">Conservation Research</a>
+              <ul>
+                <!--Research Policy-->
+                <li>
+                  <a href="research-policy.html">Research Policy</a>
+                </li>
+                <!--Research Strategy-->
+                <li>
+                  <a href="research-strategy.html">Research Strategy</a>
+                </li>
+                <!--Research Priority-->
+                <li>
+                  <a href="priotity-areas.html">Priority Areas</a>
+                </li>
+                <!--Research Publications-->
+                <li>
+                  <a href="research-publications.html"
+                    >Research Publications</a
+                  >
+                </li>
+                <!--Research Monitoring-->
+                <li>
+                  <a href="research-monitoring.html">Research Monitoring</a>
+                </li>
+                <!--Management Plans-->
+                <li>
+                  <a href="management-plans.html">Management Plans</a>
+                </li>
+                <!--Research Partnership-->
+                <li>
+                  <a href="research-partnership.html "
+                    >Research Partnership</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <!--Community Conservation-->
+              <a href="#">Community Conservation</a>
+              <ul>
+                <!--Community Conservancies-->
+                <li>
+                  <a href="community-conservancies.html">Conservancies</a>
+                </li>
+                <!--Human Wildlife Conflict-->
+                <li>
+                  <a href="human-wildlife-conflict.html"
+                    >Human Wildlife Conflicts</a
+                  >
+                </li>
+
+                <!--Community Outreach-->
+                <li>
+                  <a href="community-outreach.html">Community Outreach</a>
+                </li>
+                <!--Conservation Education-->
+                <li>
+                  <a href="conservation-education.html"
+                    >Conservation Education</a
+                  >
+                </li>
+                <!--CAMPFIRE-->
+                <li><a href="CAMPFIRE.html">CAMPFIRE</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">International Conservation</a>
+              <ul>
+                <!--TFCA-->
+                <li><a href="tfca.html">TFCA</a></li>
+                <!--Joint Commissions-->
+                <li>
+                  <a href="joint-commissions.html">Joint Commissions</a>
+                </li>
+                <!--International Conventions-->
+                <li>
+                  <a href="conventions.html">International Conventions</a>
+                </li>
+                <!--Monitoring-->
+                <li><a href="monitoring.html">Monitoring</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="licencing.html">Licensing <br /> </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Our Parks</a>
+          <ul>
+            <li>
+              <a href="national-parks.html">National Parks</a>
+              <ul>
+                <li>
+                  <a href="national_park-chimanimani.html">Chimanimani</a>
+                </li>
+                <li><a href="national_park-chizarira.html">Chizarira</a></li>
+                <li><a href="gonarezhou.html">Gonarezhou</a></li>
+                <li><a href="national_park-hwange.html">Hwange</a></li>
+                <li><a href="national_park-kazumapan.html">Kazumapan</a></li>
+                <li><a href="national_park-manapools.html">Mana Pools</a></li>
+                <li><a href="national_park-matopos.html">Matobo</a></li>
+                <li>
+                  <a href="national_park-matusadonha.html">Matusadonha</a>
+                </li>
+                <li><a href="national_park-nyanga.html">Nyanga</a></li>
+                <li>
+                  <a href="national_park-vicfall.html">Victoria Falls</a>
+                </li>
+                <li><a href="national_park-zambezi.html">Zambezi</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="recreational-parks.html">Recreational Parks</a>
+              <ul>
+                <li><a href="rec_park-bangala.html">Bangala</a></li>
+                <li><a href="rec_park-chibwatata.html">Chibwatata</a></li>
+                <li><a href="rec_park-chinhoyi.html">Chinhoyi</a></li>
+                <li><a href="rec_park-chivero.html">Chivero</a></li>
+                <li><a href="rec_park-cullingham.html">Cullingham</a></li>
+                <li><a href="rec_park-darewendale.html">Darewendale</a></li>
+                <li><a href="rec_park-kariba.html">Kariba</a></li>
+                <li><a href="rec_park-matopos.html">Matopos</a></li>
+                <li><a href="rec_manjirenji.html">Manjirenji</a></li>
+                <li><a href="rec_park-mzingwane.html">Mzingwane</a></li>
+                <li><a href="rec_park-ngezi.html">Ngezi</a></li>
+                <li><a href="rec_park-osborne.html">Osborne</a></li>
+                <li><a href="rec_park-sebakwe.html">Sebakwe</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="botanical-gardens.html">Botanical Gardens</a>
+              <ul>
+                <li><a href="botanical_garden-ewanrigg.html">Ewanrigg</a></li>
+                <li>
+                  <a href="botanical_garden-nationalbotanic.html"
+                    >National Botanic</a
+                  >
+                </li>
+                <li><a href="botanical_garden-vumba.html">Vumba</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="safari-areas.html">Safari Areas</a>
+              <ul>
+                <li><a href="safari_area-charara.html">Charara</a></li>
+                <li><a href="safari_area-chete.html">Chete</a></li>
+                <li><a href="safari_area-chipinge.html">Chipinge</a></li>
+                <li><a href="safari_area-hurungwe.html">Hurungwe</a></li>
+                <li><a href="safari_area-matetsi.html">Matetsi</a></li>
+                <li><a href="safari_area-sapi.html">Sapi</a></li>
+                <li><a href="safari_area-sengwa.html">Sengwa</a></li>
+                <li><a href="safari_area-tuli.html">Tuli</a></li>
+                <li><a href="safari_area-umfurudzi.html">Umfurudzi</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="sanctuaries.html">Sanctuaries</a>
+              <ul>
+                <li><a href="sanctuary-mushandike.html">Mushandike</a></li>
+                <li><a href="sanctuary-tshabalala.html">Tshabalala</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <!--Opportunities-->
+          <a href="opportunities.html">Opportunities</a>
+          <ul>
+            <!--Leadership-->
+            <li><a href="opportunities.html">Investments</a></li>
+            <!--News & Blogs-->
+            <li><a href="opportunities.html">Tenders</a></li>
+            <!--News & Blogs-->
+            <li><a href="opportunities.html">Careers</a></li>
+          </ul>
+        </li>
+
+        <!--Contact Us-->
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Section: Header-->
+
+
+            <!--Section: Hero -->
+            <section class="nationalparks-hero-section overlay">
+                <div >
+                    <div class="nationalparks-hero-inner">
+                        <h1 class="wow fadeInUp" data-wow-duration="1s">National Parks</h1>
+                        
+                    </div>
+                </div>
+            </section>
+            <!--Section: Hero -->
+
+            <!--Section: National Parks -->
+
+            <section>
+                <div class="container">
+                    <div class="national_parks-page-content">
+                        <div class="national-parks-card">
+                          <div class="content">
+                            <h2 class="title">Gonarezhou National Park</h2>     
+                            <button class="btn"><a href="gonarezhou.html">Explore</a></button>
+                          </div>
+                        </div>
+                        <div class="national-parks-card">
+                          <div class="content">
+                            <h2 class="title">Hwange National Park</h2>
+                            
+                            <button class="btn"><a href="national_park-hwange.html">Explore</a></button>
+                          </div>
+                        </div>
+                        <div class="national-parks-card">
+                          <div class="content">
+                            <h2 class="title">Matusadonha National Park</h2>
+                            
+                            <button class="btn"><a href="national_park-matusadonha.html">Explore</a></button>
+                          </div>
+                        </div>
+        
+                        <div class="national-parks-card">
+                            <div class="content">
+                              <h2 class="title">Chimanimani National Park</h2>
+                              
+                              <button class="btn"><a href="national_park-chimanimani.html">Explore</a></button>
+                            </div>
+                          </div>
+                          <div class="national-parks-card">
+                            <div class="content">
+                              <h2 class="title">Nyanga National Park</h2>
+                              
+                              <button class="btn"><a href="national_park-nyanga.html">Explore</a></button>
+                            </div>
+                          </div>
+                          <div class="national-parks-card">
+                            <div class="content">
+                              <h2 class="title">Matopos National Park</h2>
+                              
+                              <button class="btn"><a href="national_park-matopos.html">Explore</a></button>
+                            </div>
+                          </div>
+
+                          <div class="national-parks-card">
+                            <div class="content">
+                              <h2 class="title">Zambezi National Park</h2>
+                              
+                              <button class="btn"><a href="national_park-zambezi.html".html">Explore</a></button>
+                            </div>
+                          </div>
+                          <div class="national-parks-card">
+                            <div class="content">
+                              <h2 class="title">Victoria Falls National Park</h2>
+                              
+                              <button class="btn"><a href="national_park-vicfall.html">Explore</a></button>
+                            </div>
+                          </div>
+          
+                          <div class="national-parks-card">
+                              <div class="content">
+                                <h2 class="title">Chizarira National Park</h2>
+                                
+                                <button class="btn"><a href="national_park-chizarira.html">Explore</a></button>
+                              </div>
+                            </div>
+                            <div class="national-parks-card">
+                              <div class="content">
+                                <h2 class="title">Mana Pools National Park</h2>
+                                
+                                <button class="btn"><a href="national_park-manapools.html">Explore</a></button>
+                              </div>
+                            </div>
+                            <div class="national-parks-card">
+                              <div class="content">
+                                <h2 class="title">Kazuma Pan National Park</h2>
+                                
+                                <button class="btn"><a href="national_park-kazumapan.html">Explore</a></button>
+                              </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+
+           
+
+
+           
+            <!--Section: National Parks Slider 
+            <div class="container">
+                <div class="columns is-multiline p-0 pt-6 last">
+                    <div class="column is-full">
+                        <h3 >Premium Destinations</p>
+                    </div>
+                
+                    <div class="column ">
+                        <img src="images/gonarezhou/homebanner.JPG">
+                            <div class="slider-image-overlay">
+                                    <a href="gonarezhou.html">Gonarezhou National Park</a>
+                            </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/hwange-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Hwange National Park</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/matopos-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Matobo National Park</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/manapools-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Mana Pools National Park</a>
+
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="columns last">
+                        <div class="column ">
+                            <img src="images/vic-falls.jpg">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Victoria Falls</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/zambezi-1.jpg">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Zambezi National Park</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/nyanga-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Nyanga National Park</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/giraffe.jpg">
+                        </div>
+                    </div>
+
+                    <div class="columns is-multiline p-0 pt-6 last">
+                        <div class="column is-full">
+                            <h3>Hidden Gems</h3>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/chimanimani.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Chimanimani</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/matusadonha-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Matusadonha</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/chizarira-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Chizarira</a>
+
+                                </div>
+                        </div>
+
+                        <div class="column ">
+                            <img src="images/slider-images/kazuma-1.JPG">
+                            
+                                <div class="slider-image-overlay">
+                                    <a href="nyanga.html">Kazuma Pan</a>
+
+                                </div>
+                        </div>
+                    </div> 
+            -->
+
+
+
+
+    <!--JS Files-->
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/leaflet.min.js"></script>
+    <script src="js/appear.js"></script> 
+
+    <!--Custom JS-->
+    <script src="js/live-chat.js"></script>
+    <script src="js/zimparks_menu.js"></script>
+
+   
+  
+            
+
+</body>

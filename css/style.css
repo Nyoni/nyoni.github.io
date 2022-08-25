@@ -57,6 +57,8 @@ font-family: 'Parisienne', cursive;
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&display=swap');
+
 /*Fonts*/
 @font-face {
   font-family: 'Playfair Display';
@@ -1068,6 +1070,10 @@ background: var(--green);
   color: #594233;
 }
 
+.blue-text {
+  color: #000075;
+}
+
 #about_overview .description h4 {
   color: #4b3e36;
   margin-bottom: 1.5rem;
@@ -1110,10 +1116,22 @@ background: var(--green);
 .section-header p {
   margin-bottom: 5px;
   position: relative;
-  
+  letter-spacing: 2px;
   font-family: 'Fira Sans', sans-serif;
   color: #4b3e36;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase ;
+
+}
+
+.section-header h4 {
+  margin: 1.5rem 0;
+  position: relative;
+  letter-spacing: 1.5px;
+  font-family: 'Cairo', sans-serif;
+  color: #000075!important;
+  font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase ;
 
@@ -2802,7 +2820,7 @@ a.btn.btn-beta {
 }
 
 .section_padding {
-  padding: 7% 0;
+  padding: 3% 0;
 }
 
 #inner_header_post_thumb .dark_overlay {
@@ -2970,6 +2988,11 @@ a.btn.btn-beta {
   
   text-align: center;
 
+}
+
+.contact-card p > i {
+  font-size: 17px;
+  margin-right: 10px;
 }
 
 .contact-card .contact-icon i {

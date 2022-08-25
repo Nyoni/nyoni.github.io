@@ -284,7 +284,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 400px;
   grid-auto-flow: dense;
-  grid-gap: 3em;
+  grid-gap: 2em;
   max-width: 1600px;
   margin: 0 0px;
   padding: 1em;
@@ -623,21 +623,6 @@ ul.slick-dots {
   opacity: 0.9;
 }
 
-#contact {
-  margin-left: 30px;
-  padding: 45px 30px;
-  background-color: #fff;
-
-}
-
-#contact h4 {
-  text-align: center;
-  font-weight: 700;
-  font-size: 30px;
-  color: #2a2a2a;
-  margin-bottom: 30px;
-}
-
 #reservation .section-heading {
   margin-bottom: 30px;
 }
@@ -845,59 +830,6 @@ ul.slick-dots {
 /** end testimonial section **/
 
 
-/*Contact Pages*/
-
-body #contact {
-	background-image: url(../images/ContactUs/map1.png);
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-body #contact .map-content {
-	margin-top: 45px;
-}
-body #contact .gmap {
-	border: 10px solid #f6f5f0;
-	border-radius: 50%;
-	height: 400px;
-	width: 400px;
-	box-shadow: 0px 0px 3px 3px #e7e4dc;
-	overflow: hidden;
-	position: relative;
-	margin: 0 auto;
-}
-body #contact .gmap-area .gmap iframe {
-	border-radius: 50%;
-	height: 380px;
-	width: 400px;
-}
-body #contact .gmap-area .map-content address h5 {
-	font-weight: 700;
-}
-body #contact .center {
-	text-align: center;
-	padding-bottom: 55px;
-}
-body #contact .center h2 {
-	font-size: 36px;
-	margin-top: 0;
-	margin-bottom: 20px;
-}
-@media screen and (max-width: 1024px) {
-body #contact .map-content {
-	text-align: center;
-}
-}
-body #contact-page {
-	background-color: #fff;
-}
-body #contact-page .submit-button {
-	padding: 8px 20px;
-	color: #fff;
-	border: none;
-	margin-top: 10px;
-}
-
 
 
 /*Accomodation Section*/
@@ -1014,10 +946,7 @@ body #contact-page .submit-button {
 
 /** gallery  section **/
 
-.park_accomodation {
-  background-color: #eae7e7;
-  padding-bottom: 50px;
-}
+
 
 .park_accomodation .titlepage {
   text-align: center;
@@ -1456,7 +1385,7 @@ arrow navigation
 }
 
 /*Content part of cards*/
-.content {
+.national-parks-card .content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1468,7 +1397,7 @@ arrow navigation
   color: #ffffff;
 }
 
-.content > * + * {
+.national-parks-card .content > * + * {
   margin-top: 1rem;
 }
 
