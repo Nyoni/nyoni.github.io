@@ -1456,7 +1456,7 @@ arrow navigation
 }
 
 /*Content part of cards*/
-.content {
+.national-parks-card .content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1468,7 +1468,7 @@ arrow navigation
   color: #ffffff;
 }
 
-.content > * + * {
+.national-parks-card .content > * + * {
   margin-top: 1rem;
 }
 
