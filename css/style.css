@@ -57,6 +57,8 @@ font-family: 'Parisienne', cursive;
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&display=swap');
+
 /*Fonts*/
 @font-face {
   font-family: 'Playfair Display';
@@ -1068,6 +1070,10 @@ background: var(--green);
   color: #594233;
 }
 
+.blue-text {
+  color: #000075;
+}
+
 #about_overview .description h4 {
   color: #4b3e36;
   margin-bottom: 1.5rem;
@@ -1114,6 +1120,18 @@ background: var(--green);
   font-family: 'Fira Sans', sans-serif;
   color: #4b3e36;
   font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase ;
+
+}
+
+.section-header h4 {
+  margin: 1.5rem 0;
+  position: relative;
+  letter-spacing: 1.5px;
+  font-family: 'Cairo', sans-serif;
+  color: #000075!important;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase ;
 
