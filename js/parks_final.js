@@ -1,7 +1,7 @@
 $(function(){
 
     var tabs = function() {
-        $('#parks').css('height', $('.tab-content.active').height() +200 );
+        $('#parks').css('height', $('.tab-content.active').height() + 200 );
 
         $(window).resize(function(){
            $('#parks').css('height', $('.tab-content.active').height() + 200 );
