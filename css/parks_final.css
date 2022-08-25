@@ -284,7 +284,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: 400px;
   grid-auto-flow: dense;
-  grid-gap: 3em;
+  grid-gap: 2em;
   max-width: 1600px;
   margin: 0 0px;
   padding: 1em;
@@ -946,10 +946,7 @@ ul.slick-dots {
 
 /** gallery  section **/
 
-.park_accomodation {
-  background-color: #eae7e7;
-  padding-bottom: 50px;
-}
+
 
 .park_accomodation .titlepage {
   text-align: center;
