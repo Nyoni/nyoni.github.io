@@ -906,7 +906,6 @@ background: var(--green);
 
 /*-ii.   Overview About Us Section*/
 .main-layout {
-  border: 1px solid red;
   padding: 25px 20px;
   height: 100%;
   display: flex;
