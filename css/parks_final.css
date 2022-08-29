@@ -1,3 +1,7 @@
+
+
+
+
 :root {
   --yellow: #e9ea0c;
   --green: #013220;
@@ -508,6 +512,7 @@
 
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
+  position: relative;
   height:100vh;
   max-height: 500px;
 }
