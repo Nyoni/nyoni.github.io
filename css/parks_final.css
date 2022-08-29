@@ -1716,3 +1716,23 @@ arrow navigation
   width: 100%;
   height: 400px;
 }
+
+
+
+
+
+/*Sticky Titles*/
+
+.panel {
+  position: relative;
+  min-height: 400px;
+
+}
+
+.panel-sticky {
+  background: #66ccff;
+  color: white;
+  position: sticky;
+  top: 0;
+  border-top: 5px solid #0099cc;
+}
