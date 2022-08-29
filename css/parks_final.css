@@ -528,6 +528,32 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
 
+.Modern-Slider .item .img-description {
+  padding: 0 24px 12px;
+  color: #fff;
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(calc(100% - 54px));
+  -webkit-transform: translateY(calc(100% - 54px));
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.Modern-Slider .item .img-fill .img-description  {
+  transform: none;
+  -webkit-transform: none;
+}
+
+.img-description h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
 .Modern-Slider .item .info > div{
   display:inline-block!important;
   vertical-align:middle;
