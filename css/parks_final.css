@@ -1191,7 +1191,7 @@ images wrapper
 .gallerywrapper {
   display: block;
   width: 100%;
-  max-width: 1200px;
+
   -moz-columns: 1;
        columns: 1;
   -moz-column-gap: 0;
