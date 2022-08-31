@@ -731,23 +731,26 @@ background: var(--green);
   .description .about_overview-text p {
     line-height: 27px;
     font-family: 'Playfair Display';
-    letter-spacing: 0.6px;
-    font-size: 17px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .description .protected_areas-text p {
     line-height: 27px;
     font-family: 'Playfair Display';
-    letter-spacing: 0.6px;
-    font-size: 17px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   /*Park Protection*/
   .description p {
     line-height: 27px;
     font-family: 'Playfair Display';
-    letter-spacing: 0.6px;
-    font-size: 17px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .description h3 {
@@ -843,10 +846,10 @@ background: var(--green);
 #about_overview .description .about_overview-text p {
   color: #222122;
   font-size: 17px;
-  line-height: 28px;
+  line-height: 30px;
   font-weight: 300;
-
-  letter-spacing: 0.5px;
+  font-family: 'Playfair Display';
+  letter-spacing: 1px;
 }
 
 .description .protected_areas-text p {
@@ -992,7 +995,7 @@ background: var(--green);
   color: #1e2426;
   transition: .3s;
   font-size: 1.5rem;
-  letter-spacing: 0.6px;
+  letter-spacing: 1px;
 }
 
 .nav-item > a:hover,
