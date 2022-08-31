@@ -730,21 +730,24 @@ background: var(--green);
 
   .description .about_overview-text p {
     line-height: 27px;
-
+    font-family: 'Playfair Display';
+    letter-spacing: 0.6px;
     font-size: 17px;
   }
 
   .description .protected_areas-text p {
     line-height: 27px;
-
+    font-family: 'Playfair Display';
+    letter-spacing: 0.6px;
     font-size: 17px;
   }
 
   /*Park Protection*/
   .description p {
     line-height: 27px;
-    padding-bottom: 10px;
-    font-size: 16.5px;
+    font-family: 'Playfair Display';
+    letter-spacing: 0.6px;
+    font-size: 17px;
   }
 
   .description h3 {
@@ -2802,8 +2805,21 @@ a.btn.btn-beta {
   bottom: 10px;
 }
 
+/**************************22. JOINT COMMISIONS************************************************************/
+/**************************************************************************************************/
 
-/**************************22. TENDERS************************************************************/
+.commissions_overview-img {
+  background: url(../images/gonarezhou/Activities/gamedrive.JPG) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+
+/**************************23. TENDERS************************************************************/
 /**************************************************************************************************/
 
 #tenders {
