@@ -1929,38 +1929,6 @@ body #terrestial_research-monitoring .text-inner {
 /**************************11.  RESEARCH MANAGEMENT PLANS************************************************************/
 /**************************************************************************************************/
 
-.researchmanage-hero-section {
-  position: relative;
-  height: 100vh;
-  /*Research Management Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchManagement/NyangaRainfall.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.researchmanage-hero-inner{
-  max-width: 700px;
-  position: relative; 
-}
-
-.researchmanage-hero-inner h1{
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
 
 .area_management-plans {
   background-color: var(--primary-background);
@@ -1971,6 +1939,24 @@ body #terrestial_research-monitoring .text-inner {
   background-color: var(--primary-background);
   padding: 50px 0;
 }
+
+.plan-area,
+.plan-species {
+  padding: 1rem;
+}
+
+
+.plan-area:after {
+  content: "";
+  background-color: #d3d3d3;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 10px;
+  left: 100%;
+  display: block
+}
+
 
 /**************************12.  RESEARCH PARTNERSHIP************************************************************/
 /**************************************************************************************************/

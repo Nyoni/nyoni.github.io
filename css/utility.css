@@ -1169,6 +1169,8 @@
     font-size: 17px;
   }
   .desc p {
+      font-family: 'Playfair Display';
+      line-height: 27px;
       font-size: 19px;
       letter-spacing: 0.6px;
     }
