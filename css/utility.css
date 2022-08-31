@@ -175,7 +175,7 @@
  /*End Article Card Template*/
 
   * {
-    font-family: 'Song Myung';
+    font-family: 'Playfair Display';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -185,6 +185,7 @@
     text-transform: none;
     transition: 0.2s linear;
     font-size: 16px; 
+    letter-spacing: 0.5px;
     --grid: minmax(var(--gutter), 1fr)
     repeat(
       var(--columns),
@@ -210,10 +211,7 @@
     font-size: 16px;
   }
   
-  * {
-    margin: 0;
-    padding: 0; 
-  }
+
 
   body {
     margin: 0;  
@@ -1171,6 +1169,8 @@
     font-size: 17px;
   }
   .desc p {
+      font-family: 'Playfair Display';
+      line-height: 27px;
       font-size: 19px;
       letter-spacing: 0.6px;
     }
