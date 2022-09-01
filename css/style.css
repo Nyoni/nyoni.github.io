@@ -729,7 +729,7 @@ background: var(--green);
   }
 
   .description .about_overview-text p {
-    line-height: 27px;
+    line-height: 35px;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
     font-size: 18px;
@@ -737,7 +737,7 @@ background: var(--green);
   }
 
   .description .protected_areas-text p {
-    line-height: 27px;
+    line-height: 35px;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
     font-size: 18px;
@@ -746,7 +746,7 @@ background: var(--green);
 
   /*Park Protection*/
   .description p {
-    line-height: 27px;
+    line-height: 35px;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
     font-size: 18px;
@@ -2912,6 +2912,24 @@ a.btn.btn-beta {
   font-size: 1.2rem;
   letter-spacing: 0.7px;
   font-weight: bold;
+}
+
+.sub_requirements .sub-title h4 {
+  font-family: 'Playfair Display'; 
+  color: #222122;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.sub_requirements .requirements_list ol li {
+  list-style: decimal;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin: 10px 30px;
 }
 
 /* Responsive Table Style */

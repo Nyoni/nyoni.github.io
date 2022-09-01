@@ -248,16 +248,15 @@
   }
 
   p {
-    font-size: 1.05rem;
-    line-height: 1.5;
-    font-weight: 100;
-    letter-spacing: 0.5px;
-    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 35px;
+    font-weight: 300;
+    letter-spacing: 1px;
     color: var(--gray-dark);
     text-transform: none;
     margin-top: 0;
     margin-bottom: 1rem; 
-    font-family: 'Song Myung';
+    font-family: 'Playfair Display';
 
   }
 
