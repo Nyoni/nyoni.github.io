@@ -293,6 +293,12 @@
     font-size: 24px;
     line-height: 1.5;
   }
+
+ p span > h3 {
+    font-size: 24px;
+    line-height: 1.5;
+
+  }
   
   h4 {
     font-size: 18px;
