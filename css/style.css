@@ -730,27 +730,47 @@ background: var(--green);
 
   .description .about_overview-text p {
     line-height: 35px;
+    color: #333;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
+    margin: 0 0 2rem;
   }
 
   .description .protected_areas-text p {
     line-height: 35px;
+    color: #333;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
-    font-size: 18px;
+    margin: 0 0 2rem;
+    font-size: 1.1rem;
     font-weight: 400;
   }
+
+  .description .protected_areas-text-2 p {
+    margin-bottom: 5px;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #4b3e36;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: capitalise;
+  }
+
+
+
 
   /*Park Protection*/
   .description p {
     line-height: 35px;
+    color: #333;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
+    margin: 0 0 2rem;
   }
 
   .description h3 {
@@ -844,23 +864,15 @@ background: var(--green);
 }
 
 #about_overview .description .about_overview-text p {
-  color: #222122;
-  font-size: 17px;
-  line-height: 30px;
-  font-weight: 300;
+  line-height: 35px;
+  color: #333;
   font-family: 'Playfair Display';
   letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0 0 2rem;
 }
 
-.description .protected_areas-text p {
-  color: #333;
-  font-size: 17px;
-  line-height: 28px;
-  font-weight: 400;
-  margin: 0 0 2rem;;
-  letter-spacing: 0.5px;
-  text-align: left;
-}
 
 #about_overview .description h3 {
      color: #594233;
@@ -1089,6 +1101,22 @@ background: var(--green);
   z-index: 300;
 
   margin: 0;
+
+}
+
+.protected_area-image {
+  display: inline-block; 
+  position: relative;
+   width: 150px;
+    height: 150px; 
+    overflow: hidden; 
+    border-radius: 50%;
+}
+
+.protected_area-image img {
+
+  width: auto;
+  height: 100%; 
 
 }
 
