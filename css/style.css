@@ -716,6 +716,19 @@ background: var(--green);
   position: relative;
 }
 
+
+.description .protected_areas-text-2 p {
+  margin-bottom: 5px;
+  position: relative;
+  letter-spacing: 1px;
+  font-family: 'Fira Sans', sans-serif;
+  color: #4b3e36;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalise;
+}
+
+
 /*Responsive About Page*/
 @media (min-width: 1200px) and (max-width: 1340px) {
   .main-layout {
@@ -1039,10 +1052,6 @@ background: var(--green);
 
 /*-v.    protected areas section*/ 
 
-#protected-areas {
-  background-color: var(--primary-background);
-  padding: 90px 0;
-}
 
 .protected_areas .section-header {
   width: 100%;
@@ -1054,7 +1063,6 @@ background: var(--green);
   position: relative;
   top: 0;
   left: 0;
-  background-color: var(--primary-background);
 }
 
 #protected-areas .protected_areas-wrapper .protected_areas-overlay {
