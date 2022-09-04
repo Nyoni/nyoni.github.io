@@ -5,13 +5,13 @@ $(document).ready(function() {
     $(".zimparks_menu > ul").before("<a href=\"#\" class=\"zimparks_menu-mobile\">&nbsp;</a>");
     $(".zimparks_menu > ul > li").hover(function(e) {
       if ($(window).width() > 943) {
-        $(this).children("ul").stop(true, false).fadeToggle(150);
+        $(this).children("ul").stop(true, false).fadeToggle(50);
         e.preventDefault();
       }
     });
     $(".zimparks_menu > ul > li").click(function() {
       if ($(window).width() <= 943) {
-        $(this).children("ul").fadeToggle(150);
+        $(this).children("ul").fadeToggle(50);
       }
     });
     $(".zimparks_menu-mobile").click(function(e) {

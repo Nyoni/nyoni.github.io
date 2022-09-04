@@ -78,6 +78,13 @@ font-family: 'Parisienne', cursive;
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Ionicons";
+  src: url("../fonts/ionicons-2.0.1/ionicons-2.0.1/fonts/ionicons.woff") format("woff"), url("../fonts/ionicons-2.0.1/ionicons-2.0.1/fonts/ionicons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+
 /*Background Pattern*/
 .background-pattern {
   background-color: #e9ea0c;
