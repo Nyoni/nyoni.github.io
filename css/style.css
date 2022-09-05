@@ -1180,7 +1180,16 @@ background: var(--green);
 /**************************************************************************************************/
 
 
-
+.management_text:after {
+  content: "";
+  background-color: #333;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 10px;
+  left: 100%;
+  display: block
+}
 
 .profile-card-wrapper {
   width: 400px;
@@ -1458,94 +1467,6 @@ background: var(--green);
 }
 
 
-
-/*-vi.   Our Leadership Section*/
-#leaders {
-  background-color: var(--primary-background);
-  padding: 50px 0;
-}
-
-.leaders .leader {
-  margin-bottom: 20px;
-  overflow: hidden;
-  text-align: center;
-  background: #fff;
- 
-}
-
-.leaders .leader .leader-img {
-  position: relative;
-  overflow: hidden;
-}
-
-.leaders .leader .social {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-}
-
-.leaders .leader .social a {
-  transition: color 0.3s;
-  margin: 0 10px;
-  padding-top: 8px;
-  display: inline-block;
-}
-
-a.twitter{
-  color: #1da1f2;
-}
-
-a.facebook{
-  color:  #4267B2;
-}
-
-a.instagram{
-  color: #e4405f;
-}
-
-a.linkedin{
-  color: #0a66c2;
-}
-
-.leaders .leader .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-.leaders .leader .leader-info {
-  padding: 25px 15px;
-  margin-bottom: 10px;
-}
-
-.leaders .leader .leader-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: var(--text-color);
-}
-
-.leaders .leader .leader-info span {
-  display: block;
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--text-color);
-}
-
-.leaders .leader .leader-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: var(--text-color);
-}
-
-.leaders .leader:hover .social {
-  opacity: 1;
-} 
 
 /*-vii.  our partners section*/
 
