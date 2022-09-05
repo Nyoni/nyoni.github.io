@@ -1180,17 +1180,6 @@ background: var(--green);
 /**************************************************************************************************/
 
 
-.management_text:after {
-  content: "";
-  background-color: #333;
-  position: absolute;
-  width: 2px;
-  height: 100%;
-  top: 10px;
-  left: 100%;
-  display: block
-}
-
 .profile-card-wrapper {
   width: 400px;
   height: 500px;
@@ -1235,7 +1224,7 @@ background: var(--green);
 }
 
 .profile-card .profile-card-image {
-  transform: translateY(-90px);
+
   transition: all 0.9s;
 }
 
