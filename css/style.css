@@ -163,6 +163,28 @@ z-index: 999;
 .zimparks_menu img {
   max-width: 100%;
 }
+.zimparks_menu .img-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 20vw;
+  overflow: hidden;
+}
+.zimparks_menu .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.zimparks_menu .img-wrapper img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.zimparks_menu .img-wrapper:hover img {
+  transform: scale(1.1);
+}
+
 .zimparks_menu-mobile {
 display: none;
 padding: 20px;
@@ -1552,8 +1574,78 @@ a.linkedin{
   }
 }
 
+/**************************05. OUR HISTORY************************************************************/
+/**************************************************************************************************/
+.our-history img {
+  width: 100%;
+  border-radius: 5px;
+}
+@media screen and (max-width: 599px) {
+  .our-history img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
 
 
+@media screen and (min-width: 600px) {
+  .our-history .grid-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .our-history .grid-wrapper {
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .our-history .grid-wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.our-history article {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #4d4d4d;
+}
+.our-history article p {
+  font-family: "Karla", sans-serif;
+  font-size: 0.95rem;
+  color: #c8c8c8;
+}
+.our-history article:nth-child(4) {
+  grid-area: 1/2/4/3;
+}
+@media screen and (min-width: 1025px) {
+  .our-history article:nth-child(8) {
+    grid-area: 1/4/4/-1;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .our-history article:nth-child(8) {
+    grid-area: 4/2/8/3;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .our-history article:nth-child(4n+3) {
+    border-bottom: 0;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .our-history article:nth-child(4) {
+    border-right: 1px solid #4d4d4d;
+    padding-right: 1rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .our-history article:nth-child(4n) {
+    border-left: 1px solid #4d4d4d;
+    border-bottom: 0;
+    padding-left: 1rem;
+  }
+}
 
 /**************************05. PARK PROTECTION************************************************************/
 /**************************************************************************************************/
