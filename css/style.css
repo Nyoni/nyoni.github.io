@@ -1528,8 +1528,8 @@ background: var(--green);
 }
 .our-history article p {
   font-family: "Karla", sans-serif;
-  font-size: 0.95rem;
-  color: #c8c8c8;
+  font-size: 1rem;
+  color: #333;
 }
 .our-history article:nth-child(4) {
   grid-area: 1/2/4/3;
