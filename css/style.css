@@ -291,6 +291,7 @@ padding: .1em 0;
 width: 95%;
 display: block;
 text-transform: uppercase;
+letter-spacing: 0.7px;
 }
 .zimparks_menu > ul > li > ul > li a:hover{
 color: var(--yellow);
@@ -318,6 +319,7 @@ margin: 0;
 .zimparks_menu > ul > li > ul > li > ul > li a {
 border: 0;    
 font-size: 15px;
+letter-spacing: 0.6px;
 }
 .zimparks_menu > ul > li > ul.normal-sub {
 width: 300px;
