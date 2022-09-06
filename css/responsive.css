@@ -261,7 +261,7 @@
 
 @media only screen and (max-width: 991px) {
     .hero-section {
-        height: auto;
+        height: 250px;
         margin-top: 70px;
         padding-bottom: 30px;
     }
