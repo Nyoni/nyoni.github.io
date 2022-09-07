@@ -524,16 +524,20 @@ background: var(--green);
 }
 .game-section .item.active .item-desc {
   transform: none;
+  padding: 10px;
   -webkit-transform: none;
+  z-index: 2;
 }
 .item-desc h3 {
   font-family: 'Playfair Display';
   font-style: italic;
   color: #ffffff;
+  z-index: 2;
 }
 
 .game-section .item-desc p {
   color: white;
+  z-index: 2;
   opacity: 0;
   -webkit-transform: translateY(32px);
   transform: translateY(32px);
@@ -559,7 +563,7 @@ background: var(--green);
     margin-bottom: 32px;
   }
  .item-desc h3 {
-    margin: 0 0 8px;
+    margin: 4px 4px 8px;
     font-size: 24px;
     line-height: 32px;
   }
