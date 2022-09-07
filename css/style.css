@@ -757,7 +757,7 @@ background: var(--green);
   letter-spacing: 1px;
   font-family: 'Fira Sans', sans-serif;
   color: #4b3e36;
-  font-size: 1.1rem;
+  font-size: 19px;
   font-weight: 700;
   text-transform: capitalise;
 }
@@ -777,21 +777,21 @@ background: var(--green);
 
   .description .about_overview-text p {
     line-height: 35px;
-    color: #333;
+    color: #1b1c1e;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
-    font-size: 1.1rem;
+    font-size: 19px;
     font-weight: 400;
     margin: 0 0 2rem;
   }
 
   .description .protected_areas-text p {
     line-height: 35px;
-    color: #333;
+    color: #1b1c1e;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
     margin: 0 0 2rem;
-    font-size: 1.1rem;
+    font-size: 19px;
     font-weight: 400;
   }
 
@@ -801,7 +801,7 @@ background: var(--green);
     letter-spacing: 1px;
     font-family: 'Fira Sans', sans-serif;
     color: #4b3e36;
-    font-size: 1.1rem;
+    font-size: 19px;
     font-weight: 700;
     text-transform: capitalise;
   }
@@ -812,10 +812,10 @@ background: var(--green);
   /*Park Protection*/
   .description p {
     line-height: 35px;
-    color: #333;
+    color: #1b1c1e;
     font-family: 'Playfair Display';
     letter-spacing: 1px;
-    font-size: 1.1rem;
+    font-size: 19px;
     font-weight: 400;
     margin: 0 0 2rem;
   }
@@ -912,10 +912,10 @@ background: var(--green);
 
 #about_overview .description .about_overview-text p {
   line-height: 35px;
-  color: #333;
+  color: #1b1c1e;
   font-family: 'Playfair Display';
   letter-spacing: 1px;
-  font-size: 1.1rem;
+  font-size: 19px;
   font-weight: 400;
   margin: 0 0 2rem;
 }
@@ -950,7 +950,7 @@ background: var(--green);
 }
 
 #about_overview .description h5 {
-  color: #333;
+  color: #1b1c1e;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   letter-spacing: 0.46px;
@@ -1242,7 +1242,7 @@ background: var(--green);
   text-align: center;
   background: #fff;
   font-size: 23px;
-  color: #333;
+  color: #1b1c1e;
   font-weight: bold;
   margin: 0 6px;
   transition: 0.4s;
@@ -1307,7 +1307,7 @@ background: var(--green);
   font-size: 1.2rem;
   line-height: 0.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #1b1c1e;
   font-weight: 300;
 }
 
@@ -1383,7 +1383,7 @@ background: var(--green);
   text-align: center;
   background: #fff;
   font-size: 23px;
-  color: #333;
+  color: #1b1c1e;
   font-weight: bold;
   margin: 0 6px;
   transition: 0.4s;
@@ -1440,13 +1440,13 @@ background: var(--green);
   padding: 10px;
 }
 .details-2 h2 {
-  font-size: 1.1rem;
+  font-size: 19px;
   margin: 10px 0;
   text-align: center;
 }
 .details-2 h2 .job-title {
   font-size: 0.8rem;
-  color: #333;
+  color: #1b1c1e;
   font-weight: 300;
 }
 
@@ -1522,7 +1522,7 @@ background: var(--green);
 .our-history article p {
   font-family: "Karla", sans-serif;
   font-size: 1rem;
-  color: #333;
+  color: #1b1c1e;
 }
 .our-history article:nth-child(4) {
   grid-area: 1/2/4/3;
@@ -3066,7 +3066,7 @@ a.btn.btn-beta {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #333;
+  color: #1b1c1e;
   border-radius: 3px;
 
 }
@@ -3197,7 +3197,7 @@ a.btn.btn-beta {
 }
 
 .tender-name h4 {
-  color: #333;
+  color: #1b1c1e;
   font-size: 1.8rem;
   text-transform: none;
 

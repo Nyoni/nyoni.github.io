@@ -1175,9 +1175,10 @@
   }
   .desc p {
       font-family: 'Playfair Display';
-      line-height: 27px;
+      line-height: 35px;
       font-size: 19px;
-      letter-spacing: 0.6px;
+      letter-spacing: 1px;
+      color: #1b1c1e;
     }
 
     .small-desc p {
