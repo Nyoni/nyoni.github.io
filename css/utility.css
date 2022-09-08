@@ -623,7 +623,7 @@
 
   .sub-heading {
     margin: 0 0 30px;
-    letter-spacing: 0.6px;
+    letter-spacing: 1px;
     position: relative;
     color: var(--heading-text-color);
 }
@@ -664,6 +664,7 @@
 .sub-heading > h4 {
   font-weight: 600;
   font-size: 22px;
+  letter-spacing: 1px;
 }
 
 /*.sub-heading::after {
@@ -2063,9 +2064,11 @@ font-size: 24px;
   vertical-align: middle;
 }
 
-.widgets_div .text_div span {
-  color: #58666e;
-  font-size: 12px;
+.widgets_div .text_div h4 {
+
+  letter-spacing: 0.7px;
+  font-size: 18px;
+
 }
 
 .widgets_div .text_div span+span {
