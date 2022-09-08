@@ -1303,7 +1303,7 @@ background: var(--green);
   padding: 10px;
 }
 .details h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin: 10px 0;
   text-align: center;
 }
@@ -1313,6 +1313,7 @@ background: var(--green);
   margin-bottom: 20px;
   color: #1b1c1e;
   font-weight: 300;
+  text-align: center;
 }
 
 /*profile card 2*/
