@@ -142,10 +142,23 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 /************************************************************************************/
 
 .zimparks_menu {
+  transition: background-color 0.3s ease;
   width: 100%;
-  position: absolute;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
   z-index: 999;
   background: transparent;
+}
+
+.zimparks_menu.inverted {
+  background-color: var(--green);
+  box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+}
+.zimparks_menu.inverted a {
+
 }
 .zimparks_menu-container {
 margin: auto;
@@ -343,6 +356,21 @@ background: var(--green);
   float: right;    
   padding: 20px 20px 0;
 }
+
+.zimparks_menu a.logo {
+  display: inline-block;
+  padding: 0.5em 2em;
+  width: 25%;
+  float: left;
+  z-index: 1000;
+}
+
+.zimparks_menu img {
+  max-width: 100%;
+  padding: 0;
+}
+
+
 .zimparks_menu-dropdown-icon:before {
   display: block;
 }

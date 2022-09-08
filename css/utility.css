@@ -175,6 +175,12 @@
  /*End Article Card Template*/
 
   * {
+
+
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
     font-family: 'Playfair Display';
     margin: 0;
     padding: 0;
