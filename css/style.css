@@ -1524,22 +1524,24 @@ background: var(--green);
 }
 .timeline__content-title {
   font-weight: normal;
-  font-size: 66px;
+  font-size: 63px;
   margin: -10px 0 0 0;
   transition: 0.4s;
   padding: 0 10px;
+  letter-spacing: 2px;
   box-sizing: border-box;
   font-family: "Pathway Gothic One", sans-serif;
   color: #fff;
 }
 .timeline__content-desc {
   margin: 0;
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 1px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
   font-family: Cardo;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 35px;
 }
 .timeline:before {
   position: absolute;
