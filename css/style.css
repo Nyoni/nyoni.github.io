@@ -145,13 +145,11 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   transition: background-color 0.3s ease;
   width: 100%;
   position: fixed;
-  margin: 0;
+  margin: auto;
   padding: 0;
   top: 0;
   z-index: 999;
   background: transparent;
- 
-  text-align:center;
 }
 
 .zimparks_menu.inverted {
@@ -177,13 +175,14 @@ margin: auto;
 background: transparent;
 z-index: 999;
 
+
 }
 .zimparks_menu a.logo {
   display: inline-block;
-  padding: 0.2em 2em;
-  width: 13%;
   float: left;
-  z-index: 1000;
+  margin-right: 1.5rem;
+  height: 115px;
+  width: 115px;
 }
 .zimparks_menu img {
   max-width: 100%;
@@ -232,10 +231,11 @@ background: var(--green);
 color: #ffffff;
 }
 .zimparks_menu > ul {
-margin: 0 auto;
+margin: auto;
 width: 80%;
 list-style: none;
 padding: 0;
+top: 25%;
 position: absolute;
 right: 0;
 /* IF .zimparks_menu position=relative -> ul = container width, ELSE ul = 100% width */
@@ -254,10 +254,11 @@ clear: both;
 float: left;
 background: transparent;
 padding: 0;
-margin: 0;
+margin: auto;
 }
 .zimparks_menu > ul > li a {
 text-decoration: none;
+margin: auto;
 font-size: 18px;
 color: #f5f5f5;
 padding: 1.5em 1.3em;
