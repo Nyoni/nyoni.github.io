@@ -171,9 +171,13 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 
 }
 .zimparks_menu-container {
-margin: auto;
+
 background: transparent;
 z-index: 999;
+margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    max-width: 67rem;
 
 
 }
