@@ -185,7 +185,6 @@ margin-left: auto;
   display: inline-block;
   float: left;
   margin-right: 2rem;
-  left: 0;
   height: 115px;
   width: 115px;
 }
@@ -196,10 +195,6 @@ margin-left: auto;
 
 .zimparks_menu .img {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 .zimparks_menu .img-wrapper img {
   width: 100%;
@@ -242,7 +237,6 @@ float: left;
 list-style: none;
 padding: 0;
   margin-top: 1.5rem ;
-position: absolute;
 /* IF .zimparks_menu position=relative -> ul = container width, ELSE ul = 100% width */
 box-sizing: border-box;
   
@@ -284,13 +278,13 @@ color: var(--yellow);
 }
 .zimparks_menu > ul > li > ul {
 display: none;
-max-width: 65rem;
+width: 70%;
 background: var(--green2);
-padding: 10px;
+margin-top: 15px;
+padding: 15px;
 position: absolute;
 z-index: 99;
 left: 0;
-margin: 0;
 list-style: none;
 box-sizing: border-box;
 }
