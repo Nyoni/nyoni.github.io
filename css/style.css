@@ -3803,6 +3803,18 @@ a.btn.btn-beta {
   background-color: var(--primary-background);
 }
 
+ul.lists {
+  margin-left: 10px;
+}
+
+ul.lists li {
+  display: list-item;
+  list-style-type: disc;
+  line-height: 35px;
+  letter-spacing: 0.7px;
+  margin-left: 10px;
+}
+
 /**************************20. LICENSING************************************************************/
 /**************************************************************************************************/
 
