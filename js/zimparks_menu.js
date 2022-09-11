@@ -33,8 +33,8 @@ var scrollTrigger = 60;
 window.onscroll = function() {
   // We add pageYOffset for compatibility with IE.
   if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
-    document.getElementsByClassName("zimparks_menu")[0].classList.add(className);
+    document.getElementsByClassName("zimparks_menu-container")[0].classList.add(className);
   } else {
-    document.getElementsByClassName("zimparks_menu")[0].classList.remove(className);
+    document.getElementsByClassName("zimparks_menu-container")[0].classList.remove(className);
   }
 };
