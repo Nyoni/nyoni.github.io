@@ -1,40 +1,64 @@
-$(document).ready(function() {
-    "use strict";
-    $('.zimparks_menu > ul > li:has( > ul)').addClass('zimparks_menu-dropdown-icon');
-    $('.zimparks_menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
-    $(".zimparks_menu > ul").before("<a href=\"#\" class=\"zimparks_menu-mobile\">&nbsp;</a>");
-    $(".zimparks_menu > ul > li").hover(function(e) {
-      if ($(window).width() > 943) {
-        $(this).children("ul").stop(true, false).fadeToggle(50);
-        e.preventDefault();
-      }
-    });
-    $(".zimparks_menu > ul > li").click(function() {
-      if ($(window).width() <= 943) {
-        $(this).children("ul").fadeToggle(50);
-      }
-    });
-    $(".zimparks_menu-mobile").click(function(e) {
-      $(".zimparks_menu > ul").toggleClass('show-on-mobile');
-      e.preventDefault();
-    });
-  });
-  $(window).resize(function() {
-    $(".zimparks_menu > ul > li").children("ul").hide();
-    $(".zimparks_menu > ul").removeClass('show-on-mobile');
+const burgerIcon = document.querySelector(".burger-icon");
+const mainMenu = document.querySelector(".main-menu");
+const closeMenu = mainMenu.querySelector(".mobile-menu-close");
+const goBack = mainMenu.querySelector(".go-back");
+let subMenu;
 
+//change title & slide right sub menu
+mainMenu.addEventListener("click", (e) => {
+ //for reject click in main menu on > 992px
+ if (!mainMenu.classList.contains("active")) return;
+ if (e.target.closest(".menu-with-submenu")) {
+  const hasSubmenu = e.target.closest(".menu-with-submenu");
+  showSubMenu(hasSubmenu);
+ }
+});
+function showSubMenu(hasSubMenu) {
+ subMenu = hasSubMenu.querySelector(".sub-menu");
+ subMenu.classList.add("active");
+ subMenu.style.animation = "slideRight 0.5s ease ";
+ const menuTitle = hasSubMenu.querySelector("a").innerText;
+ mainMenu.querySelector(".current-menu-title").innerText = menuTitle;
+ mainMenu.querySelector(".mobile-menu-head").classList.add("active");
+}
 
-  });
+//click on back goto mian menu
+goBack.addEventListener("click", () => {
+ backToMainMenu();
+});
+function backToMainMenu() {
+ subMenu.style.animation = "slideLeft 0.5s ease ";
+ setTimeout(() => {
+  subMenu.classList.remove("active");
+ }, 300);
+ mainMenu.querySelector(".current-menu-title").innerText = "";
+ mainMenu.querySelector(".mobile-menu-head").classList.remove("active");
+}
 
+//show Main Menu by click on burger icon
+burgerIcon.addEventListener("click", () => {
+ toggleMenu();
+});
 
-  var className = "inverted";
-var scrollTrigger = 60;
+//close Main Menu
+closeMenu.addEventListener("click", () => {
+ toggleMenu();
+});
+document.querySelector(".menu-backdrop").addEventListener("click", () => {
+ toggleMenu();
+});
 
-window.onscroll = function() {
-  // We add pageYOffset for compatibility with IE.
-  if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
-    document.getElementsByClassName("zimparks_menu-container")[0].classList.add(className);
-  } else {
-    document.getElementsByClassName("zimparks_menu-container")[0].classList.remove(className);
+//==========FUNCTION
+function toggleMenu() {
+ mainMenu.classList.toggle("active");
+ document.querySelector(".menu-backdrop").classList.toggle("active");
+}
+
+//============on wide resize
+window.onresize = function () {
+ if (this.innerWidth > 992) {
+  if (mainMenu.classList.contains("active")) {
+   toggleMenu();
   }
+ }
 };
