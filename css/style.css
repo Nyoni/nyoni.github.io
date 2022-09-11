@@ -190,9 +190,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   align-items: center;
  }
 
- a.aic {
-  color: #ffffff;
- }
+
  /* ---------------------Header--------------------- */
  .header {
   position: absolute;
@@ -216,15 +214,6 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   justify-content: flex-end;
  }
  
- /* ---------------------Banner--------------------- */
- .banner {
-  display: block;
-  width: 100%;
-  height: 700px;
-  background: red;
-  background: url(https://s6.uupload.ir/files/(6)_5pn1.jpg) no-repeat center/cover;
-  clip-path: polygon(0% 0%, 100% 0, 100% 90%, 50% 100%, 0% 90%);
- }
  
  /* ---------------------Main Menu--------------------- */
  .main-menu {
@@ -234,13 +223,15 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   column-gap: 20px;
  }
  .main-menu > li > a {
-  padding: 5px 10px;
+  padding: 5px 5px;
+  font-size: 18px;
   font-weight: 600;
-  color: rgb(0 0 0);
+  color: #ffffff;
+  letter-spacing: 1px;
   transition: color 0.3s;
  }
  .main-menu li:hover > a {
-  color: #6f42c1;
+  color: var(--green);
  }
  
  /* ---------------------SubMenu--------------------- */
@@ -248,7 +239,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   position: absolute;
   padding: 20px 30px;
   margin-top: 25px;
-  background: white;
+  background: var(--green);
   box-shadow: 2px 50px 100px -20px rgb(0 0 0 / 50%);
   opacity: 0;
   visibility: hidden;
@@ -256,7 +247,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
  }
  @media only screen and (min-width: 992px) {
   .menu-with-submenu:hover .sub-menu {
-   margin-top: 0px;
+   margin-top: 25px;
    opacity: 1;
    visibility: visible;
   }
@@ -266,7 +257,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   display: block;
   padding: 7px 15px;
   font-weight: 500;
-  color: rgb(70 70 70);
+  color: #ffffff;
  }
  .single-column {
   min-width: 280px;
@@ -277,6 +268,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
  .mega-menu {
   right: 50%;
   transform: translateX(50%);
+
  }
  .mega-menu-column-4 {
   display: flex;
@@ -286,17 +278,23 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   width: 100%;
  }
  .mega-menu-column-4 .mega-item {
-  flex: 20%;
+  flex: 25%;
  }
  .mega-col-title {
   padding: 5px 0px;
-  color: #6f42c1;
+  color: #fff;
   user-select: none;
  }
 
+ .mega-col-title h4 {
+  text-transform: uppercase;
+ }
  
  /* ---------------------Media--------------------- */
  @media only screen and (max-width: 992px) {
+  .main-menu > li > a {
+    color: #333;
+  }
   .item-center {
    order: 3;
    flex: 0 0 100%;
@@ -317,7 +315,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
    height: 30px;
    width: 30px;
    background: white;
-   color: #6f42c1;
+   color: #333;
    font-size: 17px;
    border: 2px solid;
    border-radius: 5px;
@@ -340,7 +338,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
    top: 0;
    right: 0;
    overflow-x: hidden;
-   background: white;
+   background: var(--green);
    transform: translateX(100%);
    transition: 0.5s;
   }
@@ -368,7 +366,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
    align-items: center;
    height: 50px;
    width: 100%;
-   background: white;
+   background: var(--green);
+   color: #ffffff;
    border-bottom: 1px solid rgb(0 0 0 / 10%);
    z-index: 100;
   }
