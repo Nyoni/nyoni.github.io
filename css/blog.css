@@ -526,7 +526,8 @@
   color: var(--green);
 }
 .blog_details h2 {
-  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 8px;
   color: #131313 !important;
