@@ -176,10 +176,12 @@
   #tabs .tabs-nav > a > img:before {
     font-size: 40px;
   }
-  #tabs .tabs-nav > a > .icon, #tabs .tabs-nav > a > span {
+  #tabs .tabs-nav > a > .icon, #tabs .tabs-nav > a > span,
+  #tabs-2 .tabs-nav > a > .icon, #tabs-2 .tabs-nav > a > span {
     display: block;
   }
-  #tabs .tabs-nav > a > span {
+  #tabs .tabs-nav > a > span,
+  #tabs-2 .tabs-nav > a > span {
     font-weight: 500;
     font-size: 18px;
     letter-spacing: 1px;
@@ -193,7 +195,7 @@
     color: var(--green);
   }
   #tabs .tabs-nav > a:hover,
-  #-2 .tabs-nav > a:hover {
+  #tabs-2 .tabs-nav > a:hover {
     text-decoration: none;
     color: var(--green);
   }
