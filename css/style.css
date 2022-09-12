@@ -4144,3 +4144,20 @@ ol.lists li {
   }
 }
 
+/**************************24. CHIP IN************************************************************/
+/**************************************************************************************************/
+
+.chip_in-program img {
+  width: 100%;
+  position: relative;
+}
+
+.chip_in-program .program-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+}
