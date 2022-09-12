@@ -410,7 +410,7 @@ ul.flat-unstyled li > ul > li > a {
  /* ---------------------Main CSS--------------------- */
  .menu-container {
   position: relative;
-  max-width: 1200px;
+  max-width: 1220px;
   margin: auto;
  }
  .aic {
@@ -427,7 +427,6 @@ ul.flat-unstyled li > ul > li > a {
   display: block;
   width: 100%;
   z-index: 99;
-  padding: 15px;
   background-color: transparent;
 
  }
@@ -449,9 +448,9 @@ ul.flat-unstyled li > ul > li > a {
  /* ---------------------Main Menu--------------------- */
  .main-menu {
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 10px;
  }
  .main-menu > li > a {
   padding: 5px 5px;
