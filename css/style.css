@@ -297,10 +297,6 @@ ul.flat-unstyled > li:nth-child(5) > a {
   color: 	#25d365;
 }
 
-
-
-
-
 ul.flat-unstyled > li > a i {
 	padding-left:10px;
 	padding-right:4px;
@@ -367,10 +363,6 @@ ul.flat-unstyled li > ul > li > a {
 	margin-right:3px;
 }
 
-
-
-
-
 .logo-img img {
   height: 100px;
   width: 100px;
@@ -393,7 +385,7 @@ ul.flat-unstyled li > ul > li > a {
   height: 350px;
  }
  .img-fit {
-  height: 70%;
+  height: 65%;
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
@@ -432,13 +424,13 @@ ul.flat-unstyled li > ul > li > a {
  }
 
  .item-right {
-  flex: 0 0 17%;
+  flex: 0 0 12%;
  }
  .item-center {
-  flex: 0 0 66%;
+  flex: 0 0 76%;
  }
  .item-left {
-  flex: 0 0 17%;
+  flex: 0 0 12%;
   display: flex;
   column-gap: 15px;
   justify-content: flex-end;
@@ -450,7 +442,7 @@ ul.flat-unstyled li > ul > li > a {
   display: flex;
   justify-content: end;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 25px;
  }
  .main-menu > li > a {
   padding: 5px 5px;
