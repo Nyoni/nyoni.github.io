@@ -126,21 +126,25 @@
   }
 
   
-#tabs {
+#tabs, 
+#tabs-2 {
     float: left;
     width: 100%;
-    background-color: var(--primary-background);
   }
-  #tabs .tabs-nav {
+
+
+  #tabs .tabs-nav, 
+  #tabs-2 .tabs-nav {
     border-bottom: 1px solid #f0f0f0;
     float: left;
     width: 100%;
   }
-  #tabs .tabs-nav > a {
+  #tabs .tabs-nav > a,
+  #tabs-2 .tabs-nav > a {
     float: left;
     width: 100%;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ccc;
@@ -156,6 +160,9 @@
   @media (min-width: 768px) {
     #tabs .tabs-nav > a  {
       width: 20%
+    }
+    #tabs-2 .tabs-nav > a  {
+      width: 25%
     }
   }
   #tabs .tabs-nav > a > img {
@@ -173,37 +180,46 @@
     display: block;
   }
   #tabs .tabs-nav > a > span {
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
   }
-  #tabs .tabs-nav > a.active {
+  #tabs .tabs-nav > a.active,
+  #tabs-2 .tabs-nav > a.active {
     color: var(--green);
     border-bottom: 1px solid var(--green);
   }
   #tabs .tabs-nav > a.active .icon {
     color: var(--green);
   }
-  #tabs .tabs-nav > a:hover {
+  #tabs .tabs-nav > a:hover,
+  #-2 .tabs-nav > a:hover {
     text-decoration: none;
     color: var(--green);
   }
   #tabs .tabs-nav > a:hover .icon {
     color: var(--green);
   }
-  #tabs .tabs-nav > a:focus, #tabs .tabs-nav > a:active {
+  #tabs .tabs-nav > a:focus, #tabs .tabs-nav > a:active,
+  #tabs-2 .tabs-nav > a:focus, #tabs-2 .tabs-nav > a:active {
     outline: none;
     text-decoration: none !important;
   }
-  #tabs .tabs-nav > a:focus > .icon, #tabs .tabs-nav > a:focus > span, #tabs .tabs-nav > a:active > .icon, #tabs .tabs-nav > a:active > span {
+  #tabs .tabs-nav > a:focus > .icon, #tabs .tabs-nav > a:focus > span, #tabs .tabs-nav > a:active > .icon, #tabs .tabs-nav > a:active > span ,
+  #tabs-2 .tabs-nav > a:focus > .icon, #tabs-2 .tabs-nav > a:focus > span, #tabs-2 .tabs-nav > a:active > .icon, #tabs-2 .tabs-nav > a:active > span {
     text-decoration: none !important;
   }
-  #tabs .tab-content-container {
+
+  #tabs .tab-content-container,
+  #tabs-2 .tab-content-container {
     position: relative;
     width: 100%;
     float: left;
     padding-top: 40px;
     background-color: var(--primary-background);
   }
-  #tabs .tab-content-container .tab-content {
+  #tabs .tab-content-container .tab-content,
+  #tabs-2 .tab-content-container .tab-content {
     position: absolute;
     width: 100%;
     opacity: 0;
@@ -212,7 +228,8 @@
     transition: 0.5s;
     background-color: var(--primary-background);
   }
-  #tabs .tab-content-container .tab-content.show {
+  #tabs .tab-content-container .tab-content.show,
+  #tabs-2 .tab-content-container .tab-content.show {
     opacity: 1;
   }
   #tabs .heading {
