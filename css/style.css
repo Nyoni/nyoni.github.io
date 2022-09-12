@@ -3814,8 +3814,23 @@ ul.lists li {
   list-style-type: disc;
   line-height: 35px;
   letter-spacing: 0.7px;
+  font-size: 16px;
   margin-left: 10px;
 }
+
+ol.lists {
+  margin-left: 10px;
+}
+
+ol.lists li {
+  display: list-item;
+  list-style-type: decimal;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.7px;
+  margin-left: 10px;
+}
+
 
 /**************************20. LICENSING************************************************************/
 /**************************************************************************************************/
