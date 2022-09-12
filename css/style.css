@@ -1109,7 +1109,7 @@ position: absolute;
   width: 100%;
   left: 0;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
 }
 .game-section .img-description {
   padding: 0 24px 12px;
@@ -1130,9 +1130,10 @@ position: absolute;
 }
 .item-desc h3 {
   font-family: 'Playfair Display';
-  font-style: italic;
   color: #ffffff;
-  z-index: 2;
+  z-index: 200;
+  opacity: 1;
+  padding: 10px
 }
 
 .game-section .item-desc p {
