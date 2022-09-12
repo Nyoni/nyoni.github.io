@@ -2398,7 +2398,8 @@ ul.flat-unstyled li > ul > li > a {
 .research_policy-img {
   background: url(../images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
+  object-fit: cover;
+  background-position: center;
   width: 100%;
   min-height: 500px;
   padding: 30px;
