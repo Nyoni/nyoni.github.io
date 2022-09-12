@@ -2455,16 +2455,20 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .research_strategy-goals {
-  background-color: rgba(12, 112, 149, 0.2);
-  padding: 100px 0;
+  background-color: var(--secondary-background);
+
 }
 
-.research_strategy-goals .desc .list-item > h3,
-.research_strategy-goals .desc .list-item > h4,
-.research_strategy-goals ul li .list-item > h4,
+.research_strategy-goals .desc .list_item > h3,
+.research_strategy-goals .desc .list_item > h4,
+.research_strategy-goals ul li .list_item > h4,
 .research_strategy-goals .desc > p,
 .research_strategy-goals .sub-heading {
-  color: #ffffff;
+  color: #1e2426;
+}
+
+.research_strategy-goals .sub-heading h3 {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .research_strategy-about #inner_header_post_thumb {
