@@ -4153,6 +4153,10 @@ ol.lists li {
   font-size: 18px;
 }
 
+.chip_in-program .program-overlay:hover > a {
+  transform: scale(1.1);
+}
+
 
 .chip_in-program {
   margin-bottom: 2rem;
@@ -4261,4 +4265,5 @@ ol.lists li {
   width: 100%;
   padding: 1rem;
   z-index: 1;
+  transition: all .2s ease-in-out;
 }
