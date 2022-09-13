@@ -137,6 +137,46 @@ font-family: 'Parisienne', cursive;
 }
 /*end of custom preloader*/
 
+
+/*Back to top button*/
+#back-button {
+  display: inline-block;
+  background-color: var(--yellow);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#back-button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#back-button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#back-button:active {
+  background-color: #555;
+}
+#back-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Back to top button*/
 /*Background Pattern*/
 .background-pattern {
   background-color: #e9ea0c;
