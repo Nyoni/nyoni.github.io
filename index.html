@@ -25,7 +25,15 @@
     <script src="js/jquery.js"></script>
   </head>
   <body class="body-background">
-    <!--HEADER-->
+
+    <!--Preloader-->
+    <div class="loader-bg">
+  		<div class="loader-p">			
+  		</div>
+    </div>
+    <!--Preloader-->
+
+
 
     <!--Live Chat-->
     <script src="https://fobi.io/embed.js"></script>
@@ -527,6 +535,12 @@
     <!--Custom JS-->
     <script src="js/zimparks_menu.js"></script>
     <script src="js/page_slideshow.js"></script>
+
+    <script>
+      setTimeout(function(){
+        $('.loader-bg').fadeToggle();
+      },3000);
+    </script>
 
     <script>
       $(".custom-carousel").owlCarousel({
