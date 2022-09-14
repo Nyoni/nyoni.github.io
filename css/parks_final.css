@@ -70,8 +70,9 @@
 */
 
   .wildlife-section {
-    height: 150px;
+    height: 200px;
     border-radius: 5px;
+    margin-bottom: 20px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
@@ -172,6 +173,13 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    filter: invert(85%) sepia(0%) saturate(59%) hue-rotate(154deg) brightness(95%) contrast(97%);
+  }
+
+  #tabs .tabs-nav > a.active img, 
+  #tabs .tabs-nav > a:hover img  {
+    filter: invert(13%) sepia(39%) saturate(1854%) hue-rotate(127deg) brightness(101%) contrast(107%);
+  
   }
   #tabs .tabs-nav > a > img:before {
     font-size: 40px;
@@ -192,7 +200,7 @@
     border-bottom: 1px solid var(--green);
   }
   #tabs .tabs-nav > a.active .icon {
-    color: var(--green);
+      filter: invert(13%) sepia(39%) saturate(1854%) hue-rotate(127deg) brightness(101%) contrast(107%);
   }
   #tabs .tabs-nav > a:hover,
   #tabs-2 .tabs-nav > a:hover {
