@@ -1111,6 +1111,138 @@ ul.flat-unstyled li > ul > li > a {
 /************************** END HOME PAGE******************************************************/
 /**************************end index.html******************************************************/
 
+.hero-section  {
+  position: relative;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 687px;
+  position: relative;
+}
+
+.hero-inner h1 {
+  position: relative;
+  font-family: 'Playfair Display'; 
+  color: var(--yellow);
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 4.2rem;
+  letter-spacing: 0.133rem;
+  text-transform: capitalize;
+}
+
+/*Responsive Text*/
+
+
+@media (min-width: 1200px) and (max-width: 1340px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .hero-inner h1 {
+    font-size: 4.8rem;
+    font-style: italic;
+    line-height: 4.2rem;
+    letter-spacing: 0.133rem;
+}
+
+/*col-xl*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+.description .about_overview-text p {
+    line-height: 35px;
+    color: #1b1c1e;
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0 0 2rem;
+  }
+
+  .description .protected_areas-text p {
+    line-height: 35px;
+    color: #1b1c1e;
+    font-family: 'Playfair Display';
+    letter-spacing: 1px;
+    margin: 0 0 2rem;
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  .description .protected_areas-text-2 p {
+    margin-bottom: 5px;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #4b3e36;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: capitalise;
+  }
+
+
+
+
+}
+
+/*col-lg*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .hero-inner h1 {
+    font-size: 2.8rem;
+    font-style: italic;
+    line-height: 4.2rem;
+    letter-spacing: 0.133rem;
+}
+
+} 
+
+/*col-sm*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .hero-inner h1 {
+    font-size: 2.8rem;
+    font-style: italic;
+    line-height: 4.2rem;
+    letter-spacing: 0.133rem;
+    color: #013220;
+}
+
+}
+
+@media (max-width: 575px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
+
+  .hero-inner h1 {
+    font-size: 2.4rem;
+    font-style: italic;
+    line-height: 2.2rem;
+    letter-spacing: 0.133rem;
+    color: #013220;
+}
+
+}
+
+
+/*End About Responsive*/
+
 
 /**************************04. About Us************************************************************/
 /**************************************************************************************************/
@@ -3537,38 +3669,6 @@ a.btn.btn-beta {
   background-color: var(--primary-background);
 }
 
-.hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Community Background Image*/
-  object-fit: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
 
 /**************************18. TFCA************************************************************/
 /**************************************************************************************************/

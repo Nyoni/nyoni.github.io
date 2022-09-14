@@ -69,6 +69,13 @@
   }
 */
 
+.embed-container iframe {
+    padding: 3px;
+    border: 1px solid #333;
+    box-shadow: 0 0 0 7px #fff, 
+                0 0 0 8px #333;
+
+}
   .wildlife-section {
     height: 200px;
     border-radius: 5px;
