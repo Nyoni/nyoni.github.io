@@ -1781,3 +1781,34 @@ arrow navigation
   top: 0;
   border-top: 5px solid #0099cc;
 }
+
+
+
+/*description*/
+
+.description-container .description .text p {
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+}
+
+
+/*Responsive About Page*/
+@media (min-width: 1200px) and (max-width: 1340px) {
+
+}
+
+/**/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+} 
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (max-width: 578px) {
+
+}
+
+/*End About Responsive*/
