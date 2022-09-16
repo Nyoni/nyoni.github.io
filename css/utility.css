@@ -1,7 +1,8 @@
 /*Font Families*/ 
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-  @font-face {
+  
+@font-face {
     font-family: 'nanummyeongjoregular';
     src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
          url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
@@ -62,8 +63,6 @@
  /*End Article Card Template*/
 
   * {
-
-
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
@@ -76,20 +75,7 @@
     text-decoration: none;
     text-transform: none;
     transition: 0.2s linear;
-    font-size: 16px; 
-    letter-spacing: 0.5px;
-    --grid: minmax(var(--gutter), 1fr)
-    repeat(
-      var(--columns),
-      minmax(
-        0,
-        calc(
-          (var(--max-width) - (var(--gutter) * (var(--columns) - 1))) /
-            var(--columns)
-        )
-      )
-    )
-    minmax(var(--gutter), 1fr);
+    letter-spacing: 1px;
   }
 
   
@@ -101,7 +87,7 @@
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     text-decoration: none;
-    color: var(--heading-text-color);
+    color: #1c1b1e;
     font-size: 16px;
   }
   
@@ -109,7 +95,7 @@
   body {
     margin: 0;  
     height: 100%;
-    padding: 0;
+    background-color: #ffffff;
   }
 
   img {
@@ -472,11 +458,8 @@
   color: #fff;
   margin: 0;
 }
-p,
-ul li,
-ol li {
-  font-weight: 300;
-}
+
+
 .footer_bottom_header_one a {
   color: inherit;
   font-size: 17px;
