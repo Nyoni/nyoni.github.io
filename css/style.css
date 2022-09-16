@@ -1848,7 +1848,7 @@ End About Responsive*/
 /**** Personal Details ****/
 .details {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   background: #fff;
   width: 100%;
@@ -1857,12 +1857,14 @@ End About Responsive*/
   padding: 10px;
 }
 .details h2 {
-  font-size: 1.5rem;
-  margin: 10px 0;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+  margin: 15px 0;
   text-align: center;
 }
 .details h2 .job-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   line-height: 0.5rem;
   margin-bottom: 20px;
   color: #1b1c1e;
@@ -1999,13 +2001,13 @@ End About Responsive*/
   padding: 10px;
 }
 .details-2 h2 {
-  font-size: 19px;
+  font-size: 1.1875rem;
   margin: 10px 0;
   text-align: center;
 }
-.details-2 h2 .job-title {
+.details-2 h2 .job-title-2 {
   font-size: 0.8rem;
-  color: #1b1c1e;
+  color: #1c1b1e;
   font-weight: 300;
 }
 
