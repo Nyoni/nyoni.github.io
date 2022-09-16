@@ -1521,6 +1521,11 @@ ul.flat-unstyled li > ul > li > a {
       padding: 15px 10px;
   }
 
+  .image-responsive {
+    width: 100%;
+    height: 100%;
+  }
+
   .hero-inner h1 {
     font-size: 4.8rem;
     font-style: italic;
@@ -1564,10 +1569,6 @@ ul.flat-unstyled li > ul > li > a {
     font-weight: 700;
     text-transform: capitalise;
   }
-
-
-
-
 }
 
 /*col-lg*/
@@ -1576,12 +1577,10 @@ ul.flat-unstyled li > ul > li > a {
       padding: 15px 10px;
   }
 
-  .hero-inner h1 {
-    font-size: 2.8rem;
-    font-style: italic;
-    line-height: 4.2rem;
-    letter-spacing: 0.133rem;
-}
+  .image-responsive {
+    width: 100%;
+    height: 250px;
+  }
 
 } 
 
@@ -1591,13 +1590,11 @@ ul.flat-unstyled li > ul > li > a {
       padding: 15px 10px;
   }
 
-  .hero-inner h1 {
-    font-size: 2.8rem;
-    font-style: italic;
-    line-height: 4.2rem;
-    letter-spacing: 0.133rem;
-    color: #013220;
-}
+  .image-responsive {
+    width: 100%;
+    height: 250px;
+  }
+  
 
 }
 
@@ -1606,58 +1603,18 @@ ul.flat-unstyled li > ul > li > a {
       padding: 15px 10px;
   }
 
-  .hero-inner h1 {
-    font-size: 2.4rem;
-    font-style: italic;
-    line-height: 2.2rem;
-    letter-spacing: 0.133rem;
-    color: #013220;
+.image-responsive {
+  width: 100%;
+  height: 250px;
 }
 
 }
-
 
 /*End About Responsive*/
 
 
 /**************************04. About Us************************************************************/
 /**************************************************************************************************/
-
-/*i. Hero Section*/
-.about-hero-section {
-  position: relative;
-  height: 100vh;
-  /*About Us Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/about_us/about_us-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-
-.about-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.about-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
 
 /*-ii.   Overview About Us Section*/
 .main-layout {
@@ -1666,19 +1623,6 @@ ul.flat-unstyled li > ul > li > a {
   flex-direction: column;
   position: relative;
 }
-
-
-.description .protected_areas-text-2 p {
-  margin-bottom: 5px;
-  position: relative;
-  letter-spacing: 1px;
-  font-family: 'Fira Sans', sans-serif;
-  color: #4b3e36;
-  font-size: 19px;
-  font-weight: 700;
-  text-transform: capitalise;
-}
-
 
 /*Responsive About Page*/
 @media (min-width: 1200px) and (max-width: 1340px) {
@@ -1691,56 +1635,6 @@ ul.flat-unstyled li > ul > li > a {
   .main-layout {
       padding: 15px 10px;
   }
-
-  .description .about_overview-text p {
-    line-height: 35px;
-    color: #1b1c1e;
-    font-family: 'Playfair Display';
-    letter-spacing: 1px;
-    font-size: 19px;
-    font-weight: 400;
-    margin: 0 0 2rem;
-  }
-
-  .description .protected_areas-text p {
-    line-height: 35px;
-    color: #1b1c1e;
-    font-family: 'Playfair Display';
-    letter-spacing: 1px;
-    margin: 0 0 2rem;
-    font-size: 19px;
-    font-weight: 400;
-  }
-
-  .description .protected_areas-text-2 p {
-    margin-bottom: 5px;
-    position: relative;
-    letter-spacing: 1px;
-    font-family: 'Fira Sans', sans-serif;
-    color: #4b3e36;
-    font-size: 19px;
-    font-weight: 700;
-    text-transform: capitalise;
-  }
-
-
-
-
-  /*Park Protection*/
-  .description p {
-    line-height: 35px;
-    color: #1b1c1e;
-    font-family: 'Playfair Display';
-    letter-spacing: 1px;
-    font-size: 19px;
-    font-weight: 400;
-    margin: 0 0 2rem;
-  }
-
-  .description h3 {
-    font-size: 45px;
-    line-height: 40px;
-  }
 }
 
 /**/
@@ -1748,44 +1642,19 @@ ul.flat-unstyled li > ul > li > a {
   .main-layout {
       padding: 15px 10px;
   }
-
-  .description h3 {
-   margin-top: 20px;
-  }
-
-  .section-header h2 {
-    font-size: 45px;
-}
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
   .main-layout {
       padding: 15px 10px;
   }
-
-  .description h3 {
-    margin-top: 20px;
-   }
-
-   .section-header h2 {
-    font-size: 40px;
-}
 }
 
 @media (max-width: 575px) {
   .main-layout {
       padding: 15px 10px;
   }
-
-  .description h3 {
-    margin-top: 20px;
-   }
-
-   .section-header h2 {
-    font-size: 35px;
 }
-}
-
 
 /*End About Responsive*/
 .description {
@@ -1793,8 +1662,6 @@ ul.flat-unstyled li > ul > li > a {
   align-items: center;
   flex-wrap: wrap;
 }
-
-
 
 .left-align {
   text-align: left;
@@ -1806,73 +1673,49 @@ ul.flat-unstyled li > ul > li > a {
 
 /**/
 
-.about_overview-img {
-  background: url('../images/about_us/about_us-4.JPG');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-
-.body-background {
-  background-color: var(--body-background);
-}
-
-.description .about_overview-text{
-  padding: 0;
-}
-
-.description .protected_areas-text{
-  padding: 0;
-}
-
-.brown-text {
-  color: #594233;
-}
-
-.blue-text {
-  color: #000075;
-}
-
 /*-iii.  vision & mission section*/
-
-.section-header h3 {
-  margin: 1.5rem 0;
-  position: relative;
-  letter-spacing: 1.5px;
-  font-weight: 700;
-  text-transform: capitalize ;
-
-}
-
-.section-header h2 {
-  margin: 0;
-  font-size: 3rem;
-  font-family: 'Playfair Display';
-  font-style: italic;
-  font-weight: 700;
-}
 
 
 /*Tabs*/
-.about {
-  background-color: var(--primary-background);
-}
-.about .section-header {
-    margin-bottom: 30px;
-    margin-left: 0;
+@media (min-width: 1200px) and (max-width: 1340px) {
+  .main-layout {
+      padding: 15px 10px;
+  }
 }
 
-.about .about-img {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-tab .tab-content .about_tab-image img {
     width: 100%;
-    height: 100vh;
-    z-index: 100;
-    background: url(../images/about_us/about_lions.JPG) no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
+    height: 400px;
+  }
+  
 }
+
+/**/
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-tab .tab-content .about_tab-image img {
+    width: 100%;
+    height: 300px;
+  }
+  
+} 
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-tab .tab-content .about_tab-image img {
+    width: 100%;
+    height: 250px;
+  }
+  
+}
+
+@media (max-width: 575px) {
+  .about-tab .tab-content .about_tab-image img {
+    width: 100%;
+    height: 250px;
+  }
+  
+}
+
 
 .about .about-tab {
     width: 100%;
@@ -1881,7 +1724,6 @@ ul.flat-unstyled li > ul > li > a {
 .about-tab .tab-content .about_tab-image img {
   width: 100%;
   height: 400px;
-
 }
 
 .about .about-tab .nav.nav-pills .nav-link {
