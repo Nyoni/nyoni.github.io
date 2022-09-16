@@ -1222,7 +1222,7 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .ca-2 {
-  background: url("https://i.redd.it/ool7yp323aux.jpg") no-repeat center center;
+  background: url("../images/Blogs-News/ca-2/ca-2.webp") no-repeat center center;
 }
 
 .ca-3 {
@@ -1435,6 +1435,7 @@ ul.flat-unstyled li > ul > li > a {
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
   font-weight: 700;
   margin-bottom: calc(40px / 4);
+  letter-spacing: 1px;
   color: #fff;
 }
 .latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-desc {
