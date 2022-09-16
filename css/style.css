@@ -1211,6 +1211,218 @@ ul.flat-unstyled li > ul > li > a {
   color: white;
 }
 
+
+/*end home 2*/
+
+
+/*home 3*/
+
+.latest-main-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.latest-main-wrapper .hero-image {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("https://c1.staticflickr.com/1/632/21136101110_1dde1c1a7e_o.jpg") no-repeat center center fixed;
+  background-size: cover;
+  box-shadow: 0 5px 60px 10px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease;
+}
+.latest-main-wrapper .hero-image.browsing-content {
+  height: 40%;
+  background-position: center -150px;
+}
+.latest-main-wrapper .hero-image.browsing-content:after {
+  opacity: 1;
+  height: 100%;
+}
+.latest-main-wrapper .hero-image.browsing-content .hcft-icon.closed {
+  opacity: 0 !important;
+}
+.latest-main-wrapper .hero-image.browsing-content .hcft-icon.opened {
+  opacity: 1 !important;
+}
+.latest-main-wrapper .hero-image:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.65;
+  transition: all 0.5s ease;
+}
+.latest-main-wrapper .hero-image .hero-content {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  padding: 40px;
+  bottom: 0;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-label {
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-desc {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer {
+  margin-top: calc(40px / 1.5);
+  line-height: 32px;
+  font-size: 14px;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-divider {
+  float: left;
+  margin: 7px 10px;
+  height: 18px;
+  width: 1px;
+  background-color: white;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-comments,
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-shares {
+  float: left;
+  text-transform: uppercase;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-comments .amount,
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-shares .amount {
+  margin-right: 5px;
+  font-weight: 700;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle {
+  float: right;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-label {
+  float: left;
+  line-height: 32px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-icon-holder {
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s ease;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-icon-holder:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-icon-holder .hcft-icon {
+  cursor: pointer;
+  line-height: 32px;
+  width: 32px;
+  left: 0;
+  position: absolute;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-icon-holder .hcft-icon.closed {
+  opacity: 1;
+}
+.latest-main-wrapper .hero-image .hero-content .hc-footer .hcf-toggle .hcft-icon-holder .hcft-icon.opened {
+  opacity: 0;
+}
+.latest-main-wrapper .scroll-content {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  height: calc(100% - 40%);
+}
+.latest-main-wrapper .scroll-content .sc-row {
+  z-index: 1;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article {
+  float: left;
+  cursor: pointer;
+  width: 50%;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.1));
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.25s ease;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article:hover:after {
+  opacity: 0;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article:hover .article-image {
+  transform: scale(1.1) !important;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transform: scale(1);
+  transition: all 0.25s ease;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-number {
+  z-index: 2;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  padding: 40px;
+  text-transform: uppercase;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-label {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: calc(40px / 4);
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-desc {
+  font-size: 16px;
+  font-weight: 300;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer {
+  line-height: 20px;
+  margin-top: calc(40px / 4);
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer .aif-comments, .latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer .aif-shares {
+  float: left;
+  font-size: 14px;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer .aif-comments .amount, .latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer .aif-shares .amount {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer .aif-divider {
+  float: left;
+  height: 14px;
+  margin: 3px 10px;
+  width: 1px;
+  background-color: white;
+}
+/*end home 3*/
 /************************** END HOME PAGE******************************************************/
 /**************************end index.html******************************************************/
 
