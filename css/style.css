@@ -1807,12 +1807,11 @@ ul.flat-unstyled li > ul > li > a {
 /**/
 
 .about_overview-img {
-  background: url('../images/about_us/WhoWeAre/Whoweare1.png') no-repeat center center;
+  background: url('../images/about_us/about_us-4.JPG');
   background-size: cover;
-  object-fit: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 500px;
   margin: 0;
 }
 
@@ -1828,27 +1827,6 @@ ul.flat-unstyled li > ul > li > a {
   padding: 0;
 }
 
-#about_overview .description .about_overview-text p {
-  line-height: 35px;
-  color: #1b1c1e;
-  font-family: 'Playfair Display';
-  letter-spacing: 1px;
-  font-size: 19px;
-  font-weight: 400;
-  margin: 0 0 2rem;
-}
-
-
-#about_overview .description h3 {
-     color: #594233;
-     margin-bottom: 1.5rem;
-     text-align: right;
-     font-size: 4.2rem;
-     line-height: 3.5rem;
-     letter-spacing: 0.46px;
-     font-weight: 500;
-}
-
 .brown-text {
   color: #594233;
 }
@@ -1857,66 +1835,14 @@ ul.flat-unstyled li > ul > li > a {
   color: #000075;
 }
 
-#about_overview .description h4 {
-  color: #4b3e36;
-  margin-bottom: 1.5rem;
-  text-align: right;
-  font-size: 2.1rem;
-  line-height: 2.3rem;
-  letter-spacing: 0.46px;
-  font-weight: 400;
-}
-
-#about_overview .description h5 {
-  color: #1b1c1e;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  letter-spacing: 0.46px;
-  font-weight: 600;
-}
-
-
-
-
-#about_overview .description {
-  padding: 0px 20px 0px 10px;
-}
-
-
 /*-iii.  vision & mission section*/
 
-.about .section-header {
-  position: relative;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto 45px auto;
-}
-
-.section-header {
-  margin-bottom: 45px;
-}
-
-.section-header p {
-  margin-bottom: 5px;
-  position: relative;
-  letter-spacing: 2px;
-  font-family: 'Fira Sans', sans-serif;
-  color: #4b3e36;
-  font-size: 1.8rem;
-  font-weight: 700;
-  text-transform: uppercase ;
-
-}
-
-.section-header h4 {
+.section-header h3 {
   margin: 1.5rem 0;
   position: relative;
   letter-spacing: 1.5px;
-  font-family: 'Cairo', sans-serif;
-  color: #000075!important;
-  font-size: 1.8rem;
   font-weight: 700;
-  text-transform: uppercase ;
+  text-transform: capitalize ;
 
 }
 
