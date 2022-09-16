@@ -1807,7 +1807,7 @@ ul.flat-unstyled li > ul > li > a {
 /**/
 
 .about_overview-img {
-  background: url(../images/about_us/WhoWeAre/Whoweare1.png) no-repeat center center;
+  background: url('../images/about_us/WhoWeAre/Whoweare1.png') no-repeat center center;
   background-size: cover;
   object-fit: cover;
   background-position: center;
