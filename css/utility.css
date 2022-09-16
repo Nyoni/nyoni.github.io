@@ -128,7 +128,7 @@
     line-height: 35px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: var(--gray-dark);
+    color: #1c1b1e!important;
     text-transform: none;
     margin-top: 0;
     margin-bottom: 1rem; 

@@ -122,6 +122,10 @@ font-family: 'Parisienne', cursive;
   animation-delay: 0.5s;
 }
 
+section {
+  padding: 5% 0;
+}
+
 @keyframes loader{
   0%{
     transform: scale(0);
