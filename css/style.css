@@ -1488,6 +1488,28 @@ ul.flat-unstyled li > ul > li > a {
   text-transform: capitalize;
 }
 
+.news-hero-section  {
+  position: relative;
+  height: 100vh;
+}
+
+.news-hero-inner {
+  max-width: 80vw;
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+}
+
+.news-hero-inner h1 {
+  font-family: 'Oxygen'; 
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 4.2rem;
+  letter-spacing: 0.133rem;
+  text-transform: capitalize;
+}
+
+
 /*Responsive Text*/
 
 
