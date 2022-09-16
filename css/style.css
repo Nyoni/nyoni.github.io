@@ -1173,7 +1173,7 @@ ul.flat-unstyled li > ul > li > a {
   transform: translateY(30px);
   transition: 0.5s;
 }
-.transition-card .info h1 {
+.transition-card .info h4 {
   margin: 0px;
 }
 .transition-card .info p {
@@ -1192,8 +1192,22 @@ ul.flat-unstyled li > ul > li > a {
   cursor: pointer;
   transition: 0.4s ease;
 }
-.transition-card .info button:hover {
-  background: dodgerblue;
+
+.transition-card .info .read_more-white {
+  padding: 0.6rem;
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.transition-card .info .read_more-white:hover {
+  background: var(--green);
   color: white;
 }
 
