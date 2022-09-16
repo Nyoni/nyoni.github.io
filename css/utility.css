@@ -170,7 +170,6 @@
     font-size: 1rem;
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   }
-
   /*Superscript*/
   .sup {
     position: relative;
@@ -279,44 +278,25 @@
   /*Check List*/
   .desc li i{
     color: 	#029337;
-    font-size: 18.5px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   }
 
   .small-desc li i{
     color: 	#029337;
-    font-size: 17px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   }
-  .desc p {
-      font-family: 'Playfair Display';
-      line-height: 35px;
-      font-size: 19px;
-      letter-spacing: 1px;
-      color: #1b1c1e;
-    }
 
-    .small-desc p {
-      text-align: left;
-        font-size: 17px;
-        letter-spacing: 0.6px;
-      }
-    
-    .desc p > span {
+    .list_item > p {
       letter-spacing: 0.6px;
-      font-size: 19px;
-      margin-left: 10px;
-    }
-
-    .list_item > h4 {
-      letter-spacing: 0.6px;
-      font-size: 19px;
       margin-left: 10px;
       line-height: 30px;
-      color: #ffffff;
+      color: #1e2123;
     }
 
-    .dark-list_item > h4 {
+    .dark-list_item > p {
       letter-spacing: 0.6px;
-      font-size: 18px;
       margin-left: 10px;
       line-height: 30px;
       font-weight: 500;
