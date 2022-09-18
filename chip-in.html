@@ -281,15 +281,15 @@
     <!--Section: Header Menu-->
 
     <!--Section: Hero-->
-    <section class="hero-section"
-    style="background:linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(images/ChipIn/DSC_0630.JPG) ;
+    <div class="hero-section"
+    style="background:linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%), url(images/ChipIn/DSC_0630.JPG) ;
           background-size: cover;">
       <div>
         <div class="hero-inner">
           <h1 class="wow fadeInUp" data-wow-duration="1s">Chip In</h1>
         </div>
       </div>
-    </section>
+    </div>
 
     <div class="main-layout">
       <div id="chip-in" class="chip-in">
@@ -297,9 +297,9 @@
           <section>
             <div class="row d-flex justify-content-center">
               <div class="col-lg-12 col-sm-12">
-                <div class="description">
+                <div class="description d-flex align-content-center align-items-center justify-content-center">
                   <div class="text">
-                    <p>
+                    <p class="text-center">
                       Preserving our natural heritage is an enormous task that needs “all paws on deck.” From the
                       evils of the illegal wildlife trade, to pollution, poaching and ever increasing pressure on our
                       planet, a combined effort is needed to counter or at least limit the effects of these threats.
@@ -308,7 +308,7 @@
                       are threatened by loss of habitat though climate change and other adversities.
                     </p>
   
-                    <p>
+                    <p class="text-center">
                       We acknowledge our role in advancing the attainment of sustainable development goals in 4
                       key areas
                     </p>
@@ -356,7 +356,8 @@
   
                 <div class="description">
                   <div class="text">
-                      <p><span style="font-weight: 600; letter-spacing: 1px; font-size: 18px; color: black; font-family: 'Cairo', sans-serif;">
+                      <p>
+                        <span style="font-weight: 600; letter-spacing: 1px; font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem); color: black;">
                         Zimparks invites you to Chip in<i class="fa fa-paw"></i> with resources or time and play your part in protecting
                         our planet together!
                         </span>
@@ -381,6 +382,10 @@
                   <div class="program-overlay">
                    <a href="">Terrestial Ecology Data Collection and Analysis</a> 
                   </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-sm-10">
@@ -389,13 +394,21 @@
                   <div class="program-overlay">
                     <a href="">Patrols and Road Maintenance Programmes</a>       
                   </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+                  </div>
                 </div>
               </div>
               <div class="col-lg-4 col-sm-10">
                 <div class="chip_in-program">
                   
                   <div class="program-overlay">
-                    <a href="">Marine Biology Research and Lab <br> Analysis</a>         
+                    <a href="">Freshwater Biology Research and Lab <br> Analysis</a>         
+                  </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/sdg14.png" alt="">
                   </div>
                 </div>
               </div>
@@ -406,14 +419,8 @@
                   <div class="program-overlay">
                     <a href="">Fencing Programmes</a>         
                   </div>
-                </div>
-              </div>
-  
-              <div class="col-lg-4 col-sm-10">
-                <div class="chip_in-program">
-                  
-                  <div class="program-overlay">
-                    <a href="">Rhino Dehorning Exercises</a>         
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
                   </div>
                 </div>
               </div>
@@ -422,7 +429,22 @@
                 <div class="chip_in-program">
                   
                   <div class="program-overlay">
-                    <a href="">Translocation of Problem Animals in Vulnerable Communities</a>         
+                    <a href="">Rhino Conservation</a>         
+                  </div>
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-10">
+                <div class="chip_in-program">
+                  
+                  <div class="program-overlay">
+                    <a href="">Animal Translocation</a>         
+                  </div>
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
                   </div>
                 </div>
               </div>
@@ -433,6 +455,12 @@
                   <div class="program-overlay">
                     <a href="">Invasive Species Control</a>         
                   </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+
+                    <img src="images/ChipIn/Goals/sdg14.png" alt="">
+                  </div>
                 </div>
               </div>
   
@@ -440,7 +468,11 @@
                 <div class="chip_in-program">
                   
                   <div class="program-overlay">
-                    <a href="">Community Livelihood Programmes</a>         
+                    <a href="">Community Livelihood Projects</a>         
+                  </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/sdg8.png" alt="">
                   </div>
                 </div>
               </div>
@@ -469,6 +501,10 @@
                   <div class="program-overlay">
                     <a href="">Game Counts</a>         
                   </div>
+
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+                  </div>
                 </div>
               </div>
   
@@ -477,6 +513,9 @@
                   
                   <div class="program-overlay">
                     <a href="">Snake Handling Training</a>         
+                  </div>
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
                   </div>
                 </div>
               </div>
@@ -487,6 +526,9 @@
                   <div class="program-overlay">
                     <a href="">Rescue Injured Animals</a>         
                   </div>
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/Sustainable_Development_Goal_15.png" alt="">
+                  </div>
                 </div>
               </div>
   
@@ -494,7 +536,10 @@
                 <div class="chip_in-program">
                   
                   <div class="program-overlay">
-                    <a href="">Green Solutions to Game Water Supply</a>         
+                    <a href="">Green Game Water Supply</a>         
+                  </div>
+                  <div class="goals-image">
+                    <img src="images/ChipIn/Goals/sdg13.png" alt="">
                   </div>
                 </div>
               </div>

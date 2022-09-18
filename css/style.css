@@ -4071,3 +4071,16 @@ ol.lists li {
   z-index: 1;
   transition: all .2s ease-in-out;
 }
+
+.goals-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.goals-image img {
+  height: 25%;
+  width: 25%;
+  object-fit: cover;
+}
