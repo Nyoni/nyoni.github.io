@@ -3347,10 +3347,10 @@ a.btn.btn-beta {
 .campfire_overview-img {
   background: url(../images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
   background-size: cover;
-  width: 100%;
-  height: 480px;
+  width: 400px;
+  height: 400px;
   margin: 0;
-  border: 15px solid var(--green);
+  border: 5px solid var(--green);
   border-radius: 50%;
 }
 
