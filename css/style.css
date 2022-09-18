@@ -3951,10 +3951,10 @@ ol.lists li {
 /**************************24. CHIP IN************************************************************/
 /**************************************************************************************************/
 
-
 .chip_in-program .program-overlay > a {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
 
 .chip_in-program .program-overlay:hover > a {
