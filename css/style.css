@@ -2256,15 +2256,6 @@ End About Responsive*/
   margin: 0;
 }
 
-.column_image {
-  background: url(../images/Conservation/ParkProtection/RhodesNyangaLodges.jpg) no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-
 .description .column_text p {
   line-height: 27px;
   padding-bottom: 10px;
@@ -3518,11 +3509,6 @@ a.btn.btn-beta {
   padding-bottom: 5px;
   letter-spacing: 3px;
   text-transform: capitalize;
-}
-
-#conservation_education {
-  background-color: var(--primary-background);
-  padding: 90px 0;
 }
 
 #inner_header_post_thumb {
