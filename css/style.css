@@ -1189,12 +1189,16 @@ ul.flat-unstyled li > ul > li > a {
   position: relative;
   z-index: 3;
   color: white;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(30px);
   transition: 0.5s;
 }
-.transition-card .info h4 {
-  margin: 0px;
+.transition-card .info h5 {
+  margin-bottom: 10px;
+}
+
+.transition-card .info  a {
+  color: white;
 }
 .transition-card .info p {
   letter-spacing: 1px;
