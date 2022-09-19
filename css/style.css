@@ -560,14 +560,14 @@ ul.flat-unstyled li > ul > li > a {
  }
  .main-menu > li > a {
   padding: 5px 10px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1.0875rem;
+  font-weight: 400;
   color: #ffffff;
   letter-spacing: 1px;
   transition: color 0.3s;
  }
  .main-menu li:hover > a {
-  transform: scale(1.1);
+  transform: scale(1.03);
  }
  
  /* ---------------------SubMenu--------------------- */
@@ -636,7 +636,7 @@ ul.flat-unstyled li > ul > li > a {
  }
 
  h4.mega-col-title:hover > a {
-  transform: scale(1.1);
+  transform: scale(1.03);
  }
  
  /* ---------------------Media--------------------- */
