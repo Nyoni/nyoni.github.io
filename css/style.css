@@ -2415,9 +2415,22 @@ End About Responsive*/
 
 
 /*Counter under Law Enforcement*/
+/*fire management video*/
 
+.video-header { 
+  position: relative;
+}
+.video-header video {
+  width: 100%;
+  height: auto;
+}
+
+/*end*/
 
 /*Rangeland Management  Video*/
+
+
+
 
 .video_header
 {
