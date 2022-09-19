@@ -499,7 +499,7 @@ ul.flat-unstyled li > ul > li > a {
   height: 350px;
  }
  .img-fit {
-  height: 65%;
+  height: 50%;
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
@@ -556,7 +556,7 @@ ul.flat-unstyled li > ul > li > a {
   display: flex;
   justify-content: end;
   align-items: center;
-  column-gap: 25px;
+  column-gap: 20px;
  }
  .main-menu > li > a {
   padding: 5px 10px;
@@ -620,10 +620,23 @@ ul.flat-unstyled li > ul > li > a {
   padding: 5px 0px;
   color: #fff;
   user-select: none;
+
  }
 
- .mega-col-title h4 {
-  text-transform: uppercase;
+ h4.mega-col-title {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+ }
+
+ .mega-col-title a {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+ }
+
+ h4.mega-col-title:hover > a {
+  transform: scale(1.1);
  }
  
  /* ---------------------Media--------------------- */
