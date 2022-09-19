@@ -303,7 +303,8 @@ ul.flat-support li a {
 	padding-left:7px;
   padding-top: 10px;
   padding-bottom: 10px;
-	font-size:17px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   color: #fff;
 	font-weight:400;
 }
@@ -339,7 +340,8 @@ ul.flat-infomation li.phone {
 ul.flat-infomation li.phone a {
 	height:55px;
 	line-height:59px;
-	font-size:17px;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   color: #ffffff;
   letter-spacing: 1px;
 }
@@ -398,7 +400,8 @@ ul.flat-unstyled > li:nth-child(5) > a {
 ul.flat-unstyled > li > a i {
 	padding-left:10px;
 	padding-right:4px;
-  font-size: 20px;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
 
 ul.flat-unstyled > li:last-child > a i {
@@ -451,7 +454,8 @@ ul.flat-unstyled li > ul > li > a {
 	display:block;
 	padding:1px 15px;
 	line-height:24px;
-	font-size:17px;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
 }
 
 .flat-unstyled.style1 {
@@ -472,12 +476,14 @@ ul.flat-unstyled li > ul > li > a {
 
  .fa-paw {
   margin-left: 5px;
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
 
  .fa-home {
   margin-left: 5px;
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
  .text-center {
   text-align: center;
@@ -1439,7 +1445,8 @@ ul.flat-unstyled li > ul > li > a {
   color: #fff;
 }
 .latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-desc {
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   font-weight: 300;
 }
 .latest-main-wrapper .scroll-content .sc-row .content-article .article-info .ai-footer {
@@ -2476,7 +2483,8 @@ End About Responsive*/
   max-width: 700px;
   line-height: 27px;
   padding-bottom: 10px;
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
 }
 .video_text a
 {
@@ -3618,7 +3626,8 @@ ul.lists li {
   list-style-type: disc;
   line-height: 35px;
   letter-spacing: 0.7px;
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   margin-left: 10px;
 }
 
@@ -3629,7 +3638,8 @@ ol.lists {
 ol.lists li {
   display: list-item;
   list-style-type: decimal;
-  font-size: 16px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   line-height: 35px;
   letter-spacing: 0.7px;
   margin-left: 10px;
