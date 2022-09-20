@@ -1160,11 +1160,21 @@ ul.slick-dots {
 
 /*
 images wrapper
-*/
-.gallerywrapper {
-  display: block;
-  width: 100%;
 
+  @media (max-width: 768px) {
+    .wildlife-section {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+*/
+
+
+.gallerywrapper {
+  display: none;
+  width: 100%;
   -moz-columns: 1;
        columns: 1;
   -moz-column-gap: 0;
