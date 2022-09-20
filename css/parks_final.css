@@ -76,45 +76,19 @@
   .wildlife-section {
     height: 200px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  .animal-section .slide {
-    border: 3px solid var(--primary-background);
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    transition: transform 0.3s linear;
-    transition-delay: 0.5s;
-  }
- 
-  .animal-section .slide img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-
-  }
 
 
-  .animal-section .slide:not(.slick-current) {
-    transform: scale(0.9);
-    transition-delay: 0s;
-  }
-
-
-/*
-  @media (min-width: 768px) {
-    .animal-section img {
-      height: 120px;
-      width: 120px;
+  @media (max-width: 768px) {
+    .wildlife-section {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 10px;
     }
   }
-*/
 
 
   
@@ -149,7 +123,8 @@
     float: left;
     width: 100%;
     text-align: center;
-    font-size: 17px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ccc;
@@ -161,6 +136,19 @@
     -o-transition: 0.3s;
     transition: 0.3s;
   }
+
+  @media (max-width: 767px) {
+    #tabs .tabs-nav > a > img {
+      display: none;
+    }
+
+    #tabs .tabs-nav > a,
+    #tabs-2 .tabs-nav > a {
+      padding: 20px 0 20px 0;
+    }
+  }
+
+
 
   @media (min-width: 768px) {
     #tabs .tabs-nav > a  {
@@ -195,7 +183,8 @@
   #tabs .tabs-nav > a > span,
   #tabs-2 .tabs-nav > a > span {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.1875rem;
+    font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
     letter-spacing: 1px;
   }
   #tabs .tabs-nav > a.active,
@@ -262,6 +251,7 @@
     letter-spacing: 2px;
   }
 
+  
 
   /*National Parks Grids*/
 .national_park-grids {
@@ -810,95 +800,6 @@ ul.slick-dots {
 }
 
 
-/** end testimonial section **/
-.testimonial {
-  background-color: #fff;
-  padding-top: 50px;
-}
-
-.testimonial_Carousel {
-  background: var(--green);
-  padding: 100px 45px;
-}
-
-.margin_boot {
-  padding-right: 0;
-}
-
-
-.testimonial_box .titlepage {
-  text-align: left;
-  padding-bottom: 30px;
-}
-
-.testimonial .titlepage h2 {
-  color: #313131;
-}
-
-.testimonial_box p {
-  color: #313131;
-  font-size: 17px;
-  line-height: 30px;
-}
-
-.testimonial_Carousel .carousel-caption {
-  position: inherit;
-  padding: 0;
-}
-
-.testimonial_box {
-  text-align: left;
-  margin-left: 30px;
-  padding: 45px 30px;
-}
-
-.test_box {
-  padding: 30px 25px;
-  background: #fff;
-}
-
-.testimonial_Carousel .test_box h4 {
-  font-size: 22px;
-  color: var(--green);
-  line-height: 20px;
-  display: block;
-  text-align: center;
-  font-weight: 600;
-  padding: 0;
-  padding-top: 8px;
-}
-
-.testimonial_Carousel .test_box p {
-  font-size: 17px;
-  line-height: 28px;
-  color: #222122;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.testimonial_Carousel .carousel-indicators {
-  bottom: 50px;
-}
-
-.testimonial_Carousel .carousel-indicators li {
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border-radius: 10px;
-}
-
-.testimonial_Carousel .carousel-indicators li.active {
-  background: var(--yellow);
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  display: none;
-}
-
-
-/** end testimonial section **/
-
 
 
 
@@ -1433,227 +1334,6 @@ arrow navigation
   
 /**/
 
-/*National Parks Page*/
-.national_parks-page-content {
-  display: grid;
-  grid-gap: 1rem;
-  padding: 1rem;
-  max-width: 1024px;
-  margin: 0 auto;
-  font-family: var(--font-sans);
-}
-
-@media (min-width: 600px) {
-  .national_parks-page-content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 800px) {
-  .national_parks-page-content {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/*Content part of cards*/
-.national-parks-card .content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 1rem;
-  transition: transform var(--d) var(--e);
-  z-index: 1;
-  color: #ffffff;
-}
-
-.national-parks-card .content > * + * {
-  margin-top: 1rem;
-}
-
-.national_parks-page-content .title {
-  top: 0;
-  font-size: 1rem;
-  line-height: 1.2;
-  color: #ffffff;
-}
-
-.copy {
-  font-family: var(--font-serif);
-  font-size: 15px;
-  font-style: italic;
-  line-height: 1.35;
-  color: #ffffff;
-}
-
-.btn > a {
-  cursor: pointer;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.65rem;
-  font-weight: bold;
-  letter-spacing: 0.025rem;
-  text-transform: uppercase;
-  color: white;
-  background-color: var(--green);
-  border: none;
-}
-
-
-.btn > a:hover {
-  background-color: #0d0d0d;
-}
-
-
-
-@media (hover: hover) and (min-width: 600px) {
-  .national-parks-card:after {
-    transform: translatey(0);
-  }
-
-  .content {
-    transform: translatey(calc(100% - 4.5rem));
-  }
-
-  .content > *:not(.title) {
-    opacity: 0;
-    transform: translatey(1rem);
-    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-  }
-
-  .national-parks-card:hover, .national-parks-card:focus-within {
-    align-items: center;
-  }
-
-  .national-parks-card:hover:before, .national-parks-card:focus-within:before {
-    transform: translatey(-4%);
-  }
-
-  .national-parks-card:hover:after, .national-parks-card:focus-within:after {
-    transform: translatey(-50%);
-  }
-
-  .national-parks-card:hover .content, .national-parks-card:focus-within .content {
-    transform: translatey(0);
-  }
-
-  .national-parks-card:hover .content > *:not(.title), .national-parks-card:focus-within .content > *:not(.title) {
-    opacity: 1;
-    transform: translatey(0);
-    transition-delay: calc(var(--d) / 8);
-  }
-
-  .national-parks-card:focus-within:before, .national-parks-card:focus-within:after, .national-parks-card:focus-within .content, .national-parks-card:focus-within .content > *:not(.title) {
-    transition-duration: 0s;
-  }
-}
-
-
-  /*National Parks*/
-.national-parks-card {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  width: 100%;
-  text-align: center;
-  color: whitesmoke;
-  background-color: whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-@media (min-width: 600px) {
-  .national-parks-card {
-    height: 300px;
-   
-  }
-}
-.national-parks-card:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: transform calc(var(--d) * 1.5) var(--e);
-  pointer-events: none;
-}
-
-.national-parks-card:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  pointer-events: none;
-  /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
-  */
-  transform: translatey(-50%);
-  transition: transform calc(var(--d) * 2) var(--e);
-}
-
-/*Gonarezhou National Park*/
-.national-parks-card:nth-child(1):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/gonarezhou/homebanner.JPG);
-}
-
-/*Hwange National Park*/
-.national-parks-card:nth-child(2):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/hwange/hwange-homebanner.JPG);
-}
-
-/*Matusadonha National Park*/
-.national-parks-card:nth-child(3):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matusadonha/matusa-homebanner.jpg);
-}
-
-/*Chimanimani National Park*/
-.national-parks-card:nth-child(4):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chimanimani/chimanimani-homebanner.JPG);
-}
-
-
-/*Nyanga National Park*/
-.national-parks-card:nth-child(5):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/nyanga/nyanga-homebanner.JPG);
-}
-
-/*Matopos National Park*/
-.national-parks-card:nth-child(6):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/matobo/matopos-1.JPG);
-}
-
-/*Zambezi National Park*/
-.national-parks-card:nth-child(7):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/zambezi/zambezi-homebanner.jpg);
-}
-
-/*Victoria Falls National Park*/
-.national-parks-card:nth-child(8):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/victoriafalls/falls-homebanner.jpg);
-}
-
-/*Chizarira National Park*/
-.national-parks-card:nth-child(9):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/chizarira/chizarira-hommerbanner.JPG);
-}
-
-/*Mana Pools National Park*/
-.national-parks-card:nth-child(10):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/manapools/manapools-homebanner.JPG);
-}
-
-/*Kazuma Pan National Park*/
-.national-parks-card:nth-child(11):before {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/nationalparks/kazumapan/kazumapan-homebanner.png);
-}
-
-
 /*Park Tabs*/
 #experienceTab.nav-pills .nav-link.active {
   color: var(--yellow) !important;
@@ -1680,6 +1360,8 @@ arrow navigation
 }
 
 /*Vertical Tabs*/
+
+
 .mdl-tabs__panel {
   display: none;
 }
@@ -1699,8 +1381,8 @@ arrow navigation
 .vertical-mdl-tabs .mdl-tabs__tab {
     width: 100%;
     height: 85px;
-    font-size: 1.2rem;
-    
+    font-size: 1.1875rem;
+    font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);  
     line-height: 35px;
     box-sizing: border-box;
     letter-spacing: 2px;
