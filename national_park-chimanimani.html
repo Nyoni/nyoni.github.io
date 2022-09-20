@@ -454,7 +454,7 @@
       <!--Section: Animal Slider-->
 
       <!--Section: Parks Tabs-->
-      <div id="parks" class="section_padding">
+      <section id="parks">
           <div id="tabs">
             <div class="container">
             <!--Section: Tab Navigation-->
@@ -493,7 +493,7 @@
               <div class="tab-content active show" data-tab-content="tab1">              
                 
               <!--Section:Overview About Us-->
-              <div id="about_overview" class="container-fluid section_padding">
+              <section id="about_overview">
                 <div class="container">
                   <div class="row">
                     <div class="col-lg-12">
@@ -524,20 +524,20 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
               <!--Section:Overview About Us-->
               
-              <div id="about_overview" class="section_padding ">
+              <section id="about_overview">
                 <div class="container">
                   <div class="mdl-tabs vertical-mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
                     <div class="mdl-grid mdl-grid--no-spacing">
                       <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-cell--12-col-phone">
                           <div class="mdl-tabs__tab-bar">
-                            <a href="#tab1-panel" class="mdl-tabs__tab">
+                            <a href="#tab1-panel" class="mdl-tabs__tab is-active">
                                 <span class="hollow-circle"></span>
                                 Caution
                              </a>
-                             <a href="#tab2-panel" class="mdl-tabs__tab is-active">
+                             <a href="#tab2-panel" class="mdl-tabs__tab ">
                                  <span class="hollow-circle"></span>
                                   How to get there?
                              </a>
@@ -783,77 +783,55 @@
                     </div>
                 </div>
                 </div>  
-              </div>
+              </section>
             
               </div>
               <!--Section: Overview-->
     
                 <!--Activities-->
                 <div class="tab-content" data-tab-content="tab2">
-                  <div class="container">
-                    <div class="row section_padding_100_70">
-                      <div class="col-md-4 ">
-                        <div class="description-container">
-                          <div class="description-title">
-                            <h4>Mountain Hiking</h4>
-                          </div>
-                          <div class="description">
-                            <div class="text">
-                              <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                              </p>
+                  <section class="transition-wrapper-2">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/chimanimani/Activities/hikingchimanimani.jpg);">
+                            <div class="info">
+                              <a
+                                href=""
+                                ><h5>Mountain Hiking</h5></a> 
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-md-8">
-                        <div class="activities-image">
-                          <img src="images/nationalparks/chimanimani/Activities/hikingchimanimani.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row section_padding_100_70">
-                      <div class="col-md-8">
-                        <div class="activities-image">
-                          <img src="images/nationalparks/chimanimani/Activities/gameview.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                         <div class="col-sm-10 left-margin">
-
-
-                          <div class="activities-title">
-                            <h4>Game Viewing</h4>
+                        <div class="col-lg-4">
+                          <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/chimanimani/Activities/gameviewing.jpg);">
+                            <div class="info">
+                              <a
+                                href=""
+                                ><h5>Game Viewing</h5></a>    
+                            </div>
                           </div>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dolor.</p>
                         </div>
-                      </div>
+                        <div class="col-lg-4">
+                          <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/chimanimani/Activities/walkingsafaris.jpg);">
+                            <div class="info">
+                              <a
+                                href=""
+                                ><h5>Walking Safaris</h5></a>    
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/chimanimani/Activities/scenicview.jpg);">
+                            <div class="info">
+                              <a
+                                href=""
+                                ><h5>Scenic Viewing</h5></a>    
+                            </div>
+                          </div>
+                        </div>
+                      </div>              
                     </div>
-                    <div class="row section_padding_100_70">
-                      <div class="col-md-4">
-                        <div class="activities-title">
-                          <h4>Walking Safaris</h4>
-                        </div>
-                      </div>
-                      <div class="col-md-8">
-                        <div class="activities-image">
-                          <img src="images/nationalparks/chimanimani/Activities/walkingsafaris.jpg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row section_padding_100_70">
-                      <div class="col-md-8">
-                        <div class="activities-image">
-                          <img src="images/nationalparks/chimanimani/Activities/scenicview.jpg" alt="">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="activities-title">
-                          <h4>Scenic Viewing</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </section>
                 </div>
                 <!--Activities-->
     
@@ -1088,10 +1066,9 @@
           </div>
     
       <!--Section: Parks Tabs-->
-      </div>
-    </div>
-    <!--JS Files-->
+        </section>
 
+      
     <!--Gallery-->
     <div class='gallerywrapper'>
       <a class='image-box-shadow grid-image' href='#img1'>
@@ -1486,6 +1463,9 @@
       <!-- Footer Bottom Area Start -->
     </footer>
     <!--Section: Footer-->
+    </div>
+    <!--JS Files-->
+
 
     <script src="js/jquery-slim.min.js"></script>
     <script src="js/jquery-ui.js"></script>
@@ -1496,7 +1476,7 @@
     <script src="js/TweenMax.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/slick.min.js"></script>
-                    <script src="js/material.min.js"></script>
+    <script src="js/material.min.js"></script>
     <!--Custom JS-->
     <script src="js/zimparks_menu.js"></script>
     <script src="js/parks_final.js"></script>
