@@ -1361,6 +1361,17 @@ arrow navigation
 
 /*Vertical Tabs*/
 
+@media (max-width: 767px) {
+
+.vertical-mdl-tabs .mdl-tabs__tab {
+    height: 55px;
+    line-height: 25px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+}
+
 
 .mdl-tabs__panel {
   display: none;
