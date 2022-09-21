@@ -94,6 +94,7 @@
 
   body {
 
+    padding: 0;
     margin: 0;  
     height: 100%;
     background-color: #ffffff;
@@ -1320,14 +1321,18 @@ text-align: center;
 .gallery_section .gallery h1 {
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2.5625rem;
+  font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
+  line-height: 1.25;
   position: relative;
   opacity: 0.6;
   transition: 0.4s ease-in-out;
 }
 @media (min-width: 75em) {
   .gallery_section .gallery h1 {
-    font-size: 4rem;
+    font-size: 2.5625rem;
+    font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
+    line-height: 1.25;
   }
 }
 .gallery_section .gallery h1::after {
