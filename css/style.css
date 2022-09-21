@@ -592,7 +592,7 @@ ul.flat-unstyled li > ul > li > a {
   position: relative;
   display: block;
   padding: 7px 15px;
-  font-weight: 500;
+  letter-spacing: 1px;
   color: #ffffff;
  }
  .single-column {
@@ -629,13 +629,14 @@ ul.flat-unstyled li > ul > li > a {
 
  h4.mega-col-title {
   text-transform: capitalize;
-  font-family: 'Play';
+  font-family: 'Playfair Display';
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
 
  .mega-col-title a {
   text-transform: capitalize;
+  letter-spacing: 1px;
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
@@ -646,6 +647,7 @@ ul.flat-unstyled li > ul > li > a {
 
  .mega-item li > a {
   font-size: 0.9rem;
+  letter-spacing: 1px;
  }
  
  /* ---------------------Media--------------------- */
