@@ -124,7 +124,7 @@ font-family: 'Parisienne', cursive;
 }
 
 section {
-  padding: 5% 0;
+  padding: 3% 0;
 }
 
 @keyframes loader{
@@ -3620,7 +3620,7 @@ a.btn.btn-beta {
 }
 
 .section_padding {
-  padding: 3% 0;
+  padding: 2% 0;
 }
 
 #inner_header_post_thumb .dark_overlay {
