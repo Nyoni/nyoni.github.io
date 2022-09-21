@@ -2806,11 +2806,9 @@ End About Responsive*/
 .priority_areas-img {
   background: url(../images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
   width: 100%;
-  min-height: 500px;
-  padding: 30px;
+  height: 100%;
+  padding: 50px;
   margin: 0;
 }
 
