@@ -197,7 +197,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 }
 
 .read_more-white {
-  font-size: 17px;
+  font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -217,7 +218,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 }
 
 .read_more-button {
-  font-size: 17px;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   background-color: transparent;
   border: 1px solid #222122;
   color: #222122;
