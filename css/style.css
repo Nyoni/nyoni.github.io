@@ -599,6 +599,10 @@ ul.flat-unstyled li > ul > li > a {
   min-width: 280px;
   max-width: 350px;
  }
+
+.sub-menu li > a {
+  font-size: 0.95rem;
+}
  
  /* ---------------------Mega Menu--------------------- */
  .mega-menu {
@@ -625,6 +629,7 @@ ul.flat-unstyled li > ul > li > a {
 
  h4.mega-col-title {
   text-transform: capitalize;
+  font-family: 'Play';
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
@@ -637,6 +642,10 @@ ul.flat-unstyled li > ul > li > a {
 
  h4.mega-col-title:hover > a {
   transform: scale(1.03);
+ }
+
+ .mega-item li > a {
+  font-size: 0.9rem;
  }
  
  /* ---------------------Media--------------------- */
