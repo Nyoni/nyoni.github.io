@@ -54,7 +54,7 @@ font-family: 'Parisienne', cursive;
 
 }
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&display=swap');
@@ -1512,18 +1512,21 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .hero-inner {
-  max-width: 687px;
-  position: relative;
+  min-width: 200px;
+  position: absolute;
+  bottom: 40%;
+  left: 8%;
 }
 
 .hero-inner h1 {
   position: relative;
-  font-family: 'Playfair Display'; 
+  font-family: 'Playfair Display', serif;
   color: var(--yellow);
-  font-size: 4rem;
+  font-size: 2.25rem;
+  font-size: clamp(2.25rem, 2rem + 1.25vw, 3.5rem);
+  line-height: 4rem;
   font-weight: 900;
   font-style: italic;
-  line-height: 4.2rem;
   letter-spacing: 0.133rem;
   text-transform: capitalize;
 }
