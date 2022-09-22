@@ -3836,7 +3836,7 @@ ol.lists li {
 
 .tender-section-name {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 /*
@@ -3854,15 +3854,16 @@ ol.lists li {
 .tender-section-name h3 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
   color: #d3d3d3;
 }
 
 .tender-section-name h1 {
-  margin: 10px 0;
-  padding: 1rem;
+  margin: 0 0 10px;
   color: rgba(0, 46, 14, 0.457);
-  font-size: 3.5rem;
+  font-size: 2.125rem;
+  font-size: clamp(2.125rem, 2rem + 0.625vw, 2.75rem);
   font-weight: 700;
 }
 
@@ -3876,6 +3877,9 @@ ol.lists li {
   margin-bottom: 25px;
 }
 
+.main-tender-section {
+  padding: 1rem;
+}
 .main-tender-section > hr {
   position: relative;
   top: 10px;
@@ -3883,6 +3887,12 @@ ol.lists li {
   height: 5px;
   background: var(--green);
   margin-bottom: 25px;
+}
+
+.main-tender-section .text p {
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 #tenders .tender-name {
@@ -3904,6 +3914,7 @@ ol.lists li {
 #tenders .closing-date-name,
 #tenders .applicants-name, 
 #tenders .status-name {
+
   padding: 1rem;
   margin: 10px 10px;
 }
@@ -3911,12 +3922,18 @@ ol.lists li {
 #tenders .closing-date-name h4,
 #tenders .applicants-name h4, 
 #tenders .status-name h4 {
-
-  font-size: 1.2rem;
-  letter-spacing: 0.7px;
-  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #063970;
 }
 
+#tenders .closing-date-name h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
 .sub_requirements .sub-title h4 {
   font-family: 'Playfair Display'; 
   color: #222122;
