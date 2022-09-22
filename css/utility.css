@@ -126,6 +126,14 @@
 
   }
 
+  @media (max-width: 768px) {
+
+    p {
+      line-height: 28px;
+      margin-bottom: 0.7rem;
+    }
+  }
+
   h1,
   h2,
   h3,
