@@ -81,9 +81,10 @@
   
   html {
     height: 100%;
+    width: auto!important;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
     text-decoration: none;
@@ -93,7 +94,8 @@
   
 
   body {
-
+  
+    width: auto!important;
     padding: 0;
     margin: 0;  
     height: 100%;
