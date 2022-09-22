@@ -131,7 +131,13 @@
     p {
       line-height: 28px;
       margin-bottom: 0.7rem;
+      text-align: justify;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
     }
+
+    
   }
 
   h1,
