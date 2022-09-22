@@ -1504,7 +1504,7 @@ ul.flat-unstyled li > ul > li > a {
 
 .hero-section  {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -1514,8 +1514,8 @@ ul.flat-unstyled li > ul > li > a {
 .hero-inner {
   min-width: 200px;
   position: absolute;
-  bottom: 40%;
-  left: 8%;
+  bottom: 30%;
+  left: 28%;
 }
 
 .hero-inner h1 {
