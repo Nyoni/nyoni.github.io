@@ -3936,19 +3936,21 @@ ol.lists li {
 }
 .sub_requirements .sub-title h4 {
   font-family: 'Playfair Display'; 
-  color: #222122;
-  font-size: 1.8rem;
-  font-weight: 500;
+  color: #000;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+  font-weight: 700;
   margin-bottom: 10px;
   padding-bottom: 5px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: capitalize;
 }
 
 .sub_requirements .requirements_list ol li {
   list-style: decimal;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   margin: 10px 30px;
 }
 
@@ -3986,12 +3988,10 @@ ol.lists li {
   
 }
 @media (max-width: 991px) {
-  .responsive-table__head {
-    display: none;
-  }
+
 }
 .responsive-table__head__title {
-  font-size: 20px;
+  font-size: 1.1875rem;
   display: flex;
   align-items: center;
   font-weight: 500;
