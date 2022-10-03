@@ -351,27 +351,24 @@
                   <p>National Park</p>
                 </div>
               </div>
-              <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/victoriafalls/falls-homebanner.jpg);">
+              <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/victoriafalls/Attractions/Victoria-Falls-Rainforest.jpg);">
                 <div class="info">
-                  <h5>Victoria Falls</h5>
-                  
-                  <p>                      <a
-                    class="read_more-white"
-                    href="national_park-vicfall.html"
-                    >Visit</a
-                  ></p></div>
+                  <a
+                  href="national_park-vicfall.html"
+                  ><h5>Victoria Falls</h5>
+                </a>
+                  <p>National Park</p>
+                </div>
               </div>
 
               <div class="transition-card" style="background-size: cover; background-position: center; background-image: url(images/nationalparks/zambezi/zambezi-homebanner.jpg);">
                 <div class="info">
-                  <h5>Zambezi</h5>
+                  <a
+                  href="national_park-zambezi.html"
+                  ><h5>Zambezi</h5>
+                </a>
                   <p>National Park</p>
-                  
-                  <p><a
-                    class="read_more-white"
-                    href="national_park-zambezi.html"
-                    >Visit</a
-                  ></p></div>
+                </div>
               </div>
             </div>         
           </section>
@@ -661,7 +658,9 @@
     <script>
       $(".custom-carousel").owlCarousel({
   autoWidth: true,
-  loop: true,
+  nav: true,
+  navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+   loop: true,
   autoplayHoverPause: true,
   autoplay: true
 });

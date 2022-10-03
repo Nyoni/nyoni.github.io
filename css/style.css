@@ -1157,11 +1157,11 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .transition-card {
-  width: 320px;
-  height: 400px;
+  width: 350px;
+  height: 450px;
   border-radius: 5px;
-  margin: 0 10px 40px;
-  padding: 1.5rem;
+  margin: 0 10px 0;
+  padding:0 1.5rem;
   background: white;
   position: relative;
   display: flex;
@@ -1211,8 +1211,9 @@ ul.flat-unstyled li > ul > li > a {
   transform: translateY(30px);
   transition: 0.5s;
 }
+
 .transition-card .info h5 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .transition-card .info  a {
@@ -1221,7 +1222,7 @@ ul.flat-unstyled li > ul > li > a {
 .transition-card .info p {
   letter-spacing: 1px;
   font-size: 15px;
-  margin-top: 8px;
+  margin-bottom: 30px;
 }
 .transition-card .info button {
   padding: 0.6rem;
@@ -1253,7 +1254,46 @@ ul.flat-unstyled li > ul > li > a {
   color: white;
 }
 
+.custom-carousel .fa-chevron-left,
+.custom-carousel .fa-chevron-right{
+  color: var(--green);
+  height: 47px;
+  font-size: 2.5rem;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 38% !important;
+  opacity: 0.5;
+}
 
+.custom-carousel .owl-prev.disabled,
+.custom-carousel .owl-next.disabled{
+pointer-events: none;
+opacity: 0.2;
+}
+
+.custom-carousel .fa-chevron-left {
+  left: -33px;
+}
+.custom-carousel .fa-chevron-right {
+  right: -33px;
+}
+.custom-carousel .fa-chevron-left:hover{
+ background-position: 0px -53px;
+ opacity: 1;
+}
+.custom-carousel .fa-chevron-right:hover{
+background-position: -24px -53px;
+opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .custom-carousel .fa-chevron-left,
+  .custom-carousel .fa-chevron-right{
+    opacity: 0;
+  }
+  
+}
 /*end home 2*/
 
 
