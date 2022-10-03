@@ -1683,22 +1683,23 @@ End About Responsive*/
 
 .about .about-tab .nav.nav-pills .nav-link:hover,
 .about .about-tab .nav.nav-pills .nav-link.active {
-  color: #4b3e36;
+  color: var(--green);
     padding-bottom: 7px;
-    border-bottom: 3px solid #4b3e36;
+    border-bottom: 3px solid var(--green);
 }
 
 .nav-item > a {
-  color: #1e2426;
+  color: #ccc;
   transition: .3s;
-  font-size: 1.5rem;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
   letter-spacing: 1px;
 }
 
 .nav-item > a:hover,
 .nav-item > a:active,
 .nav-item > a:focus {
-  color: #4b3e36;
+  color: var(--green);
   outline: none;
   text-decoration: none;
 }
@@ -1798,6 +1799,17 @@ End About Responsive*/
   height: 100%; 
 
 }
+
+@media (max-width: 767px) { 
+
+  .protected_area-image {
+
+     width: 80px;
+      height: 80px; 
+      border-radius: 50%;
+  }
+}
+
 
 /*Our Partners Logos*/
 
@@ -2315,11 +2327,11 @@ End About Responsive*/
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-family: "Playfair Display";
-  font-size: 1rem;
-  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
   letter-spacing: 5px;
   margin: 10px 0 0 0;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 
