@@ -1549,18 +1549,19 @@ opacity: 1;
 
 .hero-section  {
   position: relative;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
+
 }
 
 .hero-inner {
-  min-width: 200px;
-  position: absolute;
-  bottom: 30%;
-  left: 28%;
+  min-width: 500px;
+  position: relative;
+
 }
 
 .hero-inner h1 {
@@ -1575,6 +1576,7 @@ opacity: 1;
   letter-spacing: 0.133rem;
   text-transform: capitalize;
 }
+
 
 .news-hero-section  {
   position: relative;
