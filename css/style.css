@@ -160,11 +160,7 @@ section {
   visibility: hidden;
   z-index: 1000;
 }
-#back-button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
+#back-button .fa-arrow-up {
   font-size: 2em;
   line-height: 50px;
   color: #fff;
