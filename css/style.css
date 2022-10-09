@@ -4177,3 +4177,16 @@ ol.lists li {
   width: 25%;
   object-fit: cover;
 }
+
+
+#chip-in-program {
+  margin-top: 50px 0;
+  padding: 50px 0;
+
+}
+
+.chip-in-block {
+  padding: 40px 30px;
+  background-color: #fff;
+
+}
