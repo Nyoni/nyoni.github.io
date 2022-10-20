@@ -938,6 +938,39 @@ ul.flat-unstyled li > ul > li > a {
   background: #e73700;
 }
 
+/********* Statistics Section ************/
+.stats-images img{
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 80px;
+  filter: invert(13%) sepia(39%) saturate(1854%) hue-rotate(127deg) brightness(101%) contrast(107%);
+
+}
+
+
+@media (max-width: 767px) {
+  .stats-images img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .stats-section .description .text {
+    width: 100%;
+    text-align: center;
+
+  }
+}
+
+.stats-section .description .text {
+  width: 80%;
+  text-align: center;
+
+}
+
+
+
 /******* Middle section CSS Start ******/
 /* -------- Landing page ------- */
 
