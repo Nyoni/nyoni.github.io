@@ -674,6 +674,13 @@ ul.flat-unstyled li > ul > li > a {
  
  /* ---------------------Media--------------------- */
  @media only screen and (max-width: 992px) {
+
+  .header {
+
+    background-color: var(--green);
+  
+   }
+  
   .header-top {
     display: none;
   }
