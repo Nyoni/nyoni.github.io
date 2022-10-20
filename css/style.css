@@ -973,6 +973,27 @@ ul.flat-unstyled li > ul > li > a {
 
 /******* Middle section CSS Start ******/
 /* -------- Landing page ------- */
+.chip_in-program {
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .chip_in-program {
+    height: 350px;
+  }
+}
+
+
 
 .game-section .owl-stage {
   margin: 15px 0;
@@ -1153,55 +1174,27 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 
-
-
-/*** i. hero section ***/
-
-.home-hero-section{
+.chip_in-program {
+  margin-bottom: 2rem;
   position: relative;
-  min-height: 700px;
-  background: url(../images/banner-img/home-banner.JPG); /*background image*/
-  background-size: cover;
-  background-position: center;
-  justify-content: center;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  height: 300px;
+  width: 100%;
   text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .transition-card {
+    height: 370px;
+    width: 320px;
+  }
 }
 
-.home-hero-section:before{
-  opacity: 0.35;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-.home-hero-inner{
-  max-width: 700px;
-  position: relative;
-}
-
-.home-hero-inner h1{
-  color: #ffffff;
-  font-size: 52px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  margin-bottom: 30px;
-  text-transform: capitalize;
-}
-
-.home-hero-inner h5 {
-  color: white;
-  margin-bottom: 40px;
-  font-size: 24px;
-  text-transform: none;
-  letter-spacing: 5px;
-}
-
-.home-hero-inner .sub-title {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  color: var(--green);
-}
 
 .transition-wrapper {
   display: flex;
@@ -1210,17 +1203,17 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .transition-card {
-  width: 350px;
-  height: 450px;
+  width: 270px;
+  height: 320px;
   border-radius: 5px;
   margin: 0 10px 0;
   padding:0 1.5rem;
-  background: white;
+  background: whitesmoke;
   position: relative;
   display: flex;
   align-items: flex-end;
   transition: 0.4s ease-out;
-  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
 .transition-card:hover {
   transform: translateY(20px);
@@ -1276,6 +1269,7 @@ ul.flat-unstyled li > ul > li > a {
   letter-spacing: 1px;
   font-size: 15px;
   margin-bottom: 30px;
+  opacity: 0;
 }
 .transition-card .info button {
   padding: 0.6rem;
