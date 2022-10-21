@@ -6,9 +6,9 @@
     $(function() {
         $(window).on("scroll", function() {
             if($(window).scrollTop() > 50) {
-                $(".main-header").addClass("green-header");
+                $(".menu-container").addClass("fixed-header-menu");
             } else {
-               $(".main-header").removeClass("green-header");
+               $(".menu-container").removeClass("fixed-header-menu");
             }
         });
     });

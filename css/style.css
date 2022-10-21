@@ -235,9 +235,10 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 }
 /**************************02. MENU******************************************************/
 /************************************************************************************/
+
 .header-top {
-  background-color: #013220;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1e2426;
   padding: 10px 0;
   z-index: 1000;
 }
@@ -261,7 +262,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 
 .header-top.style2 ul.flat-support > li >
 a {
-	color:#fff;
+	color:#1b1c1e;
 }
 
 .header-top-2.style2 ul.flat-support > li >
@@ -306,14 +307,14 @@ ul.flat-support li {
 }
 
 ul.flat-support li a {
-	border-right:1px solid #e5e5e5;
+	border-right:1px solid #013220;
 	padding-right:10px;
 	padding-left:7px;
   padding-top: 10px;
   padding-bottom: 10px;
     font-size: 1rem;
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
-  color: #fff;
+  color: #1c1b1e;
 	font-weight:400;
 }
 
@@ -551,11 +552,11 @@ ul.flat-unstyled li > ul > li > a {
 
  /* ---------------------Header--------------------- */
  .header {
-  position: absolute;
+  position: fixed;
   display: block;
   width: 100%;
   z-index: 99;
-  background-color: transparent;
+  background-color: var(--green);
 
  }
 
