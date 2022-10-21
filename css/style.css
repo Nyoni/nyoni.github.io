@@ -1623,6 +1623,13 @@ opacity: 1;
 .hero-inner {
   min-width: 300px;
   position: relative;
+  display: block;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 50%);
+  text-shadow: 0px 0px 5px #000000;
 
 }
 
@@ -1637,7 +1644,7 @@ opacity: 1;
 .hero-inner h1 {
   position: relative;
   font-family: 'Playfair Display', serif;
-  color: var(--yellow);
+  color: whitesmoke;
   font-size: 2.5625rem;
   font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
   line-height: 4rem;
