@@ -184,6 +184,8 @@
   h4 {
     font-size: 1.4375rem;
     font-size: clamp(1.4375rem, 1.35rem + 0.43750000000000006vw, 1.875rem);
+    line-height: 2.5rem;
+    letter-spacing: 2px;
   }
   
   h5 {

@@ -3963,6 +3963,16 @@ ol.lists li {
   font-weight: 700;
 }
 
+.conservation-section-name h1 {
+  margin: 0 0 20px;
+  color: rgba(0, 46, 14, 0.457);
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
 .tender-section-name hr {
   width: 70%;
   position: relative;
