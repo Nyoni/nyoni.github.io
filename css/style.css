@@ -316,6 +316,8 @@ ul.flat-support li a {
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   color: #1c1b1e;
 	font-weight:400;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 
 .header-top-2 ul.flat-support li a {
@@ -3586,10 +3588,6 @@ a.btn.btn-beta {
 
 
 
-#campfire_overview {
-  background-color: var(--primary-background);
-  padding: 90px 0;
-}
 
 .campfire_overview-img {
   background: url(../images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
@@ -3600,6 +3598,14 @@ a.btn.btn-beta {
   border: 5px solid var(--green);
   border-radius: 50%;
 }
+
+@media (max-width: 767px) {
+  .campfire_overview-img {
+    width: 200px;
+    height: 200px;
+  }
+ }
+
 
 .campfire-about #inner_header_post_thumb {
   background-position: center;
