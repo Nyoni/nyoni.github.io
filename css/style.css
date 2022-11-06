@@ -982,6 +982,29 @@ ul.flat-unstyled li > ul > li > a {
 
 
 /******* Middle section CSS Start ******/
+/** Legislation **/
+.legislation-program {
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  color: #1e2426;
+  background-color: #ffffff;
+ }
+
+@media (min-width: 600px) {
+  .legislation-program {
+    height: 350px;
+  }
+}
+
+
+
 /* -------- Landing page ------- */
 .chip_in-program {
   margin-bottom: 2rem;
@@ -997,6 +1020,7 @@ ul.flat-unstyled li > ul > li > a {
   background-color: whitesmoke;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
+
 @media (min-width: 600px) {
   .chip_in-program {
     height: 350px;
@@ -4184,6 +4208,16 @@ ol.lists li {
   transform: scale(1.1);
 }
 
+.legislation-program .program-overlay > a {
+  color: #1e2426;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+}
+
+.legislation-program .program-overlay:hover > a {
+  transform: scale(1.1);
+}
+
 
 .chip_in-program {
   margin-bottom: 2rem;
@@ -4249,6 +4283,19 @@ ol.lists li {
 }
 
 .goals-image img {
+  height: 25%;
+  width: 25%;
+  object-fit: cover;
+}
+
+.statutory-image {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  z-index: 100;
+}
+
+.statutory-image img {
   height: 25%;
   width: 25%;
   object-fit: cover;
