@@ -1129,20 +1129,21 @@ ul.slick-dots {
   }
   .table_wrapper .row.table-header {
     padding: 0;
-    height: 6px;
+    height: 16px;
   }
   .table_wrapper .row.table-header .cell {
     display: none;
   }
   .table_wrapper .row .cell {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .table_wrapper .row .cell:before {
-    margin-bottom: 3px;
+    margin-bottom: 13px;
     content: attr(data-title);
     min-width: 98px;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+    line-height: 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: #969696;
@@ -1151,12 +1152,12 @@ ul.slick-dots {
 }
 
 .table_wrapper .row .cell {
-  padding: 6px 12px;
+  padding: 26px 12px;
   display: table-cell;
 }
 @media screen and (max-width: 580px) {
   .table_wrapper .row .cell {
-    padding: 2px 16px;
+    padding: 12px 16px;
     display: block;
   }
 }
@@ -1270,6 +1271,8 @@ images wrapper
 .cell {
   box-flex: 1;
   flex: 1 1 auto;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
 }
 
 .zoom-image {
