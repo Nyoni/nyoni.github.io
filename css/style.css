@@ -2308,6 +2308,7 @@ End About Responsive*/
   box-sizing: border-box;
   font-family: "Pathway Gothic One", sans-serif;
   color: #fff;
+  text-shadow: 0px 0px 5px #000000;
 }
 .timeline__content-desc {
   margin: 0;
