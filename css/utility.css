@@ -1,7 +1,9 @@
 /*Font Families*/ 
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-  
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+
 @font-face {
     font-family: 'nanummyeongjoregular';
     src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
@@ -200,9 +202,13 @@
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   }
 
+  .section-header h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
   @media (max-width: 767px) { 
 
-    .section-header {
+    .section-header > h3 {
       justify-content: center;
       align-items: center;
       text-align: center;
