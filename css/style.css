@@ -906,11 +906,11 @@ ul.flat-unstyled li > ul > li > a {
 	position: absolute;
 }
 
-.content {
+.video-content {
 	z-index: 2;
 }
 
-.content h1 {
+.video-content h1 {
   font-family: 'PlayFair Display';
   font-style: italic;
   letter-spacing: 2px;
@@ -1207,7 +1207,7 @@ ul.flat-unstyled li > ul > li > a {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 
-.content {
+ .content {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1218,12 +1218,13 @@ ul.flat-unstyled li > ul > li > a {
   transition: transform var(--d) var(--e);
   z-index: 1;
   color: whitesmoke;
+
 }
 
-.content > a {
+ .content > a {
   color: whitesmoke;
 }
-.content > * + * {
+ .content > * + * {
   margin-top: 1rem;
 }
 
