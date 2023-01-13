@@ -607,6 +607,7 @@ ul.flat-unstyled li > ul > li > a {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  border-top: #fff;
  }
  @media only screen and (min-width: 992px) {
   .menu-with-submenu:hover .sub-menu {
