@@ -589,7 +589,7 @@ ul.flat-unstyled li > ul > li > a {
   padding: 5px 10px;
   font-size: 1.0875rem;
   font-weight: 400;
-  color: #ffffff;
+  color: yellow;
   letter-spacing: 1px;
   transition: color 0.3s;
  }
