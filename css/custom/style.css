@@ -4186,6 +4186,8 @@ ol.lists li {
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
 
+
+
 .chip_in-program .program-overlay:hover > a {
   transform: scale(1.1);
 }
@@ -4303,6 +4305,12 @@ ol.lists li {
   padding: 1rem;
   z-index: 1;
   transition: all .2s ease-in-out;
+}
+
+.home_statistics .program-overlay > a {
+  color: #ffffff;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
 
 .goals-image {
