@@ -1427,21 +1427,21 @@ text-align: center;
   visibility: visible;
 }
 .gallery_section .gallery div:nth-of-type(1) {
-  background: url("../images/greatzimbabwe/great_zimbabwe.jpg") no-repeat 30% 50%/cover;
+  background: url("/images/greatzimbabwe/great_zimbabwe.jpg") no-repeat 30% 50%/cover;
 }
 .gallery_section .gallery div:nth-of-type(2) {
-  background: url("../images/khamiruins/khamiruins.jpg") no-repeat 50% 50%/cover;
+  background: url("/images/khamiruins/khamiruins.jpg") no-repeat 50% 50%/cover;
 }
 .gallery_section .gallery div:nth-of-type(3) {
-  background: url("../images/nationalparks/manapools/manapools-homebanner.JPG") no-repeat 50% 50%/cover;
+  background: url("/images/nationalparks/manapools/manapools-homebanner.JPG") no-repeat 50% 50%/cover;
 }
 
 .gallery_section .gallery div:nth-of-type(4) {
-  background: url("../images/nationalparks/matobo/matopos-1.JPG") no-repeat 50% 50%/cover;
+  background: url("/images/nationalparks/matobo/matopos-1.JPG") no-repeat 50% 50%/cover;
 }
 
 .gallery_section .gallery div:nth-of-type(5) {
-  background: url("../images/nationalparks/victoriafalls/Attractions/falls-homebanner.jpg") no-repeat 50% 50%/cover;
+  background: url("/images/nationalparks/victoriafalls/Attractions/falls-homebanner.jpg") no-repeat 50% 50%/cover;
 }
 
 

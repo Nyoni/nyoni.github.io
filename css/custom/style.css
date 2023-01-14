@@ -1343,11 +1343,11 @@ opacity: 1;
 
 /*home 3*/
 .ca-1 {
-  background: url("../images/Blogs-News/SingleBlog3/projectwildlife.png") no-repeat center center;
+  background: url("/images/Blogs-News/SingleBlog3/projectwildlife.png") no-repeat center center;
 }
 
 .ca-2 {
-  background: url("../images/Blogs-News/ca-2/ca-2.webp") no-repeat center center;
+  background: url("/images/Blogs-News/ca-2/ca-2.webp") no-repeat center center;
 }
 
 .ca-3 {
@@ -1385,7 +1385,7 @@ opacity: 1;
   position: relative;
   width: 100%;
   height: 100%;
-  background: url("../images/nationalparks/hwange/hwange-homebanner.JPG") no-repeat center center fixed;
+  background: url("/images/nationalparks/hwange/hwange-homebanner.JPG") no-repeat center center fixed;
   background-size: cover;
   box-shadow: 0 5px 60px 10px rgba(0, 0, 0, 0.75);
   transition: all 0.5s ease;
@@ -2456,7 +2456,7 @@ End About Responsive*/
 }
 
 .protection_overview-img {
-  background: url(../images/Conservation/ParkProtection/RangersatWork.JPG) no-repeat center center;
+  background: url(/images/Conservation/ParkProtection/RangersatWork.JPG) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -2465,7 +2465,7 @@ End About Responsive*/
 }
 
 .fire_management-img {
-  background: url(../images/Conservation/ParkProtection/LadyRangers.JPG) no-repeat center center;
+  background: url(/images/Conservation/ParkProtection/LadyRangers.JPG) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -2474,7 +2474,7 @@ End About Responsive*/
 }
 
 .water_management-img {
-  background: url(../images/Conservation/ParkProtection/RhodesNyangaLodges.jpg) no-repeat center center;
+  background: url(/images/Conservation/ParkProtection/RhodesNyangaLodges.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -2750,7 +2750,7 @@ End About Responsive*/
   position: relative;
   height: 100vh;
   /*Par Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ParkProtection/LadyRangers.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ParkProtection/LadyRangers.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2765,7 +2765,7 @@ End About Responsive*/
   position: relative;
   height: 100vh;
   /*Par Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchPolicy/RoadTarmac.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationResearch/ResearchPolicy/RoadTarmac.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2800,7 +2800,7 @@ End About Responsive*/
 }
 
 .research_policy-img {
-  background: url(../images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
+  background: url(/images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
   background-size: cover;
   object-fit: cover;
   background-position: center;
@@ -2823,7 +2823,7 @@ End About Responsive*/
   position: relative;
   height: 100vh;
   /*Research Priority Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchStrategy/SunsetMana.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationResearch/ResearchStrategy/SunsetMana.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2880,7 +2880,7 @@ End About Responsive*/
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/Conservation/ConservationResearch/ResearchStrategy/Butterfly.jpg);
+  background-image: url(/images/Conservation/ConservationResearch/ResearchStrategy/Butterfly.jpg);
   height: 100vh;
 }
 
@@ -2918,7 +2918,7 @@ End About Responsive*/
   position: relative;
   height: 100vh;
   /*Research Priority Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchPriorities/Elephant.jpg);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationResearch/ResearchPriorities/Elephant.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2949,7 +2949,7 @@ End About Responsive*/
 
 
 .priority_areas-img {
-  background: url(../images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
+  background: url(/images/Conservation/ConservationResearch/ResearchPolicy/PACQueleaControl.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -2983,7 +2983,7 @@ End About Responsive*/
   position: relative;
   height: 100vh;
   /*Research Monitoring Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaSunset2.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationResearch/ResearchMonitoring/ManaSunset2.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3019,7 +3019,7 @@ body #terrestial_research-monitoring {
 }
 
 body #terrestial_research-monitoring .background-imgholder {
-	background: url(../images/Conservation/ConservationResearch/ResearchMonitoring/Giraffe.JPG);
+	background: url(/images/Conservation/ConservationResearch/ResearchMonitoring/Giraffe.JPG);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -3074,7 +3074,7 @@ body #terrestial_research-monitoring .text-inner {
 #aquatic_research-monitoring {
   margin: 50px 0;
   padding: 50px 0;
-  background-image: url(../images/Conservation/ConservationResearch/ResearchMonitoring/ManaPools5.JPG);
+  background-image: url(/images/Conservation/ConservationResearch/ResearchMonitoring/ManaPools5.JPG);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3134,7 +3134,7 @@ body #terrestial_research-monitoring .text-inner {
   position: relative;
   height: 100vh;
   /*Research Management Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationResearch/ResearchPartnership/Nyanga.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationResearch/ResearchPartnership/Nyanga.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3173,7 +3173,7 @@ body #terrestial_research-monitoring .text-inner {
   position: relative;
   height: 100vh;
   /*Conservancies Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CommunityConservancies/ConservationEducation.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/CommunityConservancies/ConservationEducation.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3215,7 +3215,7 @@ body #community_conservancies-overview {
 }
 
 body #community_conservancies-overview .background-imgholder {
-	background: url(../images/Conservation/CommunityConservancies/Chivero.JPG);
+	background: url(/images/Conservation/CommunityConservancies/Chivero.JPG);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -3278,7 +3278,7 @@ body #community_conservancies-overview .text-inner {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/Conservation/CommunityConservancies/Fishing.JPG);
+  background-image: url(/images/Conservation/CommunityConservancies/Fishing.JPG);
   height: 100vh;
 }
 
@@ -3315,7 +3315,7 @@ body #community_conservancies-overview .text-inner {
   position: relative;
   height: 100vh;
   /*Human Wildlife Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/vetdoc.png);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/HumanWildlife/vetdoc.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3424,7 +3424,7 @@ a.btn.btn-beta {
   z-index: 3;
 }
 .box .box-left {
-  background: url(../images/Conservation/HumanWildlife/CrocodileAttackinSimatelele\,Binga\ District.jpeg) 50% 50%;
+  background: url(/images/Conservation/HumanWildlife/CrocodileAttackinSimatelele\,Binga\ District.jpeg) 50% 50%;
   background-size: cover;
   color: #fff;
   filter: blur(8px);
@@ -3552,7 +3552,7 @@ a.btn.btn-beta {
   position: relative;
   height: 100vh;
   /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CAMPFIRE/DSC_0634.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/CAMPFIRE/DSC_0634.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3607,7 +3607,7 @@ a.btn.btn-beta {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/Conservation/CommunityConservancies/Fishing.JPG);
+  background-image: url(/images/Conservation/CommunityConservancies/Fishing.JPG);
   height: 100vh;
 }
 
@@ -3647,7 +3647,7 @@ a.btn.btn-beta {
   position: relative;
   height: 100vh;
   /*Human Wildlife Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/HumanWildlife/DSC_0914.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/HumanWildlife/DSC_0914.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3689,7 +3689,7 @@ a.btn.btn-beta {
   position: relative;
   height: 100vh;
   /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/CommunityOutreach/DSC_0979.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/CommunityOutreach/DSC_0979.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3730,7 +3730,7 @@ a.btn.btn-beta {
   position: relative;
   height: 100vh;
   /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/Conservation/ConservationEducation/DSC_0404.JPG);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationEducation/DSC_0404.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3764,7 +3764,7 @@ a.btn.btn-beta {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  background-image: url(../images/Conservation/CommunityConservancies/Fishing.JPG);
+  background-image: url(/images/Conservation/CommunityConservancies/Fishing.JPG);
   height: 100vh;
 }
 
@@ -3912,7 +3912,7 @@ ol.lists li {
 /**************************************************************************************************/
 
 .commissions_overview-img {
-  background: url(../images/Conservation/JointCommissions/DSC_0225.JPG) no-repeat center center;
+  background: url(/images/Conservation/JointCommissions/DSC_0225.JPG) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -5014,7 +5014,7 @@ margin-bottom: 65px;
 #reservation {
 margin-top: 120px;
 padding: 120px 0px;
-background-image: url(../images/gonarezhou/Activities/gamedrive.jpg);
+background-image: url(/images/gonarezhou/Activities/gamedrive.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -5921,7 +5921,7 @@ color: white;
 .single_blog-1-hero-section{
   position: relative;
   height: 100vh;
-  background: url(../images/internationalconventions/cites/ivory-stock-piles.jpg); /*background image*/
+  background: url(/images/internationalconventions/cites/ivory-stock-piles.jpg); /*background image*/
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -5955,7 +5955,7 @@ color: white;
   position: relative;
   height: 100vh;
   /*Leadership Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(../images/about_us/about_us-banner.jpg);
+  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/about_us/about_us-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
