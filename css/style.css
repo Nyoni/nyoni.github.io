@@ -241,25 +241,8 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 .header-top {
   background-color: #ffffff;
   color: #1e2426;
-  padding: 10px 0;
+  padding: 3px 0;
   z-index: 1000;
-}
-
-.header-top-2 {
-  background-color: #ffffff;
-  color: #1e2426;
-  padding: 20px 0;
-  z-index: 1000;
-}
-.header-top.style1 {
-	background-color:#f5f5f5;
-	padding:20px 0;
-}
-
-.header-top.style2 {
-	background-color:#ffa020;
-	padding:0px 0;
-	border-bottom:none;
 }
 
 .header-top.style2 ul.flat-support > li >
@@ -314,27 +297,12 @@ ul.flat-support li a {
 	padding-left:7px;
   padding-top: 10px;
   padding-bottom: 10px;
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+    font-size: 0.9rem;
   color: #1c1b1e;
-	font-weight:400;
+	font-weight:900;
   text-transform: uppercase;
   opacity: 0.7;
 }
-
-.header-top-2 ul.flat-support li a {
-	border-right:1px solid #e5e5e5;
-	padding-right:10px;
-	padding-left:7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-    font-size: 1.1875rem;
-    font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
-  color: #1c1b1e;
-	font-weight:400;
-}
-
 
 ul.flat-support li:first-child > a {
 	padding-left:0;
@@ -343,13 +311,6 @@ ul.flat-support li:first-child > a {
 ul.flat-support li:last-child > a {
 	padding-right:0;
 	border-right:none;
-}
-
-ul.flat-support.style1 > li,
-ul.flat-unstyled.style2 > li {
-	display:inline-block;
-	line-height:27px;
-	height:24px;
 }
 
 /* Flat Infomation */
@@ -493,8 +454,8 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .logo-img img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .fa-angle-down {
@@ -543,7 +504,6 @@ ul.flat-unstyled li > ul > li > a {
  /* ---------------------Main CSS--------------------- */
  .menu-container {
   position: relative;
-  max-width: 1220px;
   margin: auto;
  }
  .aic {
@@ -552,6 +512,11 @@ ul.flat-unstyled li > ul > li > a {
   flex-wrap: wrap;
   align-items: center;
  }
+
+ a.aic:hover {
+  border-bottom: 3px solid yellow;
+}
+
 
 
  /* ---------------------Header--------------------- */
@@ -581,9 +546,10 @@ ul.flat-unstyled li > ul > li > a {
  /* ---------------------Main Menu--------------------- */
  .main-menu {
   display: flex;
+  flex-direction: row;
   justify-content: end;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 10px;
  }
  .main-menu > li > a {
   padding: 5px 10px;
