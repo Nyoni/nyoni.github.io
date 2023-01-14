@@ -507,12 +507,17 @@ ul.flat-unstyled li > ul > li > a {
   margin: auto;
  }
 
- .header-item .main-menu > .sub-menu:before {
+ .main-menu >li{
+
+  position: relative;
+}
+
+.main-menu > li:before {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 16.6666667%;
+  width: 100%;
   transform: scale(0);
   height: 3px;
   opacity: 0;
@@ -521,8 +526,7 @@ ul.flat-unstyled li > ul > li > a {
   background: yellow;
 }
 
-.header-item .main-menu:hover:before,
-.main-menu .navigation li.current-menu-item:before {
+.main-menu li:hover:before {
   opacity: 1;
   transform: scale(1);
 }
@@ -585,7 +589,7 @@ ul.flat-unstyled li > ul > li > a {
  .sub-menu {
   position: absolute;
   padding: 20px 30px;
-  margin-top: 15px;
+  margin-top: 25px;
   background: var(--green);
   box-shadow: 2px 50px 100px -20px rgb(0 0 0 / 50%);
   opacity: 0;
@@ -594,7 +598,7 @@ ul.flat-unstyled li > ul > li > a {
  }
  @media only screen and (min-width: 992px) {
   .menu-with-submenu:hover .sub-menu {
-   margin-top: 15px;
+   margin-top: 20px;
    opacity: 1;
    visibility: visible;
   }
