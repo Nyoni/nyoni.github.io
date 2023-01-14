@@ -4175,6 +4175,12 @@ ol.lists li {
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
 
+.program-overlay > a {
+  color: #ffffff;
+  font-size: 1.1875rem;
+  font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+}
+
 .chip_in-program .program-overlay:hover > a {
   transform: scale(1.1);
 }
