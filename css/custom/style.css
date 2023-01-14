@@ -3585,7 +3585,7 @@ a.btn.btn-beta {
 
 
 .campfire_overview-img {
-  background: url(../images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
+  background: url(/images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
   background-size: cover;
   width: 400px;
   height: 400px;
