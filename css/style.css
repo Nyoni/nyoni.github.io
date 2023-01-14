@@ -507,8 +507,9 @@ ul.flat-unstyled li > ul > li > a {
   margin: auto;
  }
 
+ /*
  .main-menu >li{
-
+  margin: 0 15px;
   position: relative;
 }
 
@@ -530,6 +531,7 @@ ul.flat-unstyled li > ul > li > a {
   opacity: 1;
   transform: scale(1);
 }
+*/
 
  .aic {
   color: #ffffff;
