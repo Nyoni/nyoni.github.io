@@ -209,8 +209,16 @@
   }
 
   .section-header h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display';
     font-weight: 800;
+  }
+
+  .sub-section-header p {
+    font-size: 1.1875rem;
+    font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+    font-family: 'Playfair Display';
+    font-weight: 600;
+
   }
   @media (max-width: 767px) { 
 
