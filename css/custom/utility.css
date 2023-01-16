@@ -1,27 +1,5 @@
 /*Font Families*/ 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
- 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
-
-@font-face {
-    font-family: 'nanummyeongjoregular';
-    src: url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff') format('woff2'),
-         url('./webfonts/nanum/nanummyeongjo-regular-webfont.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  
-  }
-  
-
-@font-face {
-  font-family: 'Song Myung';
-  src: url('fonts/SONGMYUNG/SongMyung-Regular.woff2') format('woff2'),
-      url('fonts/SONGMYUNG/SongMyung-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 
   /*End font family*/
