@@ -187,10 +187,12 @@ section {
   border-radius: 50%;
 background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9ea0c 9px ), repeating-linear-gradient( #01322055, #013220 );
 }
+
 .italic {
   font-family: 'Playfair Display';
   font-style: italic;
-  font-weight: 700;
+  font-weight: 500;
+  letter-spacing: 1px;
 
 }
 
