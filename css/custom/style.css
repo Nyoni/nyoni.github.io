@@ -257,7 +257,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
 }
 
 .italic {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 500;
   letter-spacing: 1px;
@@ -716,7 +716,7 @@ ul.flat-unstyled li > ul > li > a {
 
  h4.mega-col-title {
   text-transform: capitalize;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
@@ -971,7 +971,7 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .video-content h1 {
-  font-family: 'PlayFair Display';
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   letter-spacing: 2px;
   font-weight: 700;
@@ -2322,7 +2322,7 @@ End About Responsive*/
   margin: 0 auto;
   flex-wrap: wrap;
   flex-direction: column;
-  max-width: 700px;
+  max-width: 900px;
   position: relative;
 }
 .timeline__content-title {
@@ -2345,7 +2345,7 @@ End About Responsive*/
   letter-spacing: 1px;
   box-sizing: border-box;
   color: #333;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-weight: normal;
   line-height: 35px;
 }
@@ -2524,7 +2524,7 @@ End About Responsive*/
 
 .parkprotection-hero-inner h1{
   position: relative;
-  font-family: 'Playfair Display'; 
+  font-family: 'Playfair Display', serif;
   color: var(--yellow);
   font-size: 60px;
   font-weight: 900;
@@ -2794,7 +2794,7 @@ End About Responsive*/
 .video_text h3
 {
   margin-bottom: 5px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 22px;
   font-weight: 400;
@@ -4149,7 +4149,7 @@ ol.lists li {
   letter-spacing: 1px;
 }
 .sub_requirements .sub-title h4 {
-  font-family: 'Playfair Display'; 
+  font-family: 'Playfair Display', serif;
   color: #000;
   font-size: 1.1875rem;
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
@@ -5268,7 +5268,7 @@ text-align: left;
 
 .latest_news .news_box .news_room h3 {
 color: #252525;
-font-family: 'Playfair Display';
+font-family: 'Playfair Display', serif;
 font-style: italic;
 font-size: 24px;
 letter-spacing: 0.7px;
@@ -6084,7 +6084,7 @@ color: white;
 
 .blog_page-hero-inner h1 {
   position: relative;
-  font-family: 'Playfair Display'; 
+  font-family: 'Playfair Display', serif;
   color: var(--yellow);
   font-size: 60px;
   font-weight: 900;
@@ -6567,15 +6567,15 @@ color: var(--green);
 }
 
 .blog_details h2 {
-font-family: 'Playfair Display';
-font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
 font-weight: 600;
 margin-bottom: 8px;
 color: #131313 !important;
 }
 
 .home-blog_details h2 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.025rem);
   font-weight: 600;

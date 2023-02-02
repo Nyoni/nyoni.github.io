@@ -29,8 +29,6 @@
     --card-img-height: 200px;
     --scale: 0.1;
     --space: 8vmin;
-
-    --paragraph-text: font-family: 'Merriweather Sans', serif;
   }
 
 
@@ -50,7 +48,7 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -114,12 +112,12 @@
     font-size: 1rem;
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.025rem);
     line-height: 35px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     text-transform: none;
     margin-top: 0;
     margin-bottom: 1rem; 
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     text-align: left;
 
   }
@@ -151,7 +149,7 @@
     font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
     line-height: 1.25;
     letter-spacing: 3px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
   }
   
   h2 {
@@ -163,7 +161,7 @@
   h3 {
     font-size: 1.75rem;
     font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
     line-height: 2.5rem;
     letter-spacing: 2px;
@@ -174,7 +172,7 @@
   h4 {
     font-size: 1.4375rem;
     font-size: clamp(1.4375rem, 1.35rem + 0.43750000000000006vw, 1.875rem);
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
     line-height: 2.5rem;
     letter-spacing: 2px;
@@ -191,14 +189,14 @@
   }
 
   .section-header h3 {
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-weight: 800;
   }
 
   .sub-section-header p {
     font-size: 1.1875rem;
     font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
 
   }
@@ -274,7 +272,7 @@
 }
 
 .sub-heading > h4 {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
   font-size: 22px;
   letter-spacing: 1px;
@@ -352,7 +350,7 @@
       font-weight: 500;
       color: #1e2123;
       font-style: italic;
-      font-family: 'Playfair Display';
+      font-family: 'Playfair Display', serif;
     }
     
     .desc ul > li,
@@ -1557,7 +1555,7 @@ text-align: center;
 
 .page_slideshow .slide .park-slide-content .title {
   color: var(--yellow);
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 1.4375rem;
   font-size: clamp(1.4375rem, 1.35rem + 0.43750000000000006vw, 1.875rem);
@@ -1567,7 +1565,7 @@ text-align: center;
 
 .page_slideshow .slide .park-slide-content .text {
   max-width: 700px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   font-weight: 400;
   color: #ffffff;
