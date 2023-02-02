@@ -646,6 +646,7 @@ ul.flat-unstyled li > ul > li > a {
   column-gap: 10px;
  }
  .main-menu > li > a {
+  font-family: 'Merriweather', serif;
   padding: 5px 10px;
   font-size: 1.0875rem;
   font-weight: 400;
@@ -688,6 +689,8 @@ ul.flat-unstyled li > ul > li > a {
  }
 
 .sub-menu li > a {
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1px;
   font-size: 0.95rem;
 }
  
