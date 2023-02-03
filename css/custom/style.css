@@ -1651,23 +1651,18 @@ opacity: 1;
 .hero-section  {
   position: relative;
   height: 100vh;
-  justify-content: center;
   display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 
 }
 
 .hero-inner {
-  min-width: 300px;
   position: relative;
   display: block;
   color: #FFFFFF;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  text-align: center;
-  transform: translate(-50%, 50%);
+  margin-left: 25px;
+  transform: translate(-50%, -50%);
   text-shadow: 0px 0px 5px #000000;
 }
 
@@ -1698,14 +1693,39 @@ opacity: 1;
   position: relative;
   font-family: 'Playfair Display', serif;
   color: whitesmoke;
-  font-size: 2.5625rem;
-  font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
+  font-size: 2.125rem;
+  font-size: clamp(2.125rem, 2rem + 0.625vw, 2.75rem);
   line-height: 4rem;
   font-weight: 900;
   font-style: italic;
   text-transform: capitalize;
+  letter-spacing: 8px;
   animation: ani 1s;
 }
+
+.hero-inner h6 {
+  position: relative;
+  font-family: 'Merriweather', serif;
+  color: #f0e9ff;
+  line-height: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 768px) {
+  .hero-inner {
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    top: 75%;
+    left: 50%;
+    margin-left: 150px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 5px #000000;
+  }
+}
+
 
 
 .news-hero-section  {
@@ -3643,41 +3663,6 @@ a.btn.btn-beta {
 
 /**************************12. CAMPFIRE************************************************************/
 /**************************************************************************************************/
-.campfire-hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/CAMPFIRE/DSC_0634.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.campfire-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.campfire-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-
-
 
 .campfire_overview-img {
   background: url(/images/Conservation/CAMPFIRE/campfire-logo.gif) no-repeat center center;
@@ -3696,205 +3681,18 @@ a.btn.btn-beta {
   }
  }
 
-
-.campfire-about #inner_header_post_thumb {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  background-image: url(/images/Conservation/CommunityConservancies/Fishing.JPG);
-  height: 100vh;
-}
-
-
-.campfire-about #inner_header_post_thumb .dark_overlay {
-  position: relative;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(14, 14, 14, 0.5);
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.campfire-about  #inner_header_post_thumb .dark_overlay .container .header-txt {
-  color: #ffffff;
-
-}
-
-
-.campfire-about  #inner_header_post_thumb .dark_overlay .container .header-txt h3 {
-  font-size: 22px;
-  color: #ffffff;
-  font-weight: 300;
-}
-
-
-
 /**************************14. COMMUNITY OUTREACH************************************************************/
 /**************************************************************************************************/
 
 
-.conflict-hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Human Wildlife Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/HumanWildlife/DSC_0914.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.conflict-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.conflict-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-/**/
-#human_wildlife-conflict {
-  background-color: var(--primary-background);
-  padding: 50px 0;
-}
-
 /**************************16. OUTREACH************************************************************/
 /**************************************************************************************************/
-
-.outreach-hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/CommunityOutreach/DSC_0979.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.outreach-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.outreach-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-#community-outreach {
-  background-color: var(--primary-background);
-  padding: 90px 0;
-}
 
 /**************************17. CONSERVATION EDUCATION************************************************************/
 /**************************************************************************************************/
 
-.education-hero-section  {
-  position: relative;
-  height: 100vh;
-  /*Community Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/Conservation/ConservationEducation/DSC_0404.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.education-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.education-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display'; 
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-#inner_header_post_thumb {
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  background-image: url(/images/Conservation/CommunityConservancies/Fishing.JPG);
-  height: 100vh;
-}
-
-#conservation_education-schools {
-  background-color: var(--secondary-background);
-}
-
 .section_padding {
   padding: 2% 0;
-}
-
-#inner_header_post_thumb .dark_overlay {
-  position: relative;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(14, 14, 14, 0.5);
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#inner_header_post_thumb .dark_overlay .container .header-txt {
-  color: #ffffff;
-
-}
-
-
-#inner_header_post_thumb .dark_overlay .container .header-txt h3 {
-  font-size: 22px;
-  color: #ffffff;
-  font-weight: 300;
 }
 
 .text_over-image p {
@@ -6039,82 +5837,6 @@ color: white;
 
 
 /*bLOG css**/
-
-.single_blog-1-hero-section{
-  position: relative;
-  height: 100vh;
-  background: url(/images/internationalconventions/cites/ivory-stock-piles.jpg); /*background image*/
-  background-size: cover;
-  background-position: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.single_blog-1-hero-section:before{
-  opacity: 0.35;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-.single_blog-1-hero-inner{
-  max-width: 800px;
-  position: relative;
-}
-
-.single_blog-1-hero-inner h1{
-  color: #ffffff;
-  text-transform: none;
-  letter-spacing: 3px;
-  font-size: 42px;
-  font-weight: 700;
-}
-
-
-
-.blog_page-hero-section {
-  position: relative;
-  height: 100vh;
-  /*Leadership Background Image*/
-  background: linear-gradient(rgba(14, 14, 14, 0.5), rgba(14, 14, 14, .5)), url(/images/about_us/about_us-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
-.blog_page-hero-inner {
-  max-width: 700px;
-  position: relative;
-}
-
-.blog_page-hero-inner h1 {
-  position: relative;
-  font-family: 'Playfair Display', serif;
-  color: var(--yellow);
-  font-size: 60px;
-  font-weight: 900;
-  font-style: italic;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-}
-
-
-
-
-
-
-
-
-
-
 
 *::-moz-selection {
 background: #444;
