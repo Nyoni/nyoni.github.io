@@ -184,6 +184,9 @@
   }
   
   h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: 1.5px;
     font-size: 1rem;
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   }
@@ -888,7 +891,7 @@ font-size: 24px;
 /*Side by Side Icon & Text*/
 .widgets_div {
   border-bottom: thin #edf1f2 solid;
-  padding: 22.85px 0;
+  padding: 12.85px 0;
 }
 
 .widgets_div .icon_div {

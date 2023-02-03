@@ -3046,12 +3046,20 @@ End About Responsive*/
 /**************************09.  PUBLICATIONS************************************************************/
 /**************************************************************************************************/
 
+.publication_overview .blog_item {
+  margin-bottom: 10px;
+} 
+
+.publication_overview .blog_detail {
+  padding: 2px 2px 2px 2px ;
+} 
+
 .sticky {
   height: 10rem;
   width: 10rem;
   position: sticky;
   /* center the text */
-  top: 2rem;
+  top: 10rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -3060,6 +3068,8 @@ End About Responsive*/
   }
 
 }
+
+
 
 /**************************10.  RESEARCH MONITORING************************************************************/
 /**************************************************************************************************/
