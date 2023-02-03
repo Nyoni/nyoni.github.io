@@ -1988,7 +1988,6 @@ End About Responsive*/
   transform: translate(-50%, -50%);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -1997,7 +1996,7 @@ End About Responsive*/
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 75%;
+  height: 80%;
   z-index: 2;
   transition: 0.5s;
 }
@@ -2082,7 +2081,7 @@ End About Responsive*/
 /**** Personal Details ****/
 .details {
   position: absolute;
-  bottom: 25px;
+  bottom: 5px;
   left: 0;
   background: #fff;
   width: 100%;
@@ -2093,13 +2092,12 @@ End About Responsive*/
 .details h2 {
   font-size: 1.1875rem;
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
-  margin: 15px 0;
+  margin-top: 25px;
   text-align: center;
 }
 .details h2 .job-title {
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 0.5rem;
-  margin-bottom: 20px;
   color: #1b1c1e;
   font-weight: 300;
   text-align: center;
@@ -2109,7 +2107,7 @@ End About Responsive*/
 
 .profile-card-wrapper-2 {
   width: 100%;
-  height: 350px;
+  height: 380px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -2128,11 +2126,10 @@ End About Responsive*/
   top: 50%;
   left: 50%;
   width: 100%;
-  height: 350px;
+  height: 380px;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.6);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -2225,21 +2222,21 @@ End About Responsive*/
 /**** Personal Details ****/
 .details-2 {
   position: absolute;
-  bottom: 10px;
+  bottom: 1px;
   left: 0;
   background: #fff;
   width: 100%;
   height: 100px;
   z-index: 1;
-  padding: 10px;
+  padding: 5px;
 }
 .details-2 h2 {
   font-size: 1.1875rem;
-  margin: 10px 0;
+  margin-top: 20px;
   text-align: center;
 }
 .details-2 h2 .job-title-2 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #1c1b1e;
   font-weight: 300;
 }
@@ -2251,9 +2248,9 @@ End About Responsive*/
   }
 
   .details {
-    bottom: 10px;
+    bottom: 2px;
     height: 25%;
-    padding: 10px;
+    padding: 5px;
   }
 
   .details h2 {
