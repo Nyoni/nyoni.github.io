@@ -4293,6 +4293,8 @@ ol.lists li {
 
 .legislation-program .program-overlay > a {
   color: #1e2426;
+  letter-spacing: 1px;
+  font-weight: 700;
   font-size: 1.1875rem;
   font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
 }
