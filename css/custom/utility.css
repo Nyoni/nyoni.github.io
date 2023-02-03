@@ -1363,14 +1363,25 @@ text-align: center;
 }
 @media (min-width: 75em) {
   .gallery_section .gallery {
-    height: 100vh;
+    height: 80vh;
+  }
+
+  .gallery_section .gallery > div {
+    flex: 1 1 10em;
+    transition: 0.4s ease-in-out;
+    filter: grayscale(1);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
+
 .gallery_section .gallery h1 {
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 2.5625rem;
-  font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
+  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 1.65rem + 0.5vw, 2.25rem);
   line-height: 1.25;
   position: relative;
   opacity: 0.6;
@@ -1382,7 +1393,13 @@ text-align: center;
     font-size: clamp(2.5625rem, 2.4125rem + 0.75vw, 3.3125rem);
     line-height: 1.25;
   }
+
+  .gallery_section .gallery div.active {
+    flex: 1 2 6em;
+    filter: grayscale(0);
+  }
 }
+
 .gallery_section .gallery h1::after {
   position: absolute;
   content: "";
@@ -1404,10 +1421,10 @@ text-align: center;
   overflow: hidden;
 }
 .gallery_section .gallery > div {
-  flex: 1 1 10em;
+  flex: 1 1 1em;
   transition: 0.4s ease-in-out;
   filter: grayscale(1);
-  padding: 2em;
+  padding: 0.2em;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1416,7 +1433,7 @@ text-align: center;
   opacity: 1;
 }
 .gallery_section .gallery div.active {
-  flex: 1 2 16em;
+  flex: 1 2 6em;
   filter: grayscale(0);
 }
 .gallery_section .gallery div.active h1,
