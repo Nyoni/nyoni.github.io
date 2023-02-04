@@ -1664,7 +1664,6 @@ opacity: 1;
   margin-left: 25px;
   transform: translate(-50%, -50%);
   text-shadow: 0px 0px 5px #000000;
-  z-index: 1000;
 }
 
 .parks-hero-inner {
@@ -1732,7 +1731,7 @@ opacity: 1;
 .hero-inner h6 {
   position: relative;
   font-family: 'Merriweather', serif;
-  color: #f0e9ff;
+  color: #ffffff;
   line-height: 2rem;
   font-weight: 600;
   text-transform: uppercase;
