@@ -111,7 +111,7 @@
   p {
     font-size: 1rem;
     font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.025rem);
-    line-height: 35px;
+    line-height: 30px;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: none;
@@ -200,7 +200,11 @@
     font-size: 1.1875rem;
     font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
     font-family: 'Playfair Display', serif;
-    font-weight: 600;
+    font-weight: 700;
+    line-height: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+   color: #063970;
 
   }
   @media (max-width: 767px) { 
