@@ -289,7 +289,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   font-size: 1rem;
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
   background-color: transparent;
-  border: 1px solid #222122;
+  border: 3px solid var(--green);
   color: #222122;
   padding: 13px 0px;
   width: 100%;
