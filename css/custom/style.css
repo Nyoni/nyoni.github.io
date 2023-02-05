@@ -771,6 +771,7 @@ ul.flat-unstyled li > ul > li > a {
   font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
  }
 
+
  .mega-col-title a {
   text-transform: capitalize;
   letter-spacing: 1px;
