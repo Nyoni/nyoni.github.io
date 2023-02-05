@@ -302,6 +302,28 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e9e
   text-transform: uppercase;
 }
 
+.small_read_more-green {
+  font-size: 1rem;
+    font-size: clamp(1rem, 0.9875rem + 0.0625vw, 1.0625rem);
+    font-weight: 600;
+  background-color: var(--green);
+  border: 3px solid var(--green);
+  color: #ffffff;
+  padding: 13px 0px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  text-transform: uppercase;
+}
+
+.small_read_more-green:hover {
+  background: transparent;
+  color: var(--green);
+  transition: ease-in all 0.5s;
+}
+
 .read_more-green:hover {
   background: transparent;
   color: var(--green);
@@ -1274,7 +1296,6 @@ ul.flat-unstyled li > ul > li > a {
   align-items: center;
   width: 100%;
   margin-top: 10rem;
-  padding: 0.5rem;
   transition: transform var(--d) var(--e);
   z-index: 1;
   color: whitesmoke;
@@ -1291,8 +1312,9 @@ ul.flat-unstyled li > ul > li > a {
 .title {
   font-family: 'Playfair Display', serif;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.2;
+  letter-spacing: 1px;
   
 }
 
