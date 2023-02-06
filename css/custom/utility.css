@@ -207,6 +207,20 @@
    color: #063970;
 
   }
+
+  .sub-section-header-1 p {
+    font-size: 1.1875rem;
+    font-size: clamp(1.1875rem, 1.1375rem + 0.25vw, 1.4375rem);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 1px;
+   color: #063970;
+
+  }
+
+  
+
   @media (max-width: 767px) { 
 
     .section-header > h3 {
