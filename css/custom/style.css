@@ -4068,7 +4068,7 @@ ol.lists li {
 #tenders .closing-date-name h4,
 #tenders .applicants-name h4, 
 #tenders .status-name h4 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
   font-weight: 700;
   color: #063970;
@@ -4077,7 +4077,7 @@ ol.lists li {
 #tenders .closing-date-name h3 {
   color: #000;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
 }
 .sub_requirements .sub-title h4 {
