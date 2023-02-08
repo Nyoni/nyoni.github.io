@@ -4284,7 +4284,7 @@ ol.lists li {
 
 /*******/
 .home_statistics {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -4421,7 +4421,7 @@ ol.lists li {
 
 
 .wildlife-section {
-  height: 200px;
+  height: 160px;
   border-radius: 5px;
   margin-bottom: 10px;
   width: 100%;
@@ -4431,7 +4431,7 @@ ol.lists li {
 
 @media (max-width: 768px) {
   .wildlife-section {
-    height: 100px;
+    height: 80px;
     width: 100%;
     margin-bottom: 10px;
   }
