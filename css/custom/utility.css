@@ -941,10 +941,24 @@ font-size: 24px;
 
 .widgets_div .text_div h4 {
 
-  letter-spacing: 0.7px;
+  letter-spacing: 1.2px;
   font-size: 18px;
+  font-weight: 900;
+}
+
+.widgets_div .text_div p {
+
+  letter-spacing: 1.2px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.widgets_div .text_div:hover > p {
+  color: #063970;
 
 }
+
+
 
 .widgets_div .text_div span+span {
   color: #747F85;
